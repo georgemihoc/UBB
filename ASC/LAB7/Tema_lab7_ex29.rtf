@@ -1,0 +1,86 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 bits 32 \
+\
+global start        \
+\
+extern exit       \
+import exit msvcrt.dll \
+\
+segment data use32 class=data\
+    sir db 2,3,4,5\
+    lung equ $-sir\
+    sir2 db 1,4,5,6,7,8,9,10\
+    lung2 equ $-sir2\
+    newSir resb lung2\
+    zero db 0\
+    unu db 1\
+    doi db 2\
+segment code use32 class=code\
+    start:\
+    ;mov cl,[lung]\
+    ;mov dl,[lung2]\
+    ;cmp cl,dl\
+    ;jge schimb\
+    ;schimb:\
+    ;    mov [lung], dl\
+    ;    mov [lung2],cl\
+    \
+    ;mov ecx,lung2\
+    ;mov ebx, lung\
+    \
+    mov esi,0\
+    mov edi,0\
+    mov dl, [zero]\
+    repeta:\
+        cmp esi,lung\
+        jge nubun\
+        jl bun\
+        bun:\
+            mov al,[sir+esi]\
+            mov bl,[sir2+esi]\
+            cmp al,bl\
+            jge aldoilea\
+            jl primul\
+            \
+            primul:\
+                mov [newSir +edi],al\
+                inc edi\
+                inc esi\
+                jecxz final\
+                loop repeta\
+            \
+            aldoilea:\
+                mov [newSir + edi], bl\
+                inc edi \
+                inc esi\
+                jecxz final\
+                loop repeta\
+        nubun:\
+            cmp dl, 1\
+            jl zero0\
+            jge unu1\
+            zero0:\
+                mov al,[zero]\
+                mov [newSir + edi],al\
+                inc esi\
+                inc edi\
+                mov dl,[doi]\
+                jecxz final\
+                loop repeta\
+            unu1:\
+                mov al,[unu]\
+                mov [newSir + edi],al\
+                inc esi\
+                inc edi\
+                mov dl, [zero]\
+                jecxz final\
+                loop repeta\
+    final:\
+        push    dword 0     \
+        call    [exit]       }
