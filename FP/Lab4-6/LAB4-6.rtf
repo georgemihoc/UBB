@@ -1,0 +1,626 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Italic;}
+{\colortbl;\red255\green255\blue255;\red191\green100\blue38;\red32\green32\blue32;\red153\green168\blue186;
+\red86\green132\blue173;\red254\green187\blue91;\red81\green136\blue67;\red117\green114\blue185;\red88\green118\blue71;
+\red109\green109\blue109;}
+{\*\expandedcolortbl;;\csgenericrgb\c74902\c39216\c14902;\csgenericrgb\c12549\c12549\c12549;\csgenericrgb\c60000\c65882\c72941;
+\csgenericrgb\c33725\c51765\c67843;\csgenericrgb\c99608\c73333\c35686;\csgenericrgb\c31765\c53333\c26275;\csgenericrgb\c45882\c44706\c72549;\csgenericrgb\c34510\c46275\c27843;
+\csgenericrgb\c42745\c42745\c42745;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 import \cf4 math\
+\
+a = \{\}\
+b = \{\}\
+nr = -\cf5 1\
+\
+\cf2 def \cf6 add_list\cf4 ():\
+    
+\f1\i \cf7 """"\
+    Functie care adauga un intreg x la finalul listei a si un intreg y la finalul listei b\
+    input-lista a si lista b, nr-globale, x,y-input\
+    preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg, nr-intreg,x-y-nr intregi;\
+    output-\
+    postconditii-l=[l0,l1,...ln-1]\
+    """\
+\
+    
+\f0\i0 \cf2 global \cf4 nr\
+    nr += \cf5 1\
+    \cf2 while True\cf4 :\
+        x= \cf8 input\cf4 ()\
+        \cf2 try\cf4 :\
+            x = \cf8 int\cf4 (x)\
+            a[\cf8 int\cf4 (nr)] = x\
+            \cf2 break\
+        except \cf8 ValueError \cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+\
+    \cf2 while True\cf4 :\
+        y= \cf8 input\cf4 ()\
+        \cf2 try\cf4 :\
+            y = \cf8 int\cf4 (y)\
+            b[\cf8 int\cf4 (nr)] = y\
+            \cf2 break\
+        except \cf8 ValueError \cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+\
+\
+\cf2 def \cf6 print_nr_complex\cf4 (x\cf2 ,\cf4 y):\
+    
+\f1\i \cf7 """\
+    Functie care printeaza un numar complex\
+    input-x,y\
+    preconditii-x->numar intreg y->numar intreg\
+    output-print\
+    postconditii-\
+\
+    """\
+    
+\f0\i0 \cf2 if \cf8 int\cf4 (y) >= \cf5 0\cf4 :\
+        \cf8 print\cf4 (x\cf2 , \cf9 "+"\cf2 , \cf4 y\cf2 , \cf9 "i"\cf4 )\
+    \cf2 else\cf4 :\
+        \cf8 print\cf4 (x\cf2 , \cf4 y\cf2 , \cf9 "i"\cf4 )\
+\
+\cf2 def \cf6 calcul_modul\cf4 (a\cf2 ,\cf4 b):\
+    
+\f1\i \cf7 """\
+    Functie care calculeaza modulul unui numar complex\
+    input-a,b-numere intregi\
+    preconditii-a-numar intreg, b-numar intreg\
+    output-return modulul unui numar complex\
+    postconditii-\
+\
+    """\
+    
+\f0\i0 \cf4 a = \cf8 int\cf4 (a)\
+    b = \cf8 int\cf4 (b)\
+    \cf2 return \cf4 math.sqrt(a*a+b*b)\
+\
+\cf2 def \cf6 teste_calcul_modul\cf4 ():\
+    \cf2 assert \cf8 int\cf4 (calcul_modul(\cf5 6\cf2 ,\cf5 8\cf4 )) == \cf5 10\
+    \cf2 assert \cf8 int\cf4 (calcul_modul(\cf5 6\cf2 ,\cf5 7\cf4 )) == \cf5 9\
+    \cf2 assert \cf8 int\cf4 (calcul_modul(\cf5 5\cf2 , \cf5 4\cf4 )) == \cf5 6\
+    \cf2 assert \cf8 int\cf4 (calcul_modul(\cf5 7\cf2 , \cf5 10\cf4 )) == \cf5 12\
+    \cf2 assert \cf8 int\cf4 (calcul_modul(\cf5 3\cf2 , \cf5 2\cf4 )) == \cf5 3\
+\
+\cf2 def \cf6 modul10\cf4 ():\
+    
+\f1\i \cf7 """\
+    Functie care verifica daca numarul complex de pe pozitia i are modulul egal cu 10\
+    input-lista a si lista b, nr\
+    preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg, nr-intreg;\
+    output-print\
+    postconditii-l=[l0,l1,...ln-1]\
+\
+    """\
+    
+\f0\i0 \cf2 global \cf4 nr\cf2 ,\cf4 a\cf2 ,\cf4 b\
+    \cf2 if \cf4 nr == -\cf5 1\cf4 :\
+        \cf8 print\cf4 (\cf9 "Lista goala, imposibil"\cf4 )\
+    \cf2 else\cf4 :\
+        \cf2 for \cf4 i \cf2 in \cf8 range\cf4 (nr+\cf5 1\cf4 ):\
+            \cf2 if \cf4 calcul_modul(a[i]\cf2 ,\cf4 b[i]) == \cf5 10\cf4 :\
+                print_nr_complex(a[i]\cf2 ,\cf4 b[i])\
+\
+\cf2 def \cf6 sterge\cf4 (poz):\
+    
+\f1\i \cf7 """\
+       Functie care sterge un numar de pe o pozitie data prin parametru\
+       input-lista a si lista b, nr, poz\
+       preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg,poz -intreg;\
+       output-lista\
+       postconditii-l=[l0,l1,...ln-1]\
+\
+       """\
+    
+\f0\i0 \cf2 global \cf4 nr\cf2 ,\cf4 a\cf2 ,\cf4 b\
+\
+    \cf2 del \cf4 a[poz]\
+    \cf2 del \cf4 b[poz]\
+    \cf2 if \cf4 poz != nr:\
+        \cf10 # nr -= 1\
+        \cf2 if \cf4 nr == -\cf5 1\cf4 :\
+            a = \{\}\
+            b = \{\}\
+        nr = \cf8 int\cf4 (nr)\
+        \cf2 for \cf4 i \cf2 in \cf8 range\cf4 (poz\cf2 , \cf4 nr):\
+            a[i] = a[i + \cf5 1\cf4 ]\
+        \cf2 for \cf4 i \cf2 in \cf8 range\cf4 (poz\cf2 , \cf4 nr):\
+            b[i] = b[i + \cf5 1\cf4 ]\
+        \cf2 del \cf4 a[nr]\
+        \cf2 del \cf4 b[nr]\
+    nr = nr - \cf5 1\
+\
+\cf2 def \cf6 sterge_element\cf4 ():\
+    
+\f1\i \cf7 """\
+    Functie care sterge un numar de pe o pozitie introdusa de la tastatura\
+    input-lista a si lista b, nr, poz\
+    preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg,poz -intreg;\
+    output-\
+    postconditii-l=[l0,l1,...ln-1]\
+\
+    """\
+    
+\f0\i0 \cf2 global \cf4 nr\
+    \cf2 global \cf4 a\cf2 ,\cf4 b\
+    \cf2 while True\cf4 :\
+        poz= \cf8 input\cf4 (\cf9 "Pozitia:"\cf4 )\
+        \cf2 try\cf4 :\
+            poz = \cf8 int\cf4 (poz)\
+            \cf2 break\
+        except \cf8 ValueError \cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+    \cf2 if \cf4 poz>nr:\
+        \cf8 print\cf4 (\cf9 "Elementul nu exista"\cf4 )\
+    \cf2 else\cf4 :\
+        sterge(poz)\
+\
+\cf2 def \cf6 suma_nr\cf4 ():\
+    
+\f1\i \cf7 """\
+    Functie care calculeaza suma numerelor complexe de o pozitie de inceput la o pozitie de sfarsit\
+    input-lista a si lista b, nr, poz1,poz2\
+    preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg,poz1-intreg, poz2-intreg;\
+    output-s1,s2\
+    postconditii-s1,s2-numere intregi\
+\
+    """\
+    
+\f0\i0 \cf2 global \cf4 nr\cf2 ,\cf4 a\cf2 ,\cf4 b\
+    \cf2 if \cf4 nr == \cf5 0\cf4 :\
+        print_nr_complex(a[\cf5 0\cf4 ]\cf2 ,\cf4 b[\cf5 0\cf4 ])\
+    \cf2 else\cf4 :\
+        \cf2 while True\cf4 :\
+            poz1 = \cf8 input\cf4 (\cf9 "Pozitia inceput:"\cf4 )\
+            \cf2 try\cf4 :\
+                poz1 = \cf8 int\cf4 (poz1)\
+                \cf2 break\
+            except \cf8 ValueError\cf4 :\
+                \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+        \cf2 while True\cf4 :\
+            poz2 = \cf8 input\cf4 (\cf9 "Pozitia sfarsit:"\cf4 )\
+            \cf2 try\cf4 :\
+                poz2 = \cf8 int\cf4 (poz2)\
+                \cf2 break\
+            except \cf8 ValueError\cf4 :\
+                \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+        s1 = \cf5 0\
+        \cf4 s2 = \cf5 0\
+        \cf2 if \cf4 poz2>nr \cf2 or \cf4 poz1>nr:\
+            \cf8 print\cf4 (\cf9 "Imposibil"\cf4 )\
+        \cf2 else\cf4 :\
+            \cf2 for \cf4 i \cf2 in \cf8 range \cf4 (poz1\cf2 ,\cf4 poz2+\cf5 1\cf4 ):\
+                s1 += \cf8 int\cf4 (a[i])\
+                s2 += \cf8 int\cf4 (b[i])\
+            print_nr_complex(s1\cf2 ,\cf4 s2)\
+\
+\cf2 def \cf6 prim\cf4 (x):\
+    
+\f1\i \cf7 """\
+    Functie care verifica daca un numar este prim\
+    input-variabila x\
+    preconditii-x variabila de tip intreg\
+    output-True - daca numarul este prim\
+           False - daca numarul nu este prim\
+    postconditii-True/False\
+\
+    """\
+    
+\f0\i0 \cf4 x = \cf8 int\cf4 (x)\
+    \cf2 if \cf4 x < \cf5 2\cf4 :\
+        \cf2 return False\
+    \cf4 i=\cf5 2\
+    \cf2 if \cf4 x == \cf5 2\cf4 :\
+        \cf2 return True\
+    \cf4 i = \cf8 int\cf4 (i)\
+    \cf2 while \cf4 i*i<=x:\
+        \cf2 if \cf4 x%i == \cf5 0\cf4 :\
+            \cf2 return False\
+        \cf4 i += \cf5 1\
+    \cf2 return True\
+\
+def \cf6 teste_prim\cf4 ():\
+    
+\f1\i \cf7 """\
+    Functie care testeaza functia prim(x)\
+    input-\
+    preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg;\
+    output-\
+    postconditii-l=[l0,l1,...ln-1]\
+\
+    """\
+    
+\f0\i0 \cf2 assert \cf4 prim(\cf5 5\cf4 ) == \cf2 True\
+    assert \cf4 prim(\cf5 0\cf4 ) == \cf2 False\
+    assert \cf4 prim(\cf5 1\cf4 ) == \cf2 False\
+    assert \cf4 prim(\cf5 2\cf4 ) == \cf2 True\
+    assert \cf4 prim(\cf5 13\cf4 ) == \cf2 True\
+    assert \cf4 prim(\cf5 25\cf4 ) == \cf2 False\
+\
+def \cf6 eliminare_prim\cf4 ():\
+    
+\f1\i \cf7 """\
+    Functie care elimina numerele care au partea reala numar prim\
+    input-lista a si lista b, nr\
+    preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg;\
+    output-\
+    postconditii-l=[l0,l1,...ln-1]\
+\
+    """\
+\
+    
+\f0\i0 \cf2 global \cf4 nr\cf2 ,\cf4 a\cf2 ,\cf4 b\
+    i = \cf5 0\
+    \cf2 if \cf4 nr == -\cf5 1\cf4 :\
+        \cf8 print\cf4 (\cf9 "Lista goala, imposibil"\cf4 )\
+    \cf2 else\cf4 :\
+        \cf2 while \cf4 i<= nr:\
+            \cf2 if \cf4 prim(a[i]):\
+                i = \cf8 int\cf4 (i)\
+                \cf2 del \cf4 a[i]\
+                \cf2 del \cf4 b[i]\
+                \cf2 for \cf4 j \cf2 in \cf8 range\cf4 (i\cf2 , \cf4 nr):\
+                    a[j] = a[j + \cf5 1\cf4 ]\
+                \cf10 #del a[int(nr)]\
+                \cf2 for \cf4 j \cf2 in \cf8 range\cf4 (i\cf2 , \cf4 nr):\
+                    b[j] = b[j + \cf5 1\cf4 ]\
+                \cf10 #del b[nr]\
+                \cf4 nr -= \cf5 1\
+            \cf2 else\cf4 : i = i + \cf5 1\
+\
+    \cf2 if \cf4 nr == -\cf5 1\cf4 :\
+        a = \{\}\
+        b = \{\}\
+\
+\cf2 def \cf6 print_list\cf4 ():\
+    
+\f1\i \cf7 """\
+    Printeaza listele a si b\
+    input-lista a si lista b, nr\
+    preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg;\
+    output-\
+    postconditii-l=[l0,l1,...ln-1]\
+\
+    """\
+    
+\f0\i0 \cf2 global \cf4 nr\cf2 ,\cf4 a\cf2 ,\cf4 b\
+    \cf2 if \cf4 nr == -\cf5 1 \cf4 :\
+        \cf8 print\cf4 (\cf9 "EMPTY LIST"\cf4 )\
+    \cf2 else\cf4 :\
+        \cf2 for \cf4 i \cf2 in \cf8 range \cf4 (\cf5 0\cf2 ,\cf4 nr+\cf5 1\cf4 ):\
+            \cf10 #i = int (i)\
+            #print("boss")\
+            \cf4 print_nr_complex(a[i]\cf2 ,\cf4 b[i])\
+\
+\cf2 def \cf6 print_numar\cf4 (x):\
+    
+\f1\i \cf7 """\
+       Printeaza numarul x\
+       input-x\
+       preconditii-x-intreg\
+       output-printare\
+       postconditii-\
+\
+       """\
+    
+\f0\i0 \cf8 print\cf4 (x)\
+\
+\cf2 def \cf6 imaginara\cf4 ():\
+    
+\f1\i \cf7 """\
+       Tipareste partea imaginara pentru numerele dintr-o secventa data\
+       input-lista a si lista b, nr, poz1 ,poz2\
+       preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg, poz1,poz2-intreg poz1,poz2<=nr;\
+       output-\
+       postconditii-l=[l0,l1,...ln-1]\
+\
+       """\
+    
+\f0\i0 \cf2 global \cf4 nr\
+    \cf2 while True\cf4 :\
+        poz1 = \cf8 input\cf4 (\cf9 "Pozitia inceput:"\cf4 )\
+        \cf2 try\cf4 :\
+            poz1 = \cf8 int\cf4 (poz1)\
+            \cf2 break\
+        except \cf8 ValueError\cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+    \cf2 while True\cf4 :\
+        poz2 = \cf8 input\cf4 (\cf9 "Pozitia sfarsit:"\cf4 )\
+        \cf2 try\cf4 :\
+            poz2 = \cf8 int\cf4 (poz2)\
+            \cf2 break\
+        except \cf8 ValueError\cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+    \cf2 if \cf4 nr == \cf5 0\cf4 :\
+        print_numar(b[\cf5 0\cf4 ])\
+    \cf2 elif \cf4 nr == -\cf5 1 \cf2 or \cf4 poz1>nr \cf2 or \cf4 poz2>nr:\
+        \cf8 print\cf4 (\cf9 "Imposibil"\cf4 )\
+    \cf2 else\cf4 :\
+        \cf2 for \cf4 i \cf2 in \cf8 range \cf4 (poz1\cf2 ,\cf4 poz2+\cf5 1\cf4 ):\
+            print_numar(b[i])\
+\
+\cf2 def \cf6 produsul_nr\cf4 ():\
+    
+\f1\i \cf7 """\
+    Functie care calculeaza produsul numerelor complexe de o pozitie de inceput la o pozitie de sfarsit\
+    input-lista a si lista b, nr, poz1,poz2\
+    preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg,poz1-intreg, poz2-intreg;\
+    output-p1,p2\
+    postconditii-p1,p2-numere intregi\
+\
+    """\
+    
+\f0\i0 \cf2 global \cf4 nr\cf2 ,\cf4 a\cf2 ,\cf4 b\
+    \cf2 if \cf4 nr == \cf5 0\cf4 :\
+        print_nr_complex(a[\cf5 0\cf4 ]\cf2 ,\cf4 b[\cf5 0\cf4 ])\
+    \cf2 else\cf4 :\
+        \cf2 while True\cf4 :\
+            poz1 = \cf8 input\cf4 (\cf9 "Pozitia inceput:"\cf4 )\
+            \cf2 try\cf4 :\
+                poz1 = \cf8 int\cf4 (poz1)\
+                \cf2 break\
+            except \cf8 ValueError\cf4 :\
+                \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+        \cf2 while True\cf4 :\
+            poz2 = \cf8 input\cf4 (\cf9 "Pozitia sfarsit:"\cf4 )\
+            \cf2 try\cf4 :\
+                poz2 = \cf8 int\cf4 (poz2)\
+                \cf2 break\
+            except \cf8 ValueError\cf4 :\
+                \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+        p1 = a[poz1]\
+        p2 = b[poz1]\
+        \cf2 if \cf4 poz2>nr \cf2 or \cf4 poz1>nr:\
+            \cf8 print\cf4 (\cf9 "Imposibil"\cf4 )\
+        \cf2 else\cf4 :\
+            \cf2 for \cf4 i \cf2 in \cf8 range \cf4 (poz1+\cf5 1\cf2 ,\cf4 poz2+\cf5 1\cf4 ):\
+                cp1 = p1\
+                cp2 = p2\
+                p1 = cp1*a[i] - cp2*b[i]\
+                p2 = cp1*b[i] + a[i]*cp2\
+            print_nr_complex(p1\cf2 ,\cf4 p2)\
+\
+\cf2 def \cf6 eliminare_modul\cf4 ():\
+    
+\f1\i \cf7 """\
+    Functie care elimina numerele care au modulul mai mic decat M\
+    input-lista a si lista b, nr, M\
+    preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg;\
+    output-\
+    postconditii-l=[l0,l1,...ln-1]\
+\
+    """\
+\
+    
+\f0\i0 \cf2 global \cf4 nr\cf2 , \cf4 a\cf2 , \cf4 b\
+    i = \cf5 0\
+    \cf10 m \cf4 = \cf5 0\
+    \cf2 while True\cf4 :\
+        m = \cf8 input\cf4 (\cf9 "Dati M:"\cf4 )\
+        \cf2 try\cf4 :\
+            m = \cf8 int\cf4 (m)\
+            \cf2 break\
+        except \cf8 ValueError\cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+    \cf2 if \cf4 nr == -\cf5 1\cf4 :\
+        \cf8 print\cf4 (\cf9 "Lista goala, imposibil"\cf4 )\
+    \cf2 else\cf4 :\
+        \cf2 while \cf4 i <= nr :\
+            \cf2 if \cf4 calcul_modul(a[i]\cf2 ,\cf4 b[i]) < m:\
+                i = \cf8 int\cf4 (i)\
+                \cf2 del \cf4 a[i]\
+                \cf2 del \cf4 b[i]\
+                \cf2 for \cf4 j \cf2 in \cf8 range\cf4 (i\cf2 , \cf4 nr):\
+                    a[j] = a[j + \cf5 1\cf4 ]\
+                \cf10 # del a[int(nr)]\
+                \cf2 for \cf4 j \cf2 in \cf8 range\cf4 (i\cf2 , \cf4 nr):\
+                    b[j] = b[j + \cf5 1\cf4 ]\
+                \cf10 # del b[nr]\
+                \cf4 nr -= \cf5 1\
+            \cf2 else\cf4 : i = i + \cf5 1\
+\
+    \cf2 if \cf4 nr == -\cf5 1\cf4 :\
+        a = \{\}\
+        b = \{\}\
+\cf2 def \cf6 inserare_poz\cf4 ():\
+    
+\f1\i \cf7 """\
+        Functie care adauga un intreg x pe o pozitie anume in lista a si un intreg y pe o pozitie anume in lista  b\
+        input-lista a si lista b, nr-globale,poz-input x,y-input\
+        preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg, nr-intreg,x-y-nr intregi,poz-intreg;\
+        output-\
+        postconditii-l=[l0,l1,...ln-1]\
+\
+        """\
+    
+\f0\i0 \cf2 global \cf4 nr\cf2 ,\cf4 a\cf2 ,\cf4 b\
+    nr += \cf5 1\
+    \cf2 while True\cf4 :\
+        poz = \cf8 input\cf4 (\cf9 "Dati pozitia:"\cf4 )\
+        \cf2 try\cf4 :\
+            poz = \cf8 int\cf4 (poz)\
+            \cf2 break\
+        except \cf8 ValueError\cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+    \cf2 if \cf4 poz > nr \cf2 or \cf4 poz < \cf5 0\cf4 :\
+        \cf8 print\cf4 (\cf9 "Imposibil"\cf4 )\
+    \cf2 else\cf4 :\
+        \cf2 while True\cf4 :\
+            x = \cf8 input\cf4 ()\
+            \cf2 try\cf4 :\
+                x = \cf8 int\cf4 (x)\
+                \cf10 #a[int(nr)] = x\
+                \cf4 i = nr\
+                \cf2 if \cf4 poz != nr \cf2 and \cf4 i != -\cf5 1\cf4 :\
+                    \cf2 while \cf4 i > poz:\
+                        a[i]= a[i-\cf5 1\cf4 ]\
+                        i = i-\cf5 1\
+                \cf4 a[poz] = x\
+                \cf2 break\
+            except \cf8 ValueError\cf4 :\
+                \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+\
+        \cf2 while True\cf4 :\
+            y = \cf8 input\cf4 ()\
+            \cf2 try\cf4 :\
+                y = \cf8 int\cf4 (y)\
+                i = nr\
+                \cf2 if \cf4 poz != nr:\
+                    \cf2 while \cf4 i > poz:\
+                        b[i] = b[i - \cf5 1\cf4 ]\
+                        i = i-\cf5 1\
+                \cf4 b[poz] = y\
+                \cf2 break\
+            except \cf8 ValueError\cf4 :\
+                \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+\
+\cf2 def \cf6 sterge_elemente_pozitii\cf4 ():\
+    
+\f1\i \cf7 """\
+        Functie care sterge un numar de pe un interval introdus de la tastatura\
+        input-lista a si lista b, nr, poz1,poz2-input\
+        preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg,poz1,poz2 -intreg;\
+        output-\
+        postconditii-l=[l0,l1,...ln-1]\
+\
+        """\
+    
+\f0\i0 \cf2 global \cf4 nr\
+    \cf2 global \cf4 a\cf2 , \cf4 b\
+    \cf2 while True\cf4 :\
+        poz1 = \cf8 input\cf4 (\cf9 "Pozitia:"\cf4 )\
+        \cf2 try\cf4 :\
+            poz1 = \cf8 int\cf4 (poz1)\
+            \cf2 break\
+        except \cf8 ValueError\cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+    \cf2 while True\cf4 :\
+        poz2 = \cf8 input\cf4 (\cf9 "Pozitia:"\cf4 )\
+        \cf2 try\cf4 :\
+            poz2 = \cf8 int\cf4 (poz2)\
+            \cf2 break\
+        except \cf8 ValueError\cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+    \cf2 for \cf4 i \cf2 in \cf8 range\cf4 (poz1\cf2 ,\cf4 poz2+\cf5 1\cf4 ):\
+        \cf2 if \cf4 i<=nr+\cf5 1\cf4 :\
+            sterge(poz1)\
+\cf2 def \cf6 citire_numar_complex\cf4 ():\
+    \cf2 while True\cf4 :\
+        x = \cf8 input\cf4 (\cf9 ""\cf4 )\
+        \cf2 try\cf4 :\
+            x = \cf8 int\cf4 (x)\
+            \cf2 break\
+        except \cf8 ValueError\cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+    \cf2 while True\cf4 :\
+        y = \cf8 input\cf4 (\cf9 ""\cf4 )\
+        \cf2 try\cf4 :\
+            y = \cf8 int\cf4 (y)\
+            \cf2 break\
+        except \cf8 ValueError\cf4 :\
+            \cf8 print\cf4 (\cf9 "Valoarea introdusa nu este un intreg, va rugam reintroduceti"\cf4 )\
+    \cf2 return \cf4 [x\cf2 ,\cf4 y]\
+\cf2 def \cf6 inlocuire\cf4 ():\
+    
+\f1\i \cf7 """\
+        Functie care inlocuieste toate aparitiile unui numar complex citit cu un alt numar complex\
+        input-lista a si lista b, nr, poz1,poz2-input\
+        preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg,poz1,poz2 -intreg;\
+        output-\
+        postconditii-l=[l0,l1,...ln-1]\
+\
+    """\
+    
+\f0\i0 \cf2 global \cf4 nr\cf2 ,\cf4 a\cf2 ,\cf4 b\
+    x=citire_numar_complex()\
+    y=citire_numar_complex()\
+    \cf2 for \cf4 i \cf2 in \cf8 range\cf4 (nr+\cf5 1\cf4 ):\
+        \cf2 if \cf4 x[\cf5 0\cf4 ] == a[i] \cf2 and \cf4 x[\cf5 1\cf4 ] == b[i]:\
+            a[i] = y[\cf5 0\cf4 ]\
+            b[i] = y[\cf5 1\cf4 ]\
+\cf2 def \cf6 modul_mic_10\cf4 ():\
+    
+\f1\i \cf7 """\
+        Functie care determina numerele complexe care au modulul mai mic decat 10\
+        input-lista a si lista b, nr\
+        preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg;\
+        output-\
+        postconditii-l=[l0,l1,...ln-1]\
+\
+    """\
+    
+\f0\i0 \cf2 global \cf4 a\cf2 ,\cf4 b\cf2 ,\cf4 nr\
+    \cf2 for \cf4 i \cf2 in \cf8 range\cf4 (nr+\cf5 1\cf4 ):\
+        \cf2 if \cf4 calcul_modul(a[i]\cf2 ,\cf4 b[i]) < \cf5 10\cf4 :\
+            print_nr_complex(a[i]\cf2 ,\cf4 b[i])\
+\
+\cf2 def \cf6 sortare_descrescator\cf4 ():\
+    
+\f1\i \cf7 """\
+        Functie care sorteaza numerele complexe din lista descrescator dupa partea lor imaginara\
+        input-lista a si lista b, nr\
+        preconditii-l=[l0,l1,...ln-1]; i= 0,n-1; li-intreg;\
+        output-\
+        postconditii-l=[l0,l1,...ln-1]\
+\
+    """\
+    
+\f0\i0 \cf2 global \cf4 a\cf2 ,\cf4 b\cf2 ,\cf4 nr\
+    \cf2 for \cf4 i \cf2 in \cf8 range\cf4 (nr):\
+        \cf2 for \cf4 j \cf2 in \cf8 range\cf4 (i+\cf5 1\cf2 ,\cf4 nr+\cf5 1\cf4 ):\
+            \cf2 if \cf4 b[i]<b[j] \cf2 or \cf4 b[i] == b[j] \cf2 and \cf4 a[i] < a[j]:\
+                b[i]\cf2 ,\cf4 b[j] = b[j]\cf2 ,\cf4 b[i]\
+                a[i]\cf2 ,\cf4 a[j] = a[j]\cf2 ,\cf4 a[i]\
+    print_list()\
+\
+\cf2 def \cf6 meniu\cf4 ():\
+    v = \cf5 0\
+    \cf2 global \cf4 nr\
+    \cf2 while \cf8 int\cf4 (v)!=\cf5 15\cf4 :\
+        \cf2 while True\cf4 :\
+            v = \cf8 input\cf4 (\cf9 "1.Adaugare numar in lista -add \cf2 \\n\cf9 "\
+                      "2.Insereaza numar complex pe o pozitie data \cf2 \\n\cf9 "\
+                      "3.Sterge element de pe pozitia data \cf2 \\n\cf9 "\
+                      "4.Stergeti elementele din intervalul de pozitii dat \cf2 \\n\cf9 "\
+                      "5.Inlocuiti aparitiile unui numar complex cu un alt numar complex \cf2 \\n\cf9 "\
+                      "6.Tipariti partea imaginara pentru numerele dintr-o secventa data(poz inceput, poz sfarsit) \cf2 \\n\cf9 "\
+                      "7.Tip\uc0\u97 \u774 riti toate numerele complexe care au modulul mai mic dec\'e2t 10 \cf2 \\n\cf9 "\
+                      "8.Tipareste numerele care au modulul egal cu 10 \cf2 \\n\cf9 "\
+                      "9.Afisati suma numerelor dintr-o secventa data (poz inceput,poz sfarsit) \cf2 \\n\cf9 "\
+                      "10.Afisati produsul numerelor dintr-o secventa data (poz inceput,poz sfarsit) \cf2 \\n\cf9 "\
+                      "11.Tip\uc0\u97 \u774 riti lista sortat\u97 \u774  descresc\u97 \u774 tor dup\u97 \u774  partea imaginara \cf2 \\n\cf9 "\
+                      "12.Eliminati din lista numerele cu partea reala numar prim \cf2 \\n\cf9 "\
+                      "13.Eliminati din lista numerele care au modulul mai mic ca M \cf2 \\n\cf9 "\
+                      "14.Tiparire lista \cf2 \\n\cf9 "\
+                      "15.Iesire din aplicatie \cf2 \\n\cf9 "\cf4 )\
+            \cf2 try\cf4 :\
+                v = \cf8 int\cf4 (v)\
+                \cf2 break\
+            except \cf8 ValueError\cf4 :\
+                \cf8 print\cf4 (\cf9 "Comanda introdusa nu exista"\cf4 )\
+        \cf2 if \cf4 v==\cf5 1\cf4 : add_list()\
+        \cf2 elif \cf4 v==\cf5 2\cf4 : inserare_poz()\
+        \cf2 elif \cf4 v==\cf5 3\cf4 : sterge_element()\
+        \cf2 elif \cf4 v==\cf5 4\cf4 : sterge_elemente_pozitii()\
+        \cf2 elif \cf4 v==\cf5 5\cf4 : inlocuire()\
+        \cf2 elif \cf4 v==\cf5 6\cf4 : imaginara()\
+        \cf2 elif \cf4 v==\cf5 7\cf4 : modul_mic_10()\
+        \cf2 elif \cf4 v==\cf5 8\cf4 : modul10()\
+        \cf2 elif \cf4 v==\cf5 9\cf4 : suma_nr()\
+        \cf2 elif \cf4 v==\cf5 10\cf4 : produsul_nr()\
+        \cf2 elif \cf4 v==\cf5 11\cf4 : sortare_descrescator()\
+        \cf2 elif \cf4 v==\cf5 12\cf4 : eliminare_prim()\
+        \cf2 elif \cf4 v==\cf5 13\cf4 : eliminare_modul()\
+        \cf2 elif \cf4 v==\cf5 14\cf4 : print_list()\
+\
+        \cf2 elif \cf4 v != \cf5 15\cf4 : \cf8 print\cf4 (\cf9 "Comanda introdusa nu exista"\cf4 )\
+    \cf2 if \cf4 v==\cf5 15\cf4 :\
+        \cf8 print\cf4 (\cf9 "EXIT"\cf4 )\
+\
+teste_prim()\
+teste_calcul_modul()\
+meniu()\
+}

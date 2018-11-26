@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #Tema pt lab3 George Mihoc :\
+\
+v = 0\
+while int(v) != 4 :\
+    v = input("1.Citire lista | 2.Proprietatea 1 | 3.Proprietatea 11 | 4.Iesire din aplicatie")\
+    #if int(v) == 4 :\
+       # return \
+    if int(v) == 1:\
+        a = []\
+        n= input("Nr valorilor:")\
+        for i in range(int(n)):\
+            x=input()\
+            a.append(x)\
+\
+    if int(v) == 2:\
+        maxi = 0\
+        poz = 0\
+        for i in range(int (n)-1):\
+            nr = 1\
+            for j in range(int(i),int (n)-1):\
+                if a[j]<a[j+1]:\
+                    nr += 1\
+                else:\
+                    break\
+            if nr>maxi :\
+                maxi = nr\
+                poz = i\
+        #print (a)\
+        #print(maxi)\
+        print("Proprietatea 1: ",a[poz:poz+maxi])\
+\
+\
+    elif int(v) == 3 :\
+        nr = 0\
+        poz = 0\
+        maxi = 0\
+        smax = -99999\
+        s = 0\
+        for i in range(int(n)):\
+            s = int(a[i])\
+            if s>smax :\
+                smax = s\
+                poz = i\
+                maxi = 1\
+\
+            nr = 1\
+            for j in range (int (i)+1, int (n)):\
+                s += int(a[j])\
+                nr += 1\
+                if int(s) > int(smax) :\
+                    smax = s\
+                    poz = i\
+                    maxi = nr\
+                elif int(s) == int (smax) and int (nr) > int(maxi) :\
+                    poz = i\
+                    maxi = nr\
+        print ("Proprietatea 11: ", a[poz:poz+maxi])\
+}
