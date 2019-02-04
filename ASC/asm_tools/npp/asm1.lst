@@ -1,79 +1,32 @@
      1                                  bits 32 
-     2                                  
-     3                                  global start        
-     4                                  
-     5                                  extern exit       
-     6                                  import exit msvcrt.dll 
+     2                                  global start        
+     3                                  extern exit  
+     4                                  extern printf 
+     5                                  import printf msvcrt.dll    
+     6                                  import exit msvcrt.dll   
      7                                  
      8                                  segment data use32 class=data
-     9 00000000 02030405                    sir db 2,3,4,5
-    10                                      lung equ $-sir
-    11 00000004 010405060708090A            sir2 db 1,4,5,6,7,8,9,10
-    12                                      lung2 equ $-sir2
-    13 0000000C <res 00000008>              newSir resb lung2
-    14 00000014 00                          zero db 0
-    15 00000015 01                          unu db 1
-    16 00000016 02                          doi db 2
+     9                                  
+    10 00000000 ABABDCFEBCAB                a dw 0ABABh, 0FEDCh, 0ABBCh
+    11                                      
+    12 00000006 52657A756C7461743A-         mesajrez db "Rezultat: %d",10,13
+    12 0000000F 2025640A0D         
+    13                                  
+    14                                      ;Lab 2 ASC EX 4 Inmultiri si impartiri a b c  d byte e f word
+    15                                      ;[[b*c-(e+f)]/(a+d) = 20 - 5 )/ 5 = 3
+    16                                  
     17                                  segment code use32 class=code
-    18                                      start:
-    19                                      ;mov cl,[lung]
-    20                                      ;mov dl,[lung2]
-    21                                      ;cmp cl,dl
-    22                                      ;jge schimb
-    23                                      ;schimb:
-    24                                      ;    mov [lung], dl
-    25                                      ;    mov [lung2],cl
-    26                                      
-    27                                      ;mov ecx,lung2
-    28                                      ;mov ebx, lung
-    29                                      
-    30 00000000 BE00000000                  mov esi,0
-    31 00000005 BF00000000                  mov edi,0
-    32 0000000A 8A15[14000000]              mov dl, [zero]
-    33                                      repeta:
-    34 00000010 83FE04                          cmp esi,lung
-    35 00000013 7D2C                            jge nubun
-    36 00000015 7C00                            jl bun
-    37                                          bun:
-    38 00000017 8A86[00000000]                      mov al,[sir+esi]
-    39 0000001D 8A9E[04000000]                      mov bl,[sir2+esi]
-    40 00000023 38D8                                cmp al,bl
-    41 00000025 7D0E                                jge aldoilea
-    42 00000027 7C00                                jl primul
-    43                                              
-    44                                              primul:
-    45 00000029 8887[0C000000]                          mov [newSir +edi],al
-    46 0000002F 47                                      inc edi
-    47 00000030 46                                      inc esi
-    48 00000031 E343                                    jecxz final
-    49 00000033 E2DB                                    loop repeta
-    50                                              
-    51                                              aldoilea:
-    52 00000035 889F[0C000000]                          mov [newSir + edi], bl
-    53 0000003B 47                                      inc edi 
-    54 0000003C 46                                      inc esi
-    55 0000003D E337                                    jecxz final
-    56 0000003F E2CF                                    loop repeta
-    57                                          nubun:
-    58 00000041 80FA01                              cmp dl, 1
-    59 00000044 7C02                                jl zero0
-    60 00000046 7D17                                jge unu1
-    61                                              zero0:
-    62 00000048 A0[14000000]                            mov al,[zero]
-    63 0000004D 8887[0C000000]                          mov [newSir + edi],al
-    64 00000053 46                                      inc esi
-    65 00000054 47                                      inc edi
-    66 00000055 8A15[16000000]                          mov dl,[doi]
-    67 0000005B E319                                    jecxz final
-    68 0000005D E2B1                                    loop repeta
-    69                                              unu1:
-    70 0000005F A0[15000000]                            mov al,[unu]
-    71 00000064 8887[0C000000]                          mov [newSir + edi],al
-    72 0000006A 46                                      inc esi
-    73 0000006B 47                                      inc edi
-    74 0000006C 8A15[14000000]                          mov dl, [zero]
-    75 00000072 E302                                    jecxz final
-    76 00000074 E29A                                    loop repeta
-    77                                      final:
-    78 00000076 6A00                            push    dword 0     
-    79 00000078 FF15[00000000]                  call    [exit]       
+    18                                  
+    19                                      start:
+    20 00000000 66B8FFFF                        mov ax, 0ffffh 
+    21 00000004 6699                            cwd 
+    22 00000006 6683C201                        add dx, 1 
+    23 0000000A 66BBFFFF                        mov bx, 65535 
+    24 0000000E 66F7F3                          div bx
+    25                                          
+    26 00000011 68[06000000]                    push dword mesajrez
+    27 00000016 FF15[00000000]                  call [printf]
+    28                                          
+    29 0000001C 83C410                          add esp, 16
+    30 0000001F 6A00                            push    dword 0
+    31 00000021 FF15[00000000]                  call    [exit]  

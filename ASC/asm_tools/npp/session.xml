@@ -1,8 +1,8 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="1">
-            <File firstVisibleLine="12" xOffset="0" scrollWidth="380" startPos="1571" endPos="0" selMode="0" lang="Assembly" encoding="-1" filename="Z:\Users\george\Documents\UBB\Anul 1\ASC\asm_tools\npp\asm1.asm" backupFilePath="" originalFileLastModifTimestamp="1542702174" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="0" mapWrapIndentMode="-1" mapIsWrap="no" />
-            <File firstVisibleLine="15" xOffset="0" scrollWidth="460" startPos="628" endPos="628" selMode="0" lang="Assembly" encoding="-1" filename="Z:\Users\george\Documents\UBB\Anul 1\ASC\asm_tools\npp\asm2.asm" backupFilePath="" originalFileLastModifTimestamp="1542702629" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="7274573" mapWrapIndentMode="-1" mapIsWrap="no" />
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="650" startPos="420" endPos="420" selMode="0" lang="Assembly" encoding="-1" filename="Z:\Users\george\Documents\UBB\Anul 1\ASC\asm_tools\npp\asm1.asm" backupFilePath="Z:\Users\george\Documents\UBB\Anul 1\ASC\asm_tools\npp\backup\asm1.asm@2018-12-01_210538" originalFileLastModifTimestamp="1543690940" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="0" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="4" xOffset="0" scrollWidth="380" startPos="575" endPos="575" selMode="0" lang="Assembly" encoding="-1" filename="Z:\Users\george\Documents\UBB\Anul 1\ASC\asm_tools\npp\asm2.asm" backupFilePath="" originalFileLastModifTimestamp="1542702629" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="7274573" mapWrapIndentMode="-1" mapIsWrap="no" />
         </mainView>
         <subView activeIndex="0" />
     </Session>

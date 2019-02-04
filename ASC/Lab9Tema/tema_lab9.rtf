@@ -1,0 +1,62 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0   doi:\
+        mov ecx, len\
+        mov ebx, len3\
+        cmp ecx, ebx\
+        mov esi, 0\
+        jg schimba2\
+        schimba2:\
+            xchg ebx,ecx\
+            jmp repeta\
+        repeta2:\
+            mov ebx, [a+esi]\
+            mov eax, [d+esi]\
+            times 4 inc esi\
+            cmp eax, ebx\
+            je bun2\
+            jne rau2\
+            bun2:\
+                pushad\
+                push eax\
+                push formatafisare2\
+                call [printf]\
+                add esp, 4*2\
+                popad\
+                jmp rau2\
+            rau2:\
+            jecxz trei\
+            loop repeta2\
+    trei:\
+        mov ecx, len2\
+        mov ebx, len3\
+        cmp ecx, ebx\
+        mov esi, 0\
+        jg schimba3\
+        schimba3:\
+            xchg ebx,ecx\
+            jmp repeta3\
+        repeta3:\
+            mov ebx, [b+esi]\
+            mov eax, [d+esi]\
+            times 4 inc esi\
+            cmp eax, ebx\
+            je bun3\
+            jne rau3\
+            bun3:\
+                pushad\
+                push eax\
+                push formatafisare3\
+                call [printf]\
+                add esp, 4*2\
+                popad\
+                jmp rau3\
+            rau3:\
+            jecxz final\
+            loop repeta3\
+       }
