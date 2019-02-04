@@ -1,0 +1,6 @@
+aaa aaa 190 Pivot
+bbb bbb 220 Pivot
+fff fff 175 Pivot
+zzz zzz 260 Pivot
+Manole Alexandru 187 Fundas
+Mag Raul 241 Fundas

@@ -1,0 +1,5 @@
+1,Peisaj cu case de tara,Stefan Luchian,13
+2,Giverny casa artistului,Claude Monet,13
+3,Impresie Rasarit de Soaree,Claude Monet,13
+4,Olympia,Eduard Manet,14
+5,Mese de magnet,Manet,14

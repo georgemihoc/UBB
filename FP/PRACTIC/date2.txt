@@ -1,0 +1,7 @@
+aaa aaa 190 Fundas
+bbb bbb 220 Pivot
+ccc ccc 200 Extrema
+ddd ddd 192 Fundas
+eee eee 186 Extrema
+fff fff 175 Pivot
+zzz zzz 260 Pivot
