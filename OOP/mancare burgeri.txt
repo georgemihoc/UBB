@@ -1,0 +1,70 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+#include <assert.h>
+#include <string>
+#include <algorithm>
+class Mancare {
+private:
+	int pret;
+public:
+	Mancare(int pret) :pret{ pret }{}
+	virtual ~Mancare() {};
+	virtual string descriere() = 0;
+	virtual int getPret() { return pret; }
+
+};
+class Burger : public Mancare {
+private:
+	string nume;
+public:
+	Burger(int pret, string nume) :Mancare{ pret }, nume{ nume } {};
+	string descriere() {
+		return nume;
+	}
+};
+
+class CuCartof :public Mancare {
+private:
+	Mancare *mancare;
+public:
+	CuCartof(Mancare *mancare) :Mancare{mancare->getPret()}, mancare { mancare } {};
+	string descriere()override {
+		return mancare->descriere() + " Cu Cartof ";
+	}
+	int getPret() {
+		return mancare->getPret()+2;
+	}
+};
+
+class CuSos : public Mancare {
+private:
+	Mancare *mancare;
+public:
+	CuSos(Mancare *mancare) :Mancare{ mancare->getPret() }, mancare{ mancare } {};
+	string descriere() override {
+		return mancare->descriere() + " Cu Sos ";
+	}
+	int getPret() {
+		return mancare->getPret() + 3;
+	}
+};
+
+
+int main()
+{
+	
+	Mancare* bigmac = new Burger(12, "BigMac");
+	Mancare* zinger = new Burger(6, "Zinger");
+	Mancare* zsos =new CuSos(zinger);
+	Mancare* zcartof = new CuCartof(zinger);
+	Mancare* bigsoscartof = new CuSos(new CuCartof(bigmac));
+	vector<Mancare*> meniu{ bigmac, zinger, zsos, zcartof, bigsoscartof };
+	sort(meniu.begin(), meniu.end(), [&](Mancare* m1, Mancare *m2) {
+		return m1->getPret() < m2->getPret(); });
+
+	for (auto& m : meniu)
+		cout << m->descriere() << "  " << m->getPret() << " lei"<<endl;
+
+	system("pause");
+}
