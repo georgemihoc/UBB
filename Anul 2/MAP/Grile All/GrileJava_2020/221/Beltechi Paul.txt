@@ -1,0 +1,37 @@
+Clasele A si B sunt definite in felul urmator.
+
+public class A<ID> {
+    private ID id;
+
+    public A(ID id) {
+        this.id = id;
+    }
+    
+    public ID getId() {
+        return id;
+    }
+}
+
+public class B extends A<String> {
+    public B(String id) {
+        id +="@scs.ubbcluj.ro";
+        super(id);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+	B b = new B("alex");        
+	System.out.println(b.getId());
+    }
+}
+
+Ce se va afisa in urma rularii metodei main?
+a) "alex@scs.ubbcluj.ro"
+b) eroare de compilare, B nu poate apela constructorul lui A cu un obiect de tipul String, deoarece ID este generic
+c) "alex"
+d) eroare de compilare, apelul catre constructorul lui A trebuie sa fie prima instructiune din constructorul B
+
+Raspunsul corect este d, deoarece apelul catre clasa de baza A trebuie sa fie prima instructiune din 
+constructorul clasei derivate B.
+Grila MAP - Beltechi Paul grupa 221

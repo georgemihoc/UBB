@@ -1,0 +1,21 @@
+[2019-03-14 18:59:15] [info] Start Program:
+Path:"C:\UBB\OOP\TUN2\Debug\TUN2.exe"
+Arguments:
+Working directory: "C:\UBB\OOP\TUN2\TUN2\"
+Modules: Selected: C:\UBB\OOP\TUN2\Debug\TUN2.exe Excluded: 
+Sources: Selected: C:\UBB\OOP\TUN Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\George\AppData\Local\Temp\qzal0hwf.nvl 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-03-14 18:59:15] [info] Module: C:\UBB\OOP\TUN2\Debug\TUN2.exe is selected because it matches selected pattern: C:\UBB\OOP\TUN2\Debug\TUN2.exe
+[2019-03-14 18:59:15] [info] ----------------------------------------------------
+[2019-03-14 18:59:15] [info] Coverage binary generated in file: C:\Users\George\AppData\Local\Temp\qzal0hwf.nvl
+[2019-03-14 18:59:15] [info] ----------------------------------------------------

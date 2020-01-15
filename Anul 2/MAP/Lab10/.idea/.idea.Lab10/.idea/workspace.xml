@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1682b803-1194-4d65-917f-b8a28f1bf9b6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6936A521-FED8-4DEB-8B14-A7F0DF001041/2FE/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/model/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/service/AService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/model/Meci.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/model/Echipa.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/model/Elev.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/model/Jucator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/InFileRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/InMemoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/DataReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/model/validator/IValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/EntityToFileMapping.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/model/JucatorActiv.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/JucatorInFileRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/MeciInFileRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/model/validator/ElevValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/service/ElevService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6936A521-FED8-4DEB-8B14-A7F0DF001041/63/Convert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/Main/UI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/Main/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/ElevInFileRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/service/MeciService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/EchipaInFileRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/4a/2b8d1ee7/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/b5/46dfe964/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6936A521-FED8-4DEB-8B14-A7F0DF001041/1/Interop.IOErrors.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/service/JucatorService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/service/EchipaService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B9C5BD74-CC2C-4F28-BBAA-29643F0B8BE7/b7/0fc5de98/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A2F1A0BC-F497-42F7-904F-5C311A09BDD1/23/ValidationException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/service/JucatorActivService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lab10/repository/JucatorActiveInFileRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Lab10/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Main/Main.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Repository/EchipaFileRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Repository/StudentRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Jucator.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Repository/IRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Repository/InMemoryRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Entity.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Meci.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Echipa.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Elev.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Repository/InFileRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Repository/EchipaRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Repository/DataReader.cs" />
+        <option value="$PROJECT_DIR$/Lab10/data/angajati.txt" />
+        <option value="$PROJECT_DIR$/Lab10/model/Elev.cs" />
+        <option value="$PROJECT_DIR$/Lab10/model/Echipa.cs" />
+        <option value="$PROJECT_DIR$/Lab10/data/sarcini.txt" />
+        <option value="$PROJECT_DIR$/Lab10/model/Jucator.cs" />
+        <option value="$PROJECT_DIR$/Lab10/model/JucatorActiv.cs" />
+        <option value="$PROJECT_DIR$/Lab10/service/Service.cs" />
+        <option value="$PROJECT_DIR$/Lab10/service/JucatorActivService.cs" />
+        <option value="$PROJECT_DIR$/Lab10/data/jucatoriActivi.txt" />
+        <option value="$PROJECT_DIR$/Lab10/data/jucatori.txt" />
+        <option value="$PROJECT_DIR$/Lab10/service/EchipaService.cs" />
+        <option value="$PROJECT_DIR$/Lab10/data/meciuri.txt" />
+        <option value="$PROJECT_DIR$/Lab10/service/MeciService.cs" />
+        <option value="$PROJECT_DIR$/Lab10/data/echipe.txt" />
+        <option value="$PROJECT_DIR$/Lab10/service/JucatorService.cs" />
+        <option value="$PROJECT_DIR$/Lab10/model/Meci.cs" />
+        <option value="$PROJECT_DIR$/Lab10/service/AService.cs" />
+        <option value="$PROJECT_DIR$/Lab10/repository/EntityToFileMapping.cs" />
+        <option value="$PROJECT_DIR$/Lab10/model/ElevValidator.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Main/Program.cs" />
+        <option value="$PROJECT_DIR$/Lab10/repository/ElevInFileRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/repository/InFileRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/repository/EchipaInFileRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/repository/JucatorActiveInFileRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/repository/JucatorInFileRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/repository/MeciInFileRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/service/ElevService.cs" />
+        <option value="$PROJECT_DIR$/Lab10/repository/InMemoryRepository.cs" />
+        <option value="$PROJECT_DIR$/Lab10/data/elevi.txt" />
+        <option value="$PROJECT_DIR$/Lab10/model/validator/IValidator.cs" />
+        <option value="$PROJECT_DIR$/Lab10/model/validator/ElevValidator.cs" />
+        <option value="$PROJECT_DIR$/Lab10/Main/UI.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UzdCspzXp8JuPR2HCDI0wTI98m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Lab10/bin/Debug/netcoreapp3.0/Lab10.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab10/bin/Debug/netcoreapp3.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Lab10/Lab10.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1682b803-1194-4d65-917f-b8a28f1bf9b6" name="Default Changelist" comment="" />
+      <created>1576363232422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576363232422</updated>
+      <workItem from="1576363233913" duration="1127000" />
+      <workItem from="1576404115597" duration="7649000" />
+      <workItem from="1576426301620" duration="650000" />
+      <workItem from="1576531072212" duration="1556000" />
+      <workItem from="1576569959252" duration="1375000" />
+      <workItem from="1576770246319" duration="8000" />
+      <workItem from="1577101386772" duration="627000" />
+      <workItem from="1577976917446" duration="23999000" />
+      <workItem from="1578066389672" duration="773000" />
+      <workItem from="1578092531340" duration="754000" />
+      <workItem from="1578153313348" duration="1735000" />
+      <workItem from="1578219173293" duration="458000" />
+      <workItem from="1578260306499" duration="456000" />
+      <workItem from="1578313334534" duration="4508000" />
+      <workItem from="1578379899335" duration="206000" />
+      <workItem from="1578691762638" duration="705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom" timestamp="1578380104804">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.23.1680.982@0.23.1680.982" timestamp="1578380104804" />
+    <state width="1638" height="259" key="GridCell.Tab.0.center" timestamp="1578380104803">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="259" key="GridCell.Tab.0.center/0.23.1680.982@0.23.1680.982" timestamp="1578380104803" />
+    <state width="1638" height="259" key="GridCell.Tab.0.left" timestamp="1578380104803">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="259" key="GridCell.Tab.0.left/0.23.1680.982@0.23.1680.982" timestamp="1578380104803" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right" timestamp="1578380104803">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="259" key="GridCell.Tab.0.right/0.23.1680.982@0.23.1680.982" timestamp="1578380104803" />
+    <state width="1638" height="327" key="GridCell.Tab.1.bottom" timestamp="1578096070810">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.1.bottom/0.23.1680.982@0.23.1680.982" timestamp="1578096070810" />
+    <state width="1638" height="327" key="GridCell.Tab.1.center" timestamp="1578096070810">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.1.center/0.23.1680.982@0.23.1680.982" timestamp="1578096070810" />
+    <state width="1638" height="327" key="GridCell.Tab.1.left" timestamp="1578096070809">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.1.left/0.23.1680.982@0.23.1680.982" timestamp="1578096070809" />
+    <state width="1638" height="327" key="GridCell.Tab.1.right" timestamp="1578096070810">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.1.right/0.23.1680.982@0.23.1680.982" timestamp="1578096070810" />
+    <state width="1638" height="327" key="GridCell.Tab.2.bottom" timestamp="1578096070811">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.2.bottom/0.23.1680.982@0.23.1680.982" timestamp="1578096070811" />
+    <state width="1638" height="327" key="GridCell.Tab.2.center" timestamp="1578096070810">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.2.center/0.23.1680.982@0.23.1680.982" timestamp="1578096070810" />
+    <state width="1638" height="327" key="GridCell.Tab.2.left" timestamp="1578096070810">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.2.left/0.23.1680.982@0.23.1680.982" timestamp="1578096070810" />
+    <state width="1638" height="327" key="GridCell.Tab.2.right" timestamp="1578096070811">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.2.right/0.23.1680.982@0.23.1680.982" timestamp="1578096070811" />
+    <state width="1638" height="327" key="GridCell.Tab.3.bottom" timestamp="1578096070812">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.3.bottom/0.23.1680.982@0.23.1680.982" timestamp="1578096070812" />
+    <state width="1638" height="327" key="GridCell.Tab.3.center" timestamp="1578096070811">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.3.center/0.23.1680.982@0.23.1680.982" timestamp="1578096070811" />
+    <state width="1638" height="327" key="GridCell.Tab.3.left" timestamp="1578096070811">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.3.left/0.23.1680.982@0.23.1680.982" timestamp="1578096070811" />
+    <state width="1638" height="327" key="GridCell.Tab.3.right" timestamp="1578096070812">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.3.right/0.23.1680.982@0.23.1680.982" timestamp="1578096070812" />
+    <state width="1638" height="327" key="GridCell.Tab.4.bottom" timestamp="1578096070813">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.4.bottom/0.23.1680.982@0.23.1680.982" timestamp="1578096070813" />
+    <state width="1638" height="327" key="GridCell.Tab.4.center" timestamp="1578096070812">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.4.center/0.23.1680.982@0.23.1680.982" timestamp="1578096070812" />
+    <state width="1638" height="327" key="GridCell.Tab.4.left" timestamp="1578096070812">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.4.left/0.23.1680.982@0.23.1680.982" timestamp="1578096070812" />
+    <state width="1638" height="327" key="GridCell.Tab.4.right" timestamp="1578096070812">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.4.right/0.23.1680.982@0.23.1680.982" timestamp="1578096070812" />
+    <state x="622" y="195" key="RiderGenerateDialog" timestamp="1578057322057">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state x="622" y="195" key="RiderGenerateDialog/0.23.1680.982@0.23.1680.982" timestamp="1578057322057" />
+    <state width="840" height="491" key="XDebugger.FullValuePopup" timestamp="1577989349787">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="840" height="491" key="XDebugger.FullValuePopup/0.23.1680.982@0.23.1680.982" timestamp="1577989349787" />
+    <state x="505" y="239" width="670" height="676" key="search.everywhere.popup" timestamp="1578007831836">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state x="505" y="239" width="670" height="676" key="search.everywhere.popup/0.23.1680.982@0.23.1680.982" timestamp="1578007831836" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,55 @@
+Student propunator: Ripanu Mihnea Andrei
+
+Grupa: 226
+
+Email: rmir2602@scs.ubbcluj.ro
+
+
+class First{
+    String x;
+    protected First(String x){
+        this.x = x;
+    }
+    protected void Cat1(){
+        this.x = x + "1";
+    }
+}
+
+class Second extends First{
+    public Second(String x) {
+        super(x + "2");
+    }
+
+    public String Cat(){
+        Cat1();
+        return super.x = super.x + Concat() + "2";
+    }
+
+    public String Concat(){
+        return super.x = x + "3";
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+	    Second var = new Second("");
+	    try {
+            System.out.println(Integer.parseInt(var.Cat()));
+        }catch (NumberFormatException nr){
+            System.out.println("Error");
+        }
+    }
+}
+
+Variante de raspuns:
+
+(a) 212132 -> corect
+ b. 21232
+ c. 2132
+ d. Error
+
+
+
+Explicatie:
+   Mai intai se apeleaza constructorul clasei Second care adauga 2, apoi in functia Cat() se apeleaza functia Cat1()
+ din clasa First si apoi se adauga la x ce rezulta din functia Concat() si "2"

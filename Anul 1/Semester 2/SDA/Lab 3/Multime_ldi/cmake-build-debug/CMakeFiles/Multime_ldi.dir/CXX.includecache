@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/ExtendedTest.cpp
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Multime.h
+assert.h
+-
+ExtendedTest.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/ExtendedTest.h
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/MultimeIterator.h
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/ExtendedTest.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Multime.cpp
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Multime.h
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Multime.h
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/MultimeIterator.h
+Nod.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Nod.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/MultimeIterator.cpp
+exception
+-
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/MultimeIterator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/MultimeIterator.h
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Multime.h
+Nod.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Nod.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Nod.h
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Multime.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/ShortTest.cpp
+ShortTest.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/ShortTest.h
+assert.h
+-
+iostream
+-
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/Multime.h
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/MultimeIterator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 3/Multime_ldi/ShortTest.h
+

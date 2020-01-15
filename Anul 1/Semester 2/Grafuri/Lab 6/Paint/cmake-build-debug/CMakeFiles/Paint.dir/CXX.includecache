@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/Grafuri/Lab 6/Paint/main.cpp
+vector
+-
+fstream
+-
+iostream
+-
+

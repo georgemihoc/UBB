@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/ExtendedTest.cpp
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/Multime.h
+assert.h
+-
+ExtendedTest.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/ExtendedTest.h
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/MultimeIterator.h
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/ExtendedTest.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/Multime.cpp
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/Multime.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/Multime.h
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/MultimeIterator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/MultimeIterator.cpp
+exception
+-
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/MultimeIterator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/MultimeIterator.h
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/Multime.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/ShortTest.cpp
+ShortTest.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/ShortTest.h
+assert.h
+-
+iostream
+-
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/Multime.h
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/MultimeIterator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/ShortTest.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/main.cpp
+iostream
+-
+ExtendedTest.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/ExtendedTest.h
+ShortTest.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 1/Multime/ShortTest.h
+iostream
+-
+

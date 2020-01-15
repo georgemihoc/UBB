@@ -1,0 +1,39 @@
+Student propunator: Coman Gheorghe Octavian 
+Grupa: 222 
+Email: octaviancoman1@yahoo.com
+
+
+Ce se va afisa dupa rularea urmatorului cod?
+
+class Program
+    {
+    
+        delegate string del(string s);
+        
+        class a 
+        {
+            public static string DelegateSample(string s)
+            {
+                return s.Replace(',', '*');
+            }
+        }
+        public class aa
+        {
+            public static void Main(string[] args)
+            {
+                del str1 = new del(a.DelegateSample);
+                string str = str1("a,b,,cde,,fg,,g");
+                Console.WriteLine(str);
+            }
+        }
+    }
+
+Variante:
+
+a) ab,cde,fg,g
+b) a*b,**cde**fg*g
+c) abcdefgg
+
+Raspuns corect: b)
+
+Codul inlocuieste toate caracterele "," intalnite cu "**" 

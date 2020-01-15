@@ -1,0 +1,55 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16600\viewh18640\viewkind0
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f0\fs24 \cf0 {\listtext	1.	}Impartim clasa pe site ul {\field{\*\fldinst{HYPERLINK "http://www.davidc.net/sites/default/subnets/subnets.html"}}{\fldrslt http://www.davidc.net/sites/default/subnets/subnets.html}}\
+{\listtext	2.	}Punem routere Router PT Empty\
+{\listtext	3.	}Punem switch uri 2950-24\
+{\listtext	4.	}punem cate module de CFE trebuie in fiecare router si facem conexiunile\
+{\listtext	5.	}Cooper straight through intre toate inafara de router-router sau router-server\
+{\listtext	6.	}Configuram adrese ip pt fiecare router pe rand\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 				CLI\
+				conf t\
+				service dhcp\
+				ip dhcp pool NET-POOL\
+				network 33.146.8.0 255.255.254.0 (adresa ip cu .0 la final si netmask ul de pe site ambele)\
+				default-router 33.146.8.1 ( adresa dar cu .1 la final)\
+				///////dns-server 33.146.8.2\
+	\
+7. Configuram tabela de rutare  la fiecare router\
+\
+				conf t\
+				router rip\
+				version 2\
+				//no auto-summary\
+				network 33.146.8.0\
+				network 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+33.146.13.8\
+				(cele doua retele care sunt legate de router)
+\f0 \cf0 \kerning1\expnd0\expndtw0 \
+				exit\
+				show ip route\
+8. Configurare NAT cu adrese private \
+\
+				conf t\
+				//ip nat inside sfcource static x.x.x.2 y.y.y.2 ( prima adresa din stanga si prima din dreapta) - 1\
+				interface fastEthernet 0/0 \
+				//ip address (adresa din x) (netmask a lui x)\
+				ip nat inside\
+				exit\
+\
+				interface fastEthernet 1/0\
+				//ip address ( adresa din y) ( netmaskul lui y)\
+				ip nat outside\
+				end\
+\
+    				1\
+\
+				wr}

@@ -1,0 +1,41 @@
+Student propunator: Pop Ioan-Daniel
+Grupa: 226
+Email:popioandaniel09@yahoo.com
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n, o = 0, p;
+            Console.Write("Introduceti numarul n = ");
+            n = int.Parse(Console.ReadLine());
+            while (n != 0)
+            {
+                p = n % 10;
+                if (p % 2 != 0)
+                    o = o * 10 + p;
+                n = n / 10;
+            }
+            Console.Write(" o = {0}", o);
+            Console.ReadKey();
+        }
+    }
+}
+
+Pentru n=125 ce se va afisa pe ecran?
+
+a)Mesaj de eroare 
+b)125
+c)15
+d)124
+
+Raspuns:c (programul descris mai sus primeste un numar intreg ca si parametru si ii elimina toate cifrele pare,
+rezultayil fiind afisat pe ecran)

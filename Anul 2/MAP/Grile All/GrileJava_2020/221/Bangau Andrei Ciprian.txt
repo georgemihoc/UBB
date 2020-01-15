@@ -1,0 +1,37 @@
+Grila Bangau Andrei Ciprian 221
+
+
+
+public interface I {
+    String stringI= " A";
+    String afisare(String s);
+}
+
+public class A implements I {
+    protected static final String stringA=" P";
+    @Override
+    public String afisare(String s) {
+        return s;
+    }
+}
+
+public class Main{
+        public static void main(String args[]){
+            A a=new A();
+            System.out.println(a.afisare("M")+A.stringI+A.stringA);
+        }
+}
+
+Ce se va afisa in consola?
+a) "MAP";
+b) eroare la compilare - nu se poate accesa stringI din interfata I astfel;
+c) "M A P";
+d) eroare la compilare - nu se poate accesa stringA din clasa A deoarece e protected;
+
+
+
+
+
+
+Raspuns: c)"M A P"
+Explicatii: Se pot accesa atat stringI cat si stringA.

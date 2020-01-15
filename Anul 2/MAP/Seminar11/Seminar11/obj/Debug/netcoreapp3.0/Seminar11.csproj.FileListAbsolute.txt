@@ -1,0 +1,11 @@
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/bin/Debug/netcoreapp3.0/Seminar11
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/bin/Debug/netcoreapp3.0/Seminar11.deps.json
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/bin/Debug/netcoreapp3.0/Seminar11.runtimeconfig.json
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/bin/Debug/netcoreapp3.0/Seminar11.runtimeconfig.dev.json
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/bin/Debug/netcoreapp3.0/Seminar11.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/bin/Debug/netcoreapp3.0/Seminar11.pdb
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/obj/Debug/netcoreapp3.0/Seminar11.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/obj/Debug/netcoreapp3.0/Seminar11.AssemblyInfoInputs.cache
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/obj/Debug/netcoreapp3.0/Seminar11.AssemblyInfo.cs
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/obj/Debug/netcoreapp3.0/Seminar11.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Seminar11/Seminar11/obj/Debug/netcoreapp3.0/Seminar11.pdb

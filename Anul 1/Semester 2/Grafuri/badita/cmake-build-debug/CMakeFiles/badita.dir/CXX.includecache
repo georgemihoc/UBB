@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/Grafuri/badita/main.cpp
+cstdio
+-
+vector
+-
+queue
+-
+fstream
+-
+iostream
+-
+

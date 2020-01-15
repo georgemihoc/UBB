@@ -1,0 +1,68 @@
+;CITESTE UN SIR DIN SEGMENTUL DE DATE SI IL AFISEAZA
+
+bits 32
+
+global start        
+
+extern exit               
+extern printf
+extern scanf
+;extern Afisare
+import printf msvcrt.dll
+import scanf msvcrt.dll
+import exit msvcrt.dll    
+
+segment data use32 class=data
+    
+    formatafisare db "%d ",0
+    a db 1,2,3,4
+    len equ ($-a)
+    b resd 10
+    lenb dd 0
+    doi dw 2
+   
+segment code use32 class=code
+    start:
+        mov ecx, len
+        
+        mov edx, [lenb]
+        mov ebx, 0 
+        mov eax, 0
+        mov edi, 0
+        mov esi, 0
+        repeta:
+            mov bl, byte[a+esi]
+            inc esi  
+            movzx bx, bl
+            mov ax, bx
+            
+           
+            movzx ebx, bx
+            mov [b+edi],ebx
+            inc edx 
+            inc edi
+            mai:
+        jecxz sari
+        loop repeta
+        sari:
+        mov esi,0
+        mov ecx, edx
+        afis:
+            
+            mov al,[b+esi]
+            movzx eax, al
+            inc esi
+            pushad
+            push eax
+            push formatafisare
+            call [printf]
+            add esp,4*2
+            popad
+            jecxz final
+        loop afis
+
+        final:
+        ;add esp,4*2    
+        push    dword 0      
+        call    [exit]       
+        

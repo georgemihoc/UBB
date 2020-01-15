@@ -1,0 +1,63 @@
+Nume: Bangau Andrei Ciprian
+Grupa: 221
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace grila
+{
+    class Program
+    {
+        class A
+        {
+            public string s1 { get; set; }
+            public string s2 { get; set; }
+        }
+
+        class B<T>
+        {
+            public int x { get; set; }
+            public T y { get; set; }
+        }
+
+        static void F(List<A> l1,List<B<A>> l2)
+        {
+            IEnumerable<string> s = from a in l1
+                       join b in l2
+                       on a equals b.y
+                       select a.s1 + b.x.ToString();
+            foreach(string str in s)
+                Console.WriteLine(str);
+        }
+        static void Main(string[] args)
+        {
+            A a1 = new A { s1 = "a", s2 = "b" };
+            A a2 = new A { s1 = "c", s2 = "d" };
+            A a3 = new A { s1 = "e", s2 = "f" };
+            B<A> b1 = new B<A> { x = 1, y = a2 };
+            B<A> b2 = new B<A> { x = 2, y = a1 };
+            B<A> b3 = new B<A> { x = 3, y = a2 };
+            List<A> As = new List<A> { a3, a2, a1 };
+            List<B<A>> Bs = new List<B<A>> { b1, b2, b3};
+            F(As, Bs);
+
+        }
+    }
+}
+
+
+Ce va afisa programul?
+a)	b)	c)	d)
+a1	e3	c2	a1
+c3	c2	c3	c2
+c1	a1	a1	e3
+
+
+
+Raspuns corect c).
+Functia F cauta pentru fiecare element din lista As un element din Bs care are y-ul egal cu elementul din As,apoi,
+formeaza un string format prin concatenarea elementului s1 din A cu elementul x din B.
+Avand in vedere modul in care au fost initializate obiectele de tip A si B,si cele doua liste, raspunsul este c).

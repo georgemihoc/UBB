@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/ExtendedTest.cpp
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/Multime.h
+assert.h
+-
+ExtendedTest.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/ExtendedTest.h
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/MultimeIterator.h
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/ExtendedTest.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/Multime.h
+MultimeIterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/MultimeIterator.h
+Nod.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/Nod.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/MultimeIterator.h
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/Multime.h
+Nod.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/Nod.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/Nod.h
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4/Multime_ldi _tablou/Multime.h
+

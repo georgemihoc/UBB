@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Iterator.cpp
+Iterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Iterator.h
+exception
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Iterator.h
+Lista.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Lista.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Lista.cpp
+Lista.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Lista.h
+exception
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Lista.h
+Iterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Iterator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Test.cpp
+Test.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Test.h
+assert.h
+-
+exception
+-
+Lista.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Lista.h
+Iterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Iterator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Test.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/main.cpp
+iostream
+-
+Test.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 4 Raul/Test.h
+stdlib.h
+-
+

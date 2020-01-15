@@ -1,0 +1,121 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Scrieti un program C care primeste ca si argumente in linia de comanda\
+oricate fisiere. Fiecare fisier ca contine 3 numere intregi a si b intre 1\
+si 99 si c intre 1000 si 99999. Programul va crea cate o variabila globala n\
+si 3 threaduri x, y si z pentru fiecare fisier primit ca argument.\
+Thread-urile x si y vor citi pe a si b din fisier si vor aduna valoarea\
+acestora la n pana cand n va depasi valoare lui c, moment in care se va\
+trimite un semnal lui z iar acesta va afisa valoarea lui n pe ecran. Fiecare\
+triplet de thread-uri isi va culege datele dintr-unul din fisierele primite\
+ca argumet, si fiecare trplet de threaduri va avea prorpia variabila\
+\
+\
+#include <stdio.h>\
+#include <pthread.h>\
+#include <unistd.h>\
+#include <stdlib.h>\
+#include <string.h>\
+\
+pthread_mutex_t mt=PTHREAD_MUTEX_INITIALIZER;\
+pthread_cond_t cond=PTHREAD_COND_INITIALIZER;\
+\
+int* vector;\
+\
+typedef struct\{\
+        char fisier[1000];\
+        int indice;\
+\}fis;\
+void* thread1(void *par)\{\
+        fis* str = par;\
+	//free(par);\
+        char fisier[1000];\
+        strcpy(fisier, str->fisier);\
+        FILE* f = fopen(fisier,"r");\
+        int a, b, c;\
+        fscanf(f,"%d",&a);\
+        fscanf(f,"%d",&b);\
+	fscanf(f,"%d",&c);\
+	//printf("\\nThread:1\\n");\
+        int indice = str->indice;\
+        //pthread_mutex_lock(&mt);\
+	while(vector[indice] <= c)\
+	\{\
+		pthread_mutex_lock(&mt);\
+                vector[indice]+=a;\
+		pthread_mutex_unlock(&mt);\
+	\}\
+        pthread_cond_signal(&cond);\
+	//free(str);\
+       	return NULL;\
+\}\
+void* thread3(void *par)\
+\{\
+	fis* str = par;\
+	//free(par);\
+        char fisier[1000];\
+        strcpy(fisier, str->fisier);\
+        FILE* f = fopen(fisier,"r");\
+        int a, b, c;\
+        fscanf(f,"%d",&a);\
+        fscanf(f,"%d",&b);\
+        fscanf(f,"%d",&c);\
+	//printf("\\nThread:2\\n");\
+        int indice = str->indice;\
+        //pthread_mutex_lock(&mt);\
+	while(vector[indice] <= c)\
+	\{\
+		pthread_mutex_lock(&mt);\
+                vector[indice]+=b;\
+		pthread_mutex_unlock(&mt);\
+	\}\
+        pthread_cond_signal(&cond);\
+        //pthread_mutex_unlock(&mt);\
+        //free(str);\
+	return NULL;\
+\}\
+void* thread2(void *par)\{\
+        fis* str = par;\
+	//free(par);\
+        int indice = str->indice;\
+        pthread_mutex_lock(&mt);\
+        while(vector[indice] == 0)\
+                pthread_cond_wait(&cond,&mt);\
+        printf("%s: %d\\n", str->fisier, vector[indice]);\
+        pthread_mutex_unlock(&mt);\
+        //free(str);\
+	return NULL;\
+\}\
+int main(int argc, char**argv)\{\
+\
+        int i;\
+\
+        vector = malloc(sizeof(int)*(argc-1));\
+\
+        pthread_t threads1[argc];\
+        pthread_t threads2[argc];\
+	pthread_t threads3[argc];\
+        fis params[argc];\
+        for(i = 1; argv[i]; i++)\{\
+                strcpy(params[i].fisier, argv[i]);\
+                params[i].indice = i;\
+                pthread_create(&threads2[i],NULL,thread1,&params[i]);\
+                pthread_create(&threads1[i],NULL,thread2,&params[i]);\
+		pthread_create(&threads3[i],NULL,thread3,&params[i]);\
+        \}\
+\
+        for(i = 1; argv[i]; i++)\{\
+		pthread_join(threads2[i],NULL);\
+                pthread_join(threads3[i],NULL);\
+                pthread_join(threads1[i],NULL);\
+        \}\
+        pthread_mutex_destroy(&mt);\
+        pthread_cond_destroy(&cond);\
+        free(vector);\
+        return 0;\
+\}}

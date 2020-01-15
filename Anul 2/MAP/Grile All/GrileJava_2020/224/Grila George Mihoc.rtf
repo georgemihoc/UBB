@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Italic;
+\f3\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red21\green23\blue25;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c100000;\cssrgb\c10980\c11765\c12941;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14200\viewh15700\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf2 \cb3 Student propun\uc0\u259 tor: George Mihoc            Grupa:224        Email: mgir2554@scs.ubbcluj.ro
+\fs24 \
+
+\fs30 Ce se afi\uc0\u537 eaz\u259  la rularea codului urmator? Explica\u539 i.
+\f1\fs24 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \cb3 public int compareTo(Om o) \{\
+        if(nume.contains("on"))\
+            return -1;\
+        if(this.varsta < o.varsta)\
+            return -1;\
+        return 1;\
+\
+    \}
+\f0\fs26 \cf2 \cb3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf2 public class Main \{\
+    public static void main(String args[]) \{\
+        TreeSet<Om> oSet = new TreeSet<>();\
+        oSet.add(new Om("George", 19));\
+        oSet.add(new Om("Sandu", 20));\
+        oSet.add(new Om("Ion", 21));\
+        for (Om o : oSet) \{\
+            System.
+\f2\i out
+\f1\i0 .print(o.getNume());\
+			System.
+\f2\i \cf2 \cb3 out
+\f1\i0 \cf2 \cb3 .print(\'93,\'94);\
+        \}\
+    \}\
+\}\
+\
+Variante raspuns:\
+a) George,Sandu, Ion\
+b) Sandu, Ion, George\
+c) Ion, George, Sandu\
+d) eroare\
+\
+Explicatie: 
+\f3\fs30 \cf4 \expnd0\expndtw0\kerning0
+Primul criteriu de comparare este daca numele contine on.Astfel orice om care contine on in nume este considerat mai mic.Al doilea criteriu este varsta, omul cu varsta mai mica fiind considerat mai mic => Raspuns corect c)}

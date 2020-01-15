@@ -1,0 +1,3 @@
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug/CMakeFiles/TemaLab3.dir

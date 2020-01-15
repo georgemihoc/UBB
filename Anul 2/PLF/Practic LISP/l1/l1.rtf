@@ -1,0 +1,1332 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18000\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf0 \expnd0\expndtw0\kerning0
+; 1\
+; a) Write a function to return the n-th element of a list, or NIL if such an element does not exist;\
+\
+; _n_elem (l n pos) = \
+    ; nil, n = 0\
+    ; l0, n = pos\
+    ; _n_elem(l1...ln, n, pos + 1)\
+\
+(defun _n_elem (l n pos)\
+    (cond\
+        ((null l) nil)\
+        ((= n pos) (car l))\
+        (T (_n_elem (cdr l) n (+ pos 1)))\
+    )\
+)\
+\
+(defun n_elem (l n)\
+    (_n_elem l n 1)\
+)\
+\
+(print (n_elem '(1 2 3 4 5 6 7 8 9 10) '5))\
+\
+; b) Write a function to check whether an atom E is a member of a list which is not necessarily linear.\
+\
+(defun check_atom (l e)\
+    (cond \
+        ((null l) nil)\
+        ((and (atom (car l)) (equal (car l) e)) t)\
+        ((atom (car l)) (check_atom (cdr l) e))\
+        ((list (car l)) (or (check_atom (car l) e) (check_atom (cdr l) e)))\
+    )\
+)\
+\
+(print (check_atom '(1 2 (3 (a 5) (6 7)) 8 (9 10)) 'a))\
+\
+; c) Write a function to determine the list of all sublists of a given list, on any level.\
+;  A sublist is either the list itself, or any element that is a list, at any level. Example:\
+;  (1 2 (3 (4 5) (6 7)) 8 (9 10)) => 5 sublists :\
+;  ( (1 2 (3 (4 5) (6 7)) 8 (9 10)) (3 (4 5) (6 7)) (4 5) (6 7) (9 10) )\
+\
+(defun all_sublists (l)\
+    (cond\
+        ((atom l) nil)\
+        (T (apply 'append (list l) (mapcar 'all_sublists l)))\
+    )\
+)\
+\
+(print (all_sublists '(1 2 (3 (4 5) (6 7)) 8 (9 10))))\
+\
+; d) Write a function to transform a linear list into a set.\
+\
+(defun transform_set (l)\
+    (cond\
+        ((null l) nil)\
+        (T (cons (car l) (transform_set (remove_apparences (cdr l) (car l)))))\
+    )\
+)\
+\
+(defun remove_apparences (l e)\
+    (cond\
+        ((null l) nil)\
+        ((= (car l) e) (remove_apparences (cdr l) e))\
+        (T (cons (car l) (remove_apparences (cdr l) e)))\
+    )\
+)\
+\
+(print (transform_set '(1 2 3 44 2 4  5 2 3 3 3 3 4 4 5 77)))\
+\
+\
+; 2\
+; a) Write a function to return the product of two vectors.\
+; https://en.wikipedia.org/wiki/Dot_product\
+\
+(defun dot_product (a b)\
+    (if (null a)\
+        0\
+        (+ (* (car a) (car b)) (dot_product (cdr a) (cdr b)))\
+    )\
+)\
+\
+(print (dot_product '(1 2 3) '(4 5 6)))\
+; => 1*4 + 2*5 + 3*6 = 32\
+\
+; b) Write a function to return the depth of a list. Example: the depth of a linear list is 1.\
+\
+(defun my_max (a b)\
+    (if (> a b) a b)\
+)\
+\
+(defun depth_list (a l)\
+    (cond\
+        ((null a) l)\
+        ((listp (car a)) (my_max (depth_list (car a) (+ l 1)) (depth_list (cdr a) l)))\
+        (T (depth_list (cdr a) l))\
+    )\
+)\
+\
+(print (depth_list '(6 (2 3 (4) (5) (6 (7)))) 0))\
+; => 3\
+\
+; c) Write a function to sort a linear list without keeping the double values.\
+\
+(defun insertOk (l e)\
+    (cond\
+        ((null l) (list e))\
+        ((equal (car l) e) l)\
+        ((< e (car l)) (cons e l))\
+        (T (cons (car l) (insertOk (cdr l) e)))\
+    )\
+)\
+\
+(defun sortare (l)\
+    (cond\
+        ((null l) nil)\
+        (T (insertOk (sortare (cdr l)) (car l)))\
+    )\
+)\
+\
+(print (sortare '(1 3 2 5 6 7 7 3 9)))\
+; => (1 2 3 5 6 7 9)\
+\
+; d) Write a function to return the intersection of two sets.\
+\
+(defun remove_first_ap (l e)\
+    (cond \
+        ((null l) nil)\
+        ((equal (car l) e) (cdr l))\
+        (T (cons (car l) (remove_first_ap (cdr l) e)))\
+    )\
+)\
+\
+(defun contains (l e)\
+    (cond\
+        ((null l) nil)\
+        ((equal (car l) e) T)\
+        (T (contains (cdr l) e))\
+     )\
+)\
+\
+(defun intersection_sets (l k)\
+    (cond\
+        ((or (null l) (null k)) nil)\
+        ((contains k (car l)) (cons (car l) (intersection_sets (cdr l) (remove_first_ap (cdr k) (car l)))))\
+        (T (intersection_sets (cdr l) k))\
+    )\
+)\
+\
+(print (intersection_sets '(1 2 3 4 5) '(1 5 6 7 9)))\
+; => (1 5)\
+\
+; 3.\
+; a) Write a function that inserts in a linear list a given atom A after the 2nd, 4th, 6th, ... element.\
+\
+(defun insert_el (l e p)\
+    (cond\
+        ((null l) nil)\
+        ((equal (mod p 2) 0) (cons (car l) (cons e (insert_el (cdr l) e (+ p 1)))))\
+        (T (cons (car l) (insert_el (cdr l) e (+ p 1))))\
+    )\
+)\
+\
+(defun solve (l e)\
+    (insert_el l e 1)\
+)\
+\
+(print (solve '(1 2 3 4 5 6 7 8) 78))\
+;=> (1 2 78 3 4 78 5 6 78 7 8 78) \
+\
+\
+; b) Write a function to get from a given list the list of all atoms, on any\
+;  level, but reverse order. Example:\
+;  (((A B) C) (D E)) ==> (E D C B A)\
+\
+(defun my_append (l k)\
+    (if (null l) \
+        k\
+        (cons (car l) (my_append (cdr l) k))\
+    )\
+)\
+\
+(defun all_atoms (l)\
+    (cond\
+        ((null l) nil)\
+        ((listp (car l)) (my_append (all_atoms (cdr l)) (all_atoms (car l))))\
+        (T (my_append (all_atoms (cdr l)) (list (car l))))\
+    )\
+)\
+\
+(print (all_atoms '(((A B) C) (D E))))\
+\
+; c) Write a function that returns the greatest common divisor of all numbers in a nonlinear list.\
+\
+(defun _gcd (a b)\
+    (cond\
+        ((and (not (numberp a)) (not (numberp b))) nil)\
+        ((not (numberp a)) b)\
+        ((not (numberp b)) a)\
+        ((equal b 0) a)\
+        (T (_gcd b (mod a b)))\
+    )\
+)\
+\
+(defun list_gcd (l)\
+    (cond\
+        ((and (atom (car l)) (null (cdr l))) (car l))\
+        ((listp (car l)) (_gcd (list_gcd (car l)) (list_gcd (cdr l))))\
+        (T (_gcd (car l) (list_gcd (cdr l))))\
+    )\
+)\
+\
+(print (list_gcd '(24 ( 16 (12 A B)) 72)))\
+;=> 4\
+\
+; d) Write a function that determines the number of occurrences of a given atom in a nonlinear list.\
+\
+(defun occurences (l e)\
+    (cond\
+        ((and (atom l) (equal l e)) 1)\
+        ((atom l) 0)\
+        (T (apply '+ (mapcar #'(lambda (a) (occurences a e)) l)))\
+    )\
+)\
+\
+(print (occurences '(1 (3 (5 4 3) (5 3)) 3 3) 3))\
+;=> 5\
+\
+; 4.\
+; a) Write a function to return the sum of two vectors.\
+\
+(defun vector_sum (a b)\
+    (if (null a)\
+        nil\
+        (cons (+ (car a) (car b)) (vector_sum (cdr a) (cdr b)))\
+    )\
+)\
+\
+(print (vector_sum '(1 2 3) '(4 5 6)))\
+; => (5 7 9)\
+\
+\
+; b) Write a function to get from a given list the list of all atoms, on any\
+;  level, but on the same order. Example:\
+;  (((A B) C) (D E)) ==> (A B C D E)\
+\
+(defun my_append (l k)\
+    (if (null l) \
+        k\
+        (cons (car l) (my_append (cdr l) k))\
+    )\
+)\
+\
+(defun all_atoms (l)\
+    (cond\
+        ((null l) nil)\
+        ((listp (car l)) (my_append (all_atoms (car l)) (all_atoms (cdr l))))\
+        (T (cons (car l) (all_atoms (cdr l))))\
+    )\
+)\
+\
+(print (all_atoms '(((A B) C) (D E))))\
+;=> (A B C D E)\
+\
+; c) Write a function that, with a list given as parameter, inverts only continuous\
+;  sequences of atoms. Example:\
+;  (a b c (d (e f) g h i)) ==> (c b a (d (f e) i h g))\
+\
+(defun my_reverse (l)\
+    (if (null l)\
+        nil\
+        (my_append (my_reverse (cdr l)) (list (car l)))\
+    )        \
+)\
+\
+(defun inv_list (l aux)\
+    (cond\
+        ((null l) (my_reverse aux))\
+        ((listp (car l)) (my_append (my_reverse aux) (cons (inv_list (car l) nil) (inv_list (cdr l) nil))))\
+        (T (inv_list (cdr l) (my_append aux (list (car l)))))\
+    )\
+)\
+\
+(print (inv_list '(a b c (d (e f) g h i)) nil))\
+\
+\
+; d) Write a list to return the maximum value of the numerical atoms from a list, at superficial level.\
+\
+(defun my_max (a b)\
+    (cond\
+        ((and (not (numberp a)) (not (numberp b))) nil)\
+        ((not (numberp a)) b)\
+        ((not (numberp b)) a)\
+        ((> a b) a)\
+        (T b)\
+    )\
+)\
+\
+(defun max_list (l)\
+    (if (null (cdr l)) \
+        (car l)\
+        (my_max (car l) (max_list (cdr l)))\
+    )\
+)\
+\
+(print (max_list '(A 1 B 4 5 3 C F)))\
+\
+; 5.\
+; a) Write twice the n-th element of a linear list. Example: for (10 20 30 40 50) and n=3 will produce \
+; (10 20 30 30 40 50).\
+\
+(defun twice (l n)\
+    (cond\
+        ((null l) nil)\
+        ((= n 1) (cons (car l) l))\
+        (T (cons (car l) (twice (cdr l) (- n 1))))\
+    )\
+)\
+\
+(print (twice '(10 20 30 40 50) 3))\
+;=> (10 20 30 30 40 50)\
+\
+\
+; b) Write a function to return an association list with the two lists given as parameters.\
+; Example: (A B C) (X Y Z) --> ((A.X) (B.Y) (C.Z)).\
+\
+(defun my_append (l k)\
+    (if (null l) \
+        k\
+        (cons (car l) (my_append (cdr l) k))\
+    )\
+)\
+\
+(defun association (l k)\
+    (cond\
+        ((and (null l) (null k)) nil)\
+        ((null l) (my_append (list (cons NIL (car k))) (association l (cdr k))))\
+        ((null k) (my_append (list (cons (car l) NIL)) (association (cdr l) k)))\
+        (T (my_append (list (cons (car l) (car k))) (association (cdr l) (cdr k))))\
+    )\
+)\
+\
+(print (association '(A B C Q) '(X Y Z T U)))\
+;=> ((A . X) (B . Y) (C . Z) (Q . T) (NIL . U)) \
+\
+\
+; c) Write a function to determine the number of all sublists of a given list, on any level.\
+;  A sublist is either the list itself, or any element that is a list, at any level. Example:\
+;  (1 2 (3 (4 5) (6 7)) 8 (9 10)) => 5 lists:\
+;  (list itself, (3 ...), (4 5), (6 7), (9 10)).\
+\
+(defun countList (l)\
+    (cond\
+        ((atom l) 0)\
+        ((listp l) (+ 1 (apply '+ (mapcar 'countList l))))\
+    )\
+)\
+\
+(print (countList '(1 2 (3 (4 5) (6 7)) 8 (9 10))))\
+\
+\
+; d) Write a function to return the number of all numerical atoms in a list at superficial level.\
+\
+(defun countNumbers (l)\
+    (cond\
+        ((null l) 0)\
+        ((numberp (car l)) (+ 1 (countNumbers (cdr l))))\
+        (T (countNumbers (cdr l)))\
+    )\
+)\
+\
+(print (countNumbers '(1 2 s 5 (6) fg 5)))\
+;=> 4\
+\
+; 6.\
+; a) Write a function to test whether a list is linear.\
+\
+(defun liniarList (l)\
+    (cond\
+        ((null l) T)\
+        ((listp (car l)) nil)\
+        (T (liniarList (cdr l)))\
+    )\
+)\
+\
+(print (liniarList '(a (b c) (d (e (f))))))\
+;=> nil\
+\
+(print (liniarList '(1 2 3 4)))\
+;=> T\
+\
+\
+; b) Write a function to replace the first occurence of an element E in a given list with an other element O.\
+\
+(defun replaceFirstElement (l e o)\
+    (cond\
+        ((null l) nil)\
+        ((= (car l) e) (cons o (cdr l)))\
+        (T (cons (car l) (replaceFirstElement (cdr l) e o)))\
+    )\
+)\
+\
+(print (replaceFirstElement '(1 2 3 4 5 6 7 6 4 6) 6 0))\
+;=> (1 2 3 4 5 0 7 6 4 6) \
+\
+\
+; c) Write a function to replace each sublist of a list with its last element.\
+;  A sublist is an element from the first level, which is a list.\
+;  Example: (a (b c) (d (e (f)))) ==> (a c (e (f))) ==> (a c (f)) ==> (a c f)\
+;  (a (b c) (d ((e) f))) ==> (a c ((e) f)) ==> (a c f)\
+\
+(defun my_append (l k)\
+    (if (null l) \
+        k\
+        (cons (car l) (my_append (cdr l) k))\
+    )\
+)\
+\
+(defun my_reverse (l)\
+    (if (null l)\
+        nil\
+        (my_append (my_reverse (cdr l)) (list (car l)))\
+    )        \
+)\
+\
+(defun last_element (l)\
+	(if (listp l) \
+        (last_element (car (my_reverse l)))\
+        l\
+    )\
+)\
+\
+(print (last_element '(1 2 (3 (4 5)))))\
+; => 5\
+\
+(defun _reduce (l)\
+	(cond\
+		((null l) nil)\
+		((listp (car l)) (cons (last_element (car l)) (_reduce (cdr l))))\
+		(T (cons (car l) (_reduce (cdr l))))\
+	)\
+)\
+\
+(print (_reduce '(a (b c) (d (e (f))))))\
+; => '(a c f)\
+\
+; d) Write a function to merge two sorted lists without keeping double values\
+\
+(defun merge_sorted (a b)\
+	(cond\
+		((null a) b)\
+		((null b) a)\
+		((<= (car a) (car b)) (cons (car a) (merge_sorted (cdr a) b)))\
+		(T (cons (car b) (merge_sorted a (cdr b))))\
+	)\
+)\
+\
+(print (merge_sorted '(1 2 3 3) '(3 4 4 5 5 7)))\
+; => (1 2 3 3 4 4 5 7)\
+\
+\
+(defun remove_doubles (l)\
+    (cond\
+        ((null l) nil)\
+        ((null (cdr l)) (list (car l)))\
+        ((= (car l) (cadr l)) (remove_doubles (cdr l)))\
+        (T (cons (car l) (remove_doubles (cdr l))))\
+    )\
+)\
+\
+(print (remove_doubles '(1 2 3 3 4 4 5 7)))\
+;=> (1 2 3 4 5 7) \
+\
+(defun solve (a b)\
+    (remove_doubles (merge_sorted a b))\
+)\
+\
+(print (solve '(1 2 3 3) '(3 4 4 5 5 7)))\
+;=> (1 2 3 4 5 7) \
+\
+; 7.\
+; a) Write a function to eliminate the n-th element of a linear list.\
+\
+(defun deleteN (l n)\
+    (cond\
+        ((null l) nil)\
+        ((= n 1) (cdr l))\
+        (T (cons (car l) (deleteN (cdr l) (- n 1))))\
+    )\
+)\
+\
+(print (deleteN '(1 2 3 4 5 6 7 8) 5))\
+\
+; b) Write a function to determine the successor of a number represented digit by digit as a list, without\
+; transforming the representation of the number from list to number. \
+; Example: (1 9 3 5 9 9) --> (1 9 3 6 0 0)\
+\
+(defun carry (n)\
+    (cond\
+        ((> (- n (mod n 10)) 9) (/ (- n (mod n 10)) 10))\
+        (T (- n (mod n 10)))\
+    )\
+)\
+\
+\
+\
+(defun digit (n)\
+    (mod n 10)\
+)\
+\
+(defun increaseNb (l)\
+    (cond\
+        ((null (cdr l)) (list (carry (+ 1 (car l))) (list (digit (+ 1 (car l))))))\
+        (T ((lambda (r)\
+                    (list (carry (+ (car l) (car r))) (cons (digit (+ (car l) (car r))) (cadr r)))\
+             ) (increaseNb (cdr l))\
+           )\
+        )\
+     )\
+)\
+\
+(defun succesorNb (l)\
+    ((lambda (r) \
+         (cond\
+            ((= (car r) 1) (cons 1 (cadr r)))\
+            (T (cadr r))\
+         ))\
+            (increaseNb l)\
+    )\
+)\
+\
+(print (succesorNb '(1 9 3 5 9 9)))\
+(print (succesorNb '(9 9)))\
+\
+; c) Write a function to return the set of all the atoms of a list.\
+;  Exemplu: (1 (2 (1 3 (2 4) 3) 1) (1 4)) ==> (1 2 3 4)\
+\
+(defun my_append (l k)\
+    (if (null l) \
+        k\
+        (cons (car l) (my_append (cdr l) k))\
+    )\
+)\
+\
+(defun lin (l)\
+    (cond\
+        ((null l) nil)\
+        ((numberp (car l)) (cons (car l) (lin (cdr l))))\
+        ((listp (car l)) (my_append (lin (car l)) (lin (cdr l))))\
+        (T (lin (cdr l)))\
+    )\
+)\
+\
+(print (lin '(1 (2 (1 3 (2 4) 3) 1) (1 4))))\
+;=> (1 2 1 3 2 4 3 1 1 4) \
+\
+(defun insertOk (l e)\
+    (cond\
+        ((null l) (list e))\
+        ((equal (car l) e) l)\
+        ((< e (car l)) (cons e l))\
+        (T (cons (car l) (insertOk (cdr l) e)))\
+    )\
+)\
+\
+(defun sortare (l)\
+    (cond\
+        ((null l) nil)\
+        (T (insertOk (sortare (cdr l)) (car l)))\
+    )\
+)\
+\
+(defun solve (l)\
+    (sortare (lin l))\
+)\
+\
+(print (solve '(1 (2 (1 3 (2 4) 3) 1) (1 4))))\
+;=> (1 2 3 4)\
+\
+; d) Write a function to test whether a linear list is a set.\
+\
+(defun contains (l e)\
+    (cond\
+        ((null l) nil)\
+        ((= (car l) e) T)\
+        (T (contains (cdr l) e))\
+    )\
+)\
+\
+(defun checkSet (l)\
+    (cond\
+        ((null l) T)\
+        ((contains (cdr l) (car l)) nil)\
+        (T (checkSet (cdr l)))\
+    )\
+)\
+\
+(print (checkSet '(1 2 3 4)))\
+;=> T\
+\
+(print (checkSet '(1 2 2 3 4)))\
+;=> nil\
+\
+; 8.\
+; a) Write a function to return the difference of two sets.\
+\
+(defun contains (l e)\
+    (cond\
+        ((null l) nil)\
+        ((= (car l) e) T)\
+        (T (contains (cdr l) e))\
+    )\
+)\
+\
+; L\\K\
+\
+(defun differenceSet (l k)\
+    (cond\
+         ((null l) nil)\
+         ((not (contains k (car l))) (cons (car l) (differenceSet (cdr l) k)))\
+         (T (differenceSet (cdr l) k))\
+    )\
+)\
+\
+(print (differenceSet '(1 2 3 4 5) '(2 3 4 5 6 7)))\
+;=> (1)\
+\
+\
+; b) Write a function to reverse a list with its all sublists, on all levels.\
+\
+(defun my_append (l k)\
+    (if (null l) \
+        k\
+        (cons (car l) (my_append (cdr l) k))\
+    )\
+)\
+\
+(defun my_reverse (l)\
+    (cond\
+        ((null l) nil)\
+        ((listp (car l)) (my_append (my_reverse (cdr l)) (list (my_reverse (car l)))))\
+        (T (my_append (my_reverse (cdr l)) (list (car l))))\
+    )\
+)\
+\
+(print (my_reverse '(1 2 (3 (4 5) (6 7)) 8 (9 10 11))))\
+;=> ((11 10 9) 8 ((7 6) (5 4) 3) 2 1) \
+\
+\
+; c) Write a function to return the list of the first elements of all list elements of a given list with an odd\
+; number of elements at superficial level. Example:\
+;  (1 2 (3 (4 5) (6 7)) 8 (9 10 11)) => (1 3 9).\
+\
+(defun my_length (l)\
+    (if (null l) \
+        0\
+        (+ 1 (my_length (cdr l)))\
+    )\
+)\
+\
+(defun odd_list_length (l)\
+    (= (mod (my_length l) 2) 1)\
+)\
+\
+(print (odd_list_length '(1 2 3)))\
+; => T\
+\
+(defun first_elem (l)\
+    (cond\
+        ((atom l) nil)\
+        ((odd_list_length l) (cons (car l) (apply 'append (mapcar 'first_elem (cdr l)))))\
+        (T (apply 'append (mapcar 'first_elem (cdr l))))\
+     )\
+)\
+\
+(print (first_elem '(1 2 (3 (4 5) (6 7)) 8 (9 10 11))))\
+    \
+\
+\
+; d) Write a function to return the sum of all numerical atoms in a list at superficial level.\
+\
+(defun sumSup (l)\
+    (cond\
+        ((numberp l) l)\
+        ((atom l) 0)\
+        ((listp l) (apply '+ (mapcar 'sumSup l)))\
+    )\
+)\
+\
+(print (sumSup '(1 2 (3 (4 5) (6 7)) 8 (9 10 11))))\
+;=> 66\
+\
+; 9.\
+; a) Write a function that merges two sorted linear lists and keeps double values.\
+\
+(defun merge_sorted (a b)\
+	(cond\
+		((null a) b)\
+		((null b) a)\
+		((<= (car a) (car b)) (cons (car a) (merge_sorted (cdr a) b)))\
+		(T (cons (car b) (merge_sorted a (cdr b))))\
+	)\
+)\
+\
+(print (merge_sorted '(1 2 3 3) '(3 4 4 5 5 7)))\
+; => (1 2 3 3 4 4 5 7)\
+\
+; b) Write a function to replace an element E by all elements of a list L1 at all levels of a given list L.\
+\
+(defun my_append (l k)\
+    (if (null l) \
+        k\
+        (cons (car l) (my_append (cdr l) k))\
+    )\
+)\
+\
+(defun replaceEList (l e k)\
+    (cond\
+        ((and (atom l) (equal e l)) k)\
+        ((atom l) l)\
+        (T (mapcar #'(lambda (l) (replaceEList l e k)) l))\
+    )\
+)\
+\
+(print (replaceEList '(1 2 3 (3 4 5) ((3) 3)) 3 '(0 0)))\
+;=> (1 2 0 0 (0 0 4 5) ((0 0) 0 0))\
+\
+; c) Write a function to determines the sum of two numbers in list representation, and returns the\
+; corresponding decimal number, without transforming the representation of the number from list to\
+; number.\
+\
+(defun digit (l k c)\
+    (cond\
+        ((null l) (mod (+ k c) 10))\
+        ((null k) (mod (+ l c) 10))\
+        (T (mod (+ l k c) 10))\
+    )\
+)\
+\
+(print (digit nil 9 1))\
+;=> 0\
+\
+(defun carry (l k c)\
+    (cond\
+        ((null l) (if (> (- (+ k c) (mod (+ k c) 10)) 9) \
+                      (/ (- (+ k c) (mod (+ k c) 10)) 10) \
+                      (mod (+ k c) 10)\
+                  )\
+        )\
+        ((null k) (if (> (- (+ l c) (mod (+ l c) 10)) 9)\
+                      (/ (- (+ l c) (mod (+ l c) 10)) 10) \
+                      (mod (+ l c) 10)\
+                  )\
+        )\
+        (T (if (> (- (+ l k c) (mod (+ l k c) 10)) 9)\
+                      (/ (- (+ l k c) (mod (+ l k c) 10)) 10) \
+                      (mod (+ l k c) 10)\
+                  )\
+        )\
+    )\
+)\
+\
+(print (carry 9 nil 1))\
+;=> 1\
+\
+(defun my_append (l k)\
+    (if (null l) \
+        k\
+        (cons (car l) (my_append (cdr l) k))\
+    )\
+)\
+\
+(defun my_reverse (l)\
+    (cond\
+        ((null l) nil)\
+        ((listp (car l)) (my_append (my_reverse (cdr l)) (list (my_reverse (car l)))))\
+        (T (my_append (my_reverse (cdr l)) (list (car l))))\
+    )\
+)\
+\
+(defun sumList (l k c)\
+    (cond\
+        ((and (null l) (null k)) (if (= 1 c) (list 1) nil))\
+        (T (my_append (sumList (cdr l) (cdr k) (carry (car l) (car k) c)) (list (digit (car l) (car k) c))))        \
+    )\
+)\
+\
+(defun solve (l k)\
+    (sumList (my_reverse l) (my_reverse k) 0)\
+)\
+(print (solve '(9 9) '(1 2)))\
+;=> (1 1 1)\
+\
+; d) Write a function to return the greatest common divisor of all numbers in a linear list.\
+\
+(defun _gcd (a b)\
+    (cond\
+        ((and (not (numberp a)) (not (numberp b))) nil)\
+        ((not (numberp a)) b)\
+        ((not (numberp b)) a)\
+        ((equal b 0) a)\
+        (T (_gcd b (mod a b)))\
+    )\
+)\
+\
+(defun list_gcd (l)\
+    (cond\
+        ((and (atom (car l)) (null (cdr l))) (car l))\
+        ((listp (car l)) (_gcd (list_gcd (car l)) (list_gcd (cdr l))))\
+        (T (_gcd (car l) (list_gcd (cdr l))))\
+    )\
+)\
+\
+(print (list_gcd '(24 ( 16 (12 A B)) 72)))\
+;=> 4\
+\
+; 10.\
+; a) Write a function to return the product of all the numerical atoms from a list, at superficial level.\
+\
+(defun productL (l)\
+    (cond\
+        ((null l) 1)\
+        ((numberp (car l)) (* (car l) (productL (cdr l))))\
+        (T (productL (cdr l)))\
+    )\
+)\
+\
+(print (productL '(1 A 2 3 (3 4 5) T)))\
+;=> 6\
+\
+\
+; b) Write a function to replace the first occurence of an element E in a given list with an other element O.\
+\
+(defun replaceFirstElement (l e o)\
+    (cond\
+        ((null l) nil)\
+        ((= (car l) e) (cons o (cdr l)))\
+        (T (cons (car l) (replaceFirstElement (cdr l) e o)))\
+    )\
+)\
+\
+(print (replaceFirstElement '(1 2 3 4 5 6 7 6 4 6) 6 0))\
+;=> (1 2 3 4 5 0 7 6 4 6) \
+\
+; c) Write a function to compute the result of an arithmetic expression memorised\
+;  in preorder on a stack. Examples:\
+;  (+ 1 3) ==> 4 (1 + 3)\
+;  (+ * 2 4 3) ==> 11 [((2 * 4) + 3)\
+;  (+ * 2 4 - 5 * 2 2) ==> 9 ((2 * 4) + (5 - (2 * 2))\
+\
+(defun _expression (op a b)\
+	(cond\
+		((string= op "+") (+ a b))\
+		((string= op "-") (- a b))\
+		((string= op "*") (* a b))\
+		((string= op "/") (floor a b))\
+	)\
+)\
+\
+(defun expression (l)\
+    (cond\
+        ((null l) nil)\
+        ((and (and (numberp (cadr l)) (numberp (caddr l))) (atom (car l))) (cons (_expression (car l) (cadr l) (caddr l)) (expression (cdddr l))))\
+        (T (cons (car l) (expression (cdr l))))\
+    )\
+)\
+\
+(defun solve (l)\
+    (cond\
+        ((null (cdr l)) (car l))\
+        (T (solve (expression l)))\
+    )\
+)\
+\
+(print (solve '(+ * 2 4 - 5 * 2 2)))\
+; => 9 ((2 * 4) + (5 - (2 * 2))\
+\
+\
+; d) Write a function to produce the list of pairs (atom n), where atom appears for n times in the\
+; parameter list. Example:\
+;  (A B A B A C A) --> ((A 4) (B 2) (C 1)).\
+\
+(defun nr_app (l e)\
+    (cond\
+        ((null l) 0)\
+        ((equal (car l) e) (+ 1 (nr_app (cdr l) e)))\
+        (T (nr_app (cdr l) e))\
+    )\
+)\
+\
+(defun remov (l e)\
+    (cond\
+        ((null l) nil)\
+        ((equal (car l) e) (remov (cdr l) e))\
+        (T (cons (car l) (remov (cdr l) e)))\
+    )\
+)\
+\
+(defun solve (l)\
+    (cond\
+        ((null l) nil)\
+        (T (cons (list (car l) (nr_app l (car l))) (solve (remov (cdr l) (car l)))))\
+    )\
+)\
+\
+(print (solve '(A B A B A C A)))\
+;=> ((A 4) (B 2) (C 1))\
+\
+; 11.\
+; a) Determine the least common multiple of the numerical values of a nonlinear list.\
+\
+(defun _lcm (a b)\
+    (cond\
+        ((and (not (numberp a)) (not (numberp b))) nil)\
+        ((not (numberp a)) b)\
+        ((not (numberp b)) a)\
+        (T (/ (* a b) (_gcd a b)))\
+    )\
+)\
+\
+(defun _gcd (a b)\
+    (cond\
+        ((and (not (numberp a)) (not (numberp b))) nil)\
+        ((not (numberp a)) b)\
+        ((not (numberp b)) a)\
+        ((equal b 0) a)\
+        (T (_gcd b (mod a b)))\
+    )\
+)\
+\
+(defun list_gcd (l)\
+    (cond\
+        ((and (atom (car l)) (null (cdr l))) (car l))\
+        ((listp (car l)) (_lcm (list_gcd (car l)) (list_gcd (cdr l))))\
+        (T (_lcm (car l) (list_gcd (cdr l))))\
+    )\
+)\
+\
+(print (list_gcd '(24 ( 16 (12 A B)) 72)))\
+;=> 144\
+\
+\
+; b) Write a function to test if a linear list of numbers has a "mountain" aspect (a list has a "mountain"\
+; aspect if the items increase to a certain point and then decreases.\
+;  Eg. (10 18 29 17 11 10). The list must have at least 3 atoms to fullfil this criteria.\
+\
+(defun _mountain (l decreasing)\
+	(cond\
+		((= (list-length l) 1) (if decreasing nil T))\
+		((and (< (car l) (cadr l)) (not decreasing)) nil)\
+		((and (> (car l) (cadr l)) decreasing) (_mountain (cdr l) nil))\
+		(T (_mountain (cdr l) decreasing))\
+	)\
+)\
+\
+(defun mountain (l)\
+	(if (< (list-length l) 3)\
+		nil\
+		(_mountain l T)\
+	)\
+)\
+\
+(print (mountain '(10 18 29 17 11 10)))\
+; => T\
+\
+(print (mountain '(10 18 29 17 11 29 10)))\
+;=> nil\
+\
+\
+\
+; c) Remove all occurrences of a maximum numerical element from a nonlinear list.\
+\
+(defun max_nb (a b)\
+    (if (> a b) a b)\
+)\
+\
+\
+(defun max_num (l)\
+    (cond\
+        ((null l) -1)\
+        ((and (null (cdr l)) (numberp (car l))) (car l))\
+        ((numberp (car l)) (max_nb (car l) (max_num (cdr l))))\
+        ((listp (car l)) (max_nb (max_num (car l)) (max_num (cdr l))))\
+        (t (max_num (cdr l)))\
+     )\
+)\
+\
+(print (max_num '(1 2 (3 (a) (1 3)) 4 5)))\
+; => 5\
+\
+\
+; d) Write a function which returns the product of numerical even atoms from a list, to any level.\
+(defun productL (l)\
+    (cond\
+        ((numberp l) l)\
+        ((atom l) 1)\
+        (T (apply '* (mapcar 'productL l)))\
+    )\
+)\
+\
+(print (productL '(1 2 3 (4 5 (6)) (7))))\
+;=> 5040\
+\
+; 12.\
+; a) Write a function to return the dot product of two vectors. https://en.wikipedia.org/wiki/Dot_product\
+\
+(defun dot_product (a b)\
+    (if (null a)\
+        0\
+        (+ (* (car a) (car b)) (dot_product (cdr a) (cdr b)))\
+    )\
+)\
+\
+(print (dot_product '(1 2 3) '(4 5 6)))\
+; => 1*4 + 2*5 + 3*6 = 32\
+\
+\
+\
+; b) Write a function to return the maximum value of all the numerical atoms of a list, at any level.\
+\
+(defun maxL (l)\
+    (cond\
+        ((numberp l) l)\
+        ((atom l) -1)\
+        (T (apply 'max (mapcar 'maxL l)))\
+    )\
+)\
+\
+(print (maxL '(1 A (B C) ((5) 8))))\
+;=> 8\
+\
+\
+; c) All permutations to be replaced by: Write a function to compute the result of an arithmetic\
+; expression memorised\
+;  in preorder on a stack. Examples:\
+;  (+ 1 3) ==> 4 (1 + 3)\
+;  (+ * 2 4 3) ==> 11 [((2 * 4) + 3)\
+;  (+ * 2 4 - 5 * 2 2) ==> 9 ((2 * 4) + (5 - (2 * 2))\
+\
+(defun _expression (op a b)\
+	(cond\
+		((string= op "+") (+ a b))\
+		((string= op "-") (- a b))\
+		((string= op "*") (* a b))\
+		((string= op "/") (floor a b))\
+	)\
+)\
+\
+(defun expression (l)\
+    (cond\
+        ((null l) nil)\
+        ((and (and (numberp (cadr l)) (numberp (caddr l))) (atom (car l))) (cons (_expression (car l) (cadr l) (caddr l)) (expression (cdddr l))))\
+        (T (cons (car l) (expression (cdr l))))\
+    )\
+)\
+\
+(defun solve (l)\
+    (cond\
+        ((null (cdr l)) (car l))\
+        (T (solve (expression l)))\
+    )\
+)\
+\
+(print (solve '(+ * 2 4 - 5 * 2 2)))\
+; => 9 ((2 * 4) + (5 - (2 * 2))\
+\
+\
+; d) Write a function to return T if a list has an even number of elements on the first level, and NIL on\
+; the contrary case, without counting the elements of the list.\
+\
+(defun even_length (l)\
+    (cond\
+        ((null l) T)\
+        ((null (cdr l)) nil)\
+        (T (even_length (cddr l)))\
+    )\
+)\
+\
+(print (even_length '(1 2 2 4)))\
+; => T\
+\
+(print (even_length '(1 2 4 2 4)))\
+; => nil\
+\
+; 13.\
+; a) A linear list is given. Eliminate from the list all elements from N to N steps, N-given.\
+\
+(defun _remove-from-n-to-n (l n k)\
+	(cond\
+		((null l) nil)\
+		((= k 1) (_remove-from-n-to-n (cdr l) n n))\
+		(T (cons (car l) (_remove-from-n-to-n (cdr l) n (- k 1))))\
+	)\
+)\
+(defun remove-from-n-to-n (l n)\
+	(_remove-from-n-to-n l n n)\
+)\
+\
+(print (remove-from-n-to-n '(1 2 3 4 5 6 7 8) 3))\
+; => '(2 3 4 5 7 8)\
+\
+; b) Write a function to test if a linear list of integer numbers has a "valley" aspect (a list has a valley\
+; aspect if the items decrease to a certain point and then increase. Eg. 10 8 6 17 19 20). A list must\
+; have at least 3 elements to fulfill this condition.\
+\
+(defun _valley (l decreasing)\
+	(cond\
+		((= (list-length l) 1) (if decreasing nil T))\
+		((and (> (car l) (cadr l)) (not decreasing)) nil)\
+		((and (< (car l) (cadr l)) decreasing) (_valley (cdr l) nil))\
+		(T (_valley (cdr l) decreasing))\
+	)\
+)\
+\
+(defun valley (l)\
+	(if (< (list-length l) 3)\
+		nil\
+		(_valley l T)\
+	)\
+)\
+\
+(print (valley '(5 4 3 4)))\
+; => T\
+\
+; c) Build a function that returns the minimum numeric atom from a list, at any level.\
+\
+(defun list-min (l)\
+	(cond\
+		((= (list-length l) 1) (car l))\
+		(T (min (car l) (list-min (cdr l))))\
+	)\
+)\
+\
+(print (list-min '(1 2 3 1)))\
+; => 1\
+\
+(defun remove-occurences (l e)\
+	(cond\
+		((null l) nil)\
+		((= (car l) e) (remove-occurences (cdr l) e))\
+		(T (cons (car l) (remove-occurences (cdr l) e)))\
+	)\
+)\
+\
+(print (remove-occurences '(1 2 1 3 4 1 2) 1))\
+; => '(2 3 4 2)\
+\
+\
+(defun remove-min-element (l)\
+	(remove-occurences l (list-min l))\
+)\
+\
+(print (remove-min-element '(1 2 1 1 4 5)))\
+; => '(2 4 5)\
+\
+\
+\
+; d) Write a function that deletes from a linear list of all occurrences of the minimum element.\
+\
+(defun min_nb (a b)\
+    (if (< a b) a b)\
+)\
+\
+\
+(defun min_num (l)\
+    (cond\
+        ((null l) 999999)\
+        ((and (null (cdr l)) (numberp (car l))) (car l))\
+        ((numberp (car l)) (min_nb (car l) (min_num (cdr l))))\
+        ((listp (car l)) (min (min_num (car l)) (min_num (cdr l))))\
+        (t (min_num (cdr l)))\
+     )\
+)\
+\
+(print (min_num '(1 2 (3 (a) (1 3)) 4 5)))\
+; => 1\
+\
+; 14.\
+; a) Write a function to return the union of two sets.\
+\
+(defun remove_first_ap (l e)\
+    (cond \
+        ((null l) nil)\
+        ((equal (car l) e) (cdr l))\
+        (T (cons (car l) (remove_first_ap (cdr l) e)))\
+    )\
+)\
+\
+(defun union_sets (l k)\
+    (cond\
+        ((and (null l) (null k)) nil)\
+        ((null l) k)\
+        ((null k) l)\
+        (T (cons (car l) (union_sets (cdr l) (remove_first_ap k (car l)))))\
+    )\
+)\
+\
+(print (union_sets '(1 2 3 4 5) '(1 5 6 7 9)))\
+\
+; b) Write a function to return the product of all numerical atoms in a list, at any level.\
+\
+(defun prod (l)\
+    (cond \
+        ((null l) 1)\
+        ((listp (car l)) (* (prod (car l)) (prod (cdr l))))\
+        ((numberp (car l)) (* (car l) (prod (cdr l))))\
+        (T (prod (cdr l)))\
+    )\
+)\
+\
+(print (prod '(5 ( 1 2 3 (6 (8 9) 7)))))\
+\
+; c) Write a function to sort a linear list with keeping the double values.\
+\
+(defun insertOk (l e)\
+    (cond\
+        ((null l) (list e))\
+        ((or (equal (car l) l) (< e (car l))) (cons e l))\
+        (T (cons (car l) (insertOk (cdr l) e)))\
+    )\
+)\
+\
+(defun sortare (l)\
+    (cond\
+        ((null l) nil)\
+        (T (insertOk (sortare (cdr l)) (car l)))\
+    )\
+)\
+\
+(print (sortare '(1 3 2 5 6 7 7 3 9)))\
+\
+; d) Build a list which contains positions of a minimum numeric element from a given linear list.\
+\
+(defun my_min (a b)\
+    (if (< a b) a b)\
+)\
+\
+(defun pos (l e i)\
+    (cond\
+        ((null l) nil)\
+        ((equal (car l) e) (cons i (pos (cdr l) e (+ i 1))))\
+        (T (pos (cdr l) e (+ i 1)))\
+    )\
+)\
+\
+(defun my_length (l)\
+    (cond\
+        ((atom l) 1)\
+        (T (apply '+ (mapcar 'my_length l)))\
+    )\
+)\
+\
+(defun min_list (l)\
+    (if (equal (my_length l) 1)\
+        (car l)\
+        (my_min (car l) (min_list (cdr l)))\
+    )\
+)\
+\
+(defun solve (l)\
+    (pos l (min_list l) 1)\
+)\
+\
+(print (solve '(3 2 5 6 2 7 7 2 3 9)))\
+\
+; 15.\
+; a) Write a function to insert an element E on the n-th position of a linear list.\
+\
+(defun insertN (l e n)\
+    (cond\
+        ((equal n 1) (cons e l))\
+        (T (cons (car l) (insertN (cdr l) e (- n 1))))\
+    )\
+)\
+\
+(print (insertN '(1 2 3 4) 'A '2))\
+\
+\
+; b) Write a function to return the sum of all numerical atoms of a list, at any level.\
+\
+(defun suma (l)\
+    (cond\
+        ((null l) 0)\
+        ((numberp (car l)) (+ (car l) (suma (cdr l))))\
+        ((listp (car l)) (+ (suma (car l)) (suma (cdr l))))\
+        (T (suma (cdr l)))\
+    )\
+)\
+\
+(print (suma '(1 2 (3 4 (A 8) (B)))))\
+\
+\
+; c) Write a function to return the set of all sublists of a given linear list. Ex. For list ((1 2 3) ((4 5) 6)) =>\
+; ((1 2 3) (4 5) ((4 5) 6))\
+\
+(defun sublists (l) \
+    (cond\
+        ((null l) nil)\
+        ((listp (car l)) (append (list (car l))  (sublists (car l)) (sublists (cdr l))))\
+        (T (sublists (cdr l)))\
+    )\
+)\
+\
+(print (sublists '((1 2 3) ((4 5) 6))))\
+\
+\
+; d) Write a function to test the equality of two sets, without using the difference of two sets.\
+\
+(defun remov (l e)\
+    (cond\
+        ((null l) nil)\
+        ((equal (car l) e) (remov (cdr l) e))\
+        (T (cons (car l) (remov (cdr l) e)))\
+    )\
+)\
+\
+(defun set= (l k)\
+    (cond\
+        ((and (null l) (null k)) T)\
+        ((or (null l) (null k)) nil)\
+        (T (set= (cdr l) (remov k (car l))))\
+    )\
+)\
+\
+(print (set= '(1 2 7 3) '(1 6 2 3)))}

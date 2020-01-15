@@ -1,0 +1,92 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Book.cpp
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Book.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Book.h
+iostream
+-
+string
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Console.cpp
+Console.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Console.h
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Console.h
+Service.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Service.h
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Lista.h
+exception
+-
+memory
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Repository.cpp
+Repository.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Repository.h
+assert.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Repository.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Book.h
+string
+-
+vector
+-
+Lista.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Lista.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Service.cpp
+Service.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Service.h
+assert.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Service.h
+Repository.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Repository.h
+Validator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Validator.h
+functional
+-
+algorithm
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Validator.cpp
+Validator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Validator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Validator.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Book.h
+vector
+-
+string
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/main.cpp
+Console.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Console.h
+Service.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Service.h
+Repository.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library Lista Inlantuita/Repository.h
+stdlib.h
+-
+iostream
+-
+

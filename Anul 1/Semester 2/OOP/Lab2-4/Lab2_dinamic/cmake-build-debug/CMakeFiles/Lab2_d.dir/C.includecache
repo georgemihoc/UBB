@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Domain.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Service.h
+Vector.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Vector.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Teste.c
+Teste.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Teste.h
+Domain.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Domain.h
+Service.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Service.h
+Validator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Validator.h
+assert.h
+-
+stdio.h
+-
+string.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Teste.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Validator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Vector.h
+Domain.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2_dinamic/Domain.h
+

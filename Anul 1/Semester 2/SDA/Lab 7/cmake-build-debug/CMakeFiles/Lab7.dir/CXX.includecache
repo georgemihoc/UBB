@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 7/Colectie.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 7/TestExtins.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 7/TestScurt.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 7/main.cpp
+Colectie.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 7/Colectie.h
+TestScurt.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 7/TestScurt.h
+TestExtins.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 7/TestExtins.h
+iostream
+-
+

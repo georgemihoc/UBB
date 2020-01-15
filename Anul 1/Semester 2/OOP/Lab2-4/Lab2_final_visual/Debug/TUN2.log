@@ -1,0 +1,5 @@
+﻿  UI.c
+c:\ubb\oop\tun\ui.c(150): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+  main.c
+  Generating Code...
+  TUN2.vcxproj -> C:\UBB\OOP\TUN2\Debug\TUN2.exe

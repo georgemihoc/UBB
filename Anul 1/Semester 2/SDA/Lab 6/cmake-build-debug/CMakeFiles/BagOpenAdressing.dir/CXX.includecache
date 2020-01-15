@@ -1,0 +1,72 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Colectie.cpp
+Colectie.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Colectie.h
+Iterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Iterator.h
+stdlib.h
+-
+stdint.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Colectie.h
+stdint.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Iterator.cpp
+exception
+-
+Iterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Iterator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Iterator.h
+Colectie.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Colectie.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/TestScurt.cpp
+TestScurt.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/TestScurt.h
+assert.h
+-
+iostream
+-
+Colectie.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Colectie.h
+Iterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Iterator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/TestScurt.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/TextExtins.cpp
+assert.h
+-
+Colectie.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Colectie.h
+TextExtins.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/TextExtins.h
+Iterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/Iterator.h
+iostream
+-
+vector
+-
+exception
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/TextExtins.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/main.cpp
+iostream
+-
+TestScurt.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/TestScurt.h
+TextExtins.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab 6/TextExtins.h
+

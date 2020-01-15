@@ -1,0 +1,45 @@
+Student propunator: Lucaciu Sergiu         Grupa:224         Email:sergiu.lucaciu1@gmail.com
+
+
+Ce se afișează la rularea codului urmator? Explicați.
+
+
+public class Outer {
+    static int i = 9;
+    abstract class Aux{
+        public abstract int getValue();
+    }
+    public Aux method() {
+        int k = Outer.i;
+        class MethodLocal extends Aux {
+            public int MethodLocal() {
+                return k/2+1/2;
+            }
+            public int getValue(){
+                return MethodLocal();
+            }
+        }
+        return new MethodLocal();
+    }
+    public static void main(String[] args){
+        Outer out=new Outer();
+        System.out.println(out.method().getValue());
+    }
+}
+
+
+Variante de răspuns:
+   a)	5
+   b)	eroare de compilare
+   c)	0
+   d)	4
+
+Raspuns corect: d)
+
+
+Explicații:
+Se apeleaza constructorul clasei Outer si se creeaza o instanta out.
+Se apeleaza metoda method ce returneaza o instanta noua a clasei interne MethodLocal,
+care apeleaza metoda getValue(), ce returneaza metoda de tip int MethodLocal().
+Functia fiind de tip int, rezultatul este 4.
+

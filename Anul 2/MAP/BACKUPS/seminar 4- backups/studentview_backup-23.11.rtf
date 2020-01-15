@@ -1,0 +1,75 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red225\green179\blue88;\red32\green32\blue32;\red172\green172\blue172;
+\red88\green118\blue71;\red133\green96\blue154;\red109\green109\blue109;}
+{\*\expandedcolortbl;;\csgenericrgb\c88235\c70196\c34510;\csgenericrgb\c12549\c12549\c12549;\csgenericrgb\c67451\c67451\c67451;
+\csgenericrgb\c34510\c46275\c27843;\csgenericrgb\c52157\c37647\c60392;\csgenericrgb\c42745\c42745\c42745;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18000\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 <?\cf4 xml version\cf5 ="1.0" \cf4 encoding\cf5 ="UTF-8"\cf2 ?>\
+\
+<?\cf4 import \cf5 javafx.scene.control.Button\cf2 ?>\
+<?\cf4 import \cf5 javafx.scene.control.ComboBox\cf2 ?>\
+<?\cf4 import \cf5 javafx.scene.control.TableColumn\cf2 ?>\
+<?\cf4 import \cf5 javafx.scene.control.TableView\cf2 ?>\
+<?\cf4 import \cf5 javafx.scene.control.TextArea\cf2 ?>\
+<?\cf4 import \cf5 javafx.scene.control.TextField\cf2 ?>\
+<?\cf4 import \cf5 javafx.scene.layout.AnchorPane\cf2 ?>\
+<?\cf4 import \cf5 javafx.scene.layout.HBox\cf2 ?>\
+<?\cf4 import \cf5 javafx.scene.text.Text\cf2 ?>\
+\
+<AnchorPane \cf4 prefHeight\cf5 ="600.0" \cf4 prefWidth\cf5 ="1000.0" \cf4 xmlns\cf5 ="http://javafx.com/javafx/11.0.1" \cf4 xmlns:\cf6 fx\cf5 ="http://javafx.com/fxml/1" \cf6 fx\cf4 :controller\cf5 ="service.StudentController"\cf2 >\
+    <children>\
+          <AnchorPane \cf4 minHeight\cf5 ="0.0" \cf4 minWidth\cf5 ="0.0" \cf4 prefHeight\cf5 ="492.0" \cf4 prefWidth\cf5 ="998.0"\cf2 >\
+              <children>\
+                  <TableView \cf6 fx\cf4 :id\cf5 ="tableView" \cf4 prefHeight\cf5 ="245.0" \cf4 prefWidth\cf5 ="425.0" \cf4 AnchorPane.leftAnchor\cf5 ="5.0" \cf4 AnchorPane.topAnchor\cf5 ="5.0"\cf2 >\
+                      <columns>\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnNume" \cf4 prefWidth\cf5 ="81.28159618377686" \cf4 text\cf5 ="Nume" \cf2 />\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnGrupa" \cf4 prefWidth\cf5 ="65.21464538574219" \cf4 text\cf5 ="Grupa" \cf2 />\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnEmail" \cf4 prefWidth\cf5 ="81.28163146972656" \cf4 text\cf5 ="Email" \cf2 />\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnCadruDidactic" \cf4 prefWidth\cf5 ="129.7183837890625" \cf4 text\cf5 ="Cadru Didactic" \cf2 />\
+                      </columns>\
+                      <columnResizePolicy>\
+                          <TableView \cf6 fx\cf4 :constant\cf5 ="CONSTRAINED_RESIZE_POLICY" \cf2 />\
+                      </columnResizePolicy>\
+                  </TableView>\
+                  <TableView \cf6 fx\cf4 :id\cf5 ="tableViewNote" \cf4 layoutX\cf5 ="449.0" \cf4 prefHeight\cf5 ="245.0" \cf4 AnchorPane.leftAnchor\cf5 ="449.0" \cf4 AnchorPane.topAnchor\cf5 ="5.0"\cf2 >\
+                      <columns>\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnStudent" \cf4 prefWidth\cf5 ="75.0" \cf4 text\cf5 ="Student" \cf2 />\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnTema" \cf4 prefWidth\cf5 ="75.0" \cf4 text\cf5 ="Tema" \cf2 />\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnNota" \cf4 prefWidth\cf5 ="75.0" \cf4 text\cf5 ="Nota" \cf2 />\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnSaptamana" \cf4 prefWidth\cf5 ="75.0" \cf4 text\cf5 ="Saptamana" \cf2 />\
+                          \cf7 <!--                            <TableColumn fx:id="tableColumnProfesor" prefWidth="75.0" text="Profesor" />-->\
+                          <!--                            <TableColumn fx:id="tableColumnFeedback" prefWidth="75.0" text="Feedback" />-->\
+                      \cf2 </columns>\
+                  </TableView>\
+                  <ComboBox \cf6 fx\cf4 :id\cf5 ="comboBox" \cf4 layoutX\cf5 ="554.0" \cf4 layoutY\cf5 ="330.0" \cf4 prefHeight\cf5 ="27.0" \cf4 prefWidth\cf5 ="197.0" \cf4 AnchorPane.leftAnchor\cf5 ="554.0" \cf4 AnchorPane.topAnchor\cf5 ="330.0" \cf2 />\
+                  <TableView \cf6 fx\cf4 :id\cf5 ="tableViewTeme" \cf4 layoutY\cf5 ="266.0" \cf4 prefHeight\cf5 ="300.0" \cf4 prefWidth\cf5 ="426.0" \cf4 AnchorPane.bottomAnchor\cf5 ="0.0" \cf4 AnchorPane.leftAnchor\cf5 ="5.0" \cf4 AnchorPane.topAnchor\cf5 ="266.0"\cf2 >\
+                      <columns>\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnDescriere" \cf4 prefWidth\cf5 ="141.0" \cf4 text\cf5 ="Descriere" \cf2 />\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnStartWeek" \cf4 prefWidth\cf5 ="142.0" \cf4 text\cf5 ="Start Week" \cf2 />\
+                          <TableColumn \cf6 fx\cf4 :id\cf5 ="tableColumnDeadlineWeek" \cf4 prefWidth\cf5 ="141.0" \cf4 text\cf5 ="Deadline Week" \cf2 />\
+                      </columns>\
+                  </TableView>\
+            <TextField \cf6 fx\cf4 :id\cf5 ="textFieldStudent" \cf4 layoutX\cf5 ="554.0" \cf4 layoutY\cf5 ="288.0" \cf4 prefHeight\cf5 ="27.0" \cf4 prefWidth\cf5 ="197.0"\cf2 />\
+            <Text \cf4 layoutX\cf5 ="449.0" \cf4 layoutY\cf5 ="306.0" \cf4 strokeType\cf5 ="OUTSIDE" \cf4 strokeWidth\cf5 ="0.0" \cf4 text\cf5 ="Nume Student:" \cf2 />\
+            <Text \cf4 layoutX\cf5 ="449.0" \cf4 layoutY\cf5 ="348.0" \cf4 strokeType\cf5 ="OUTSIDE" \cf4 strokeWidth\cf5 ="0.0" \cf4 text\cf5 ="Tema:" \cf2 />\
+            <Text \cf4 layoutX\cf5 ="449.0" \cf4 layoutY\cf5 ="394.0" \cf4 strokeType\cf5 ="OUTSIDE" \cf4 strokeWidth\cf5 ="0.0" \cf4 text\cf5 ="Nota:" \cf2 />\
+            <TextField \cf6 fx\cf4 :id\cf5 ="textFieldNota" \cf4 layoutX\cf5 ="554.0" \cf4 layoutY\cf5 ="376.0" \cf4 prefHeight\cf5 ="27.0" \cf4 prefWidth\cf5 ="197.0" \cf2 />\
+            <Text \cf4 layoutX\cf5 ="449.0" \cf4 layoutY\cf5 ="449.0" \cf4 strokeType\cf5 ="OUTSIDE" \cf4 strokeWidth\cf5 ="0.0" \cf4 text\cf5 ="Feedback:" \cf2 />\
+            <TextArea \cf6 fx\cf4 :id\cf5 ="textFieldFeedback" \cf4 layoutX\cf5 ="554.0" \cf4 layoutY\cf5 ="420.0" \cf4 prefHeight\cf5 ="66.0" \cf4 prefWidth\cf5 ="197.0" \cf2 />\
+              </children>\
+          </AnchorPane>\
+        <HBox \cf4 layoutX\cf5 ="7.0" \cf4 layoutY\cf5 ="508.0" \cf4 prefHeight\cf5 ="30.0" \cf4 prefWidth\cf5 ="210.0" \cf4 spacing\cf5 ="20.0" \cf4 AnchorPane.leftAnchor\cf5 ="5.0"\cf2 >\
+            <children>\
+                <Button \cf4 mnemonicParsing\cf5 ="false" \cf4 onAction\cf5 ="#handleAddStudent" \cf4 text\cf5 ="Add" \cf2 />\
+                <Button \cf4 mnemonicParsing\cf5 ="false" \cf4 onAction\cf5 ="#handleDeleteStudent" \cf4 text\cf5 ="Delete" \cf2 />\
+                <Button \cf4 mnemonicParsing\cf5 ="false" \cf4 onAction\cf5 ="#handleUpdateStudent" \cf4 text\cf5 ="Update" \cf2 />\
+            </children>\
+        </HBox>\
+     <Button \cf4 layoutX\cf5 ="459.0" \cf4 layoutY\cf5 ="510.0" \cf4 mnemonicParsing\cf5 ="false" \cf4 onAction\cf5 ="#handleAddNota" \cf4 prefHeight\cf5 ="27.0" \cf4 prefWidth\cf5 ="292.0" \cf4 text\cf5 ="Add Nota" \cf2 />\
+    </children>\
+</AnchorPane>\
+\
+}

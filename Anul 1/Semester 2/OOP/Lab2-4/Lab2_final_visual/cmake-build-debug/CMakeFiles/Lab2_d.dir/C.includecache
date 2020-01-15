@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/Domain.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/Service.h
+Vector.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/Vector.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/UI.c
+UI.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/UI.h
+stdio.h
+-
+stdlib.h
+-
+Service.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/Service.h
+string.h
+-
+Vector.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/Vector.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/UI.h
+Vector.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/Vector.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/Vector.h
+Domain.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Lab2_final_visual/Domain.h
+

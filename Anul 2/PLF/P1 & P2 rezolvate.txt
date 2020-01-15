@@ -1,0 +1,589 @@
+a. Sa se scrie un predicat care sterge toate aparitiile unui anumit atom     
+dintr-o lista. b. Definiti un predicat care, dintr-o lista de atomi, produce o lista de   
+perechi (atom n), unde atom apare in lista initiala de n ori. De ex:    
+numar([A B A B A C A], X) va produce X = [[A 4] [B 2] [C 1]].
+
+nrAp(_,[],0).
+nrAp(E,[E|T],N):-nrAp(E,T,N1),!,
+    N is N1+1.
+nrAp(E,[_|T],N):-nrAp(E,T,N).
+
+sterge(_,[],[]).
+sterge(E,[E|T],Rez):-sterge(E,T,Rez).
+sterge(E,[H|T],[H|Rez]):-sterge(E,T,Rez).
+
+pereche([],[]).
+pereche([E],[[E,1]]).
+pereche([H|T],[[H|N]|P]):-nrAp(H,[H|T],N),
+                          sterge(H,[H|T],L),
+                          pereche(L,P).
+
+
+
+a. Sa se scrie un predicat care intoarce reuniunea a doua multimi.
+
+apartine(E,[E|_]):-!.
+apartine(E,[_|T]):-apartine(E,T).
+
+reuniune([],T1,T1).
+reuniune([H2|T2],L2,[H2|T1]):-not(apartine(H2,L2)),!,reuniune(T2,L2,T1).
+reuniune([_|T2],L2,T1):-reuniune(T2,L2,T1).
+
+Definiti un predicat care intoarce cel mai mare divizor comun al numerelor dintr-o lista.
+
+cmmdc(A, B, Rez):-
+		A =:= B,
+		Rez is B,!.
+	cmmdc(A, B, Rez):-
+		B>A,
+		C is B-A,
+		cmmdc(C, A, Rez).
+	cmmdc(A, B, Rez):-
+		A>B,
+		C is  A-B,
+		cmmdc(C, B, Rez).
+	cmmdcList([H],H):-!.
+	cmmdcList([H1|[H2|T]],Rezult):-
+		cmmdc(H1,H2,Rez),
+		cmmdcList([Rez|T],Rezult).
+
+a. Sa se scrie un predicat care substituie intr-o lista un element prin altul.
+
+sub(_,_,[],[]).
+sub(E,E1,[E|T],[E1|Rez]):-sub(E,E1,T,Rez).
+sub(E,E1,[H|T],[H|Rez]):-sub(E,E1,T,Rez).
+
+Sa se construiasca sublista (lm, ..., ln) a listei (l1, ..., lk).
+
+lungime([],0).
+lungime([_|T],R):-lungime(T,R1),R is R1+1.
+
+subst([],_,_,[]):-!.
+subst(L,X,_,[]):-lungime(L,Y),X>Y,!.
+subst([H|T],X,E,[H|C]):-X=\=1,!,X1 is X-1,subst(T,X1,E,C).
+subst([_|T],X,E,[E|T]):-X is 1,!.
+
+sublist([],_,_,[]).
+sublist(L,X,_,[]):-lungime(L,Y),X>Y,!.
+sublist(L,_,X,[]):-lungime(L,Y),X>Y,!.
+sublist(_,X,Y,[]):-X>Y,!.
+sublist([_|T],X,Y,L):-X>1,!,X1 is X-1,Y1 is Y-1,sublist(T,X1,Y1,L).
+sublist([H|T],X,Y,[H|C]):-Y>0,!,Y1 is Y-1,sublist(T,X,Y1,C).
+sublist(L,_,_,L).
+
+
+a. Sa se scrie un predicat care se va satisface daca o lista are numar  
+par de elemente si va esua in caz contrar, fara sa se numere elementele     
+listei
+
+nrPar([]).
+nrPar([_|[_|T]]):-nrPar(T).
+
+Sa se elimine prima aparitie a elementului minim dintr-o lista de numere intregi.
+
+min(A,B,A):-A<B.
+min(A,B,B):-B=<A.
+minim([H|T],H):-T=[],!.
+minim([H|T],M):-minim(T,M1),
+                min(H,M1,M).
+elimin([],[]).
+elimin([H|T],[]):-T=[],!.
+elimin([H|T],T):- minim(T,M),H=<M,!.
+elimin([H|T],[H|L]):-elimin(T,L).
+
+a. Sa se scrie un predicat care intoarce intersectia a doua multimi.
+
+apartine(E,[E|_]).
+apartine(E,[_|T]):-apartine(E,T).
+
+intersectie([],_,[]).
+intersectie([H|T],L,[H|Rez]):-apartine(H,L),
+                              intersectie(T,L,Rez).
+intersectie([H|T],L,Rez):-not(apartine(H,L)),
+                           intersectie(T,L,Rez).
+
+
+Sa se construiasca lista (m, ..., n), adica multimea numerelor intregi    
+din intervalul [m, n].
+
+multime(M,N,L):-M>N,L=[].
+multime(M,N,L):-M=:=N,L=[M].
+multime(M,N,[M|Rez]):-M=<N,
+                      M1 is M+1,
+                      multime(M1,N,Rez).
+
+Sa se scrie un predicat care transforma o lista intr-o multime, in ordinea primei aparitii. 
+Exemplu: [1,2,3,1,2] e transformat in [1,2,3].
+
+sterge(_,[],[]).
+sterge(E,[E|T],Rez):-sterge(E,T,Rez).
+sterge(E,[H|T],[H|Rez]):-sterge(E,T,Rez).
+multime([],[]).
+multime([H|T],[H|Rez]):-sterge(H,T,T1),
+                       multime(T1,Rez).
+
+ Sa se scrie o functie care descompune o lista de numere intr-o lista de     
+forma [ lista-de-numere-pare lista-de-numere-impare] (deci lista cu doua     
+elemente care sunt liste de intregi), si va intoarce si numarul     
+elementelor pare si impare.
+
+separ([],[[],[]]).
+separ([H|T],[[H|X],Y]) :- H mod 2 =:= 0, !, separ(T,[X,Y]).
+separ([H|T],[X,[H|Y]]) :- separ(T,[X,Y]).
+
+
+Sa se scrie un predicat care intoarce diferenta a doua multimi
+
+apartine(E,[E|_]).
+apartine(E,[_|T]):-apartine(E,T).
+
+diferenta([],_,[]).
+diferenta([H|T],L,[H|Rez]):-not(apartine(H,L)),!,
+                            diferenta(T,L,Rez).
+diferenta([_|T],L,Rez):-diferenta(T,L,Rez).
+
+Sa se scrie un predicat care adauga intr-o lista dupa fiecare element par valoarea 1
+
+adauga1([],[]).
+adauga1([H|T],[H|[1|Rez]]):-H mod 2 =:=0,!,
+                         adauga1(T,Rez).
+adauga1([H|T],[H|Rez]):-adauga1(T,Rez).
+
+
+Sa se scrie un predicat care transforma o lista intr-o multime, 
+in ordinea ultimei aparitii. Exemplu: [1,2,3,1,2] e transformat in [3,1,2].
+
+nrAp(_,[],0).
+nrAp(E,[E|T],N):-nrAp(E,T,N1),!,
+    N is N1+1.
+nrAp(E,[_|T],N):-nrAp(E,T,N).
+
+multime([],[]).
+multime([H|T],[H|Rez]):-nrAp(H,T,N),
+                        N=:=0,
+                        multime(T,Rez).
+multime([H|T],Rez):-  nrAp(H,T,N),
+                      N=\=0,
+                      multime(T,Rez).
+
+Sa se calculeze cel mai mare divizor comun al elementelor unei liste.
+
+cmmdc(1, _, 1) :- !.
+cmmdc(_, 1, 1) :- !.
+cmmdc(0, B, B) :- !.
+cmmdc(B, 0, B) :- !.
+cmmdc(X, X, X) :- !.
+cmmdc(A, B, L) :- A < B, !,
+                 L1 is B mod A,
+                 cmmdc(A, L1, L).
+cmmdc(A, B, L) :- L1 is  A mod B,
+                 cmmdc(B, L1, L).
+cmmdcl([], 0).
+cmmdcl([H|T], C) :- cmmdcl(T, D),
+                    cmmdc(D, H, C).
+
+
+ Sa se scrie un predicat care determina cel mai mic multiplu comun al     
+elementelor unei liste formate din numere intregi.
+
+cmmdc(A,A,A).
+cmmdc(A,B,D):-A>B,!,A1 is A-B,
+             cmmdc(A1,B,D).
+cmmdc(A,B,D):-B>A,!,B1 is B-A,cmmdc(A,B1,D).
+cmmmc(A,B,M):-P is A*B,cmmdc(A,B,D),M is P/D.
+cmmmcL([],1).
+cmmmcL([H|T],M):-cmmmcL(T,M1),cmmmc(H,M1,M).
+
+Sa se scrie un predicat care adauga dupa 1-ul, al 2-lea, al 4-lea, 
+al 8-lea ...element al unei liste o valoare v data.
+
+inserare([],_,_,_,[]).
+inserare([H|T],E,Pozc,Poz,[H|[E|Rez]]):-Pozc=:=Poz,
+                                        Poz1 is Poz*2,
+                                        Pozc1 is Pozc+1,
+                                        inserare(T,E,Pozc1,Poz1,Rez).
+inserare([H|T],E,Pozc,Poz,[H|Rez]):-Pozc1 is Pozc+1,
+                                   Pozc=\=Poz,
+                                   inserare(T,E,Pozc1,Poz,Rez).
+
+rezolvare(L,E,Rez):-inserare(L,E,1,1,Rez).
+
+
+Sa se scrie un predicat care testeaza daca o lista este multime
+
+nrAp(_,[],0).
+nrAp(E,[E|T],N):-nrAp(E,T,N1),!,
+                 N is N1+1.
+nrAp(E,[_|T],N):-nrAp(E,T,N).
+multime([]).
+multime([H|T]):-nrAp(H,T,N),
+                N=:=0,
+                multime(T).
+
+
+Sa se scrie un predicat care elimina primele 3 aparitii ale unui element     
+intr-o lista. Daca elementul apare mai putin de 3 ori, se va elimina de     
+cate ori apare.
+
+elimin(E,L1,L2):-eliminare(E,3,L1,L2).
+eliminare(_,_,[],[]).
+eliminare(E,Ap,[E|T],L):-Ap=:=1,!, L=T.
+eliminare(E,Ap,[E|T],L):-Ap>1,Ap2 is Ap-1,!,
+                       eliminare(E,Ap2,T,L).
+eliminare(E,Ap,[H|T],[H|L]):-eliminare(E,Ap,T,L).
+
+
+Sa se scrie un predicat care testeaza egalitatea a doua multimi, fara     
+sa se faca apel la diferenta a doua multimi.
+
+aln([H|T],1,P):- P=:=H.
+aln([H|T],N,P):- N1 is N-1,aln(T,N1,P).
+member(E,[E|_]):-!.
+member(E,[_|T]):-member(E,T).
+mult([],L):-!.
+mult([H|T],L):-member(H,L),mult(T,L).
+egal(L1,L2):- mult(L1,L2),mult(L2,L1).
+
+
+Definiti un predicat care selecteaza al n-lea element al unei liste.
+
+select([],_,-1).
+select([H|_],N,H):-N=:=1,!.
+select([_|T],N,E):-N1 is N-1,select(T,N1,E).
+
+Sa se scrie un predicat care substituie intr-o lista un element printr-o alta lista.
+
+concatenare([],L,L).
+concatenare([H|L1],L2,[H|L3]):-concatenare(L1,L2,L3).
+subst(_,_,[],[]).
+subst(E,L,[E|T],R):-subst(E,L,T,R1),!,
+    concatenare(L,R1,R).
+subst(E,L,[H|T],[H|R]):-subst(E,L,T,R).
+
+Sa se elimine elementul de pe pozitia a n-a a unei liste liniare.
+
+elimin([],_,[]).
+elimin([_|T],1,T):-!.
+elimin([H|T],N,[H|L]):-N1 is N-1,
+    elimin(T,N1,L).
+
+Sa se scrie un predicat care elimina dintr-o lista toate elementele care     
+se repeta (ex: l=[1,2,1,4,1,3,4] => l=[2,3])
+
+nrAp(_,[],0).
+nrAp(E,[E|T],N):-nrAp(E,T,N1),!,
+                 N is N1+1.
+nrAp(E,[_|T],N):-nrAp(E,T,N).
+
+elimina([],_,[]).
+elimina([H|T],L,Rez):-nrAp(H,L,N),
+                    N>1,
+                    elimina(T,L,Rez).
+elimina([H|T],L,[H|Rez]):-nrAp(H,L,N),
+                        N=:=1,
+                        elimina(T,L,Rez).
+elimin(L,Rez):-elimina(L,L,Rez).
+
+
+Sa se elimine toate aparitiile elementului maxim dintr-o lista de numere intregi.
+
+maxim([],-3200).
+maxim([H|T],M):-maxim(T,M),H<M,!.
+maxim([H|_],H).
+elimin(_,[],[]).
+elimin(E,[E|T],L):-!,elimin(E,T,L).
+elimin(E,[H|T],[H|L]):-elimin(E,T,L).
+eliminMax([],[]).
+eliminMax(L1,L2):-maxim(L1,M),
+          elimin(M,L1,L2).
+
+
+Sa se scrie un predicat care sa testeze daca o lista formata din numere     
+intregi are aspect de "vale"(o multime se spune ca are aspect de "vale"     
+daca elementele descresc pana la un moment dat, apoi cresc. De ex. 10 8 6 9 11 13).
+
+vale([_],2).
+vale([H1|[H2|T]],S):-S=<1,
+                     H1>H2,
+                     vale([H2|T],1).
+vale([H1|[H2|T]],S):-S>=1,
+                      H1<H2,
+                      vale([H2|T],2).
+
+Suma alternanta
+
+poz(E,[],0):-!.
+poz(E,L,N):-poz_aux(E,L,N,1).
+poz_aux(E,[E|_],N,N).
+poz_aux(E,[_|T],N,K):-K1=K+1,poz_aux(E,T,N,K1).
+
+suma([],0).
+suma(L,S):-suma_aux(L,S,L,0).
+suma_aux([],S,_,S).
+suma_aux([H|T],S,L,S1):-poz(H,L,P),P mod 2=:=1,S2 is S1+H,suma_aux(T,S,L,S2).
+suma_aux([H|T],S,L,S1):-poz(H,L,P),P mod 2=:=0,S2 is S1-H,suma_aux(T,S,L,S2).
+
+
+Sa se scrie un predicat care elimina dintr-o lista toate elementele care     
+apar o singura data (ex: l=[1,2,1,4,1,3,4] => l=[1,1,4,4])
+
+nrAp(_,[],0).
+nrAp(E,[E|T],N):-nrAp(E,T,N1),
+                 N is N1+1.
+nrAp(E,[_|T],N):-nrAp(E,T,N).
+
+elimina([],_,[]).
+elimina([H|T],L,[H|Rez]):-nrAp(H,L,N),
+                          N>1,
+                          elimina(T,L,Rez),!.
+elimina([H|T],L,Rez):-nrAp(H,L,N),
+                      N=:=1,
+                      elimina(T,L,Rez),!.
+elimin(L,Rez):-elimina(L,L,Rez).
+
+
+Sa se scrie un predicat care sa testeze daca o lista formata din numere     
+intregi are aspect de "munte"(o multime se spune ca are aspect de "munte"     
+daca elementele cresc pana la un moment dat, apoi descresc. De ex.1 6 8 9 7 2).
+
+munte([_],2).
+munte([H1|[H2|T]],S):-S=<1,
+                      H1<H2,
+                      munte([H2|T],1).
+munte([H1|[H2|T]],S):-S>=1,
+                      H1>H2,
+                      munte([H2|T],2).
+
+
+Definiti un predicat care determina succesorul unui numar reprezentat     
+cifra cu cifra intr-o lista. De ex: [1 9 3 5 9 9] --> [1 9 3 6 0 0]
+
+inversare([],Rez,Rez).
+inversare([H|T],L,Rez):-inversare(T,[H|L],Rez).
+
+succesor([],[1]).
+succesor([H|T],[0|Rez]):-H=9,!,
+                         succesor(T,Rez).
+succesor([H|T],Rez):-H1 is H+1,
+                     Rez=[H1|T].
+rezolvare(L,Rez):-inversare(L,[],Rez1),
+                  succesor(Rez1,Rez2),
+                  inversare(Rez2,[],Rez).
+
+Definiti un predicat care determina predecesorul unui numar reprezentat     
+cifra cu cifra intr-o lista. De ex: [1 9 3 6 0 0] --> [1 9 3 5 9 9]
+
+inversare([],Rez,Rez).
+inversare([H|T],L,Rez):-inversare(T,[H|L],Rez).
+
+predecesor([],[-1]).
+predecesor([H|T],[9|Rez]):-H=0,!,
+                         predecesor(T,Rez).
+predecesor([H|T],Rez):-H1 is H-1,
+                     Rez=[H1|T].
+rezolvare(L,Rez):-inversare(L,[],Rez1),
+                  predecesor(Rez1,Rez2),
+                  inversare(Rez2,[],Rez).
+
+Definiti un predicat care determina suma a doua numere scrise in     
+reprezentare de lista.
+
+lungime([],0):-!.
+lungime([_|T],N):-lungime(T,N1),
+                 N is N1+1.
+maxim(A,B,A):-A>=B,!.
+maxim(A,B,B):-B>A,!.
+zero(0,X,X):-!.
+zero(N,X,[0|X1]):-N1 is N-1,
+    zero(N1,X,X1).
+adun([],[],[],0):-!.
+adun([A|L1],[B|L2],[Cifra|L3],Tr):-
+                       adun(L1,L2,L3,Tr2),
+                       Cifra is (A+B+Tr2)mod 10,
+                       Tr is (A+B+Tr2)div 10.
+suma(A,B,Rez):-lungime(A,LA),
+               lungime(B,LB),
+               maxim(LA,LB,LMax),
+               C1 is LMax-LA,
+               C2 is LMax-LB,
+               zero(C1,A,AA),
+               zero(C2,B,BB),
+               adun(AA,BB,Rez,0).
+
+
+Definiti un predicat care determina diferenta a doua numere scrise in     
+reprezentare de lista.
+
+lungime([],0):-!.
+lungime([_|T],N):-lungime(T,N1),
+                 N is N1+1.
+maxim(A,B,A):-A>=B,!.
+maxim(A,B,B):-B>A,!.
+zero(0,X,X):-!.
+zero(N,X,[0|X1]):-N1 is N-1,
+    zero(N1,X,X1).
+scad([],[],[],0):-!.
+scad([A|L1],[B|L2],[Cifra|L3],Tr):-
+                       scad(L1,L2,L3,Tr2),
+                       Cifra is (A-B+Tr2)mod 10,
+                       Tr is (A-B+Tr2)div 10.
+diferenta(A,B,Rez):-lungime(A,LA),
+               lungime(B,LB),
+               maxim(LA,LB,LMax),
+               C1 is LMax-LA,
+               C2 is LMax-LB,
+               zero(C1,A,AA),
+               zero(C2,B,BB),
+               scad(AA,BB,Rez,0).
+
+
+Definiti predicatele de egalitate si mai mic pentru numere scrise in     
+reprezentate pe liste.
+
+lung([],0).
+lung([_|T],L):-lung(T,Rez),L is Rez+1.
+compara([],[],0).
+compara(L1,L2,Rez):-lung(L1,X),lung(L2,Y),X<Y,!,Rez is -1.
+compara(L1,L2,Rez):-lung(L1,X),lung(L2,Y),X>Y,!,Rez is 1.
+compara([H1|_],[H2|_],Rez):-H1<H2,!,Rez is -1.
+compara([H1|_],[H2|_],Rez):-H1>H2,!,Rez is 1.
+compara([H1|T1],[H2|T2],Rez):-H1=:=H2,compara(T1,T2,Rez).
+tip(L1,L2):-compara(L1,L2,1),
+    write("Primul sir este mai mare."),nl.
+tip(L1,L2):-compara(L1,L2,0),write("Egale"),nl.
+tip(L1,L2):-compara(L1,L2,-1),
+    write("Al doilea sir este mai mare."),nl.
+
+
+Sa se sorteze o lista cu pastrarea dublurilor.     
+Exemplu: [4 2 6 2 3 4] --> [2 2 3 4 4 6]
+
+inserare(E,[],[E]):-!.
+inserare(E,[H|T],[H|L]):-E>=H,!,
+                         inserare(E,T,L).
+inserare(E,[H|T],[E|[H|T]]):-!.
+
+sortcu([],[]):-!.
+sortcu([H|T],L):-sortcu(T,L1),
+                 inserare(H,L1,L).
+
+
+Sa se sorteze o lista cu eliminarea dublurilor.     
+Exemplu: [4 2 6 2 3 4] --> [2 3 4 6]
+
+elimin(_,[],[]).
+elimin(E,[E|T],L):-!,elimin(E,T,L).
+elimin(E,[H|T],[H|L]):-elimin(E,T,L).
+inserare(E,[],[E]):-!.
+inserare(E,[H|T],[H|L]):-E>=H,!,
+                         inserare(E,T,L).
+inserare(E,[H|T],[E|[H|T]]):-!.
+sortfara([],[]):-!.
+sortfara([H|T],L):-elimin(H,T,L1),
+                  sortfara(L1,L2),
+                  inserare(H,L2,L).
+
+Sa se interclaseze cu pastrarea dublurilor doua liste sortate.
+
+inter([],[],[]).
+inter([],L2,L2):-!.
+inter(L1,[],L1):-!.
+inter([H1|L1],[H2|L2],[H1|L3]):-H1<H2,!,L=[H2|L2],                              
+                               inter(L1,L,L3).
+inter([H1|L1],[H2|L2],[H2|L3]):-H1>=H2,!,                                 
+                                L=[H1|L1],                                 
+                                inter(L,L2,L3).
+
+
+Sa se interclaseze fara pastrarea dublurilor doua liste sortate.
+
+inter([],[],[]).
+inter([],L2,L2):-!.
+inter(L1,[],L1):-!.
+inter([H1|L1],[H2|L2],[H1|L3]):-H1<H2,!,
+                               L=[H2|L2],
+                               inter(L1,L,L3).
+inter([H1|L1],[H2|L2],[H2|L3]):-H1>H2,!,
+                               L=[H1|L1],
+                               inter(L,L2,L3).
+inter([H1|L1],[H2|L2],[H1|L3]):-!,
+                               inter(L1,L2,L3).
+
+
+Sa se determine pozitiile elementului maxim dintr-o lista liniara. De ex:    
+poz([10,14,12,13,14], L) va produce L = [2,5].
+
+maxim([],-3200).
+maxim([H|T],M):-maxim(T,M),H<M,!.
+maxim([H|_],H).
+detPoz(_,_,[],[]).
+detPoz(E,N,[E|T],[N|L]):-!,
+                        N1 is N+1,
+                        detPoz(E,N1,T,L).
+detPoz(E,N,[H|T],L):-N1 is N+1,
+                    detPoz(E,N1,T,L).
+pozitii(L,L1):-maxim(L,M),
+             detPoz(M,1,L,L1).
+
+
+Sa se determine pozitiile elementului minim dintr-o lista liniara. De ex:     
+poz([10,-14,12,13,-14], L) va produce L = [2,5].
+
+minim([],3200).
+minim([H|T],M):-minim(T,M),H>M,!.
+minim([H|_],H).
+detPoz(_,_,[],[]).
+detPoz(E,N,[E|T],[N|L]):-!,
+                        N1 is N+1,
+                        detPoz(E,N1,T,L).
+detPoz(E,N,[H|T],L):-N1 is N+1,
+                    detPoz(E,N1,T,L).
+pozitii(L,L1):-minim(L,M),
+             detPoz(M,1,L,L1).
+
+Definiti un predicat care determina produsul unui numar reprezentat    
+cifra cu cifra intr-o lista cu o anumita cifra. De ex: [1 9 3 5 9 9] * 2 [3 8 7 1 9 8]
+
+add_last(E,[],[E]).
+add_last(E,[H|T],[H|L]):-add_last(E,T,L).
+reverse([],[]).
+reverse([H|T],L):-reverse(T,L1),!,
+    add_last(H,L1,L).
+prod([],_,TR,[]):-TR is 0.
+prod([],_,TR,[TR]):-TR>0.
+prod([H|T],C,TR,[H1|RR]):-   H1 is ((H*C) mod 10)+TR,
+                       T1 is (H*C) div 10,
+                       prod(T,C,T1,RR).
+produs(N,C,R):-reverse(N,NR),
+              prod(NR,C,0,RR),
+              reverse(RR,R).
+
+Dandu-se o lista liniara numerica, sa se stearga toate secventele de valori    
+consecutive. Ex: sterg([1, 2, 4, 6, 7, 8, 10], L) va produce L=[4, 10].
+
+elimin([],[]).
+elimin([H1|[H2|[H3|T]]],L):-H3 is H2+1,
+                            H2 is H1+1,!,
+                            L1=[H2|[H3|T]],
+                            elimin(L1,L).
+elimin([H1|[H2|[H3|T]]],L):-H2 is H1+1,
+                            H3=\=H2+1,!,
+                            L1=[H3|T],
+                            elimin(L1,L).
+elimin([H1|[H2|[]]],[]):-H2 is H1+1,!.
+elimin([H|T],[H|L]):-elimin(T,L).
+
+Dandu-se o lista liniara numerica, sa se stearga toate secventele de valori    
+crescatoare. Ex: sterg([1, 2, 4, 6, 5, 7, 8, 2, 1], L) va produce L=[2, 1].
+
+elimin([],[]).
+elimin([H1|[H2|[H3|T]]],L):-H1<H2,
+                           H2<H3,!,
+                           L1=[H2|[H3|T]],
+                           elimin(L1,L).
+elimin([H1|[H2|[H3|T]]],L):-H1<H2,
+                           H2>=H3,!,
+                           L1=[H3|T],
+                           elimin(L1,L).
+elimin([H1|[H2|[]]],[]):-H1<H2,!.
+elimin([H|T],[H|L]):-elimin(T,L).

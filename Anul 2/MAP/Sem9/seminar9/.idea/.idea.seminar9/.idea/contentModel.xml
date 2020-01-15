@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="seminar9" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="domain" t="Include">
+          <e p="AbstractTaskRunner.cs" t="Include" />
+          <e p="IContainer.cs" t="Include" />
+          <e p="IFactory.cs" t="Include" />
+          <e p="ITaskRunner.cs" t="Include" />
+          <e p="Message.cs" t="Include" />
+          <e p="MessageTask.cs" t="Include" />
+          <e p="PrinterTaskRunner.cs" t="Include" />
+          <e p="StackContainer.cs" t="Include" />
+          <e p="StrategyTaskRunner.cs" t="Include" />
+          <e p="Task.cs" t="Include" />
+          <e p="TaskContainerFactory.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="seminar9.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="seminar9.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="seminar9.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_seminar9.-814338651.00" t="ExcludeRecursive" />
+  </component>
+</project>

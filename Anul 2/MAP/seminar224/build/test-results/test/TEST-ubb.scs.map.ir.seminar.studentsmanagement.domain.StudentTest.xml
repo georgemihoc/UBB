@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ubb.scs.map.ir.seminar.studentsmanagement.domain.StudentTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-10-30T08:16:41" hostname="CameliaPC" time="0.046">
+  <properties/>
+  <testcase name="compareTo()" classname="ubb.scs.map.ir.seminar.studentsmanagement.domain.StudentTest" time="0.023"/>
+  <testcase name="getName()" classname="ubb.scs.map.ir.seminar.studentsmanagement.domain.StudentTest" time="0.007"/>
+  <testcase name="testEquals()" classname="ubb.scs.map.ir.seminar.studentsmanagement.domain.StudentTest" time="0.002"/>
+  <testcase name="setMedia()" classname="ubb.scs.map.ir.seminar.studentsmanagement.domain.StudentTest" time="0.001"/>
+  <testcase name="getMedia()" classname="ubb.scs.map.ir.seminar.studentsmanagement.domain.StudentTest" time="0.002"/>
+  <testcase name="setName()" classname="ubb.scs.map.ir.seminar.studentsmanagement.domain.StudentTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Package.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Repository.h
+stddef.h
+-
+Package.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Package.h
+Vector.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Vector.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Service.c
+Service.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Service.h
+Repository.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Repository.h
+Vector.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Vector.h
+string.h
+-
+stdio.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Service.h
+Repository.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Repository.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Vector.h
+Package.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Package.h
+stdlib.h
+-
+

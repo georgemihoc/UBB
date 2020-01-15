@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Desktop/Lab5Pb11/Lab5/P11.cpp
+pch.h
+/Users/george/Desktop/Lab5Pb11/Lab5/pch.h
+P11.h
+/Users/george/Desktop/Lab5Pb11/Lab5/P11.h
+exception
+-
+iostream
+-
+stdlib.h
+-
+vector
+-
+
+/Users/george/Desktop/Lab5Pb11/Lab5/P11.h
+utility
+-
+list
+-
+
+/Users/george/Desktop/Lab5Pb11/Lab5/pch.h
+

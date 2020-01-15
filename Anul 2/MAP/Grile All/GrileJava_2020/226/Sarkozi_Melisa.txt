@@ -1,0 +1,41 @@
+Student propunător: Sarkozi Melisa - Alexandra 
+Grupa: 226
+Email: sarkozi_melisa2009@yahoo.com
+
+Ce se va afisa dupa executarea functiei main?
+
+public class A {
+	public A() {
+		System.out.println("a");
+	}
+	private int B(String b) {
+		int c = 0;
+		try {
+			c = Integer.parseInt(b);
+		} catch (Exception e) {
+			c = -1;
+		 } finally {
+			System.out.println(c++);
+		}
+		return c;
+	}
+	public static void main(String[] args) {
+		A a = new A();
+		System.out.println(a.B("-2h"));
+	}
+}
+
+Raspunsuri:
+A) 0
+1
+B) a -> corect
+-1
+0
+C) a
+-2
+-1
+D) eroare
+Explicatie:
+Intai se executa constructorul clasei A, dupa care se apeleaza metoda B cu parametrul -2h,
+care nu poate fi convertit la tipul int, prin urmare, se arunca exceptie si se executa c = -1 din
+catch, dupa care se executa afisarea din finally si se returneaza 0.

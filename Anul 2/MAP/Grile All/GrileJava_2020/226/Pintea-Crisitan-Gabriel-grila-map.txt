@@ -1,0 +1,33 @@
+Pintea Cristian-Gabriel
+grupa 226
+gabipintea1@gmail.com
+
+Ce afiseaza urmatoarea secventa de cod?
+public class Main {
+
+    public static void main(String[] args) {
+        int a=2;
+        try {
+            int[] sir = {1, 2, 3, 4, 5};
+            a = sir[8];
+        }catch(Exception e) {
+            System.out.println("Eroare");
+            try {
+                System.out.println(a);
+            } catch(Exception b) {
+                System.out.println(("EROARE2"));
+            }
+
+        }
+
+    }
+}
+
+Variante:
+a) Eroare;
+b) Eroare2 Eroare;
+c) Eroare 2;
+
+Raspuns: c
+
+Variabila a va fi initializata cu 2 iar in primul try-catch variabilei a nu i se va putea atribui valoare de la sir[8] deoarece nu are atatea elemente urmand deci se va afisa eroare , valoarea variabilei ramanand 2.

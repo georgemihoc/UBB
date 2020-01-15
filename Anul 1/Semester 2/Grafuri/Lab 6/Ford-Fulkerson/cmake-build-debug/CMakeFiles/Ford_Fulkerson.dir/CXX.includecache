@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/Grafuri/Lab 6/Ford-Fulkerson/main.cpp
+iostream
+-
+fstream
+-
+limits.h
+-
+string.h
+-
+queue
+-
+

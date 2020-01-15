@@ -1,0 +1,11 @@
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.deps.json
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.runtimeconfig.json
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.runtimeconfig.dev.json
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.dll
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/bin/Debug/netcoreapp3.0/ConsoleApp1.pdb
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.AssemblyInfo.cs
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.dll
+/Users/george/Documents/UBB/Anul 2/MAP/test_c#/ConsoleApp1/ConsoleApp1/obj/Debug/netcoreapp3.0/ConsoleApp1.pdb

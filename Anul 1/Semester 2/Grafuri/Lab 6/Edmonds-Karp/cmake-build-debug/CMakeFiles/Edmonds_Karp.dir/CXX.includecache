@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/Grafuri/Lab6/Edmonds-Karp/main.cpp
+cstdio
+-
+cstdio
+-
+queue
+-
+cstring
+-
+vector
+-
+iostream
+-
+fstream
+-
+

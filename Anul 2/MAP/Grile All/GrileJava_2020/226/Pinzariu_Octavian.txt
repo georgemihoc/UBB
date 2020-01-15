@@ -1,0 +1,41 @@
+Student propunător: Pînzariu Octavian – Tudor
+Grupa: 226
+Email: octavian.pinzariu@yahoo.com
+
+Avand fisierul Student.txt care contine urmatoarele date:
+
+„1,Popescu,Ion,221,popescuion@gmail.com
+2, Dragos,Cristian,223,dragosc@yaoo.com
+3,Pinzariu,Octavian,226,octavianpinzariu@yahoo.com,Profesor”
+
+Cate instante de tip student vor fi create in urma executarii codului:
+
+private void loadFromFile() {
+	try(BufferedREader buffer = new BufferedReader(new FileReader(fisier))) {
+		String line;
+		while((line = buffer.readLine()) != null) {
+			String[] fields = line.split(“;”);
+			if(fields.length != 6) {
+				throw new Exception(“Fisier corupt”);
+			}
+			try {
+				Student s = new Student(
+					Integer.parseInt(fields[0]), fields[1], fields[2],
+					Integer.parseInt(fields[3]), fields[4], fields[5]);
+			} catch(NumberFormatException e ) {
+				System.out.println(“Date invalide!”);
+			}
+		}
+	} catch(IOException e) {
+		e.message();
+	}
+}
+Variante de răspuns:
+A)3
+B)1 -> corect
+C)2
+D)0
+Explicații:
+	Deoarece primele doua linii ale fisierului text nu contin cele 6 campuri valide pentru un
+obiect de tip Student, acestea vor fi ignorate, iar in final cea de-a 3 a linie va reusi sa
+furnizeze date suficiente pentru a crea un obiect de tip Student.

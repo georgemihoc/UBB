@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Book.h
+string
+-
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/BookStore.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Book.h
+bookrepo.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/bookrepo.h
+string
+-
+vector
+-
+algorithm
+-
+functional
+-
+validator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/validator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Lista.h
+vector
+-
+string
+-
+memory.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/bookrepo.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Book.h
+Lista.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Lista.h
+string
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/console.cpp
+console.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/console.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Book.h
+iostream
+-
+string
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/console.h
+BookStore.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/BookStore.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Book.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/validator.h
+string
+-
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Book.h
+vector
+-
+

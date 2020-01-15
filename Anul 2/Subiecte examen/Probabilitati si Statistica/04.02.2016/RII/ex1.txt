@@ -1,0 +1,7 @@
+PS R II
+1. Se arunca 3 zaruri. Care este probabilitatea ca: 
+- toate zarurile sa indice numere de aceeasi paritate; 
+- cel putin un zar indica un numar divizibil cu 3; 
+- exact doua zaruri indica un numar de aceeasi paritate; 
+- primele doua zaruri indica numere divizibile cu 3 si al treilea indica un numar impar.
+La 2 se dadea functia de densitate si se cereau valorile parametrilor a si b, functia de repartitie si probabilitatea din poza.

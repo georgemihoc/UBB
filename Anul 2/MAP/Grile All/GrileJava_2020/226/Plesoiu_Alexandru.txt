@@ -1,0 +1,22 @@
+Student propunător: Pleşoiu Alexandru - Ioan 
+Grupa: 226
+Email: alexandru@iteachings.org
+
+Ce se va afisa in urma executiei functiei main?
+public static void main(String[] args) {
+	try {
+		int i = Integer.parseInt("abc");
+	} catch(Exception ex) {
+		System.out.print("Exceptie aruncata;");
+	} catch(NumberFormatException ex) {
+		System.out.print("Format gresit al numarului;");
+	}
+}
+Variante de raspuns:
+A) Exceptie aruncata;
+B) Format gresit al numarului; 
+C) Exceptie aruncata; Format gresit al numarului;
+D) Eroare de compilare -> corect
+
+Explicatii: Exceptia NumberFormatException a fost deja prinsa in primul catch,
+NumberFormatException fiind o clasa care mosteneste Exception

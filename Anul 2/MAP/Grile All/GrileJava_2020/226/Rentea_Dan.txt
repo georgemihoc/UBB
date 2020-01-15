@@ -1,0 +1,31 @@
+Student propunator: Rentea Dan 
+Grupa: 226
+Email: rdir2600@scs.ubbcluj.ro
+
+private int metoda1(int a) throws Exception {
+    if (a < 0)
+      throw new Exception("Invalid index");
+    return a/2;
+  }
+
+private int metoda2(int a) throws Exception {
+  a = metoda1(a);
+  return a/2;
+}
+
+private void metoda3() {
+  try {
+    int a = -3;
+    a = metoda2(a);
+    System.out.println("Final");
+  } catch (Exception e) {
+    System.out.println(e.getMessage());
+  }
+}
+
+Q:Daca apelam functia metoda3(), ce va fi afisat pe ecran?
+a."Final"
+b."Invalid index"
+c.Altceva
+
+R:b, deoare metoda1 va arunca eroare si se va propaga pana in metoda3, iar eroarea va fi prinsa in catch

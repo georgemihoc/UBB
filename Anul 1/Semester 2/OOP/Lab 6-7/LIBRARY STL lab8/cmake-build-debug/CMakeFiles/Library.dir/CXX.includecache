@@ -1,0 +1,98 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/Book.h
+string
+-
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/BookStore.cpp
+BookStore.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/BookStore.h
+functional
+-
+algorithm
+-
+assert.h
+-
+iostream
+-
+map
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/BookStore.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/Book.h
+bookrepo.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/bookrepo.h
+string
+-
+vector
+-
+map
+-
+functional
+-
+validator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/validator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/Bookrepo.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/Book.h
+vector
+-
+string
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/bookrepo.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/Book.h
+vector
+-
+string
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/console.cpp
+console.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/console.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/Book.h
+iostream
+-
+string
+-
+map
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/console.h
+BookStore.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/BookStore.h
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/Book.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/main.cpp
+console.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/console.h
+BookStore.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/BookStore.h
+Bookrepo.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/Bookrepo.h
+validator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/validator.h
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/validator.h
+string
+-
+Book.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL/Book.h
+vector
+-
+

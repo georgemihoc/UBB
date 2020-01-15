@@ -1,0 +1,38 @@
+        -:    0:Source:/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL lab9/console.h
+        -:    0:Graph:main.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    0:Programs:0
+        -:    1:#pragma once
+        -:    2:#include "BookStore.h"
+        -:    3:#include "Book.h"
+        -:    4:class ConsolUI {
+        -:    5:	BookStore& ctr;
+        -:    6:	/*
+        -:    7:	Citeste datele de la tastatura si adauga Book
+        -:    8:	arunca exceptie daca: nu se poate salva, nu e valid
+        -:    9:	*/
+        -:   10:	void menu();
+        -:   11:	void adaugaUI();
+        -:   12:	void adaugaUIBasket();
+        -:   13:	void stergeUI();
+        -:   14:	void stergeUIBasket();
+        -:   15:	void modifica();
+        -:   16:	void cautaUI();
+        -:   17:	void genuriUI();
+        -:   18:	void randomUI();
+        -:   19:	void filtrareTitlu();
+        -:   20:	void saveFileUI();
+        -:   21:	void saveFileBasketUI();
+        -:   22:	/*
+        -:   23:	Tipareste o lista de carti la consola
+        -:   24:	*/
+        -:   25:	void tipareste(const vector<Book>& Books);
+        -:   26:public:
+    #####:   27:	ConsolUI(BookStore& ctr) noexcept:ctr{ ctr } {
+    #####:   28:	}
+        -:   29:	//nu permitem copierea obiectelor
+        -:   30:	ConsolUI(const ConsolUI& ot) = delete;
+        -:   31:
+        -:   32:	void start();
+        -:   33:};

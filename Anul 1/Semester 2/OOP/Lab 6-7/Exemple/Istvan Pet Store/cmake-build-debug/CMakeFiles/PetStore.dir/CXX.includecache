@@ -1,0 +1,94 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Pet.cpp
+Pet.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Pet.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Pet.h
+string
+-
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/PetStore.cpp
+PetStore.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/PetStore.h
+functional
+-
+algorithm
+-
+assert.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/PetStore.h
+Pet.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Pet.h
+petrepo.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/petrepo.h
+string
+-
+vector
+-
+functional
+-
+validator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/validator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/console.cpp
+console.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/console.h
+Pet.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Pet.h
+iostream
+-
+string
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/console.h
+PetStore.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/PetStore.h
+Pet.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Pet.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/main.cpp
+console.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/console.h
+PetStore.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/PetStore.h
+petrepo.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/petrepo.h
+validator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/validator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/petrepo.cpp
+petrepo.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/petrepo.h
+assert.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/petrepo.h
+Pet.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Pet.h
+vector
+-
+string
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/validator.cpp
+validator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/validator.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/validator.h
+string
+-
+Pet.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/Library/Pet.h
+vector
+-
+

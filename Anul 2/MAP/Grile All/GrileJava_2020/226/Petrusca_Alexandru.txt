@@ -1,0 +1,51 @@
+Student propunător: Petrușca Alexandru 
+Grupa:  226     
+Email: alexpetrusca98@gmail.com 
+
+Ce se afișează la rularea codului următor?Explicati. 
+
+public class Text {
+	int x;
+	text(String arg) {
+		init(arg);
+	}
+	
+	private void init(String arg) {
+		try {
+			this.x = Integer.parseInt(arg);
+		} catch {NumberFormatException e) {
+			this.x = -1;
+		}
+	}
+	
+	public String toString() {
+		if(x == -1)
+			return "Nan";
+		else
+			return Integer.toString(this.x);
+	}
+}
+public class Grila {
+	public static void main(String[] args) {
+		Text a = new Text("123");
+		Text b = new Text("a");
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+
+Variante de raspuns:
+A) 123 -> corect
+Nan
+B) 123
+-1
+C) Eroare 
+D) 123
+a 
+
+
+Explicatie: 
+
+	Prima variabila primește ca argument un nr care poate fi convertit in intreg,
+deci se va afișa 123 iar a doua variabila primește un argument ce nu poate fi convertit,
+așa că va afișa NaN(not a number). 

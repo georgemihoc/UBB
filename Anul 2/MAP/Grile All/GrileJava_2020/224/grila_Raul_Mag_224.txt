@@ -1,0 +1,42 @@
+Student propunator: Mag Raul Ciprian  Grupa: 224  Email: mag.raul98@gmail.com
+
+public class Main {
+    public static void main(String[] args) {
+        List<Integer> list = new ArrayList<Integer>();
+        list.add(200);
+        list.add(55);
+        list.add(55);
+        Map map = new TreeMap();
+        list.forEach(x->map.put(x,x));
+        System.out.println(sum(map.values()));
+    }
+
+    public static double sum(Collection<? extends Number> list) {
+        int sum = 0;
+        for (Number num : list) {
+            sum += num.byteValue();  //byteValue() returneaza numarul convertit la byte cu semn
+        }
+        return sum;
+    }
+}
+
+Ce va afisa rularea secventei de cod?
+
+variante:
+    a). Runtime Exception
+    b). Compile time Exeption
+    c). 255
+    d). 1
+    e). -1.0
+    f). 310.0
+
+Raspuns corect: -1.0
+
+Explicatii:
+Se creeaza o lista de numare intregi dupa care se adauga trei elemente in ea, iar apoi aceste elemente intr-un dictionar
+Functia sum primeste o colectie de elemente si face suma numerelor din dictionar convertite la byte
+
+Raspuns corect: -1.0
+Deoarece in map se adauga doar 200 si 55 iar suma este 255 care ca si byteValue va fi 255 - 256 adica -1, care este convertit la float.
+
+

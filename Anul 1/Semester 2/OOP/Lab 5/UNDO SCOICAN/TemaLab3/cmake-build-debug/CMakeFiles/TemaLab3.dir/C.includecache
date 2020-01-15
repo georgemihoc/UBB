@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/Lista.h
+domain.h
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/domain.h
+
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/domain.h
+
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/service.c
+service.h
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/service.h
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+sort.h
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/sort.h
+stdbool.h
+-
+
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/service.h
+Lista.h
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/Lista.h
+
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/sort.h
+Lista.h
+/Users/george/Desktop/UNDO SCOICAN/TemaLab3/Lista.h
+

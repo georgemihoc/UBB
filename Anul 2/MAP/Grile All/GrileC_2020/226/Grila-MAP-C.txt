@@ -1,0 +1,55 @@
+Student propunator: Ripanu Mihnea Andrei
+Grupa: 226
+Email: rmir2602@scs.ubbcuj.ro
+
+using System;
+
+class A
+{
+    public int x;
+    public A()
+    {
+        this.x = 5;
+    }
+    virtual public void add(int y)
+    {
+        x += y * x;
+    }
+}
+
+class B : A { 
+    public int y;
+    public B() : base() {
+        this.y = x + 5;
+    }
+    public override void add(int z)
+    {
+        base.add(z);
+        y = x + y;
+    }
+}
+
+namespace Grila_Curs_9
+{
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            A a = new A();
+            a.add(1);
+            B b = new B();
+            b.add(10);
+            Console.WriteLine(a.x + b.y);
+        }
+    }
+}
+
+Variante de raspuns:
+a) 75
+b) 70
+c) eroare
+d) 73
+
+Se apeleaza constructorul clasei A si apoi add si variabila x din A devine 10 apoi se apeleaza constructorul clasei
+B si add din clasa B in urma careia y din variabila b devine 65. Adunate ne dau raspunsul 75.

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bc23e66-fac5-4f64-9ea5-1335695f47d1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JavaFXApplication" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VKR4vBQKT913fACpk0Vq204f3o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../workspace/filterGUISem8" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\__MAP_2017_2018_2019\workspace\sem13.concurrency\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.sem13.concurrency [dependencies]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="scs.map.ro.sem13.concurrency_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="scs.map.ro.sem13.concurrency_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sem13.concurrency [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.sem13.concurrency [dependencies]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.sem13.concurrency [dependencies]" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bc23e66-fac5-4f64-9ea5-1335695f47d1" name="Default Changelist" comment="" />
+      <created>1546971630140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546971630140</updated>
+      <workItem from="1546971633139" duration="670000" />
+      <workItem from="1546972575735" duration="18354000" />
+      <workItem from="1547062855697" duration="2566000" />
+      <workItem from="1578077551471" duration="2186000" />
+      <workItem from="1578305569528" duration="8753000" />
+      <workItem from="1578472522305" duration="309000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578472525677">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state x="690" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.982@0.23.1680.982" timestamp="1578472525677" />
+    <state width="1638" height="265" key="GridCell.Tab.0.bottom" timestamp="1578473720220">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.0.bottom/0.23.1680.982@0.23.1680.982" timestamp="1578473720220" />
+    <state width="1638" height="265" key="GridCell.Tab.0.center" timestamp="1578473720220">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.0.center/0.23.1680.982@0.23.1680.982" timestamp="1578473720220" />
+    <state width="1638" height="265" key="GridCell.Tab.0.left" timestamp="1578473720220">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.0.left/0.23.1680.982@0.23.1680.982" timestamp="1578473720220" />
+    <state width="1638" height="265" key="GridCell.Tab.0.right" timestamp="1578473720220">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.0.right/0.23.1680.982@0.23.1680.982" timestamp="1578473720220" />
+    <state x="547" y="137" key="refactoring.ChangeSignatureDialog" timestamp="1578472561999">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state x="547" y="137" key="refactoring.ChangeSignatureDialog/0.23.1680.982@0.23.1680.982" timestamp="1578472561999" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

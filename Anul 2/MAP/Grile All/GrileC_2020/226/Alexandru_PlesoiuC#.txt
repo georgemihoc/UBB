@@ -1,0 +1,33 @@
+Student propunator: Plesoiu Ioan - Alexandru
+Grupa: 226
+
+
+Ce metode ar putea fi suprascrise din clasa Virtuale?
+
+class Virtuale
+{
+	public virtual String Hello_1()
+    {
+		return "Hello_1";
+    }
+	
+	private virtual String Hello_2()
+    {
+		return "Hello_2";
+	}
+	
+	protected virtual String Hello_3()
+	{
+		return "Hello_3";
+	}
+}
+
+Variante de raspuns:
+
+a) Hello_1(), Hello_2(), Hello_3()
+b) Hello_1(), Hello_2()
+c) Hello_1(), Hello_3()
+d) Hello_1()
+
+Raspuns corect: c)
+O metoda virtuala nu poate fi privata deoarece nu poate fi accesata de nimeni dinafara clasei

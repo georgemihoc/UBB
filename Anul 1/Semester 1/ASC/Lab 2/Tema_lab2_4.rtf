@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13680\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 bits 32 \
+global start        \
+extern exit  \
+extern printf \
+import printf msvcrt.dll    \
+import exit msvcrt.dll   \
+\
+segment data use32 class=data\
+\
+    a db 1\
+    b db 4\
+    c db 5    \
+    d db 4\
+    \
+    e dw 3\
+    f dw 2\
+    mesajrez db "Rezultat: %d",10,13\
+    \
+    ;Lab 2 ASC EX 4 Inmultiri si impartiri a b c  d byte e f word\
+    ;[[b*c-(e+f)]/(a+d) = 20 - 5 )/ 5 = 3\
+\
+segment code use32 class=code\
+\
+    start:\
+        ;[[b*c-(e+f)]/(a+d) = 20 - 5 )/ 5 = 3\
+        mov al, [b]\
+        mov cl, [c]\
+\
+        \
+        mul cl ;b*c in ax\
+        mov bx, [e]\
+        add bx, [f] ; e+f in bx\
+        \
+        mov cl ,[a]\
+        add cl, [d] ;a+d in cl\
+        \
+        sub ax,bx ;prima paranteza in ax\
+        div cl ; impartirea finala\
+        \
+        push ax\
+\
+        push dword mesajrez\
+        call [printf]\
+        \
+        add esp, 16\
+        push    dword 0\
+        call    [exit]  }

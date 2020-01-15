@@ -1,0 +1,987 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fswiss\fcharset0 ArialMT;
+\f3\fnil\fcharset0 HelveticaNeue;\f4\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red26\green26\blue26;\red255\green255\blue255;
+\red21\green23\blue25;\red237\green236\blue236;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c13333\c13333\c13333;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c10980\c11765\c12941;\cssrgb\c94510\c94118\c94118;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh15740\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Probleme Thread uri\
+\
+1) prima problema din clasa\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0 Georges-MacBook-Pro:Lab 11 george$ cat 1.c\
+#include <unistd.h>\
+#include <pthread.h>\
+#include<stdio.h>\
+int n;\
+pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;\
+pthread_cond_t c = PTHREAD_COND_INITIALIZER;\
+pthread_t tid[2];\
+void* t1(void *x)\
+\{\
+	printf("N=");\
+	scanf("%d", &n);\
+	while(n<52)\
+		n+=5;\
+	pthread_mutex_lock(&m);\
+	pthread_cond_signal(&c);\
+	pthread_mutex_unlock(&m);\
+	return x;\
+\}\
+void* t2(void *x)\
+\{\
+	pthread_mutex_lock(&m);\
+	while(n<52)\
+		pthread_cond_wait(&c,&m);\
+	printf("%d thread 2 \\n",n);\
+	pthread_mutex_unlock(&m);\
+	return x;\
+\}\
+\
+int main()\
+\{\
+	n=0;\
+	pthread_create(&tid[0],NULL, t1, NULL);\
+	pthread_create(&tid[1],NULL,t2,NULL);\
+\
+	pthread_join(tid[0],NULL);\
+	pthread_join(tid[1],NULL);\
+	return 0;\
+\}\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+2) a doua problema din clasa\'97 suma a 2 nr facut in thread\
+\
+#include <unistd.h>\
+#include <pthread.h>\
+#include <stdio.h>\
+\
+pthread_t tid[2];\
+\
+void* t1(void *x)\
+\{\
+	int *n= (int*) x;\
+	//printf("%d",n[0]);\
+	printf("Suma = %d \\n",n[0] + n[1]);\
+	return NULL;\
+\}\
+int main()\
+\{\
+	int n[2];\
+	printf("N1 = ");\
+	scanf("%d", &n[0]);\
+	printf("N2 = ");\
+	scanf("%d",&n[1]);\
+	//printf("%d",n[0]);\
+	pthread_create(&tid[0], NULL, t1, n);\
+	pthread_join(tid[0], NULL);\
+	return 0;\
+\}\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+3) Problema 1 bradut cu MUTEX\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs26 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\CocoaLigature1 Screiti un program c care citeste N numere de la tastatura, alocate dinamic \cb1 \
+\cb4 in memorie. Se vor crea N threaduri, fiecare thread va efectua o serie de\cb1 \
+\cb4 verificari pe cate un numar din cele N citite. Fiecare thread va contoriza\cb1 \
+\cb4 in 3 variabile globale daca numarul asociat lor este divizibile cu 3,4,5.\cb1 \
+\cb4 La sfarsit programul principal va afisa cele 3 variabile globale pe exran.
+\f1\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \
+#include <stdio.h>\
+#include <stdlib.h>\
+#include <pthread.h>\
+#define MAX_NUM 100\
+\
+pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;\
+\
+int div3=0,div4=0,div5=0;\
+\
+void* f(void* a)\
+\{\
+  int k = *(int *)a;\
+  free(a);\
+  \
+  pthread_mutex_lock(&mtx);\
+  if(k%3==0)\
+	div3+=1;\
+  if(k%4==0)\
+	div4+=1;\
+  if(k%5==0)\
+	div5+=1;\
+\
+  pthread_mutex_unlock(&mtx);\
+ //printf("Thread-ul %d\\n", k);\
+\
+  return NULL;\
+\}\
+\
+int main(int argc, char* argv[])\
+\{\
+  pthread_t t[MAX_NUM];\
+  \
+  int i,n;\
+  scanf("%d",&n);\
+\
+  int* p;\
+  for (i = 0; i < n; i++)\
+  \{\
+    p = (int *)malloc(sizeof(int));      // dynamic allocation\
+    //*p = i;\
+    scanf("%d",p);\
+\
+    pthread_create(&t[i], NULL, f, p);\
+  \}\
+\
+  for (i = 0; i < n; i++)\
+  \{\
+    pthread_join(t[i], NULL);\
+  \}\
+  printf("Div cu 3: %d \\nDiv cu 4: %d \\nDiv cu 5: %d \\n",div3,div4,div5);\
+\
+  return 0;\
+\}\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+4) Problema 2 bradut CU MUTEX\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2\fs26 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\CocoaLigature1 Scrieti un program C care primeste oricate siruri de caractere ca si\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf3 \cb4 argumente in linia de comanda. Programul va crea cate un thread pentru\cb1 \
+\cb4 fiecare argument, fiecare thread va contoriza in doua variabile globale\cb1 \
+\cb4 numarul de litere mici si litere mari prezente in toate argumentele si vor\cb1 \
+\cb4 va retine intr-o a 3-a variabila globala argumentele care contin si cifre.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+#include <stdio.h>\
+#include <stdlib.h>\
+#include <pthread.h>\
+#include <string.h>\
+#define MAX_NUM 100\
+\
+int mici=0,mari=0,cifre=0;\
+\
+pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;\
+\
+void* f(void* a)\
+\{\
+  int i,ok=0;\
+  char *k = (char*)a;\
+  //printf("%s ",k);\
+  pthread_mutex_lock(&mtx);\
+  for(i=0;i<strlen(k);i++)\
+  \{\
+	if(k[i]>='a' && k[i]<='z') mici+=1;\
+	if(k[i]>='A' && k[i]<='Z') mari+=1;\
+	if(k[i]>='0' && k[i]<='9') ok=1;\
+  \}\
+  if(ok) cifre+=1;\
+  pthread_mutex_unlock(&mtx);	\
+  return NULL;\
+\}\
+\
+int main(int argc, char* argv[])\
+\{\
+  pthread_t t[MAX_NUM];\
+  \
+  int i=0, j=0,n=0;\
+  while(argv[i+1])\
+  \{\
+	n+=1;\
+	//printf("%s ",argv[i]);\
+	pthread_create(&t[i], NULL, f, (void*)argv[i+1]);\
+	i+=1;\
+  \}\
+\
+  for (i = 0; i < n; i++)\
+  \{\
+    pthread_join(t[i], NULL);\
+  \}\
+  printf("Litere mici: %d \\nLitere mari: %d \\n",mici,mari);\
+  printf("Argumente care contin cifre: %d \\n",cifre);\
+  return 0;\
+\}\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs40 \cf2 PROBLEMA TEST \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs22 \cf2 \
+Scrieti un program C care primeste n fisiere ca argumente in linia de\
+comanda. Programul va crea n thread-uri, alocate dinamic in memorie, fiecare\
+thread va contoriza in 2 variabile globale numarul de litere mari si suma\
+cifrelor din fisierele date ca si argument, fiecare thread va procesa\
+un singur fisier, primit ca argument. Accesul ca variabilele globale se va \
+face sincronizat, folosind variabile mutex.\
+De avut in vedere: lipsa indentarii coului se penalizeza.\
+\
+\
+#include<stdlib.h>\
+#include<stdio.h>\
+#include<pthread.h>\
+#include<string.h>\
+\
+int cifre,caps;\
+\
+pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;\
+\
+void* f(void* a) \{\
+\
+        char* s = (char*) a;\
+        char nr[255];\
+        int j,n;\
+        FILE* f;\
+        f = fopen(s,"r");\
+	while(fgets(nr,255,f) != NULL) \{\
+                //printf("Linia: %s\\n",nr);\
+                n = 0;\
+                for(j=0;j<strlen(nr);++j) \{\
+			pthread_mutex_lock(&mtx);\
+			if(nr[j]>='0' && nr[j]<='9')\
+				cifre=cifre+nr[j]-'0';\
+			else if(nr[j]>='A' && nr[j]<='Z')\
+				caps+=1;\
+			pthread_mutex_unlock(&mtx);\
+		\}\
+	\}\
+	fclose(f);\
+	return NULL;\
+\}\
+\
+int main(int argc,char* argv[]) \{\
+	//pthread_t t[100];\
+	pthread_t *t=malloc(argc*sizeof(pthread_t));\
+	int i;\
+	for(i = 1; i < argc ; i++) \{\
+		pthread_create(&t[i],NULL,f,(void *)argv[i]);\
+	\}\
+	for(i = 1;i < argc; i++) \{\
+		pthread_join(t[i],NULL);\
+	\}\
+	printf("Numarul de litere mari: %d \\nSuma cifrelor: %d\\n",caps,cifre);\
+	return 0;\
+\}\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs40 \cf2 PROBLEMA MANO\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs22 \cf2 //citire in linie de comanda nume de fisiere si afiseaza numerele din fisier\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs30 \cf5 \cb6 \expnd0\expndtw0\kerning0
+\CocoaLigature1 #include<stdlib.h>\
+#include<stdio.h>\
+#include<pthread.h>\
+#include<string.h>\
+\
+int v[10];\
+\
+pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;\
+\
+void* f(void* a) \{\
+\
+        char* s = (char*) a;\
+        char nr[100];\
+        int j,l;\
+        int n;\
+        FILE* f;\
+        f = fopen(s,"r");\
+        while(fgets(nr,100,f) != NULL) \{\
+                printf("Linia: %s\\n",nr);\
+                n = 0;\
+                for(j=0;j<strlen(nr);++j) \{\
+                        if(nr[j]>='0' && nr[j]<= '9')\
+                                n = n * 10 + nr[j] -'0';\
+                        else if(j!=0 && nr[j-1]>='0' && nr[j-1]<='9')\{\
+                                printf("%d ",n);\
+                                n = 0;\
+                        \}\
+                \}\
+                //printf("%d ",n);\
+                printf("\\n");\
+        \}\
+\
+        fclose(f);\
+        return NULL;\
+\}\
+\
+int main(int argc,char* argv[]) \{\
+        pthread_t t[100];\
+        int i;\
+        for(i = 1; i < argc ; i++) \{\
+                pthread_create(&t[i],NULL,f,(void *)argv[i]);\
+        \}\
+        for(i = 1;i < argc; i++) \{\
+                pthread_join(t[i],NULL);\
+        \}\
+        return 0;\
+\}
+\f1\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+5) MUTEX\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs26 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1 #include <stdio.h>\
+#include <stdlib.h>\
+#include <pthread.h>\
+\
+#define MAX_THR 100     // numarul de thread-uri\
+#define MAX_LIM 1000\
+#define MAX_NUM 100000  // dimensiunea tabloului de numere\
+\
+int sum = 0;            // suma numerelor\
+int numbers[100000];    // tabloul de numere aleatoare\
+\
+pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;\
+\
+//\
+// Rutina de start a thread-urilor\
+//\
+void* f(void* a)\
+\{\
+  int k = *(int*)a;\
+\
+  //printf("k = %d\\n", k);\
+\
+  int i;\
+  int max = k + MAX_LIM;\
+  for (i = k; i < max; i++)\
+  \{\
+    pthread_mutex_lock(&mtx);\
+    sum += numbers[i];\
+    pthread_mutex_unlock(&mtx);\
+  \}\
+\
+  //printf("Suma calculata: %d\\n", sum);\
+\
+  free(a);\
+\
+  return NULL;\
+\}\
+\
+\
+\
+int main(int argc, char* argv[])\
+\{\
+  pthread_t t[MAX_THR]; // tabloul cu identificatorii thread-urilor\
+\
+  // generam 100.000 de numere aleatoare\
+  int i;\
+  srand(time(NULL));\
+  for (i = 0; i < MAX_NUM; i++)\
+  \{\
+    int k = 10;\
+    numbers[i] = rand() % k;\
+  \}\
+\
+  // cream 100 thread-uri\
+  for (i = 0; i < MAX_THR; i++)\
+  \{\
+    int *n = (int*)malloc(sizeof(int));\
+    *n = i * MAX_LIM;\
+    pthread_create(&t[i], NULL, f, n);\
+  \}\
+\
+  // asteptam terminarea thread-urilor\
+  for (i = 0; i < MAX_THR; i++)\
+  \{\
+    pthread_join(t[i], NULL);\
+  \}\
+\
+  printf("Suma calculata:  %d\\n", sum);\
+\
+  // verificam daca suma este corecta\
+  int check_sum = 0;\
+  for (i = 0; i < MAX_NUM; i++)\
+  \{\
+    check_sum += numbers[i];\
+  \}\
+\
+  printf("Suma verificata: %d\\n", check_sum);\
+\
+  return 0;\
+\}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f4\fs26 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 6)\
+\
+//\
+// thread_3.c - Utilizare semafor pentru sincronizare\
+//\
+// 1. Generati 100.000 de numere aleatoare si calculati suma lor utilizand 100 thread-uri.\
+//\
+\
+#include <stdio.h>\
+#include <stdlib.h>\
+#include <pthread.h>\
+#include <semaphore.h>\
+\
+#define NUM_THR 100\
+#define CHUNK_SIZE 1000\
+#define MAX_NUM 100000\
+\
+int sum = 0;\
+int numbers[MAX_NUM];\
+\
+sem_t sem;\
+\
+// Rutina de start\
+void* do_sum(void *a)\
+\{\
+	int min = *(int *)a;\
+	//printf("min = %d\\n", min);\
+	\
+	int i;\
+	int max = min + CHUNK_SIZE;\
+	for (i = min; i < max; i++)\
+	\{\
+		sem_wait(&sem);\
+		sum += numbers[i];\
+		sem_post(&sem);\
+	\}\
+\
+	return NULL;\
+\}\
+\
+\
+int main(int argc, char *argv[])\
+\{\
+	pthread_t t[NUM_THR];\
+\
+	// cream un semafor\
+	sem_init(&sem, 1, 1);\
+\
+	// generam 100.000 numere aleatoare\
+	int i;\
+	srand(time(NULL));\
+	for (i = 0; i < MAX_NUM; i++)\
+	\{\
+		numbers[i] = rand() % 20;\
+	\}\
+\
+	// cream 100 thread-uri\
+	for (i = 0; i < NUM_THR; i++)\
+	\{\
+		int *n = (int *)malloc(sizeof(int));\
+		*n = i * CHUNK_SIZE;\
+		pthread_create(&t[i], NULL, do_sum, n);\
+	\}\
+\
+	// asteptam terminarea thread-urilor\
+	for (i = 0; i < NUM_THR; i++)\
+	\{\
+		pthread_join(t[i], NULL);\
+	\}\
+\
+	// afisam rezultatul\
+	printf("Suma calculata:  %d\\n", sum);\
+\
+	// verificam suma\
+	int check_sum = 0;\
+	for (i = 0; i < MAX_NUM; i++)\
+	\{\
+		check_sum += numbers[i];\
+	\}\
+\
+	printf("Suma verificata: %d\\n", check_sum);\
+\
+	// distrugem semaforul\
+	sem_destroy(&sem);\
+\
+	return 0;\
+\}\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs26 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+7) Read-write lock\
+//\
+// lock_2.c - Using read-write lock object\
+//\
+// pthread_rwlock_init()    - initialize a read-write lock object\
+// pthread_rwlock_destroy() - destroy the read-write lock object\
+//\
+// pthread_rwlock_rdlock()\
+// pthread_rwlock_wrlock()\
+// pthread_rwlock_unlock()\
+//\
+\
+#include <stdio.h>\
+#include <pthread.h>\
+\
+#define MAX_READ  100   // maximun number of readers\
+#define MAX_WRITE 10    // maximun number of writers\
+\
+int seats = 100;        // initial number of seats\
+float price = 75.0f;    // initial price\
+\
+pthread_rwlock_t rwl;   // a read-write lock\
+\
+//\
+// Readers start routine\
+//\
+void* check(void* a)\
+\{\
+  int k = (int)a;\
+\
+  pthread_rwlock_rdlock(&rwl);      // lock for read\
+\
+  printf("Reader %2d: Locuri %d, pret %f\\n",\
+    k, seats, price * (2 - seats/100.0f));\
+\
+  pthread_rwlock_unlock(&rwl);      // unlock\
+\
+  return NULL;\
+\}\
+\
+//\
+// Writers start routine\
+//\
+void* buy(void* a)\
+\{\
+  int k = (int)a;\
+\
+  pthread_rwlock_wrlock(&rwl);      // lock for write\
+\
+  printf("Writer %2d: Locul meu este %d, pret %f\\n",\
+    k, seats, price * (2 - seats/100.0f));\
+  seats--;\
+\
+  pthread_rwlock_unlock(&rwl);      // unlock\
+\
+  return NULL;\
+\}\
+\
+\
+\
+int main(int argc, char* argv[])\
+\{\
+  pthread_t tr[MAX_READ];\
+  pthread_t tw[MAX_WRITE];\
+\
+  pthread_rwlock_init(&rwl, NULL);  // init a read-write lock\
+  \
+  int i;\
+  for (i = 0; i < MAX_READ; i++)\
+  \{\
+    pthread_create(&tr[i], NULL,\
+      check, (void*)i);             // create readers\
+  \}\
+\
+  for (i = 0; i < MAX_WRITE; i++)\
+  \{\
+    pthread_create(&tw[i], NULL,\
+      buy, (void*)i);               // create writers\
+  \}\
+\
+  for (i = 0; i < MAX_READ; i++)\
+  \{\
+    pthread_join(tr[i], NULL);      // wait for readers to finish\
+  \}\
+\
+  for (i = 0; i < MAX_WRITE; i++)\
+  \{\
+    pthread_join(tw[i], NULL);      // wait for writers to finish\
+  \}\
+\
+  pthread_rwlock_destroy(&rwl);     // destroy the read-write lock\
+\
+  return 0;\
+\}\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs26 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+8) VARIABILA CONDITIONALA\
+\
+//\
+// thread_7.c - Utilizarea unei variabile de conditie (condition variable)\
+//\
+\
+#include <fcntl.h>\
+#include <stdio.h>\
+#include <stdlib.h>\
+#include <pthread.h>\
+#include <unistd.h>\
+\
+#define MAX_NUM 1000  // maximum number of integers\
+#define MAX_THR 10    // maximum number of threads\
+#define MAX_STEP 100\
+\
+int fd;\
+int sum = 0;\
+\
+int flag = 0;        // 0 = empty buffer, 1 = full buffer\
+int buffer[1000];\
+\
+pthread_cond_t cv = PTHREAD_COND_INITIALIZER;\
+pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;\
+\
+//\
+// Function to check if buffer is empty\
+//\
+int is_empty()\
+\{\
+  if (flag == 0)\
+    return 1;\
+\
+  return 0;\
+\}\
+\
+//\
+// Function to check if buffer is full\
+//\
+int is_full()\
+\{\
+  if (flag == 1)\
+    return 1;\
+\
+  return 0;\
+\}\
+\
+//\
+// Consumers start routine\
+//\
+void* consume(void* a)\
+\{\
+  int cnum = *(int*)a;  // consumer number\
+  //free(a);\
+\
+  printf("[Consumer %d] Starting ...\\n", cnum);\
+\
+  pthread_mutex_lock(&mtx);\
+  if (is_empty())\
+  \{\
+    printf("[Consumer %d] Buffer is empty. I'm waiting to become full ...\\n", cnum);\
+    pthread_cond_wait(&cv, &mtx);\
+  \}\
+\
+  printf("[Consumer %d] Buffer is full. Start consumption ...\\n", cnum);\
+\
+  int start = cnum * MAX_STEP;    // index to start\
+  int finish = start + MAX_STEP;  // index to finish\
+\
+  int i = start;\
+  while (i < finish)\
+  \{\
+    sum += buffer[i];\
+    i++;\
+  \}\
+  \
+  flag = 0;\
+\
+  printf("[Consumer %d] Finished consumption. Buffer is now empty.\\n", cnum);\
+\
+  pthread_cond_signal(&cv);\
+  pthread_mutex_unlock(&mtx);\
+\
+  return NULL;\
+\}\
+\
+//\
+// Producers start routine\
+//\
+void* produce(void* a)\
+\{\
+  int pnum = *(int*)a;  // producer number\
+  //free(a);\
+\
+  printf("[Producer %d] Starting ...\\n", pnum);\
+\
+  pthread_mutex_lock(&mtx);\
+  if (is_full())\
+  \{\
+    printf("[Producer %d] Buffer is full. I'm waiting to become empty ...\\n", pnum);\
+    pthread_cond_wait(&cv, &mtx);\
+  \}\
+\
+  printf("[Producer %d] Buffer is empty. Start production ...\\n", pnum);\
+\
+  int start = pnum * MAX_STEP;    // index to start\
+  int finish = start + MAX_STEP;  // index to finish\
+\
+  int i = start;\
+  while (i < finish)\
+  \{\
+    read(fd, &buffer[i], 2);\
+    i++;\
+  \}\
+    \
+  flag = 1;\
+\
+  printf("[Producer %d] Finished production. Buffer is now full.\\n", pnum);\
+\
+  pthread_cond_signal(&cv);\
+  pthread_mutex_unlock(&mtx);\
+\
+  return NULL;\
+\}\
+\
+\
+\
+int main(int argc, char* argv[])\
+\{\
+  pthread_t tc[MAX_THR];  // an array of consumers\
+  pthread_t tp[MAX_THR];  // an array of producers\
+\
+  fd = open("random-file.bin", O_RDONLY);\
+  if (fd < 0)\
+  \{\
+    perror("open: ");\
+    exit(EXIT_FAILURE);\
+  \}\
+  \
+  int i;\
+  for (i = 0; i < MAX_THR; i++)\
+  \{\
+    int *k = (int*)malloc(sizeof(int));\
+    *k = i;                                   // thread number\
+    pthread_create(&tp[i], NULL, produce, k); // create a producer thread\
+    pthread_create(&tc[i], NULL, consume, k); // create a consumer thread\
+	free(k);\
+  \}\
+\
+  for (i = 0; i < MAX_THR; i++)\
+  \{\
+    pthread_join(tp[i], NULL);                // wait for each producer to finish\
+    pthread_join(tc[i], NULL);                // wait for each consumer to finish\
+  \}\
+\
+  printf("Sum: %d\\n", sum);\
+\
+  close(fd);\
+\
+  return 0;\
+\}\
+\
+\
+9))\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs30 \cf5 \cb6 #include <stdio.h>\
+#include <pthread.h>\
+#include <unistd.h>\
+#include <stdlib.h>\
+#include <string.h>\
+\
+pthread_mutex_t mt;\
+pthread_cond_t cond;\
+\
+int* vector;\
+\
+typedef struct\{\
+        char fisier[100];\
+        int indice;\
+\}fis;\
+\
+void* threadBla1(void *par)\{\
+        fis* str = par;\
+        char fisier[100];\
+        strcpy(fisier, str->fisier);\
+        FILE* f = fopen(fisier,"r");\
+        int a, b;\
+        fscanf(f,"%d",&a);\
+        fscanf(f,"%d",&b);\
+        int indice = str->indice;\
+        pthread_mutex_lock(&mt);\
+        while(vector[indice] <= b)\
+                vector[indice]+=a;\
+        pthread_cond_signal(&cond);\
+        pthread_mutex_unlock(&mt);\
+        return NULL;\
+\}\
+\
+void* threadBla2(void *par)\{\
+        fis* str = par;\
+        int indice = str->indice;\
+        pthread_mutex_lock(&mt);\
+        while(vector[indice] == 0)\
+                pthread_cond_wait(&cond,&mt);\
+        printf("%s: %d\\n", str->fisier, vector[indice]);\
+        pthread_mutex_unlock(&mt);\
+        return NULL;\
+\}\
+int main(int argc, char**argv)\{\
+\
+        int i;\
+\
+        vector = malloc(sizeof(int)*( argc - 1));\
+\
+        pthread_t threads1[argc];\
+        pthread_t threads2[argc];\
+        fis params[argc];\
+        for(i = 1; argv[i]; i++)\{\
+                strcpy(params[i].fisier, argv[i]);\
+                params[i].indice = i;\
+                pthread_create(&threads2[i],NULL,threadBla1,&params[i]);\
+                pthread_create(&threads1[i],NULL,threadBla2,&params[i]);\
+        \}\
+\
+        for(i = 1; argv[i]; i++)\{\
+                pthread_join(threads2[i],NULL);\
+                pthread_join(threads1[i],NULL);\
+        \}\
+        pthread_mutex_destroy(&mt);\
+        pthread_cond_destroy(&cond);\
+        free(vector);\
+        return 0;\
+\}
+\f1\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\
+10)PROBLEMA PRACTIC\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf2 Scrieti un program C care primeste ca si argumente in linia de comanda\
+oricate fisiere. Fiecare fisier ca contine 3 numere intregi a si b intre 1\
+si 99 si c intre 1000 si 99999. Programul va crea cate o variabila globala n\
+si 3 threaduri x, y si z pentru fiecare fisier primit ca argument.\
+Thread-urile x si y vor citi pe a si b din fisier si vor aduna valoarea\
+acestora la n pana cand n va depasi valoare lui c, moment in care se va\
+trimite un semnal lui z iar acesta va afisa valoarea lui n pe ecran. Fiecare\
+triplet de thread-uri isi va culege datele dintr-unul din fisierele primite\
+ca argumet, si fiecare trplet de threaduri va avea prorpia variabila\
+\
+\
+#include <stdio.h>\
+#include <pthread.h>\
+#include <unistd.h>\
+#include <stdlib.h>\
+#include <string.h>\
+\
+pthread_mutex_t mt=PTHREAD_MUTEX_INITIALIZER;\
+pthread_cond_t cond=PTHREAD_COND_INITIALIZER;\
+\
+int* vector;\
+\
+typedef struct\{\
+        char fisier[1000];\
+        int indice;\
+\}fis;\
+void* thread1(void *par)\{\
+        fis* str = par;\
+	//free(par);\
+        char fisier[1000];\
+        strcpy(fisier, str->fisier);\
+        FILE* f = fopen(fisier,"r");\
+        int a, b, c;\
+        fscanf(f,"%d",&a);\
+        fscanf(f,"%d",&b);\
+	fscanf(f,"%d",&c);\
+	//printf("\\nThread:1\\n");\
+        int indice = str->indice;\
+        //pthread_mutex_lock(&mt);\
+	while(vector[indice] <= c)\
+	\{\
+		pthread_mutex_lock(&mt);\
+                vector[indice]+=a;\
+		pthread_mutex_unlock(&mt);\
+	\}\
+        pthread_cond_signal(&cond);\
+	//free(str);\
+       	return NULL;\
+\}\
+void* thread3(void *par)\
+\{\
+	fis* str = par;\
+	//free(par);\
+        char fisier[1000];\
+        strcpy(fisier, str->fisier);\
+        FILE* f = fopen(fisier,"r");\
+        int a, b, c;\
+        fscanf(f,"%d",&a);\
+        fscanf(f,"%d",&b);\
+        fscanf(f,"%d",&c);\
+	//printf("\\nThread:2\\n");\
+        int indice = str->indice;\
+        //pthread_mutex_lock(&mt);\
+	while(vector[indice] <= c)\
+	\{\
+		pthread_mutex_lock(&mt);\
+                vector[indice]+=b;\
+		pthread_mutex_unlock(&mt);\
+	\}\
+        pthread_cond_signal(&cond);\
+        //pthread_mutex_unlock(&mt);\
+        //free(str);\
+	return NULL;\
+\}\
+void* thread2(void *par)\{\
+        fis* str = par;\
+	//free(par);\
+        int indice = str->indice;\
+        pthread_mutex_lock(&mt);\
+        while(vector[indice] == 0)\
+                pthread_cond_wait(&cond,&mt);\
+        printf("%s: %d\\n", str->fisier, vector[indice]);\
+        pthread_mutex_unlock(&mt);\
+        //free(str);\
+	return NULL;\
+\}\
+int main(int argc, char**argv)\{\
+\
+        int i;\
+\
+        vector = malloc(sizeof(int)*(argc-1));\
+\
+        pthread_t threads1[argc];\
+        pthread_t threads2[argc];\
+	pthread_t threads3[argc];\
+        fis params[argc];\
+        for(i = 1; argv[i]; i++)\{\
+                strcpy(params[i].fisier, argv[i]);\
+                params[i].indice = i;\
+                pthread_create(&threads2[i],NULL,thread1,&params[i]);\
+                pthread_create(&threads1[i],NULL,thread2,&params[i]);\
+		pthread_create(&threads3[i],NULL,thread3,&params[i]);\
+        \}\
+\
+        for(i = 1; argv[i]; i++)\{\
+		pthread_join(threads2[i],NULL);\
+                pthread_join(threads3[i],NULL);\
+                pthread_join(threads1[i],NULL);\
+        \}\
+        pthread_mutex_destroy(&mt);\
+        pthread_cond_destroy(&cond);\
+        free(vector);\
+        return 0;\
+\}}

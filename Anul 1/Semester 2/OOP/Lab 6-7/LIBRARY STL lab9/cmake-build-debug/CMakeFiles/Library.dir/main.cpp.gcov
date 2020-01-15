@@ -1,0 +1,176 @@
+        -:    0:Source:/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL lab9/main.cpp
+        -:    0:Graph:main.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    0:Programs:0
+        -:    1:#include "console.h"
+        -:    2:#include "BookStore.h"
+        -:    3:#include "bookrepo.h"
+        -:    4:#include "validator.h"
+        -:    5:#include <iostream>
+        -:    6:#include <fstream>
+        -:    7:#include <string.h>
+        -:    8:using namespace std;
+        -:    9:/*
+        -:   10:void adaugaCateva(BookStore& ctr) {
+        -:   11:	ctr.addBook("a", "zz","a", 2010);
+        -:   12:	ctr.addBook("b", "aa","a", 2006);
+        -:   13:	ctr.addBook("z", "cc","a", 2016);
+        -:   14:	ctr.addBook("c", "bb","a", 2017);
+        -:   15:}*/
+        -:   16:void adaugFromFile(BookStore& ctr){
+    #####:   17:	ifstream f("books.html");
+    #####:   18:	string a,b,c;
+    #####:   19:	string d;
+    #####:   20:	f>>b>>c;
+        -:   21:	//int year=std::stoi (a,100);
+        -:   22:
+    #####:   23:	string titlu,autor,gen,an;
+    #####:   24:	while(!f.eof()){
+    #####:   25:		f>>a;
+        -:   26:		//std::cout << a << "\n";
+    #####:   27:		if(a[1]=='p') {
+    #####:   28:			a.erase(0, 3);
+    #####:   29:			a.erase(a.end() - 4, a.end());
+        -:   30:			//std::cout << a << '\n';
+        -:   31:			int i, j;
+    #####:   32:			string s1,s2,s3,s4;
+    #####:   33:			i = 0;
+        -:   34:
+    #####:   35:			for (char &c : a) {
+    #####:   36:				if (c != ',')
+    #####:   37:					++i;
+        -:   38:				else {
+    #####:   39:					s1 = a.substr(0, i);
+    #####:   40:					break;
+        -:   41:				}
+        -:   42:			}
+    #####:   43:			titlu = s1;
+    #####:   44:			a = a.substr(i+1,a.size());
+    #####:   45:			j = 0;
+        -:   46:
+    #####:   47:			for (char &c : a) {
+    #####:   48:				if (c != ',')
+    #####:   49:					++j;
+        -:   50:				else {
+    #####:   51:					s2 = a.substr(0, j);
+    #####:   52:					break;
+        -:   53:				}
+        -:   54:			}
+        -:   55:
+    #####:   56:			autor = s2;
+    #####:   57:			a = a.substr(j + 1, a.size());
+    #####:   58:			j = 0;
+        -:   59:
+    #####:   60:			for (char &c : a) {
+    #####:   61:				if (c != ',')
+    #####:   62:					++j;
+        -:   63:				else {
+    #####:   64:					s3 = a.substr(0, j);
+    #####:   65:					break;
+        -:   66:				}
+        -:   67:			}
+        -:   68:
+    #####:   69:			gen = s3;
+    #####:   70:			a = a.substr(j + 1, a.size());
+    #####:   71:			an = a;
+        -:   72:			//std::cout << an << "\n";
+    #####:   73:			int rez = 0;
+    #####:   74:			for (char &c : an)
+    #####:   75:				rez = rez * 10 + c - '0';
+    #####:   76:			cout << titlu << " " << autor << " " << gen << " " << rez << "\n";
+    #####:   77:			ctr.addBook(titlu, autor, gen, rez);
+        -:   78:
+        -:   79:
+    #####:   80:		}
+        -:   81:	}
+    #####:   82:}
+        -:   83:void adaugFromFileBasket(BookStore& ctr){
+    #####:   84:	ifstream f("basket.html");
+    #####:   85:	string a,b,c;
+    #####:   86:	string d;
+    #####:   87:	f>>b>>c;
+        -:   88:	//int year=std::stoi (a,100);
+        -:   89:
+    #####:   90:	string titlu,autor,gen,an;
+    #####:   91:	while(!f.eof()){
+    #####:   92:		f>>a;
+        -:   93:		//std::cout << a << "\n";
+    #####:   94:		if(a[1]=='p') {
+    #####:   95:			a.erase(0, 3);
+    #####:   96:			a.erase(a.end() - 4, a.end());
+        -:   97:			//std::cout << a << '\n';
+        -:   98:			int i, j;
+    #####:   99:			string s1,s2,s3,s4;
+    #####:  100:			i = 0;
+        -:  101:
+    #####:  102:			for (char &c : a) {
+    #####:  103:				if (c != ',')
+    #####:  104:					++i;
+        -:  105:				else {
+    #####:  106:					s1 = a.substr(0, i);
+    #####:  107:					break;
+        -:  108:				}
+        -:  109:			}
+    #####:  110:			titlu = s1;
+    #####:  111:			a = a.substr(i+1,a.size());
+    #####:  112:			j = 0;
+        -:  113:
+    #####:  114:			for (char &c : a) {
+    #####:  115:				if (c != ',')
+    #####:  116:					++j;
+        -:  117:				else {
+    #####:  118:					s2 = a.substr(0, j);
+    #####:  119:					break;
+        -:  120:				}
+        -:  121:			}
+        -:  122:
+    #####:  123:			autor = s2;
+    #####:  124:			a = a.substr(j + 1, a.size());
+    #####:  125:			j = 0;
+        -:  126:
+    #####:  127:			for (char &c : a) {
+    #####:  128:				if (c != ',')
+    #####:  129:					++j;
+        -:  130:				else {
+    #####:  131:					s3 = a.substr(0, j);
+    #####:  132:					break;
+        -:  133:				}
+        -:  134:			}
+        -:  135:
+    #####:  136:			gen = s3;
+    #####:  137:			a = a.substr(j + 1, a.size());
+    #####:  138:			an = a;
+        -:  139:			//std::cout << an << "\n";
+    #####:  140:			int rez = 0;
+    #####:  141:			for (char &c : an)
+    #####:  142:				rez = rez * 10 + c - '0';
+    #####:  143:			cout << titlu << " " << autor << " " << gen << " " << rez << "\n";
+    #####:  144:			ctr.addBookBasket(titlu, autor);
+        -:  145:
+        -:  146:
+    #####:  147:		}
+        -:  148:	}
+    #####:  149:}
+        -:  150:
+        -:  151:void testAll() {
+    #####:  152:	testeRepo();
+    #####:  153:	testCtr();
+    #####:  154:}
+        -:  155:
+        -:  156:int main() {
+    #####:  157:	BookRepo rep;
+        -:  158:	BookValidator val;
+    #####:  159:	BookStore ctr{rep, val};
+        -:  160:	//adaugaCateva(ctr);//adaugam cateva carti
+    #####:  161:	ConsolUI ui{ctr};
+        -:  162:
+    #####:  163:	adaugFromFile(ctr);//incarcam datele din fisier
+    #####:  164:	adaugFromFileBasket(ctr);//incarcam datele din fisier in cos
+        -:  165:
+    #####:  166:	testAll();
+    #####:  167:	cout << "All test passed";
+        -:  168:
+    #####:  169:	ui.start();
+    #####:  170:	return 0;
+    #####:  171:}

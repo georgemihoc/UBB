@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Raul/Header.h
+iostream
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Raul/iterator.h
+Header.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Raul/Header.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Raul/main.cpp
+iostream
+-
+Header.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Raul/Header.h
+iterator.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Raul/iterator.h
+assert.h
+-
+

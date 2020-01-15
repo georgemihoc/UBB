@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="curs12.csproj" t="IncludeRecursive" />
+      <e p="curs12.sln" t="IncludeFlat" />
+      <e p="data" t="Include">
+        <e p="angajati.txt" t="Include" />
+        <e p="messages.txt" t="Include" />
+        <e p="pontaje.txt" t="Include" />
+        <e p="sarcini.txt" t="Include" />
+      </e>
+      <e p="model" t="Include">
+        <e p="Angajat.cs" t="Include" />
+        <e p="Entity.cs" t="Include" />
+        <e p="MessageTask.cs" t="Include" />
+        <e p="Pontaj.cs" t="Include" />
+        <e p="PontajDTO.cs" t="Include" />
+        <e p="Sarcina.cs" t="Include" />
+        <e p="Task.cs" t="Include" />
+        <e p="validator" t="Include">
+          <e p="AngajatValidator.cs" t="Include" />
+          <e p="IValidator.cs" t="Include" />
+          <e p="MessageTaskValidator.cs" t="Include" />
+          <e p="PontajValidator.cs" t="Include" />
+          <e p="SarcinaValidator.cs" t="Include" />
+          <e p="ValidationException.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="curs12.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="repository" t="Include">
+        <e p="AngajatInFileRepository.cs" t="Include" />
+        <e p="DataReader.cs" t="Include" />
+        <e p="EntityToFileMapping.cs" t="Include" />
+        <e p="InFileRepository.cs" t="Include" />
+        <e p="InMemoryRepository.cs" t="Include" />
+        <e p="IRepository.cs" t="Include" />
+        <e p="PontajInFileRepository.cs" t="Include" />
+        <e p="SarcinaInFileRepository.cs" t="Include" />
+      </e>
+      <e p="service" t="Include">
+        <e p="AngajatService.cs" t="Include" />
+        <e p="MessageTaskService.cs" t="Include" />
+        <e p="PontajService.cs" t="Include" />
+        <e p="SarcinaService.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_curs12.-250572259.00" t="ExcludeRecursive" />
+  </component>
+</project>

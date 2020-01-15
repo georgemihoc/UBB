@@ -1,0 +1,44 @@
+using System;
+
+namespace grila
+{
+    public class Program{
+        public delegate bool DlgtFunc<T>(T a, T b);
+
+        static void Bar<T>(ref T a, ref T b){
+            T temp = b; b = a; a = temp;
+        }
+
+        static void Foo<T>(T[] elems, DlgtFunc<T> comp){
+            int n = elems.Length;
+            for (int i = 0; i < n - 1; i++)
+                for (int j = i + 1; j < n; j++)
+                    if (comp(elems[i], elems[j]))
+                        Bar<T>(ref elems[i], ref elems[j]);
+        }
+
+        static bool DlgtFunc1(int a, int b) { return a > b; }
+
+        static void Main(string[] args){
+            int[] integers = { 3, 9, 7, 4, 0 };
+            DlgtFunc<int> func = DlgtFunc1;
+            Foo<int>(integers, func);
+            string[] strings = { "ion", "si", "vasile", "au", "doi", "copaci", "frumosi", "in", "livada" };
+            Foo(strings, (a, b) => { return a.Length < b.Length; });
+            foreach (int i in integers)
+                Console.Write(i + " ");
+            Console.WriteLine();
+            foreach (string s in strings)
+                Console.Write(s + " ");
+        }
+    }
+}
+
+
+//CE SE AFISEAZA IN URMA EXECUTIEI PROGRAMULUI?
+
+    //a) 3 9 7 4 0 ; ion si vasile au doi copaci frumosi in livada
+    //b) 0 3 4 7 9 ; frumosi copaci vasile livada doi ion si in au (CORECT)
+    //c) eroare la compilare
+    //d) 9 7 4 3 0 ; si au in doi ion copaci vasile livada frumosi
+    

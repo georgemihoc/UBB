@@ -1,0 +1,11 @@
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/bin/Debug/netcoreapp3.0/Lab10
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/bin/Debug/netcoreapp3.0/Lab10.deps.json
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/bin/Debug/netcoreapp3.0/Lab10.runtimeconfig.json
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/bin/Debug/netcoreapp3.0/Lab10.runtimeconfig.dev.json
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/bin/Debug/netcoreapp3.0/Lab10.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/bin/Debug/netcoreapp3.0/Lab10.pdb
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/obj/Debug/netcoreapp3.0/Lab10.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/obj/Debug/netcoreapp3.0/Lab10.AssemblyInfoInputs.cache
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/obj/Debug/netcoreapp3.0/Lab10.AssemblyInfo.cs
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/obj/Debug/netcoreapp3.0/Lab10.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Lab10/Lab10/obj/Debug/netcoreapp3.0/Lab10.pdb

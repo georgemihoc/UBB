@@ -1,0 +1,51 @@
+Student propunător: Pop Ioan Daniel 
+Grupa: 226
+Email: popioandaniel09@yahoo.com
+
+Ce se afişează în urma execuţiei funcţiei main?
+
+import java.io.IOException;
+class One{
+	int num;
+ 	public One(int num) {
+		this.num = num;
+	}
+ 	public void sum(int number) throws IOException {
+		this.num += number * number;
+ 	}
+}
+class Two extends One{
+	int num;
+	public Two(int num) {
+		super(num);
+	}
+	public void sum(int number) throws IOException{
+		num += number;
+		super.sum(num);
+	}
+}
+public class Main {
+	public static void main(String[] args) {
+ 		One o = new One(2);
+ 		Two t = new Two(3);
+ 		try {
+			o.sum(2);
+ 			t.sum(2);
+ 		} catch (IOException e) {
+			System.out.println("Arunca exceptie!");
+ 		} finally {
+			o.sum(2);
+			 t.sum(2);
+ 		}
+		System.out.print(o.num + " ");
+ 		System.out.print(t.num);
+	}
+}
+Raspunsuri:
+A) 4+ 10
+B) 10+ 4 -> corect
+C) Arunca excepție
+D) Eroare
+
+Explicatie:
+Finally se executa indiferent dacă try arunca sau nu excepție.

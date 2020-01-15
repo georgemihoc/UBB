@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/andreea/IteratorMultime.h
+Multime.h
+/Users/george/Documents/andreea/Multime.h
+
+/Users/george/Documents/andreea/Multime.h
+
+/Users/george/Documents/andreea/TestExtins.cpp
+Multime.h
+/Users/george/Documents/andreea/Multime.h
+IteratorMultime.h
+/Users/george/Documents/andreea/IteratorMultime.h
+assert.h
+-
+TestExtins.h
+/Users/george/Documents/andreea/TestExtins.h
+
+/Users/george/Documents/andreea/TestExtins.h
+

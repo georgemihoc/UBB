@@ -1,0 +1,36 @@
+Student propunator: Sarosi Nicoleta
+Grupa: 226
+
+Selectati varianta/variantele corecte care explica ce verifica acest program: 
+
+using System;  
+  public class ProgramExample  
+   {  
+     public static void Main(string[] args)  
+      {  
+          int n, i, m=0, flag=0;    
+          Console.Write("Dati numarul: ");    
+          n = int.Parse(Console.ReadLine());  
+          m=n/2;    
+          for(i = 2; i <= m; i++)    
+          {    
+           if(n % i == 0)    
+            {    
+             Console.Write("Nu");    
+             flag=1;    
+             break;    
+            }    
+          }    
+          if (flag==0)    
+           Console.Write("Da");       
+     }  
+   }  
+
+a) Programul verifica daca un numar este par/impar
+b) Programul verifica daca numarul este palindrom
+c) Programul verifica daca numarul dat este armstrong
+d) Programul verifica daca numarul dat este prim
+
+
+Raspuns corect: d) deoarece in momentul in care numarul dat se divide cu un numar pana la jumatatea lui se afiseaza "Nu" si programul se opreste. 
+Daca nu se divide cu niciun numar, se afiseaza "Da" deoarece numarul este prim.

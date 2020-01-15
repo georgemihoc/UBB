@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="946.25" y="0.0">container.Container</node>
+    <node x="0.0" y="784.0">model.BubbleSort</node>
+    <node x="199.0" y="762.0">model.QuickSort</node>
+    <node x="913.75" y="164.0">container.AbstractContainer</node>
+    <node x="459.25" y="1086.0">runner.StrategyTaskRunner</node>
+    <node x="0.0" y="1296.0">runner.PrinterTaskRunner</node>
+    <node x="0.0" y="1435.0">com.company.Main</node>
+    <node x="340.0" y="1307.5">runner.DelayTaskRunner</node>
+    <node x="1252.25" y="922.0">container.Strategy</node>
+    <node x="1056.25" y="922.0">model.SortingStrategy</node>
+    <node x="349.75" y="922.0">runner.TaskRunner</node>
+    <node x="60.25" y="342.0">model.SortingTask</node>
+    <node x="741.25" y="922.0">factory.Factory</node>
+    <node x="104.25" y="574.0">model.AbstractSorter</node>
+    <node x="180.24999999999997" y="1086.0">runner.AbstractTaskRunner</node>
+    <node x="741.25" y="1020.0">factory.TaskContainerFactory</node>
+    <node x="301.75" y="0.0">model.Task</node>
+    <node x="369.25" y="342.0">model.MessageTask</node>
+    <node x="871.25" y="440.0">container.StackContainer</node>
+    <node x="1035.25" y="440.0">container.QueueContainer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="runner.StrategyTaskRunner" target="runner.TaskRunner">
+      <point x="0.0" y="-80.0" />
+      <point x="577.75" y="1061.0" />
+      <point x="490.75" y="1061.0" />
+      <point x="47.0" y="57.0" />
+    </edge>
+    <edge source="model.MessageTask" target="model.Task">
+      <point x="0.0" y="-91.0" />
+      <point x="597.75" y="317.0" />
+      <point x="451.0" y="317.0" />
+      <point x="49.75" y="146.0" />
+    </edge>
+    <edge source="runner.AbstractTaskRunner" target="runner.TaskRunner">
+      <point x="0.0" y="-80.0" />
+      <point x="309.75" y="1061.0" />
+      <point x="396.75" y="1061.0" />
+      <point x="-47.0" y="57.0" />
+    </edge>
+    <edge source="model.QuickSort" target="model.AbstractSorter">
+      <point x="0.0" y="-57.5" />
+      <point x="320.0" y="737.0" />
+      <point x="255.0" y="737.0" />
+      <point x="50.25" y="69.0" />
+    </edge>
+    <edge source="runner.PrinterTaskRunner" target="runner.AbstractTaskRunner">
+      <point x="0.0" y="-47.0" />
+      <point x="160.0" y="1271.0" />
+      <point x="244.99999999999997" y="1271.0" />
+      <point x="-64.75" y="80.0" />
+    </edge>
+    <edge source="factory.TaskContainerFactory" target="factory.Factory">
+      <point x="0.0" y="-58.0" />
+      <point x="0.0" y="24.0" />
+    </edge>
+    <edge source="model.BubbleSort" target="model.AbstractSorter">
+      <point x="0.0" y="-35.5" />
+      <point x="89.5" y="737.0" />
+      <point x="154.5" y="737.0" />
+      <point x="-50.25" y="69.0" />
+    </edge>
+    <edge source="model.SortingTask" target="model.Task">
+      <point x="0.0" y="-91.0" />
+      <point x="204.75" y="317.0" />
+      <point x="351.5" y="317.0" />
+      <point x="-49.75" y="146.0" />
+    </edge>
+    <edge source="runner.DelayTaskRunner" target="runner.AbstractTaskRunner">
+      <point x="0.0" y="-35.5" />
+      <point x="459.5" y="1271.0" />
+      <point x="374.5" y="1271.0" />
+      <point x="64.75" y="80.0" />
+    </edge>
+    <edge source="container.StackContainer" target="container.AbstractContainer">
+      <point x="0.0" y="-24.0" />
+      <point x="943.25" y="415.0" />
+      <point x="969.5" y="415.0" />
+      <point x="-55.75" y="113.0" />
+    </edge>
+    <edge source="container.QueueContainer" target="container.AbstractContainer">
+      <point x="0.0" y="-24.0" />
+      <point x="1107.25" y="415.0" />
+      <point x="1081.0" y="415.0" />
+      <point x="55.75" y="113.0" />
+    </edge>
+    <edge source="model.AbstractSorter" target="model.SortingTask">
+      <point x="0.0" y="-69.0" />
+      <point x="0.0" y="91.0" />
+    </edge>
+    <edge source="container.AbstractContainer" target="container.Container">
+      <point x="0.0" y="-113.0" />
+      <point x="0.0" y="57.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5626404494382025" x="524.5" y="223.5" />
+  <SelectedNodes>
+    <node>container.QueueContainer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<class>
+    <student>
+        <nume>Mihnea</nume>
+        <grupa>224</grupa>
+        <email>mihnea@gmail.com</email>
+        <cadru_didactic>Serban Camelia</cadru_didactic>
+    </student>
+    <student>
+        <nume>George</nume>
+        <grupa>221</grupa>
+        <email>george@gmail.com</email>
+        <cadru_didactic>Lascu Roxana</cadru_didactic>
+    </student>
+    <student>
+        <nume>Serban</nume>
+        <grupa>224</grupa>
+        <email>serban@gmail.com</email>
+        <cadru_didactic>Stefan Berinde</cadru_didactic>
+    </student>
+    <student>
+        <nume>Mihai</nume>
+        <grupa>223</grupa>
+        <email>alex@gmail.com</email>
+        <cadru_didactic>Gabi Mircea</cadru_didactic>
+    </student>
+    <student>
+        <nume>Victor</nume>
+        <grupa>223</grupa>
+        <email>victor@gmail.com</email>
+        <cadru_didactic>Gabi Mircea</cadru_didactic>
+    </student>
+    <student>
+        <nume>Raul</nume>
+        <grupa>227</grupa>
+        <email>raul@gmail.com</email>
+        <cadru_didactic>Boian Rares</cadru_didactic>
+    </student>
+    <student>
+        <nume>Vlad</nume>
+        <grupa>221</grupa>
+        <email>vlad@gmail.com</email>
+        <cadru_didactic>Suciu Mihai</cadru_didactic>
+    </student>
+    <student>
+        <nume>Marius</nume>
+        <grupa>226</grupa>
+        <email>marius@gmail.com</email>
+        <cadru_didactic>Ciprian Modoi</cadru_didactic>
+    </student>
+    <student>
+        <nume>Cristian</nume>
+        <grupa>224</grupa>
+        <email>cristian@gmail.com</email>
+        <cadru_didactic>Suciu Dan</cadru_didactic>
+    </student>
+    <student>
+        <nume>Stefan</nume>
+        <grupa>221</grupa>
+        <email>stefan@gmail.com</email>
+        <cadru_didactic>Pop Andreea</cadru_didactic>
+    </student>
+    <student>
+        <nume>Daniel</nume>
+        <grupa>226</grupa>
+        <email>daniel@gmail.com</email>
+        <cadru_didactic>Czibula Gabriela</cadru_didactic>
+    </student>
+    <student>
+        <nume>Sebastian</nume>
+        <grupa>227</grupa>
+        <email>sebastian@gmail.com</email>
+        <cadru_didactic>Vancea Alexandru</cadru_didactic>
+    </student>
+    <student>
+        <nume>Florin</nume>
+        <grupa>223</grupa>
+        <email>florin@gmail.com</email>
+        <cadru_didactic>Czibula Istvan</cadru_didactic>
+    </student>
+</class>

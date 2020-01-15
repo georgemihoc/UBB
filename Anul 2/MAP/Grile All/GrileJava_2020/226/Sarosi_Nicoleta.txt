@@ -1,0 +1,25 @@
+Student propunător: Saroşi Nicoleta - Maria 
+Grupa: 226
+Email: sarosinicoleta08@gmail.com
+
+Ce returneaza functia f?
+
+public static String f(String input) {
+	char[] in = input.toCharArray();
+ 	int begin = 0;
+ 	int end = in.length-1;
+ 	char temp;
+ 	while(end > begin) {
+		temp = in[begin];
+ 		in[begin] = in[end];
+ 		in[end] = temp;
+ 		end--;
+ 		begin++;
+	}
+ 	return new String(in);
+}
+
+Raspunsuri:
+A) Returneaza inversul unui string -> corect
+B) Returneaza stringul scris cu litere mari
+C) Returneaza litera de la mijlocul stringului 

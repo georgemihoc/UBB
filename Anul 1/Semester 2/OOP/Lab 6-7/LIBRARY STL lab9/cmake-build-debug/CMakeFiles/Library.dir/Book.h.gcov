@@ -1,0 +1,47 @@
+        -:    0:Source:/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab 6-7/LIBRARY STL lab9/Book.h
+        -:    0:Graph:main.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    0:Programs:0
+        -:    1:#pragma once
+        -:    2:#include <string>
+        -:    3:#include <iostream>
+        -:    4:
+        -:    5:using namespace std;
+    #####:    6:class Book {
+        -:    7:	std::string title;
+        -:    8:	std::string writer;
+        -:    9:	std::string genre;
+        -:   10:	int year;
+        -:   11:public:
+        -:   12:	Book(const string t, const string w,const string g, int y):title{t},writer{w},genre{g},year{y}{}
+        -:   13:
+        -:   14:	Book(const Book& ot):title{ ot.title }, writer{ ot.writer }, genre{ ot.genre },year{ ot.year} {
+        -:   15:		cout << "COPIE!!!!\n";
+        -:   16:	}
+        -:   17:
+        -:   18:	string getTitle() const {
+        -:   19:		return title;
+        -:   20:	}
+        -:   21:	string getWriter() const {
+        -:   22:		return writer;
+        -:   23:	}
+        -:   24:    string getGenre() const {
+        -:   25:        return genre;
+        -:   26:    }
+        -:   27:	int getYear() const noexcept {
+        -:   28:		return year;
+        -:   29:	}
+        -:   30:};
+        -:   31:/*
+        -:   32:Compara dupa titlu
+        -:   33:returneaza true daca p1.title e mai mic decat p2.title
+        -:   34:*/
+        -:   35:bool cmpTitle(const Book& p1, const Book& p2);
+        -:   36:/*
+        -:   37:Compara dupa specie
+        -:   38:returneaza true daca p1.autor e mai mic decat p2.autor
+        -:   39:*/
+        -:   40:bool cmpWriter(const Book& p1, const Book& p2);
+        -:   41:
+        -:   42:bool cmpGenre(const Book& p1, const Book& p2);

@@ -1,0 +1,311 @@
+1
+
+#!/bin/bash
+
+#1. CalculaC^Ûi numÄ^Ãrul mediu de linii din fiC^Ùierele text dintr-un
+#director dat ca parametru.
+#(comenzi: find, file, wc).
+
+dir=$1
+nrfisiere=0
+T=0
+echo "director curent: $dir"
+for F in `find $dir -type f -name "*.txt"`
+do
+        let nrfisiere=nrfisiere+1
+        nrli=`grep "" $F | wc -l`
+        let T=T+nrli
+done
+
+echo "Numarul de fisiere cu extensia .txt este: $nrfisiere"
+echo "Nr de linii total este: $T"
+let media=T/nrfisiere
+echo "Media este $media"
+
+
+
+
+2
+
+!/bin/bash
+
+#2. AfiC^ÙaC^Ûi numele fiC^Ùierelor dintr-un director dat
+# ca parametru care conC^Ûin numere de peste 5 cifre.
+
+
+dir=$1 #director argument
+for F in `find $dir -type f`
+do
+
+        numere=`grep "[0-9]\{5,\}" $F | wc -l`
+
+
+        if [ $numere -gt 0 ]
+        then
+             echo $F
+        fi
+done
+
+
+
+3
+
+#!/bin/bash
+
+
+#3. AfiC^ÙaC^Ûi primele 5 linii C^Ùi ultimele 5 linii din fiC^Ùierele
+#de tip text din directorul curent.
+#DacÄ^Ã un fiC^Ùier are mai puC^Ûin de 10 linii, afiC^ÙaC^Ûi fiC^Ùierul
+# complet (comenzi: head, tail, find, file, wc).
+
+
+for F in `find . -type f -name "*.txt"` #pt fiecare F din dir curent cu .txt
+do
+        echo "Fisierul curent este: $F"
+        nrlinii=`grep "" $F | wc -l`
+        echo "Nr de linii ale fisierului curent este: $nrlinii"
+        if [ $nrlinii -lt 10 ]
+        then
+                sed -n 'p' $F
+        else
+                #sed -n '1,5p' $F
+                head -5 $F #echivalent cu sed de mai sus
+                tail -5 $F
+        fi
+done
+
+
+
+
+4
+
+#!/bin/bash
+
+#4. Sa se scrie un fisier de comenzi care va afisa toate fisierele
+#dintr-un director si din subdirectoarele
+#acestuia asupra carora au drepturi de scriere toate cele trei
+#categorii de utilizatori.
+#Aceste fisiere vor fi apoi redenumite, adaugandu-se sufixul .all
+#(comenzi: find -perm, mv).
+
+dir=$1
+find $dir -type f -perm -777 #afiseaza fisierele din  direct dat ca param
+
+for F in `find $dir -type f -perm -u+w,g+w,o+w`
+do
+#       mv $F $F.all #modifica numele acelor fisiere
+
+done
+
+
+5
+
+#!/bin/bash
+
+#5. Pentru fiecare parametru din linia de comanda:
+#daca e fisier, se vor afisa numele, numarul de caractere
+#si de linii din el (in aceasta ordine), iar daca e director,
+# numele si catee fisiere contine (inclusiv in subdirectoare).
+#(comenzi: test, wc, awk, find).
+
+for arg in $@
+do
+        if [ -f $arg ]
+        then
+                echo "$arg este fisier"
+                awk 'BEGIN{nc=0} {nc=nc+NF} END{print "Numarul de caractere este: " nc}' $arg
+                awk 'BEGIN{nl=0} {nl++} END{print "Numarul de linii este: " nl}' $arg
+        elif [ -d $arg ]
+        then
+                echo "$arg este director"
+                nr=`find $arg -type f | wc -l`
+                echo "Numarul de fisiere din director este: $nr"
+        fi
+done
+
+
+6
+
+
+
+#!/bin/bash
+#6. Sa se scrie un fisier de comenzi care are ca parametri triplete formate
+#dintr-un nume de fisier, un cuvant si un numar k.
+#Pentru fiecare astfel de triplet, se vor afisa toate liniile fisierului care
+#contin cuvantul respectiv exact de k ori.
+#(comenzi: shift, awk)
+
+echo "Nur de arg: $#"
+
+while true
+do
+        if [ $# -gt 2 ]
+        then
+                echo "pasul curent:"
+        else
+                echo "insuficiente argumente ramase"
+                exit 1
+        fi
+
+        file=$1
+        cuv=$2
+        k=$3
+        echo "Fisierul curent: $file ;   cuvantul: $cuv;         nr de aparitii: $k"
+        awk -v c="$cuv" -v k="$k" 'BEGIN{} {contor=0;for (i=1;i<=NF;i++) if($i==c) contor++; if (contor==k)print $0;} END{}' $file
+        shift 3
+done
+
+
+
+7
+
+#!/bin/bash
+#7. Sa se afiseze pentru fiecare fisier din linia de comanda linia care apare de cele mai multe ori,
+#afisarea facandu-se in ordinea decsrescatoare a numarului de aparitii. (comenzi: sort, uniq, head).
+
+while true
+do
+        if [ $# -ge 1 ]
+        then
+                #cat "$1" | sort | uniq -c | sort -k 1nr -k 1f
+         cat "$1" | sort | uniq -c | sort -r       #-k # 1nr -k 1f
+
+        else
+                exit 1
+        fi
+        shift 1
+done
+
+
+
+
+8
+
+#!/bin/bash
+
+#8. Sa se scrie un fisier de comenzi care va afisa toate numele de fisiere
+#dintr-un director dat ca parametru si din subdirectoarele sale, care
+#au numele mai scurte de 8 caractere.
+#Pentru acestea, daca sunt fisiere text, li se vor afisa primele 10 linii.
+
+dir=$1 #direct dat ca param
+for F in `find $dir -type f | awk -F/ ' length($NF) <= 8 '`
+do
+        echo $F
+done
+
+for F in `find $dir -type f -name "*.txt"| awk -F/ ' length($NF) <= 8 '`
+do
+        echo "Fisierul $F e de tip txt"
+        echo "Primele sale 10 linii sunt:"
+        sed -n '1,10p' $F
+done
+
+
+
+9
+
+#!/bin/bash
+#9. Sa se scrie un program shell care pentru fiecare fisier cu
+#drepturile 755 dintr-un director (si subdirectoarele sale)
+#dat ca parametru ii schimba drepturile de acces in 744.
+#Inainte de a schimba drepturile de acces, pogramul cere confirmare din
+# partea utilizatorului (pentru fiecare fisier in parte).
+#(comenzi: find, chmod, read)
+
+dir=$1
+for F in `find $dir -type f -perm 755`
+do
+        echo "Fisierul gasit este $F, dati 1 pentru a schimba drepturile si 0 pentru NU"
+        read x
+        if [ $x -eq 1 ]
+        then
+                chmod 744 $F
+                echo "Drepturile au fost schimbate"
+        else
+                echo "Drepturile NU au fost schimbate"
+        fi
+done
+
+
+
+
+10.cea de pe whatsup
+
+#!/bin/bash
+#se da la linia de com un dir si 3 cuv
+#trebuie cautat in fisierele din direct in cate din ele
+#apar minim 2 cuv din cele date la lnia de comanda
+#+verificare 4 param la linia comanda
+
+if [ $# -ne 4 ]
+then
+        echo "nr de param invalid"
+        exit 1
+fi
+
+for F in `find $1 -type f`
+do
+        awk -v c1="$2" -v c2="$3" -v c3="$4" 'BEGIN{contor=0} {for(i=1;i<=NF;i++) if($i==c1 || $i==c2 || $i==c3) contor++;} END{if ($
+done
+
+
+*************************************************************************************
+
+11. test 1
+se citesc oricate directoare. creaza un fisier raport.txt care
+contine numele fisierelor care au setat dreptul de scriere pt 
+grup, ownerul , directorul in care se afla si dimensiunea fisierului
++validare parametrii.
+
+#!/bin/bash
+if [ $# -eq 0 ]; then
+	echo "nu exista parametri"
+fi
+for dir in $@
+do
+	if [ ! -d $dir ]
+		then echo "$dir nu e director"
+	else
+		for fis in `find -type f -perm -g=w`
+		do
+			owner=`ls -l $fis | awk '{print $3;}'`
+			dimensiune=`ls -l $fis | awk '{print $5;}'`
+			echo $fis $owner $dir $dimensiune >> raport.txt
+		done
+	fi
+done
+
+
+12. test 2
+se citesc in linia de comanda oricate argumente de tip username.
+creeaza un fisier raport.txt care contine username.ul dat ca argument
+urmat de dimensiunea homeheader.ului sau, sortate descrescator dupa
+dimensiunea homedir.ului + validare parametri intrare
+
+#!/bin/bash
+
+echo > raport.txt
+if [ $# -eq 0 ]; then
+	echo "Nu exista parametri"
+else
+	for p;
+	do 
+		var=$(grep -c ^$p: /etc/passwd)
+		if [ $? -eq 0 ]; then 
+			var=$(grep ^$p: /etc/passwd | cut -d':' -f6)
+			echo $var
+			dimensiune=$(du -b $var)
+			echo $dimensiune | awk '{print $2" "$1}' >> raport.txt
+		else
+			echo $p este invalid
+		fi
+	done
+touch file.txt 
+sort -r -k2 raport.txt > file.txt
+cat file.txt > raport.txt
+
+
+ 
+
+

@@ -1,0 +1,30 @@
+Cam asta intra anul trecut la scris la MAP:
+* Adapter - class form, object form
+* Strategy
+* Template Method
+* Decorator
+* Validator
+* Observer
+* Repository
+* Model View Controller
+* Factory Method
+* Abstract Factory
+* Prototype
+* Singleton
+
+GRASP
+Information Expert
+Low Coupling
+High Cohesion
+Creator
+Controller
+
+SOLID principles
+Polimorfism - de subtip, parametric
+
+Pentru sabloane:
+* Aplicabilitate
+* Structura
+* Exemplu concret
+
+Nu stiu sigur daca o sa fie la fel si anul acesta.Spor la invatat!:-)

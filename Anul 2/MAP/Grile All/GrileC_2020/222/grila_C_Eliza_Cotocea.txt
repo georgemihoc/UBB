@@ -1,0 +1,47 @@
+Student propunător:Cotocea Eliza-Nicoleta  Grupa:222  Email:elizacotocea@gmail.com
+
+Intrebare: Ce se afiseaza la rularea codului urmator?
+
+ class Program
+    {
+        public class AA
+        {
+            public AA()
+            {
+                Console.WriteLine("AA");
+            }
+        }
+
+        public class BB<T> where T : AA
+        {
+            public BB()
+            {
+                Console.WriteLine("BB");
+            }
+        }
+
+        public class CC<T> where T : BB<AA>
+        {
+            public CC()
+            {
+                Console.WriteLine("CC");
+            }
+        }
+        static void Main(string[] args)
+        {
+            CC<BB<AA>> var = new CC<BB<AA>>();
+        }
+    }
+
+Variante:
+a)AA
+  BB
+  CC
+b)CC
+  BB
+  AA
+c)CC
+d)eroare
+
+Raspuns:c)
+Explicatie:Nu se apeleaza constructorii claselor AA si BB,deoarece clasa CC nu e clasa derivata din BB (idem pt BB si AA).Clasa CC e o clasa generica, iar BB<AA> este doar o constrangere, asadar rezultatul apelului va fi "CC".

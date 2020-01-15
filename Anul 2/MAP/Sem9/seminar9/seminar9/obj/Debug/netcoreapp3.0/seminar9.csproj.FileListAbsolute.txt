@@ -1,0 +1,22 @@
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.exe
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.deps.json
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.runtimeconfig.json
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.runtimeconfig.dev.json
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.dll
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.pdb
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.csprojAssemblyReference.cache
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.AssemblyInfoInputs.cache
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.AssemblyInfo.cs
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.dll
+D:/Faculta/An II sem. 1/MAP/Seminar/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.pdb
+/Users/george/Desktop/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9
+/Users/george/Desktop/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.deps.json
+/Users/george/Desktop/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.runtimeconfig.json
+/Users/george/Desktop/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.runtimeconfig.dev.json
+/Users/george/Desktop/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.dll
+/Users/george/Desktop/Sem9/seminar9/seminar9/bin/Debug/netcoreapp3.0/seminar9.pdb
+/Users/george/Desktop/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.csprojAssemblyReference.cache
+/Users/george/Desktop/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.AssemblyInfoInputs.cache
+/Users/george/Desktop/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.AssemblyInfo.cs
+/Users/george/Desktop/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.dll
+/Users/george/Desktop/Sem9/seminar9/seminar9/obj/Debug/netcoreapp3.0/seminar9.pdb

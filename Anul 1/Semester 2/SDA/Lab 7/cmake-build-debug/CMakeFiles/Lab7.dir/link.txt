@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Lab7.dir/main.cpp.o CMakeFiles/Lab7.dir/Colectie.cpp.o CMakeFiles/Lab7.dir/TestScurt.cpp.o CMakeFiles/Lab7.dir/TestExtins.cpp.o CMakeFiles/Lab7.dir/IteratorColectie.cpp.o  -o Lab7 

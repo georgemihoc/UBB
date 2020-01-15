@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab1-multime/Multime.cpp
+Multime.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab1-multime/Multime.h
+stdlib.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/SDA/Lab1-multime/Multime.h
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TemaLab3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemaLab3">
+				<Option output="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug/TemaLab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemaLab3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemaLab3/fast">
+				<Option output="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug/TemaLab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 TemaLab3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Desktop/UNDO\ SCOICAN/TemaLab3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/Console.c">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/Console.h">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/Lista.c">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/Lista.h">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/domain.c">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/domain.h">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/main.c">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/service.c">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/service.h">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/sort.c">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/sort.h">
+			<Option target="TemaLab3"/>
+		</Unit>
+		<Unit filename="/Users/george/Desktop/UNDO SCOICAN/TemaLab3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

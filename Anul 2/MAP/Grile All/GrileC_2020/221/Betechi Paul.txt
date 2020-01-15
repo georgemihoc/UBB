@@ -1,0 +1,41 @@
+Grila C# - Beltechi Paul grupa 221
+
+Clasa Program este definita mai jos in felul urmator.
+class Program
+{
+	delegate T Function<T>(T x, T y);
+        
+	static T Funcall<T>(Function<T> f, T x, T y)
+        {
+            return f(x, y);
+        }
+
+        public static int Remainder(int x, int y)
+        {
+            return x % y;
+        }
+        
+	static void Swap(ref int x, int y)
+        {
+            int aux = x;
+            x = y;
+            y = aux;
+        }
+        
+	static void Main(string[] args)
+        {
+            int x = 4, y = 6;
+            Swap(ref y, x);
+            Function<int> remainder = new Function<int>(Remainder);
+            Console.WriteLine(Funcall<int>(remainder, x, y));
+        }
+}
+Ce se va afisa pe ecran in urma executarii metodei Program.Main() ?
+a) 2
+b) 0
+c) eroare la compilare deoarece tipul generic T trebuie sa fie de tipul Object, iar in Main este de tipul int
+d) 4
+
+Raspuns corect b) 0, deoarece Swap ia ca parametru prin referinta primul argument, deci y va avea valoarea lui x
+dupa apelul metodei Swap, iar x va ramane cu valoarea initiala 4. Dupa apelul Funcall<int> cu delegate-ul care 
+puncteaza catre metoda Remainder, se va executa Remainder(4,4) care returneaza 0.

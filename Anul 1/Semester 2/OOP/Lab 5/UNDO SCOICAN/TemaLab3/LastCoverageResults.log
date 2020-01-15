@@ -1,0 +1,289 @@
+[2019-03-26 18:41:56] [info] Start Program:
+Path:"C:\Users\Raul\Desktop\OOP\lab3\TemaLab3\Debug\TemaLab3.exe"
+Arguments:
+Working directory: "C:\Users\Raul\Desktop\OOP\lab3\TemaLab3\TemaLab3\"
+Modules: Selected: C:\Users\Raul\Desktop\OOP\lab3\TemaLab3\Debug\TemaLab3.exe Excluded: 
+Sources: Selected: C:\Users\Raul\Desktop\OOP\lab3\TemaLab3\TemaLab3 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Raul\AppData\Local\Temp\tjtmqcqj.epi 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-03-26 18:41:56] [info] Module: C:\Users\Raul\Desktop\OOP\lab3\TemaLab3\Debug\TemaLab3.exe is selected because it matches selected pattern: C:\Users\Raul\Desktop\OOP\lab3\TemaLab3\Debug\TemaLab3.exe
+[2019-03-26 18:41:56] [warning] ----------------------------------------------------
+[2019-03-26 18:41:56] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:56] [warning] ----------------------------------------------------
+[2019-03-26 18:41:56] [warning] ----------------------------------------------------
+[2019-03-26 18:41:56] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:56] [warning] ----------------------------------------------------
+[2019-03-26 18:41:56] [warning] ----------------------------------------------------
+[2019-03-26 18:41:56] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:56] [warning] ----------------------------------------------------
+[2019-03-26 18:41:56] [warning] ----------------------------------------------------
+[2019-03-26 18:41:56] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:57] [warning] It seems there is an assertion failure or you call DebugBreak() in your program.
+[2019-03-26 18:41:57] [warning] ----------------------------------------------------
+[2019-03-26 18:41:58] [info] ----------------------------------------------------
+[2019-03-26 18:41:58] [info] Coverage binary generated in file: C:\Users\Raul\AppData\Local\Temp\tjtmqcqj.epi
+[2019-03-26 18:41:58] [info] ----------------------------------------------------
+[2019-03-26 18:41:58] [error] Your program stop with error code: -2147483645

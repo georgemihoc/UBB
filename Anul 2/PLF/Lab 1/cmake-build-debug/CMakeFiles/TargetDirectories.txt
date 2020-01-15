@@ -1,0 +1,3 @@
+/Users/george/Documents/UBB/Anul 2/PLF/Lab 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/george/Documents/UBB/Anul 2/PLF/Lab 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/george/Documents/UBB/Anul 2/PLF/Lab 1/cmake-build-debug/CMakeFiles/Lab_1.dir

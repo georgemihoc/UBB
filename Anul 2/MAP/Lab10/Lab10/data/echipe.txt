@@ -1,0 +1,10 @@
+﻿E1,Houston Rockets
+E2,Los Angeles Lakers
+E3,LA Clippers
+E4,Chicago Bulls
+E5,Cleveland Cavaliers
+E6,Utah Jazz
+E7,Brooklyn Nets
+E8,New Orleans Pelicans
+E9,Indiana Pacers
+E10,Toronto Raptors

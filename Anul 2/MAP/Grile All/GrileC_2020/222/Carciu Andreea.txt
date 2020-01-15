@@ -1,0 +1,42 @@
+Student propunator: Circiu Andreea   Grupa:222   Email: andreiuca266@gmail.com
+
+Care ar trebui sa fie signatura metodei deseneazaForme care primeste o lista de obiecte de tipul Forme si le deseneaza? Explicati
+deseneazaForme(IList <Forme> forme) ??? List <?> forme (Java)
+
+
+Consideram umratoarea ierarhie de clase:
+
+interface Forma{}
+class Cerc: Forma{...}
+class Dreptunghi: Forma{...}
+IList<Cerc> cercuri IList<Forma> forme
+
+
+A.Pentru scrierea signaturii va fi nevoie de folosirea unuei clase auxiliare:
+class Helper<T> where T:Forme
+{
+  public static void deseneazaForme(IList<T> forme)
+}
+
+B.Pentru scrierea signaturii va fi nevoie de folosirea unei metode generice fara constrangeri:
+public static void deseneazaForme<T>(IList<T> forme)
+{
+}
+
+C.Pentru scrierea signaturii va fi nevoie de folosirea unei clase auxiliare sau a unei metode generice cu constrangeri:
+class Helper<T> where T:Forme
+{
+  public static void deseneazaForme(IList<T> forme)
+}
+
+public static void deseneazaForme<T>(IList<T> forme) where T: Forme
+{
+}
+
+D.Nicio varianta nu este corecta.
+
+Explicatii:
+Raspuns C:
+Deoarece aceasta metoda nu poate fi apelata pentru o lista de obiecte de tipul cerc 
+vom avea nevoie de o clasa auxiliara sau de o metoda generica cu constrangeri, astfel metoda se va apela cu usurinta in felul urmator: 
+Helper<Forme>.deseneazaForme(listaDeForme); sau Helper<Cerc>.deseneazaForme(listaDeCercuri);

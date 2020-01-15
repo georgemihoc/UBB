@@ -1,0 +1,58 @@
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/curs12.exe
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/curs12.dll.config
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/curs12.deps.json
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/curs12.runtimeconfig.json
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/curs12.runtimeconfig.dev.json
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/curs12.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/curs12.pdb
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/System.Configuration.ConfigurationManager.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/System.Drawing.Common.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/System.Security.AccessControl.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/System.Security.Cryptography.ProtectedData.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/System.Security.Permissions.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/System.Security.Principal.Windows.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/System.Windows.Extensions.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+d:/__MAP/workspace_C#/sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+d:/__MAP/workspace_C#/sem12/obj/Debug/netcoreapp3.0/curs12.csprojAssemblyReference.cache
+d:/__MAP/workspace_C#/sem12/obj/Debug/netcoreapp3.0/curs12.AssemblyInfoInputs.cache
+d:/__MAP/workspace_C#/sem12/obj/Debug/netcoreapp3.0/curs12.AssemblyInfo.cs
+d:/__MAP/workspace_C#/sem12/obj/Debug/netcoreapp3.0/curs12.csproj.CopyComplete
+d:/__MAP/workspace_C#/sem12/obj/Debug/netcoreapp3.0/curs12.dll
+d:/__MAP/workspace_C#/sem12/obj/Debug/netcoreapp3.0/curs12.pdb
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/curs12
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/curs12.dll.config
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/curs12.deps.json
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/curs12.runtimeconfig.json
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/curs12.runtimeconfig.dev.json
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/curs12.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/curs12.pdb
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/System.Configuration.ConfigurationManager.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/System.Drawing.Common.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/System.Security.AccessControl.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/System.Security.Cryptography.ProtectedData.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/System.Security.Permissions.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/System.Security.Principal.Windows.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/obj/Debug/netcoreapp3.0/curs12.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/obj/Debug/netcoreapp3.0/curs12.AssemblyInfoInputs.cache
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/obj/Debug/netcoreapp3.0/curs12.AssemblyInfo.cs
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/obj/Debug/netcoreapp3.0/curs12.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/obj/Debug/netcoreapp3.0/curs12.dll
+/Users/george/Documents/UBB/Anul 2/MAP/Exemple /sem12/obj/Debug/netcoreapp3.0/curs12.pdb

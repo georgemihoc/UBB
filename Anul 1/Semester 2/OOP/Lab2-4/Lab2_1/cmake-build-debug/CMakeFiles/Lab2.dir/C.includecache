@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Materie.h
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/repository.c
+repository.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/repository.h
+Materie.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Materie.h
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/repository.h
+Materie.h
+/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Lab2/Materie.h
+

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab2_d"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TravelAgencyApplication">
+				<Option output="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/TravelAgencyApplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 TravelAgencyApplication"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TravelAgencyApplication/fast">
+				<Option output="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/TravelAgencyApplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 TravelAgencyApplication/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/george/Documents/UBB/Anul\ 1/Semester\ 2/OOP/Scoican\ Ovidiu\ Costin/TravelAgencyApplication/TravelAgencyApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/COnsole.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/COnsole.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Console.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Main.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Package.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Package.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Service.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Service.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestPackage.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestPackage.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestRepository.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestRepository.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestService.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestService.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestValidator.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestValidator.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestVector.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/TestVector.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Validator.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Validator.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Vector.c">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/Vector.h">
+			<Option target="TravelAgencyApplication"/>
+		</Unit>
+		<Unit filename="/Users/george/Documents/UBB/Anul 1/Semester 2/OOP/Scoican Ovidiu Costin/TravelAgencyApplication/TravelAgencyApplication/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
