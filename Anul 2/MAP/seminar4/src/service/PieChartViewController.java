@@ -10,6 +10,11 @@ import validators.Nota;
 import validators.Student;
 import validators.Tema;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import java.lang.Math;
+
 
 public class PieChartViewController implements Observer<ChangeEvent> {
 
@@ -37,6 +42,37 @@ public class PieChartViewController implements Observer<ChangeEvent> {
 
     }
     public void initModel1(int raport){
+        this.raport = raport;
+        XYChart.Series dataSeries1 = new XYChart.Series();
+        dataSeries1.setName("Numar studenti / fiecare medie");
+
+        Iterable<Nota> note = ServiceNota.findAllNota();
+        Iterable<Student> students = Service.findAllStudents();
+        Iterable<Tema> teme = Service.findAllTema();
+        int[] numar = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        int[] note1 = new int[]{10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+        int nrSaptamani=0;
+        for (Tema t:
+                teme) {
+            nrSaptamani += (t.getDeadlineWeek()-t.getStartWeek());
+        }
+        for (Student s:
+                students) {
+            float suma= 0;
+            for (Nota n:
+                    note) {
+                if(s.getId().equals(n.getIdStudent()))
+                    suma += n.getNota()*(service.findTema(n.getIdTema()).getDeadlineWeek()-service.findTema(n.getIdTema()).getStartWeek());
+            }
+            suma /= nrSaptamani;
+            numar[10-Math.round(suma)] ++;
+        }
+        for (int i = 0;i<=10;i++) {
+            dataSeries1.getData().add(new XYChart.Data(Integer.toString(10-i),numar[i]));
+        }
+        barChart.getData().add(dataSeries1);
+    }
+    public void initModel3(int raport){
         this.raport = raport;
         XYChart.Series dataSeries1 = new XYChart.Series();
         dataSeries1.setName("Studenti");
@@ -76,8 +112,10 @@ public class PieChartViewController implements Observer<ChangeEvent> {
         Iterable<Tema> teme = Service.findAllTema();
         float min = 10;
         int index = 0;
+        int nrTeme = 0;
         for (Tema t:
                 teme) {
+            nrTeme++;
             int nr = 0;
             float suma = 0;
             for (Nota n:
@@ -88,14 +126,18 @@ public class PieChartViewController implements Observer<ChangeEvent> {
                     nr++;
                 }
             }
-            suma /= nr;
+            if(suma!=0)
+                suma /= nr;
             System.out.println(suma);
             if(suma<min) {
                 min = suma;
                 index = Math.toIntExact(t.getId())-1;
             }
+
+
             dataSeries.getData().add(new XYChart.Data(t.getDescriere(),suma));
-            pieChartData.add(new PieChart.Data(t.getDescriere(), suma));
+//            System.out.println(t.getDescriere()+ " " + suma);
+            pieChartData.add(new PieChart.Data(t.getDescriere()+ "->" + suma, suma));
 
         }
 //        long finalIndex = index+1;
@@ -105,8 +147,10 @@ public class PieChartViewController implements Observer<ChangeEvent> {
 //            }
 //        });
         pieChart.setData(pieChartData);
-        pieChart.setVisible(false);
+//        pieChart.setVisible(false);
         barChart.getData().add(dataSeries);
+        barChart.setBarGap(15*nrTeme);
+        barChart.setVisible(false);
 
     }
     public void initModel4(int raport){
@@ -122,6 +166,7 @@ public class PieChartViewController implements Observer<ChangeEvent> {
                 teme) {
             nrSaptamani += (t.getDeadlineWeek()-t.getStartWeek());
         }
+        int nr =0;
         for (Student s:
                 students) {
             boolean ok = true;
@@ -142,13 +187,14 @@ public class PieChartViewController implements Observer<ChangeEvent> {
             if(ok && suma!=0){
                 pieChartData.add(new PieChart.Data(s.getNume(),suma));
                 dataSeries1.getData().add(new XYChart.Data(s.getNume(),suma));
+                nr++;
 
             }
         }
         pieChart.setData(pieChartData);
         pieChart.setVisible(false);
         barChart.getData().add(dataSeries1);
-
+        System.out.println(nr);
     }
     void setService(Service service, ServiceNota serviceNota, int raport) {
         this.service= service;
@@ -160,7 +206,7 @@ public class PieChartViewController implements Observer<ChangeEvent> {
         else if (raport == 2)
             initModel2(raport);
         else if (raport == 3)
-            initModel1(raport);
+            initModel3(raport);
         else if (raport == 4)
             initModel4(raport);
     }
@@ -169,8 +215,10 @@ public class PieChartViewController implements Observer<ChangeEvent> {
     public void update(ChangeEvent changeEvent) {
         barChart.getData().clear();
         pieChart.getData().clear();
-        if(raport==1 || raport == 3)
+        if(raport==1 )
             initModel1(raport);
+        if(raport==3)
+            initModel3(raport);
         else if(raport == 2)
             initModel2(raport);
         else if(raport == 4)
