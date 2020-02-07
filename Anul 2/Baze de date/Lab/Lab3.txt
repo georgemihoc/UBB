@@ -1,0 +1,181 @@
+--4)Procedura pt adaugarea camp nationalitate in tabela Clienti
+CREATE PROCEDURE P4
+AS
+BEGIN
+	ALTER TABLE Client
+	ADD nationalitate VARCHAR(50);
+END;
+GO
+EXEC P4
+GO
+--Undo procedure 4
+CREATE PROCEDURE UndoP4
+AS
+BEGIN
+	ALTER TABLE Client
+	DROP COLUMN nationalitate
+END;
+GO
+EXEC UndoP4
+GO
+--Stergere procedura
+DROP PROCEDURE P5
+GO
+--1)Procedura pentru modificarea unui camp din tabela Angajat ( CNP: int-> VARCHAR)
+CREATE PROCEDURE P1
+AS
+BEGIN
+	ALTER TABLE Angajat
+	ALTER COLUMN CNP VARCHAR(50)
+END
+GO
+EXEC P1
+GO
+--Undo procedura P1
+CREATE PROCEDURE UndoP1
+AS
+BEGIN 
+	ALTER TABLE Angajat
+	ALTER COLUMN CNP INT
+END
+GO
+EXEC UndoP1
+GO
+
+--2)Procedura pentru a adauga o costrângere de valoare implicita pt campul continent din tabela Filiala
+CREATE PROCEDURE P2
+AS
+BEGIN
+	ALTER TABLE Filiala
+	ADD CONSTRAINT d_locatie DEFAULT 'Romania' FOR locatie;
+END;
+GO
+
+EXEC P2;
+GO
+
+CREATE PROCEDURE UndoP2
+AS
+BEGIN
+	ALTER TABLE Filiala
+	DROP CONSTRAINT d_locatie
+END;
+GO
+
+EXEC UndoP2;
+GO
+
+
+--3) Procedura care creeaza o tabela Showroom
+CREATE PROCEDURE P3
+AS
+BEGIN
+	CREATE TABLE Showroom(
+	id_showroom INT PRIMARY KEY,
+	nume VARCHAR(50),
+	locatie VARCHAR(50),
+	id_filiala INT
+	);
+END
+GO
+
+EXEC P3
+GO
+
+CREATE PROCEDURE UndoP3
+AS
+BEGIN
+	DROP TABLE Showroom
+END
+GO
+
+EXEC UndoP3
+GO
+
+--5) Procedura care adauga un foreing key in tabela Showroom
+CREATE PROCEDURE P5
+AS
+BEGIN
+	ALTER TABLE Showroom
+	ADD CONSTRAINT fk_Filiala FOREIGN KEY (id_filiala)
+	REFERENCES Filiala (id_filiala)
+END;
+GO
+
+
+EXEC P5
+GO
+
+CREATE PROCEDURE UndoP5
+AS
+BEGIN
+	ALTER TABLE Showroom
+	DROP CONSTRAINT fk_Filiala
+END;
+GO
+
+EXEC UndoP5
+GO
+
+
+--creeare tabel de versiuni
+
+CREATE TABLE Versiune
+	(
+	id_versiune INT PRIMARY KEY,
+	versiune INT
+	);
+GO
+
+CREATE PROCEDURE Main
+(@Vers INT)
+AS
+BEGIN
+	DECLARE @ok INT;
+	SET @ok = 0 ;
+	WHILE @Vers >= 0 AND @Vers <= 5
+	BEGIN 
+		SET @ok = 1 ;
+		DECLARE @Curent INT;
+		DECLARE @Aux VARCHAR(30);
+		DECLARE @Procedura VARCHAR(30);
+
+		SET @Curent = (SELECT versiune FROM Versiune WHERE id_versiune = 1);
+		SET @Aux = @Curent + 1
+
+		--PRINT @Curent
+		WHILE @Curent < @Vers
+		BEGIN
+			SET @Procedura = ( SELECT CONCAT('P',@Aux));
+			EXEC @Procedura;
+			UPDATE Versiune SET versiune = @Curent;
+			SET @Curent = @Curent + 1;
+			SET @Aux = @Curent + 1;
+		END
+
+		SET @Aux = @Curent;
+		WHILE @Curent > @Vers
+		BEGIN
+			SET @Procedura = ( SELECT CONCAT('UndoP',@Aux));
+			EXEC @Procedura;
+			UPDATE Versiune SET versiune = @Curent;
+			SET @Curent = @Curent - 1;
+			SET @Aux = @Curent;
+		END
+
+		UPDATE Versiune SET versiune = @Vers;
+		BREAK;
+	END
+	IF @ok = 0 
+		RAISERROR('Versiunea ceruta nu exista!', 11, 1);
+
+
+END
+GO
+
+DROP PROCEDURE Main
+
+EXEC Main -20;
+GO
+
+SELECT * FROM Versiune

@@ -1,0 +1,11 @@
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/bin/Debug/netcoreapp3.0/ScrisCSharp
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/bin/Debug/netcoreapp3.0/ScrisCSharp.deps.json
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/bin/Debug/netcoreapp3.0/ScrisCSharp.runtimeconfig.json
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/bin/Debug/netcoreapp3.0/ScrisCSharp.runtimeconfig.dev.json
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/bin/Debug/netcoreapp3.0/ScrisCSharp.dll
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/bin/Debug/netcoreapp3.0/ScrisCSharp.pdb
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/obj/Debug/netcoreapp3.0/ScrisCSharp.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/obj/Debug/netcoreapp3.0/ScrisCSharp.AssemblyInfoInputs.cache
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/obj/Debug/netcoreapp3.0/ScrisCSharp.AssemblyInfo.cs
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/obj/Debug/netcoreapp3.0/ScrisCSharp.dll
+/Users/george/Documents/UBB/Anul 2/MAP/ScrisCSharp/ScrisCSharp/obj/Debug/netcoreapp3.0/ScrisCSharp.pdb
