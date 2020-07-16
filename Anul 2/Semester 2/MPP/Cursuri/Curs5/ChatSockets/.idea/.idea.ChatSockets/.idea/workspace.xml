@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6b02667-7c46-4712-80dc-9017996f38e0" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/networking/ServerUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ChatClientObjectWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/ChatClientCtrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ObjectRequestProtocol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/IChatServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/ChatUserEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/StartChatClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/ChatException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ObjectResponseProtocol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/IChatObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ChatServerObjectProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/LoginWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/ChatWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/model/Message.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/model/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GTKClient/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GTKClient/GTKLoginWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/UserRepositoryDb.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GTKClient/GTKClientCtrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GTKClient/GTKChatWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GTKClient/GTKChatUserEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GTKClient/StartGTKClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/IMessageRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/StartServer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/MessageRepositoryMock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/ChatServerImpl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/DbUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/MessageRepositoryDb.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/model/Identifiable.cs" />
+        <option value="$PROJECT_DIR$/persistence/ICrudRepository.cs" />
+        <option value="$PROJECT_DIR$/model/User.cs" />
+        <option value="$PROJECT_DIR$/persistence/UserRepositoryTextFile.cs" />
+        <option value="$PROJECT_DIR$/persistence/FilePersistence.cs" />
+        <option value="$PROJECT_DIR$/persistence/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/persistence/UserRepositoryMock.cs" />
+        <option value="$PROJECT_DIR$/persistence/DbUtils.cs" />
+        <option value="$PROJECT_DIR$/persistence/MockPersistence.cs" />
+        <option value="$PROJECT_DIR$/persistence/IMessageRepository.cs" />
+        <option value="$PROJECT_DIR$/model/Message.cs" />
+        <option value="$PROJECT_DIR$/persistence/MessageRepositoryDb.cs" />
+        <option value="$PROJECT_DIR$/ChatClient/ChatWindow.cs" />
+        <option value="$PROJECT_DIR$/persistence/MessageRepositoryMock.cs" />
+        <option value="$PROJECT_DIR$/persistence/UserRepositoryDb.cs" />
+        <option value="$PROJECT_DIR$/services/IChatServer.cs" />
+        <option value="$PROJECT_DIR$/Server/StartServer.cs" />
+        <option value="$PROJECT_DIR$/networking/ChatServerObjectProxy.cs" />
+        <option value="$PROJECT_DIR$/networking/ChatClientObjectWorker.cs" />
+        <option value="$PROJECT_DIR$/ChatClient/StartChatClient.cs" />
+        <option value="$PROJECT_DIR$/ChatClient/ChatClientCtrl.cs" />
+        <option value="$PROJECT_DIR$/Server/ChatServerImpl.cs" />
+        <option value="$PROJECT_DIR$/GTKClient/LoginWindow.cs" />
+        <option value="$PROJECT_DIR$/GTKClient/ChatWindow.cs" />
+        <option value="$PROJECT_DIR$/GTKClient/Program.cs" />
+        <option value="$PROJECT_DIR$/GTKClient/ChatUserEventArgs.cs" />
+        <option value="$PROJECT_DIR$/GTKClient/StartGTKClient.cs" />
+        <option value="$PROJECT_DIR$/GTKClient/GTKClientCtrl.cs" />
+        <option value="$PROJECT_DIR$/GTKClient/GTKChatWindow.cs" />
+        <option value="$PROJECT_DIR$/GTKClient/GTKLoginWindow.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZIus5El0o9SZzNXda26ongRVkK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Server">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Server/bin/Debug/Server.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Server/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Server/Server.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GTKClient" type="DotNetProject" factoryName=".NET Project" singleton="false" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/GTKClient/bin/Debug/GTKClient.exe" />
+      <option name="PROGRAM_PARAMETERS" value="log4net.xml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GTKClient/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/GTKClient/GTKClient.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Server/bin/Debug/Server.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Server/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Server/Server.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="DotNetProject" factoryName=".NET Project" singleton="false" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ChatClient/bin/Debug/ChatClient.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ChatClient/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ChatClient/client.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.Server" />
+      <item itemvalue=".NET Project.client" />
+      <item itemvalue=".NET Project.GTKClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Server" />
+        <item itemvalue=".NET Project.GTKClient" />
+        <item itemvalue=".NET Project.client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RuntimeDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6b02667-7c46-4712-80dc-9017996f38e0" name="Default" comment="" />
+      <created>1489667009152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489667009152</updated>
+      <workItem from="1489667011459" duration="648000" />
+      <workItem from="1489742888151" duration="68000" />
+      <workItem from="1489768525769" duration="1264000" />
+      <workItem from="1489773224491" duration="122000" />
+      <workItem from="1489945208417" duration="394000" />
+      <workItem from="1489961004972" duration="65000" />
+      <workItem from="1489961135535" duration="752000" />
+      <workItem from="1489963992168" duration="39000" />
+      <workItem from="1490088662076" duration="7000" />
+      <workItem from="1490088773196" duration="33000" />
+      <workItem from="1490274807656" duration="359000" />
+      <workItem from="1490275231471" duration="1239000" />
+      <workItem from="1490291994421" duration="6496000" />
+      <workItem from="1490632118632" duration="401000" />
+      <workItem from="1490704133673" duration="635000" />
+      <workItem from="1490877128880" duration="2578000" />
+      <workItem from="1524219880112" duration="368000" />
+      <workItem from="1552814720422" duration="338000" />
+      <workItem from="1552988089994" duration="485000" />
+      <workItem from="1553535272002" duration="1396000" />
+      <workItem from="1554187815845" duration="129000" />
+      <workItem from="1554786184632" duration="889000" />
+      <workItem from="1554800343579" duration="806000" />
+      <workItem from="1554803567586" duration="450000" />
+      <workItem from="1555581510318" duration="489000" />
+      <workItem from="1584101795362" duration="98000" />
+      <workItem from="1584539134311" duration="8017000" />
+      <workItem from="1584716097536" duration="1698000" />
+      <workItem from="1584913894130" duration="699000" />
+      <workItem from="1585032527750" duration="14000" />
+      <workItem from="1585756714385" duration="152000" />
+      <workItem from="1586467532267" duration="400000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="371" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584914076608">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="371" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.981@0.23.1680.981" timestamp="1584914076608" />
+    <state x="424" y="255" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1138@0.23.1920.1138" timestamp="1584544824794" />
+    <state width="1638" height="264" key="GridCell.Tab.0.bottom" timestamp="1586468018424">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="264" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1586468018424" />
+    <state width="1638" height="265" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1585756866471" />
+    <state width="1878" height="245" key="GridCell.Tab.0.bottom/0.23.1920.1138@0.23.1920.1138" timestamp="1584904325214" />
+    <state width="1638" height="264" key="GridCell.Tab.0.center" timestamp="1586468018424">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="264" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1586468018424" />
+    <state width="1638" height="265" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1585756866469" />
+    <state width="1878" height="245" key="GridCell.Tab.0.center/0.23.1920.1138@0.23.1920.1138" timestamp="1584904325212" />
+    <state width="1638" height="264" key="GridCell.Tab.0.left" timestamp="1586468018424">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="264" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1586468018424" />
+    <state width="1638" height="265" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1585756866469" />
+    <state width="1878" height="245" key="GridCell.Tab.0.left/0.23.1920.1138@0.23.1920.1138" timestamp="1584904325211" />
+    <state width="1638" height="264" key="GridCell.Tab.0.right" timestamp="1586468018424">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="264" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1586468018424" />
+    <state width="1638" height="265" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1585756866470" />
+    <state width="1878" height="245" key="GridCell.Tab.0.right/0.23.1920.1138@0.23.1920.1138" timestamp="1584904325213" />
+    <state x="80" y="331" key="Rider.ProjectTemplateDialog.Size" timestamp="1584539213774">
+      <screen x="0" y="23" width="1920" height="1138" />
+    </state>
+    <state x="80" y="331" key="Rider.ProjectTemplateDialog.Size/0.23.1920.1138@0.23.1920.1138" timestamp="1584539213774" />
+    <state x="0" y="231" key="SettingsEditor" timestamp="1584539581355">
+      <screen x="0" y="23" width="1920" height="1138" />
+    </state>
+    <state x="0" y="231" key="SettingsEditor/0.23.1920.1138@0.23.1920.1138" timestamp="1584539581355" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

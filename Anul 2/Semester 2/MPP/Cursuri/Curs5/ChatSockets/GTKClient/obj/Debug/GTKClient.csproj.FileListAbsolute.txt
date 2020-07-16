@@ -1,0 +1,39 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/GTKClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/GTKClient.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/AtkSharp.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/CairoSharp.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/GdkSharp.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/GioSharp.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/GLibSharp.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/GtkSharp.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/PangoSharp.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/obj/Debug/GTKClient.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/obj/Debug/GTKClient.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/obj/Debug/GTKClient.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/obj/Debug/GTKClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/obj/Debug/GTKClient.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/networking.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/model.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/networking.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/GTKClient/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/GTKClient.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/GTKClient.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/AtkSharp.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/CairoSharp.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/GdkSharp.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/GioSharp.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/GLibSharp.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/GtkSharp.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/networking.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/PangoSharp.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/networking.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/obj/Debug/GTKClient.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/obj/Debug/GTKClient.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/obj/Debug/GTKClient.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/GTKClient/obj/Debug/GTKClient.pdb

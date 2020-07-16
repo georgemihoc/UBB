@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="laborator1:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44dee4bd-0cd5-42cb-85a8-819710070ea4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JJJJ@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JJJJ@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JJJJ@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="JJJJ: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="JJJJ@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="JJJJ: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="table_name: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="laborator1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="laborator1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="laborator1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="laborator1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="laborator1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YR65UJucLZJ9Oa0CP6O6S9zwSK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Gradle.laborator1 [run]">
+    <configuration name="laborator1 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="laborator1 [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="laborator1 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="laborator1 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="laborator1.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/laborator1_jar/laborator1.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.laborator1 [run]" />
+        <item itemvalue="Gradle.laborator1 [build]" />
+        <item itemvalue="Gradle.laborator1 [test]" />
+        <item itemvalue="Gradle.laborator1 [check]" />
+        <item itemvalue="JAR Application.laborator1.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JJJJ@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:JJJJ@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@73a4bf44" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44dee4bd-0cd5-42cb-85a8-819710070ea4" name="Default Changelist" comment="" />
+      <created>1582892877000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582892877000</updated>
+      <workItem from="1582892880502" duration="829000" />
+      <workItem from="1582893777389" duration="1354000" />
+      <workItem from="1582897875977" duration="1667000" />
+      <workItem from="1583168327368" duration="29000" />
+      <workItem from="1583168403367" duration="6000" />
+      <workItem from="1583215879333" duration="1274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="179" key="#Project_Structure" timestamp="1582893528084">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="440" y="179" key="#Project_Structure/0.23.1680.981@0.23.1680.981" timestamp="1582893528084" />
+    <state x="440" y="179" key="#SQL_Dialects" timestamp="1582899305638">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="440" y="179" key="#SQL_Dialects/0.23.1680.981@0.23.1680.981" timestamp="1582899305638" />
+    <state x="440" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582899350483">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="440" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.981@0.23.1680.981" timestamp="1582899350483" />
+    <state x="578" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582893516244">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="578" y="304" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.981@0.23.1680.981" timestamp="1582893516244" />
+    <state width="798" height="265" key="GridCell.Tab.0.bottom" timestamp="1583218532863">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="798" height="265" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1583218532863" />
+    <state width="798" height="265" key="GridCell.Tab.0.center" timestamp="1583218532862">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="798" height="265" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1583218532862" />
+    <state width="798" height="265" key="GridCell.Tab.0.left" timestamp="1583218532861">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="798" height="265" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1583218532861" />
+    <state width="798" height="265" key="GridCell.Tab.0.right" timestamp="1583218532862">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="798" height="265" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1583218532862" />
+    <state x="627" y="389" key="classpath-attribute-editor" timestamp="1582893380036">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="627" y="389" key="classpath-attribute-editor/0.23.1680.981@0.23.1680.981" timestamp="1582893380036" />
+    <state x="576" y="204" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582898972251">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="576" y="204" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1680.981@0.23.1680.981" timestamp="1582898972251" />
+    <state x="706" y="283" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1582898792536">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="706" y="283" key="com.intellij.database.view.ui.DbObjectDialog/0.23.1680.981@0.23.1680.981" timestamp="1582898792536" />
+    <state x="505" y="237" width="670" height="675" key="run.anything.popup" timestamp="1582892992282">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="505" y="237" width="670" height="675" key="run.anything.popup/0.23.1680.981@0.23.1680.981" timestamp="1582892992282" />
+  </component>
+</project>

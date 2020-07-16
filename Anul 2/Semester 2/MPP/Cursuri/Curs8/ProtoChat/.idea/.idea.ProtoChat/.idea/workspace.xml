@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3497b9e0-813a-4761-9c49-d8b57e61f96e" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>User</find>
+      <find>Buil</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/protobuf/ProtoChatProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53EFAED0-3BE7-4130-9D53-3EA799514544/b3/1f9366ab/MessageParser`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/UserRepositoryTextFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/LoginRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ChatServerProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatCurs2011/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/protobuf3/ChatProtocolV3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/protobuf3/ProtoChatWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/protobuf3/ProtoUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/protobuf3/ProtoChatProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53EFAED0-3BE7-4130-9D53-3EA799514544/a7/b85608d2/RepeatedField`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ChatClientWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/StartChatClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/protobuf/ProtoChatWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/protobuf/ChatProtobufs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/UserRepositoryMock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/protobuf/ProtoUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatServer/StartServer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/protobuf3/Class1.cs" />
+        <option value="$PROJECT_DIR$/protobuf3/ProtoUtils.cs" />
+        <option value="$PROJECT_DIR$/ChatServer/StartServer.cs" />
+        <option value="$PROJECT_DIR$/protobuf3/ProtoChatWorker.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aFlOlwwEia3kuk0RiX0t2nmRRV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+  </component>
+  <component name="RunManager" selected=".NET Project.ChatServer">
+    <configuration name="ChatClient" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ChatClient/bin/Debug/ChatClient.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ChatClient/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ChatClient/ChatClient.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServer" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ChatServer/bin/Debug/ChatServer.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ChatServer/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ChatServer/ChatServer.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.ChatServer" />
+      <item itemvalue=".NET Project.ChatClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.ChatServer" />
+        <item itemvalue=".NET Project.ChatClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3497b9e0-813a-4761-9c49-d8b57e61f96e" name="Default" comment="" />
+      <created>1491721724856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491721724856</updated>
+      <workItem from="1491721726186" duration="404000" />
+      <workItem from="1491826965325" duration="575000" />
+      <workItem from="1491913322081" duration="100000" />
+      <workItem from="1492966392974" duration="17000" />
+      <workItem from="1523207358992" duration="101000" />
+      <workItem from="1523267300894" duration="2734000" />
+      <workItem from="1523780910502" duration="252000" />
+      <workItem from="1523812898458" duration="123000" />
+      <workItem from="1523854851261" duration="419000" />
+      <workItem from="1523863739069" duration="156000" />
+      <workItem from="1524039533379" duration="274000" />
+      <workItem from="1555241542111" duration="479000" />
+      <workItem from="1555348068105" duration="114000" />
+      <workItem from="1555393806395" duration="182000" />
+      <workItem from="1555408055458" duration="739000" />
+      <workItem from="1586339198988" duration="192000" />
+      <workItem from="1586683491127" duration="1614000" />
+      <workItem from="1587750904102" duration="689000" />
+      <workItem from="1587855942288" duration="10826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state width="798" height="264" key="GridCell.Tab.0.bottom" timestamp="1587922987901">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="798" height="264" key="GridCell.Tab.0.bottom/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587922987901" />
+    <state width="798" height="264" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1587902950149" />
+    <state width="918" height="300" key="GridCell.Tab.0.bottom/0.23.1920.1138@0.23.1920.1138" timestamp="1586685860637" />
+    <state width="798" height="264" key="GridCell.Tab.0.center" timestamp="1587922987900">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="798" height="264" key="GridCell.Tab.0.center/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587922987900" />
+    <state width="798" height="264" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1587902950149" />
+    <state width="918" height="300" key="GridCell.Tab.0.center/0.23.1920.1138@0.23.1920.1138" timestamp="1586685860636" />
+    <state width="798" height="264" key="GridCell.Tab.0.left" timestamp="1587922987900">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="798" height="264" key="GridCell.Tab.0.left/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587922987900" />
+    <state width="798" height="264" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1587902950148" />
+    <state width="918" height="300" key="GridCell.Tab.0.left/0.23.1920.1138@0.23.1920.1138" timestamp="1586685860636" />
+    <state width="798" height="264" key="GridCell.Tab.0.right" timestamp="1587922987901">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="798" height="264" key="GridCell.Tab.0.right/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587922987901" />
+    <state width="798" height="264" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1587902950149" />
+    <state width="918" height="300" key="GridCell.Tab.0.right/0.23.1920.1138@0.23.1920.1138" timestamp="1586685860636" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

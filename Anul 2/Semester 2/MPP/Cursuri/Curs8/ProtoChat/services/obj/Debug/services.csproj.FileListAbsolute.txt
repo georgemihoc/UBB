@@ -1,0 +1,37 @@
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/obj/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/obj/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/obj/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/obj/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/services/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/services/bin/Debug/services.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/services/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/services/bin/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/services/bin/Debug/ChatCurs2011.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/services/obj/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/services/obj/Debug/services.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/services/obj/Debug/services.csprojResolveAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/services/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/services/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/services/bin/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/services/obj/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/services/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/services/obj/Debug/services.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/services/obj/Debug/services.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/services/obj/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/services/bin/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/services/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/services/bin/Debug/ChatCurs2011.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/services/bin/Debug/ChatCurs2011.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/services/obj/Debug/services.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/services/obj/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/services/obj/Debug/services.pdb

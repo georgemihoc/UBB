@@ -1,0 +1,20 @@
+group 'ChatProtobuffv3'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName='chat.client.StartRpcClient'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':ChatModel')
+    compile project (':ChatServices')
+    compile project (':ChatNetworkingProtobuff')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 4</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            text-align: center;
+            font-size: 60px;
+        }
+        table{
+            table-layout: auto;
+            width: 400px;
+            margin: auto;
+        }
+        td{
+          height: 100px;
+          width: 100px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <table id="tableId">
+        <tr>
+          <td id="1"> </td>
+          <td id="2"> </td>
+          <td id="3"> </td>
+        </tr>
+        <tr>
+          <td id="4"></td>
+          <td id="5"></td>
+          <td id="6"></td>
+        </tr>
+        <tr>
+          <td id="7"></td>
+          <td id="8"></td>
+          <td id="9"></td>
+        </tr>
+    </table>
+    <button onclick="newGame()" id="newGame">New Game</button>
+    <div id="winningLabel"></div>
+
+
+
+    <script>
+      var player1;
+      var player2;
+      var random = Math.random();
+      if(random < 0.5){
+        player1 = 'computer';
+        player2 = 'human';
+      }
+      else{
+        player1 = 'human';
+        player2 = 'computer';
+      }
+      // alert(player1);
+      $( document ).ready(function() {
+          newGame();
+      });
+
+        $("#tableId td").on("click", function () {
+          // console.log($(this).html());
+          if($(this).html() !== "X" && $(this).html() !== "O" ){
+              $(this).text("X");
+              $.ajax({
+                  type: "POST",
+                  url: "http://localhost:8080/game",
+                  data: this.id,
+                  contentType: "application/json; charset=utf-8",
+                  success: function (result) {
+                      console.log(result);
+                      if(result == "10"){
+                        // alert("Player X won");
+                        // $("#winningLabel").text("Player X won");
+                        setTimeout(function(){ alert("Player X won"); newGame(); }, 500);
+
+                      }
+                      else if (result == "11") {
+                        // alert("Player O won");
+                        // $("#winningLabel").text("Player O won");
+                        setTimeout(function(){ alert("Player O won"); newGame(); }, 500);
+                        // newGame();
+                      }
+                      else{
+                        $(`#${result}`).text("O");
+                      }
+                }
+              });
+              // newGame();
+            }
+        });
+
+      function newGame(){
+
+        $("#tableId td").text("");
+        $("#winningLabel").text("In play...");
+        $.ajax({
+             url: "http://localhost:8080/game",
+             type: 'DELETE',
+             success: function (result) {
+
+             }
+         });
+      }
+
+    </script>
+
+</body>
+
+</html>

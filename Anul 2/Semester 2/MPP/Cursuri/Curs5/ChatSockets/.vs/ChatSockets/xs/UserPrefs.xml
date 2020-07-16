@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{96D3BCC6-23F9-4476-A800-5B6C749E84B1}|Default">
+  <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.GTKClient PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GTKClient/GTKLoginWindow.cs">
+    <Files>
+      <File FileName="services/IChatObserver.cs" Line="1" Column="1" />
+      <File FileName="ChatClient/ChatClientCtrl.cs" />
+      <File FileName="ChatClient/ChatWindow.cs" />
+      <File FileName="networking/ChatServerObjectProxy.cs" />
+      <File FileName="ChatClient/StartChatClient.cs" />
+      <File FileName="networking/ChatClientObjectWorker.cs" />
+      <File FileName="networking/DTOUtils.cs" />
+      <File FileName="Server/StartServer.cs" />
+      <File FileName="persistence/FilePersistence.cs" />
+      <File FileName="persistence/UserRepositoryTextFile.cs" />
+      <File FileName="persistence/UserRepositoryMock.cs" />
+      <File FileName="persistence/MockPersistence.cs" />
+      <File FileName="GTKClient/StartGTKClient.cs" Line="21" Column="6" />
+      <File FileName="GTKClient/GTKLoginWindow.cs" Line="7" Column="36" />
+      <File FileName="GTKClient/GTKChatWindow.cs" Line="1" Column="1" />
+      <File FileName="GTKClient/GTKClientCtrl.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChatSockets" expanded="True">
+            <Node name="GTKClient" expanded="True">
+              <Node name="StartGTKClient.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

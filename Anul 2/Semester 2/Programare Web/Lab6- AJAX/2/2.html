@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 2</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <table id="tableId">
+        <th>Nume</th>
+        <th>Prenume</th>
+        <th>Telefon</th>
+        <th>Email</th>
+    </table>
+    <button onclick="previousPage()" id="previousPageButton">Previous</button>
+    <button onclick="nextPage()" id="nextPageButton">Next</button>
+    
+
+
+    <script>
+      var index = 1;
+      initialState();
+      function initialState(){
+        $.ajax({
+             url: "http://localhost:8080/users/all/"+ index,
+             type: 'GET',
+             success: function (result) {
+               $('#previousPageButton').prop('disabled', true);
+                 result.forEach(user => {
+                     $('#tableId').append(`<tr><td>${user.nume}</td><td>${user.prenume}</td><td>${user.telefon}</td><td>${user.email}</td></tr>`);
+                 });
+             }
+         });
+       }
+
+       function nextPage(){
+         index++;
+         $.ajax({
+              url: "http://localhost:8080/users/all/" + index,
+              type: 'GET',
+              success: function (result) {
+                if(result.length == 0){
+                  $('#nextPageButton').prop('disabled', true);
+                  index--;
+                }
+                else{
+                  $('#nextPageButton').prop('disabled', false);
+                  $('#previousPageButton').prop('disabled', false);
+                  emptyTable();
+                  result.forEach(user => {
+                      $('#tableId').append(`<tr><td>${user.nume}</td><td>${user.prenume}</td><td>${user.telefon}</td><td>${user.email}</td></tr>`);
+                  });
+                }
+              }
+          });
+       }
+       function previousPage(){
+         index--;
+         $.ajax({
+              url: "http://localhost:8080/users/all/" + index,
+              type: 'GET',
+              success: function (result) {
+                if(result.length == 0){
+                  $('#previousPageButton').prop('disabled', true);
+                  index++;
+                }
+                else {
+                  $('#nextPageButton').prop('disabled', false);
+                  $('#previousPageButton').prop('disabled', false);
+                  emptyTable();
+                  result.forEach(user => {
+                      $('#tableId').append(`<tr><td>${user.nume}</td><td>${user.prenume}</td><td>${user.telefon}</td><td>${user.email}</td></tr>`);
+                  });
+                }
+              }
+          });
+       }
+       function emptyTable(){
+         $('#tableId tr:not(:first)').remove();
+       }
+    </script>
+
+</body>
+
+</html>

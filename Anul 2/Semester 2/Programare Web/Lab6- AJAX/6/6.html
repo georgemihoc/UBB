@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 6</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <table id="tableId">
+          <th>ID</th>
+          <th>Producator</th>
+          <th>Procesor</th>
+          <th>RAM</th>
+          <th>Capacitate</th>
+          <th>Graphics</th>
+
+  </table>
+      <br>
+      <b> Filter by: </b>
+      <br>
+        <select id="producator">
+          <option value="blank">Producator</option>
+          <option value="apple">Apple</option>
+          <option value="asus">Asus</option>
+          <option value="dell">Dell</option>
+        </select>
+
+        <select id="procesor">
+            <option value="blank">Procesor</option>
+            <option value="i3">i3</option>
+            <option value="i5">i5</option>
+            <option value="i7">i7</option>
+            <option value="i9">i9</option>
+        </select>
+
+        <select id="ram">
+            <option value="blank">RAM</option>
+            <option value="4gb">4Gb</option>
+            <option value="8gb">8Gb</option>
+            <option value="16gb">16Gb</option>
+            <option value="32gb">32Gb</option>
+
+        </select>
+
+        <select id="capacitate">
+            <option value="blank">Capacitate</option>
+            <option value="256gb">256Gb</option>
+            <option value="500gb">500Gb</option>
+            <option value="1tb">1Tb</option>
+
+        </select>
+
+        <select id="graphics">
+            <option value="blank">Graphics</option>
+            <option value="radeon">Radeon</option>
+            <option value="integrata">Integrata</option>
+        </select>
+
+    <script>
+
+        var notebooks;
+        $.ajax({
+            url: "http://localhost:8080/notebook",
+            type: 'GET',
+            success: function (result) {
+                notebooks = result;
+                result.forEach(laptop => {
+                    $('#tableId').append(`<tr><td>${laptop.id}</td><td>${laptop.producator}</td><td>${laptop.procesor}</td><td>${laptop.ram}</td><td>${laptop.capacitate}</td><td>${laptop.graphics}</td></tr>`);
+                });
+            }
+        });
+
+        $('select').on('change', function () {
+            emptyTable();
+
+            var string = "";
+
+            var producator = $('#producator option:selected').val();
+            var procesor = $('#procesor option:selected').val();
+            var ram = $('#ram option:selected').val();
+            var capacitate = $('#capacitate option:selected').val();
+            var graphics = $('#graphics option:selected').val();
+
+            string += producator;
+            string += ",";
+            string += procesor;
+            string += ",";
+            string += ram;
+            string += ",";
+            string += capacitate;
+            string += ",";
+            string += graphics;
+
+            // console.log(procesor);
+
+            $.ajax({
+                url: "http://localhost:8080/notebook/" + string,
+                type: 'GET',
+                success: function (result) {
+                    notebooks = result;
+                    result.forEach(laptop => {
+                        $('#tableId').append(`<tr><td>${laptop.id}</td><td>${laptop.producator}</td><td>${laptop.procesor}</td><td>${laptop.ram}</td><td>${laptop.capacitate}</td><td>${laptop.graphics}</td></tr>`);
+                    });
+                }
+            });
+      });
+
+        function emptyTable(){
+          $('#tableId tr:not(:first)').remove();
+        }
+
+    </script>
+
+</body>
+
+</html>

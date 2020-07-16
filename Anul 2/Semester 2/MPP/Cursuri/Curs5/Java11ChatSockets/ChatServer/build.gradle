@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'Java11ChatSockets'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':ChatModel')
+    compile project (':ChatServices')
+    compile project (':ChatPersistence')
+    compile project (':ChatNetworking')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

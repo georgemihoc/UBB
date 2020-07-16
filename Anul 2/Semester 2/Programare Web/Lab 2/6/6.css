@@ -1,0 +1,42 @@
+.name{
+	position: absolute;
+  	left: 150px;
+  	top: 30px;
+    background-image: url("square.gif");    
+    width: 315px;
+    height: 18px;
+    background-size: 20px;
+    border: none;
+    font-family: monospace;
+    font-size: 13px;
+    padding-left: 5px;
+    letter-spacing: 12px;
+}
+.name2{
+	position: absolute;
+  	left: 150px;
+  	top: 90px;
+    background-image: url("square.gif");    
+    width: 315px;
+    height: 18px;
+    background-size: 20px;
+    border: none;
+    font-family: monospace;
+    font-size: 13px;
+    padding-left: 5px;
+    letter-spacing: 12px;
+}
+.cnp{
+	position: absolute;
+  	left: 150px;
+  	top: 150px;
+    background-image: url("square.gif");    
+    width: 255px;
+    height: 18px;
+    background-size: 20px;
+    border: none;
+    font-family: monospace;
+    font-size: 13px;
+    padding-left: 5px;
+    letter-spacing: 12px;
+}

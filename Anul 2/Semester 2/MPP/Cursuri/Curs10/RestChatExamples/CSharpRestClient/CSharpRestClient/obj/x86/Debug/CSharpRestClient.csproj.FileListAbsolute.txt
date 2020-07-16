@@ -1,0 +1,10 @@
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/bin/Debug/CSharpRestClient.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/bin/Debug/CSharpRestClient.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/bin/Debug/Newtonsoft.Json.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/bin/Debug/System.Net.Http.Formatting.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/bin/Debug/Newtonsoft.Json.xml
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/bin/Debug/System.Net.Http.Formatting.xml
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs10/RestChatExamples/CSharpRestClient/CSharpRestClient/obj/x86/Debug/CSharpRestClient.pdb

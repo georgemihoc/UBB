@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 3</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+<body>
+      <table>
+      <tr>
+        <td>
+          <select id="idList" size="7">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+
+          </select>
+        </td>
+        <td>
+          <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" ><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+
+          </form>
+          <button type="button" id="submitButton" onclick="updatePerson()">Update</button>
+        </td>
+      </tr>
+      </table>
+
+
+
+    <script>
+      // var person;
+      var person = {
+        id: "",
+        firstName : "",
+        lastName: "",
+      };
+      $('#submitButton').prop('disabled', true);
+
+      $(document).ready(function () {
+            $("#idList").on("click", function (event) {
+
+              $('#submitButton').prop('disabled', true);
+
+
+              document.getElementById("fname").onkeyup = function(){$('#submitButton').prop('disabled', false);};
+              document.getElementById("lname").onkeyup = function(){$('#submitButton').prop('disabled', false);};
+
+              // $(input .onkeyup).$('#submitButton').prop('disabled', false);
+
+
+              var start = $(event.currentTarget).val();
+
+              // console.log(person.firstName);
+              // console.log($("#fname").val());
+              if (person.firstName != "" && (person.firstName != $("#fname").val() || person.lastName != $("#lname").val()) ){
+                  if(confirm("Save changes?")){
+                      updatePerson();
+                  }
+              }
+
+
+                $.ajax({
+                    url: "http://localhost:8080/person/" + start,
+                    type: 'GET',
+                    success: function (result) {
+                      person = result;
+                      $("#fname").val(result.firstName);
+                      $("#lname").val(result.lastName);
+
+                    }
+                });
+
+            });
+        });
+
+        function updatePerson(){
+
+          var e = document.getElementById("idList");
+          // var id = parseInt(e.options[e.selectedIndex].value);
+          // person = {id: id, firstName : $("#fname").val(), lastName: $("#lname").val()};
+          // console.log(JSON.stringify(person));
+          // console.log("http://localhost:8080/person/" + id);
+
+          person.firstName = $("#fname").val();
+          person.lastName = $("#lname").val();
+
+          $.ajax({
+                type: "PUT",
+                url: "http://localhost:8080/person/" + person.id,
+                data: JSON.stringify(person),
+                dataType: 'json',
+                contentType: "application/json",
+                accept: "application/json"
+            });
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>

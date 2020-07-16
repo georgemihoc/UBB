@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f362ce73-b45b-49ec-868b-16fffe73560d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ChatMPP2019.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ChatMPP2019.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ChatMPP2019.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ChatMPP2019.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="messages: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ChatMPP2019.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="users: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/ChatClientFX">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ChatClient">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java11ChatSockets" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java11ChatSockets" type="f1a62948:ProjectNode" />
+                <item name=":ChatClient" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java11ChatSockets" type="f1a62948:ProjectNode" />
+                <item name=":ChatClient" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java11ChatSockets" type="f1a62948:ProjectNode" />
+                <item name=":ChatClientFX" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java11ChatSockets" type="f1a62948:ProjectNode" />
+                <item name=":ChatClientFX" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java11ChatSockets" type="f1a62948:ProjectNode" />
+                <item name=":ChatClientFX" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java11ChatSockets" type="f1a62948:ProjectNode" />
+                <item name=":ChatServer" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z7ZdcwdggiTcmjgIXKfhnIjCRs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554200728240" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/proiecte/kaufland/aplicatie" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chat.server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ChatServices/src/main/java/chat" />
+      <recent name="$PROJECT_DIR$/ChatServer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ChatServer/src/main/java" />
+      <recent name="$PROJECT_DIR$/ChatPersistence/src/main/java/chat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StartRpcServer">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartObjectClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.client.StartObjectClient" />
+      <module name="Java11ChatSockets.ChatClient.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartObjectServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StartObjectServer" />
+      <module name="Java11ChatSockets.ChatServer.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartRpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chat.client.StartRpcClient" />
+      <module name="Java11ChatSockets.ChatClient.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartRpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StartRpcServer" />
+      <module name="Java11ChatSockets.ChatServer.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java11ChatSockets:ChatClientFX [run]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ChatClientFX" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StartObjectServer" />
+      <item itemvalue="Application.StartObjectClient" />
+      <item itemvalue="Application.StartRpcClient" />
+      <item itemvalue="Application.StartRpcServer" />
+      <item itemvalue="Gradle.Java11ChatSockets:ChatClientFX [run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Java11ChatSockets:ChatClientFX [run]" />
+        <item itemvalue="Application.StartRpcServer" />
+        <item itemvalue="Application.StartRpcClient" />
+        <item itemvalue="Application.StartObjectClient" />
+        <item itemvalue="Application.StartObjectServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f362ce73-b45b-49ec-868b-16fffe73560d" name="Default Changelist" comment="" />
+      <created>1552808250435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552808250435</updated>
+      <workItem from="1552808252368" duration="2740000" />
+      <workItem from="1552811055822" duration="1591000" />
+      <workItem from="1552935334016" duration="386000" />
+      <workItem from="1552983940865" duration="1108000" />
+      <workItem from="1552993585903" duration="764000" />
+      <workItem from="1553019835441" duration="494000" />
+      <workItem from="1553089046901" duration="9000" />
+      <workItem from="1553530617564" duration="109000" />
+      <workItem from="1553536704287" duration="695000" />
+      <workItem from="1554139426154" duration="224000" />
+      <workItem from="1554181065248" duration="139000" />
+      <workItem from="1554186724404" duration="1176000" />
+      <workItem from="1554195504549" duration="26000" />
+      <workItem from="1554198317743" duration="2351000" />
+      <workItem from="1584192182902" duration="287000" />
+      <workItem from="1584268889819" duration="8000" />
+      <workItem from="1584275620983" duration="606000" />
+      <workItem from="1584285136511" duration="14000" />
+      <workItem from="1584871073084" duration="63000" />
+      <workItem from="1584896200209" duration="56000" />
+      <workItem from="1584904664146" duration="27000" />
+      <workItem from="1585139929338" duration="54491000" />
+      <workItem from="1585486391899" duration="19967000" />
+      <workItem from="1585589241129" duration="1928000" />
+      <workItem from="1585592496077" duration="38000" />
+      <workItem from="1585674804671" duration="1461000" />
+      <workItem from="1585745450962" duration="5399000" />
+      <workItem from="1585754476304" duration="337000" />
+      <workItem from="1586164856746" duration="3397000" />
+      <workItem from="1586192674195" duration="254000" />
+      <workItem from="1586234853904" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="179" key="#Project_Structure" timestamp="1585752740646">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="440" y="179" key="#Project_Structure/0.23.1680.981@0.23.1680.981" timestamp="1585752740646" />
+    <state width="1638" height="264" key="GridCell.Tab.0.bottom" timestamp="1585590212889">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="215" key="GridCell.Tab.0.bottom/0.23.1680.981@0.0.1680.1050" timestamp="1585486363642" />
+    <state width="1638" height="264" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1585590212889" />
+    <state width="1878" height="215" key="GridCell.Tab.0.bottom/1680.-51.1920.1057/0.23.1680.981@1680.-51.1920.1057" timestamp="1585343443972" />
+    <state width="1638" height="264" key="GridCell.Tab.0.center" timestamp="1585590212889">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="215" key="GridCell.Tab.0.center/0.23.1680.981@0.0.1680.1050" timestamp="1585486363641" />
+    <state width="1638" height="264" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1585590212889" />
+    <state width="1878" height="215" key="GridCell.Tab.0.center/1680.-51.1920.1057/0.23.1680.981@1680.-51.1920.1057" timestamp="1585343443971" />
+    <state width="1638" height="264" key="GridCell.Tab.0.left" timestamp="1585590212888">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="215" key="GridCell.Tab.0.left/0.23.1680.981@0.0.1680.1050" timestamp="1585486363640" />
+    <state width="1638" height="264" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1585590212888" />
+    <state width="1878" height="215" key="GridCell.Tab.0.left/1680.-51.1920.1057/0.23.1680.981@1680.-51.1920.1057" timestamp="1585343443971" />
+    <state width="1638" height="264" key="GridCell.Tab.0.right" timestamp="1585590212889">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="215" key="GridCell.Tab.0.right/0.23.1680.981@0.0.1680.1050" timestamp="1585486363641" />
+    <state width="1638" height="264" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1585590212889" />
+    <state width="1878" height="215" key="GridCell.Tab.0.right/1680.-51.1920.1057/0.23.1680.981@1680.-51.1920.1057" timestamp="1585343443971" />
+    <state width="1638" height="215" key="GridCell.Tab.1.bottom" timestamp="1585589679771">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="215" key="GridCell.Tab.1.bottom/0.23.1680.981@0.0.1680.1050" timestamp="1585486363643" />
+    <state width="1638" height="215" key="GridCell.Tab.1.bottom/0.23.1680.981@0.23.1680.981" timestamp="1585589679771" />
+    <state width="1878" height="215" key="GridCell.Tab.1.bottom/1680.-51.1920.1057/0.23.1680.981@1680.-51.1920.1057" timestamp="1585343442972" />
+    <state width="1638" height="215" key="GridCell.Tab.1.center" timestamp="1585589679770">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="215" key="GridCell.Tab.1.center/0.23.1680.981@0.0.1680.1050" timestamp="1585486363642" />
+    <state width="1638" height="215" key="GridCell.Tab.1.center/0.23.1680.981@0.23.1680.981" timestamp="1585589679770" />
+    <state width="1878" height="215" key="GridCell.Tab.1.center/1680.-51.1920.1057/0.23.1680.981@1680.-51.1920.1057" timestamp="1585343442971" />
+    <state width="1638" height="215" key="GridCell.Tab.1.left" timestamp="1585589679770">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="215" key="GridCell.Tab.1.left/0.23.1680.981@0.0.1680.1050" timestamp="1585486363642" />
+    <state width="1638" height="215" key="GridCell.Tab.1.left/0.23.1680.981@0.23.1680.981" timestamp="1585589679770" />
+    <state width="1878" height="215" key="GridCell.Tab.1.left/1680.-51.1920.1057/0.23.1680.981@1680.-51.1920.1057" timestamp="1585343442971" />
+    <state width="1638" height="215" key="GridCell.Tab.1.right" timestamp="1585589679771">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="215" key="GridCell.Tab.1.right/0.23.1680.981@0.0.1680.1050" timestamp="1585486363643" />
+    <state width="1638" height="215" key="GridCell.Tab.1.right/0.23.1680.981@0.23.1680.981" timestamp="1585589679771" />
+    <state width="1878" height="215" key="GridCell.Tab.1.right/1680.-51.1920.1057/0.23.1680.981@1680.-51.1920.1057" timestamp="1585343442972" />
+    <state x="349" y="152" key="SettingsEditor" timestamp="1585678818416">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="349" y="152" key="SettingsEditor/0.23.1680.981@0.23.1680.981" timestamp="1585678818416" />
+    <state x="506" y="274" width="667" height="476" key="find.popup" timestamp="1586180782442">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="506" y="274" width="667" height="476" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1586180782442" />
+    <state x="506" y="275" width="667" height="476" key="find.popup/0.23.1680.981@0.23.1680.981" timestamp="1585752791239" />
+    <state x="2258" y="221" width="763" height="714" key="find.popup/1680.-51.1920.1057/0.23.1680.981@1680.-51.1920.1057" timestamp="1585343063070" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ChatClientFX/src/main/java/chat/client/gui/ChatController.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ChatServer/src/main/java/chat/server/ChatServicesImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ChatClientFX/src/main/java/chat/client/gui/ChatController.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

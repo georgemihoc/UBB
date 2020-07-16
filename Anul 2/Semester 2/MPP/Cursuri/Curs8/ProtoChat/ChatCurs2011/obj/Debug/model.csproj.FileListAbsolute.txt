@@ -1,0 +1,26 @@
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatCurs2011/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatCurs2011/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatCurs2011/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatCurs2011/obj/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatCurs2011/obj/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatCurs2011/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatCurs2011/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatCurs2011/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatCurs2011/obj/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatCurs2011/obj/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatCurs2011/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatCurs2011/bin/Debug/ChatCurs2011.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatCurs2011/obj/Debug/model.csprojResolveAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatCurs2011/obj/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatCurs2011/obj/Debug/ChatCurs2011.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatCurs2011/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatCurs2011/obj/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatCurs2011/bin/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatCurs2011/obj/Debug/model.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatCurs2011/obj/Debug/model.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatCurs2011/obj/Debug/ChatCurs2011.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatCurs2011/bin/Debug/ChatCurs2011.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatCurs2011/bin/Debug/ChatCurs2011.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatCurs2011/obj/Debug/model.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatCurs2011/obj/Debug/ChatCurs2011.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatCurs2011/obj/Debug/ChatCurs2011.pdb

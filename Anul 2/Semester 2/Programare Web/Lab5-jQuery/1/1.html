@@ -1,0 +1,47 @@
+<!--
+Created by George Mihoc
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 1</title>
+    <style>
+        * {
+            font-size: 100%;
+            font-family: Arial, serif;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <label for="list1">Choose a  letter:</label>
+    <select id="list1" size="4">
+        <option value="a">a</option>
+        <option value="b">b</option>
+        <option value="c">c</option>
+        <option value="d">d</option>
+    </select>
+
+    <label for="list2">Choose a number:</label>
+    <select id="list2" size = "4">
+        <option value="one">1</option>
+        <option value="two">2</option>
+        <option value="three">3</option>
+        <option value="four">4</option>
+    </select>
+    <script>
+        $('#list1').dblclick(function () {
+            var option =  $('#list1').children()[this.selectedIndex];
+            option.remove();
+            $('#list2').append(option);
+        });
+        $('#list2').dblclick(function () {
+            var option =  $('#list2').children()[this.selectedIndex];
+            option.remove();
+            $('#list1').append(option);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/ChatClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/networking.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/networking.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/ChatClient.Properties.Resources.resources
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/client.csproj.GenerateResource.Cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/ChatClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/ChatClient.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/model.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/client.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/client.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/client.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/ChatClient.pdb

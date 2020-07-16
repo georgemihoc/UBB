@@ -1,0 +1,27 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/obj/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/bin/Debug/model.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/obj/Debug/model.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/obj/Debug/model.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/obj/Debug/model.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/model/bin/Debug/model.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/model/bin/Debug/model.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/model/obj/Debug/model.csprojAssemblyReference.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/model/obj/Debug/model.csproj.CoreCompileInputs.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/model/obj/Debug/model.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/model/obj/Debug/model.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/model/bin/Debug/model.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/model/bin/Debug/model.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/model/obj/Debug/model.csprojAssemblyReference.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/model/obj/Debug/model.csproj.CoreCompileInputs.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/model/obj/Debug/model.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/model/obj/Debug/model.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/model/bin/Debug/x86/sqlite3.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/model/bin/Debug/x64/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/model/bin/Debug/x86/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/model/bin/Debug/x64/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/model/bin/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/model/bin/Debug/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/model/obj/Debug/model.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/model/obj/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/model/obj/Debug/model.pdb

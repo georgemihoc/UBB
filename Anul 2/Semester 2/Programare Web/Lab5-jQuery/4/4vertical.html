@@ -1,0 +1,80 @@
+<!--
+Created by George Mihoc
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 4 - vertical</title>
+    <style>
+        table {
+            border-spacing: 0;
+            width: 100%;
+            border: 2px solid gray;
+        }
+
+        th {
+            cursor: pointer;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 16px;
+            border-bottom: 1px solid gray;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <table id="tableId">
+        <tr>
+            <th onclick="tableSort('td:eq(0)')">Fructe</th>
+            <th onclick="tableSort('td:eq(1)')">Pret</th>
+            <th onclick="tableSort('td:eq(2)')">Cantitate</th>
+        </tr>
+        <tr class="row">
+            <td>Mere</td>
+            <td>2</td>
+            <td>8</td>
+        </tr>
+        <tr class="row">
+            <td>Pere</td>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+        <tr class="row">
+            <td >Ananas</td>
+            <td>3</td>
+            <td>7</td>
+        </tr>
+    </table>
+<script>
+    // Mark direction as ascending for the first time
+    var direction = 1;
+    function tableSort(column)
+    {
+        var table=$('#tableId');
+
+        table.find('.row').sort(function(a, b)
+        {
+            if(direction === 1)
+            {
+                return $(column, a).text().localeCompare($(column, b).text());
+            }
+            else
+            {
+                return $(column, b).text().localeCompare($(column, a).text());
+            }
+        }).appendTo(table);
+
+        //Change direction after sorting completed
+        if(direction === 1){
+            direction = -1;
+        }
+        else direction = 1;
+    }
+</script>
+</body>
+</html>

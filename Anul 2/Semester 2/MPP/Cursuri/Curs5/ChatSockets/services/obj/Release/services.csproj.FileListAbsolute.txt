@@ -1,0 +1,8 @@
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/services/bin/Release/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/services/bin/Release/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/services/bin/Release/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/services/bin/Release/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/services/obj/Release/services.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/services/obj/Release/services.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/services/obj/Release/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/services/obj/Release/services.pdb

@@ -1,0 +1,8 @@
+rootProject.name = 'JavaChat_AMS'
+include 'Model'
+include 'Services'
+include 'Persistence'
+include 'Networking'
+include 'Client'
+include 'Server'
+

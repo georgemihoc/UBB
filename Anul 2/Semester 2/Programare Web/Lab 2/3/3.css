@@ -1,0 +1,45 @@
+html,body{
+  margin: 0 auto;
+}
+/* Style the header */
+header {
+   background-color: red;
+   padding: 40px;
+
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+  margin: 0;
+  background: yellow;
+  font-size: 20px;
+  text-align: center;
+  height: 25px;
+
+
+}
+
+.boss{
+  position: absolute;
+  background-color: green;
+  height: calc(100vh - 200px);
+  width: 100%
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+li {
+  display: inline;
+}

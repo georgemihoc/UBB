@@ -1,0 +1,45 @@
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/bin/Debug/protobuf.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/bin/Debug/protobuf.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/bin/Debug/Google.ProtocolBuffers.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/obj/Debug/protobuf.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/obj/Debug/protobuf.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/protobuf/bin/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/bin/Debug/protobuf.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/bin/Debug/protobuf.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/bin/Debug/Google.ProtocolBuffers.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/bin/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/bin/Debug/ChatCurs2011.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/bin/Debug/services.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/obj/Debug/protobuf.csprojResolveAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/obj/Debug/protobuf.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/protobuf/obj/Debug/protobuf.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/bin/Debug/protobuf.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/bin/Debug/Google.ProtocolBuffers.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/bin/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/obj/Debug/protobuf.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/bin/Debug/protobuf.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/obj/Debug/protobuf.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/obj/Debug/protobuf.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/obj/Debug/protobuf.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf/obj/Debug/protobuf.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/bin/Debug/protobuf.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/bin/Debug/protobuf.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/bin/Debug/ChatCurs2011.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/bin/Debug/Google.ProtocolBuffers.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/bin/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/bin/Debug/ChatCurs2011.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/obj/Debug/protobuf.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/obj/Debug/protobuf.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/obj/Debug/protobuf.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/protobuf/obj/Debug/protobuf.pdb

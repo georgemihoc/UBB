@@ -1,0 +1,53 @@
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/obj/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/services/obj/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/obj/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/services/obj/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/services/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/services/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/services/obj/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/services/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/services/bin/Debug/model.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/services/obj/Debug/services.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/services/obj/Debug/services.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/services/obj/Debug/services.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/services/obj/Debug/services.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/services/bin/Debug/services.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/services/bin/Debug/services.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/services/bin/Debug/model.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/services/bin/Debug/model.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/services/obj/Debug/services.csprojAssemblyReference.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/services/obj/Debug/services.csproj.CoreCompileInputs.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/services/obj/Debug/services.csproj.CopyComplete
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/services/obj/Debug/services.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/services/obj/Debug/services.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/services.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/services.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/model.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/model.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/obj/Debug/services.csprojAssemblyReference.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/obj/Debug/services.csproj.CoreCompileInputs.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/obj/Debug/services.csproj.CopyComplete
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/obj/Debug/services.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/obj/Debug/services.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/x86/sqlite3.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/x64/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/x86/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/x64/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/bin/Debug/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/obj/Debug/services.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/obj/Debug/services.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/obj/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/services/obj/Debug/services.pdb

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a25dbeb-6298-4001-9b16-af57ce871144" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="swimDb" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="swimDb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="swimDb" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/networking/ChatClientObjectWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ChatServerObjectProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ServerUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/ICrudRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/DTOUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/OrganizatorDbRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/JSONUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ProtoUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/DbUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/LoginWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/LoginWindow.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04DC7BAA-E88C-476E-A5BF-B7668D57F21C/69/ad142e5a/IFormatter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/StartChatClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/persistence/ParticipantDbRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ChatProtocolV3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CB0BE130-5899-4D17-9009-F48FAAAB7EFA/0/IDbCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/IServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/MainView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChatClient/ChatClientCtrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/InscriereDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/74659502-78E2-430E-99A2-3E2ACAA8B940/84/95ad22da/TcpClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/74659502-78E2-430E-99A2-3E2ACAA8B940/f6/1a2d3232/Socket.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/IObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CB0BE130-5899-4D17-9009-F48FAAAB7EFA/14B/DbCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ObjectResponseProtocol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/model/Proba.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/StartServer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/networking/ObjectRequestProtocol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/SwimServerImpl.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Server/JSONUtils.cs" />
+        <option value="$PROJECT_DIR$/services/IServices.cs" />
+        <option value="$PROJECT_DIR$/ChatClient/ChatClientCtrl.cs" />
+        <option value="$PROJECT_DIR$/ChatClient/StartChatClient.cs" />
+        <option value="$PROJECT_DIR$/networking/ObjectResponseProtocol.cs" />
+        <option value="$PROJECT_DIR$/Server/StartServer.cs" />
+        <option value="$PROJECT_DIR$/networking/ObjectRequestProtocol.cs" />
+        <option value="$PROJECT_DIR$/networking/ChatServerObjectProxy.cs" />
+        <option value="$PROJECT_DIR$/networking/ProtoUtils.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d3852d76-5f6b-4e7d-9939-0801bf641edf/console_1.sql" />
+        <option value="$PROJECT_DIR$/persistence/DbUtils.cs" />
+        <option value="$PROJECT_DIR$/Server/SwimServerImpl.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/networking/ChatProtocolV3.cs" />
+        <option value="$PROJECT_DIR$/networking/ChatClientObjectWorker.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b20OdRahXSPzawmjeBXrSS0Zgl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Server">
+    <configuration name="Server" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Server/Server.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ChatClient/client.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:swimDb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:swimDb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@67b9a548" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:swimDb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@f01f2ca" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:swimDb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@47dc5420" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a25dbeb-6298-4001-9b16-af57ce871144" name="Default Changelist" comment="" />
+      <created>1587814849148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587814849148</updated>
+      <workItem from="1587814850587" duration="567000" />
+      <workItem from="1587841675740" duration="138000" />
+      <workItem from="1587850097209" duration="24635000" />
+      <workItem from="1588024269690" duration="1299000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="860" y="178" key="#SQL_Dialects" timestamp="1587905684152">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="860" y="178" key="#SQL_Dialects/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587905684152" />
+    <state x="860" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587916997638">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="860" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587916997638" />
+    <state x="860" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.979@0.23.1680.979" timestamp="1587904040952" />
+    <state width="1238" height="391" key="GridCell.Tab.0.bottom" timestamp="1588051759219">
+      <screen x="0" y="23" width="2560" height="1368" />
+    </state>
+    <state width="1638" height="264" key="GridCell.Tab.0.bottom/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587914034794" />
+    <state width="1638" height="326" key="GridCell.Tab.0.bottom/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003478" />
+    <state width="798" height="264" key="GridCell.Tab.0.bottom/0.23.1680.979@0.23.1680.979" timestamp="1587904283866" />
+    <state width="1238" height="391" key="GridCell.Tab.0.bottom/0.23.2560.1368@0.23.2560.1368" timestamp="1588051759219" />
+    <state width="1238" height="391" key="GridCell.Tab.0.center" timestamp="1588051759219">
+      <screen x="0" y="23" width="2560" height="1368" />
+    </state>
+    <state width="1638" height="264" key="GridCell.Tab.0.center/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587914034793" />
+    <state width="1638" height="326" key="GridCell.Tab.0.center/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003478" />
+    <state width="798" height="264" key="GridCell.Tab.0.center/0.23.1680.979@0.23.1680.979" timestamp="1587904283865" />
+    <state width="1238" height="391" key="GridCell.Tab.0.center/0.23.2560.1368@0.23.2560.1368" timestamp="1588051759219" />
+    <state width="1238" height="391" key="GridCell.Tab.0.left" timestamp="1588051759219">
+      <screen x="0" y="23" width="2560" height="1368" />
+    </state>
+    <state width="1638" height="264" key="GridCell.Tab.0.left/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587914034792" />
+    <state width="1638" height="326" key="GridCell.Tab.0.left/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003477" />
+    <state width="798" height="264" key="GridCell.Tab.0.left/0.23.1680.979@0.23.1680.979" timestamp="1587904283865" />
+    <state width="1238" height="391" key="GridCell.Tab.0.left/0.23.2560.1368@0.23.2560.1368" timestamp="1588051759219" />
+    <state width="1238" height="391" key="GridCell.Tab.0.right" timestamp="1588051759219">
+      <screen x="0" y="23" width="2560" height="1368" />
+    </state>
+    <state width="1638" height="264" key="GridCell.Tab.0.right/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587914034794" />
+    <state width="1638" height="326" key="GridCell.Tab.0.right/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003478" />
+    <state width="798" height="264" key="GridCell.Tab.0.right/0.23.1680.979@0.23.1680.979" timestamp="1587904283866" />
+    <state width="1238" height="391" key="GridCell.Tab.0.right/0.23.2560.1368@0.23.2560.1368" timestamp="1588051759219" />
+    <state width="1638" height="326" key="GridCell.Tab.1.bottom" timestamp="1587923003479">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.1.bottom/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792452" />
+    <state width="1638" height="326" key="GridCell.Tab.1.bottom/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003479" />
+    <state width="1638" height="326" key="GridCell.Tab.1.bottom/0.23.1680.979@0.23.1680.979" timestamp="1587853250546" />
+    <state width="1638" height="326" key="GridCell.Tab.1.center" timestamp="1587923003478">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.1.center/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792452" />
+    <state width="1638" height="326" key="GridCell.Tab.1.center/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003478" />
+    <state width="1638" height="326" key="GridCell.Tab.1.center/0.23.1680.979@0.23.1680.979" timestamp="1587853250545" />
+    <state width="1638" height="326" key="GridCell.Tab.1.left" timestamp="1587923003478">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.1.left/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792451" />
+    <state width="1638" height="326" key="GridCell.Tab.1.left/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003478" />
+    <state width="1638" height="326" key="GridCell.Tab.1.left/0.23.1680.979@0.23.1680.979" timestamp="1587853250544" />
+    <state width="1638" height="326" key="GridCell.Tab.1.right" timestamp="1587923003479">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.1.right/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792452" />
+    <state width="1638" height="326" key="GridCell.Tab.1.right/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003479" />
+    <state width="1638" height="326" key="GridCell.Tab.1.right/0.23.1680.979@0.23.1680.979" timestamp="1587853250545" />
+    <state width="1638" height="326" key="GridCell.Tab.2.bottom" timestamp="1587923003480">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.2.bottom/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792453" />
+    <state width="1638" height="326" key="GridCell.Tab.2.bottom/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003480" />
+    <state width="1638" height="326" key="GridCell.Tab.2.bottom/0.23.1680.979@0.23.1680.979" timestamp="1587853250547" />
+    <state width="1638" height="326" key="GridCell.Tab.2.center" timestamp="1587923003479">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.2.center/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792453" />
+    <state width="1638" height="326" key="GridCell.Tab.2.center/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003479" />
+    <state width="1638" height="326" key="GridCell.Tab.2.center/0.23.1680.979@0.23.1680.979" timestamp="1587853250547" />
+    <state width="1638" height="326" key="GridCell.Tab.2.left" timestamp="1587923003479">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.2.left/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792453" />
+    <state width="1638" height="326" key="GridCell.Tab.2.left/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003479" />
+    <state width="1638" height="326" key="GridCell.Tab.2.left/0.23.1680.979@0.23.1680.979" timestamp="1587853250546" />
+    <state width="1638" height="326" key="GridCell.Tab.2.right" timestamp="1587923003480">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.2.right/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792453" />
+    <state width="1638" height="326" key="GridCell.Tab.2.right/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003480" />
+    <state width="1638" height="326" key="GridCell.Tab.2.right/0.23.1680.979@0.23.1680.979" timestamp="1587853250547" />
+    <state width="1638" height="326" key="GridCell.Tab.3.bottom" timestamp="1587923003481">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.3.bottom/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792454" />
+    <state width="1638" height="326" key="GridCell.Tab.3.bottom/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003481" />
+    <state width="1638" height="326" key="GridCell.Tab.3.bottom/0.23.1680.979@0.23.1680.979" timestamp="1587853250549" />
+    <state width="1638" height="326" key="GridCell.Tab.3.center" timestamp="1587923003481">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.3.center/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792454" />
+    <state width="1638" height="326" key="GridCell.Tab.3.center/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003481" />
+    <state width="1638" height="326" key="GridCell.Tab.3.center/0.23.1680.979@0.23.1680.979" timestamp="1587853250548" />
+    <state width="1638" height="326" key="GridCell.Tab.3.left" timestamp="1587923003480">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.3.left/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792453" />
+    <state width="1638" height="326" key="GridCell.Tab.3.left/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003480" />
+    <state width="1638" height="326" key="GridCell.Tab.3.left/0.23.1680.979@0.23.1680.979" timestamp="1587853250548" />
+    <state width="1638" height="326" key="GridCell.Tab.3.right" timestamp="1587923003481">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.3.right/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912792454" />
+    <state width="1638" height="326" key="GridCell.Tab.3.right/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587923003481" />
+    <state width="1638" height="326" key="GridCell.Tab.3.right/0.23.1680.979@0.23.1680.979" timestamp="1587853250549" />
+    <state width="840" height="489" key="XDebugger.FullValuePopup" timestamp="1587912428022">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state width="840" height="489" key="XDebugger.FullValuePopup/-102.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587912428022" />
+    <state x="506" y="269" width="667" height="486" key="find.popup" timestamp="1587919746162">
+      <screen x="0" y="23" width="1680" height="979" />
+    </state>
+    <state x="506" y="269" width="667" height="486" key="find.popup/-103.-1057.1920.1057/0.23.1680.979@0.23.1680.979" timestamp="1587919746162" />
+    <state x="506" y="269" width="667" height="486" key="find.popup/0.23.1680.979@0.23.1680.979" timestamp="1587852796029" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/obj/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/bin/Debug/model.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/obj/Debug/model.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/obj/Debug/model.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/model/obj/Debug/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/model/bin/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/model/bin/Debug/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/model/obj/Debug/model.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/model/obj/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/model/obj/Debug/model.pdb

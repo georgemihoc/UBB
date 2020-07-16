@@ -1,0 +1,103 @@
+<!--
+Created by George Mihoc
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 5</title>
+    <style>
+        .slideshow{
+            width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+        .text {
+            color: white;
+            font-size: 25px;
+            padding: 15px 0;
+            position: absolute;
+            bottom: 5px;
+            width: 1000px;
+            text-align: center;
+            left: 40px;
+            background-color: rgba(0, 0, 0, 0.77)
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <ol style="list-style-type: none" class="slideshow">
+        <li class="slides">
+            <img  src="img/1.jpg" style="width:100%" >
+            <a href="https://www.bmw.com" class="text">First!!!</a>
+        </li>
+        <li class="slides">
+            <img src="img/2.jpg" style="width:100%">
+            <a href="https://www.audi.com" class="text">Second!!!</a>
+        </li>
+        <li class="slides">
+            <img src="img/3.jpg" style="width:100%">
+            <a href="https://www.apple.com" class="text">Third!!!</a>
+        </li>
+
+        <a class="prev" onclick="changeSlide(-1)"><</a>
+        <a class="next" onclick="changeSlide(1)">></a>
+    </ol>
+
+<script>
+    var index = 1;
+    var timer = 0;
+
+    showSlides(index);
+
+    function changeSlide(n) {
+        clearTimeout(timer);
+        showSlides(index += n);
+    }
+
+    function showSlides(n) {
+        var slides = $('.slides');
+        if (n===undefined)
+        {
+            index += 1;
+            n = index;
+        }
+        if (n > slides.length) {
+            index = 1
+        }
+        if (n < 1) {
+            index = slides.length
+        }
+        $(slides).css({"display": "none"});
+
+        $(slides[index-1]).css({"display": "block"});
+        timer = setTimeout(showSlides, 2000);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="swimDb">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.17">
+    <root id="1">
+      <ServerVersion>3.25.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="Inscriere"/>
+    <table id="7" parent="2" name="Organizator"/>
+    <table id="8" parent="2" name="Participant"/>
+    <table id="9" parent="2" name="Proba"/>
+    <table id="10" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <column id="11" parent="6" name="idInscriere">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="12" parent="6" name="idParticipant">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="13" parent="6" name="idProba">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="14" parent="6" name="sqlite_autoindex_Inscriere_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idInscriere</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="15" parent="6" name="Inscriere_pk">
+      <ColNames>idInscriere</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_Inscriere_1</UnderlyingIndexName>
+    </key>
+    <column id="16" parent="7" name="idOrganizator">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="17" parent="7" name="username">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+    </column>
+    <column id="18" parent="7" name="password">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+    </column>
+    <index id="19" parent="7" name="sqlite_autoindex_Organizator_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idOrganizator</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="20" parent="7" name="Organizator_pk">
+      <ColNames>idOrganizator</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_Organizator_1</UnderlyingIndexName>
+    </key>
+    <column id="21" parent="8" name="idParticipant">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="22" parent="8" name="nume">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+    </column>
+    <column id="23" parent="8" name="varsta">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="24" parent="8" name="sqlite_autoindex_Participant_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idParticipant</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="25" parent="8" name="Participant_pk">
+      <ColNames>idParticipant</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_Participant_1</UnderlyingIndexName>
+    </key>
+    <column id="26" parent="9" name="idProba">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="27" parent="9" name="lungime">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="28" parent="9" name="stil">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+    </column>
+    <column id="29" parent="9" name="nrParticipanti">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="30" parent="9" name="sqlite_autoindex_Proba_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idProba</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="31" parent="9" name="Proba_pk">
+      <ColNames>idProba</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_Proba_1</UnderlyingIndexName>
+    </key>
+    <column id="32" parent="10" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="33" parent="10" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="34" parent="10" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="35" parent="10" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="36" parent="10" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+  </database-model>
+</dataSource>

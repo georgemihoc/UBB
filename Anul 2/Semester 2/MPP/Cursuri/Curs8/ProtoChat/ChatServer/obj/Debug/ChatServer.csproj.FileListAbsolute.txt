@@ -1,0 +1,93 @@
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/ChatServer.exe
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/ChatServer.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/networking.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/persistence.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/persistence.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/bin/Debug/networking.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/obj/Debug/ChatServer.exe
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/ChatServer/obj/Debug/ChatServer.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/obj/Debug/ChatServer.exe
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/obj/Debug/ChatServer.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/ChatServer.exe
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/ChatServer.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/networking.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/persistence.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/persistence.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/networking.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/protobuf.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/Google.ProtocolBuffers.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/ChatServer/bin/Debug/protobuf.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/ChatServer.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/ChatServer.exe.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/networking.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/persistence.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/protobuf.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/Google.ProtocolBuffers.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/ChatCurs2011.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/networking.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/networking.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/persistence.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/persistence.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/services.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/protobuf.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/bin/Debug/protobuf.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/obj/Debug/ChatServer.csprojResolveAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/obj/Debug/ChatServer.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2016/CSharp/ProtoChat/ChatServer/obj/Debug/ChatServer.exe.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/ChatServer.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/networking.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/persistence.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/protobuf.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/protobuf3.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/Google.Protobuf.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/Google.ProtocolBuffers.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/networking.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/persistence.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/protobuf.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/Google.Protobuf.xml
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/obj/Debug/ChatServer.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/ChatServer.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/bin/Debug/protobuf3.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/obj/Debug/ChatServer.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/obj/Debug/ChatServer.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/obj/Debug/ChatServer.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/ChatServer/obj/Debug/ChatServer.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/ChatServer.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/ChatServer.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/ChatCurs2011.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/networking.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/persistence.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/protobuf.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/protobuf3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/Google.Protobuf.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/Google.ProtocolBuffers.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/ChatCurs2011.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/networking.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/persistence.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/protobuf3.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/protobuf.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/bin/Debug/Google.Protobuf.xml
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/obj/Debug/ChatServer.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/obj/Debug/ChatServer.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/obj/Debug/ChatServer.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs8/ProtoChat/ChatServer/obj/Debug/ChatServer.pdb

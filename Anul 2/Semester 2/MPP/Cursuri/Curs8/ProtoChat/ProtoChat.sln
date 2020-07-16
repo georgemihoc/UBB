@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "model", "ChatCurs2011\model.csproj", "{5EB3F96A-3F1E-43FF-830F-3BC983D3B674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "persistence", "persistence\persistence.csproj", "{56255E43-9872-456C-81F5-2F6F65D3C7EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{B18453AD-5AD0-4F2E-AF52-489EFA30B919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "services", "services\services.csproj", "{8B92230D-580A-4D9F-BFC0-03A384D66424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer.csproj", "{F1DAAF8A-3C0F-4689-B50A-B7C3B71AD5D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "networking", "networking\networking.csproj", "{47FBDB32-20C6-4787-923A-284AB01166CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf", "protobuf\protobuf.csproj", "{B66B5F98-41F5-45D5-9D67-FF3CCD5CA273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "protobuf3", "protobuf3\protobuf3.csproj", "{5319965A-BA36-4F72-A4B3-7DA4DF327057}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47FBDB32-20C6-4787-923A-284AB01166CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FBDB32-20C6-4787-923A-284AB01166CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FBDB32-20C6-4787-923A-284AB01166CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FBDB32-20C6-4787-923A-284AB01166CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56255E43-9872-456C-81F5-2F6F65D3C7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56255E43-9872-456C-81F5-2F6F65D3C7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56255E43-9872-456C-81F5-2F6F65D3C7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56255E43-9872-456C-81F5-2F6F65D3C7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB3F96A-3F1E-43FF-830F-3BC983D3B674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB3F96A-3F1E-43FF-830F-3BC983D3B674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB3F96A-3F1E-43FF-830F-3BC983D3B674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB3F96A-3F1E-43FF-830F-3BC983D3B674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B92230D-580A-4D9F-BFC0-03A384D66424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B92230D-580A-4D9F-BFC0-03A384D66424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B92230D-580A-4D9F-BFC0-03A384D66424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B92230D-580A-4D9F-BFC0-03A384D66424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18453AD-5AD0-4F2E-AF52-489EFA30B919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18453AD-5AD0-4F2E-AF52-489EFA30B919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18453AD-5AD0-4F2E-AF52-489EFA30B919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18453AD-5AD0-4F2E-AF52-489EFA30B919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66B5F98-41F5-45D5-9D67-FF3CCD5CA273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66B5F98-41F5-45D5-9D67-FF3CCD5CA273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66B5F98-41F5-45D5-9D67-FF3CCD5CA273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66B5F98-41F5-45D5-9D67-FF3CCD5CA273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1DAAF8A-3C0F-4689-B50A-B7C3B71AD5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DAAF8A-3C0F-4689-B50A-B7C3B71AD5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DAAF8A-3C0F-4689-B50A-B7C3B71AD5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DAAF8A-3C0F-4689-B50A-B7C3B71AD5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5319965A-BA36-4F72-A4B3-7DA4DF327057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5319965A-BA36-4F72-A4B3-7DA4DF327057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5319965A-BA36-4F72-A4B3-7DA4DF327057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5319965A-BA36-4F72-A4B3-7DA4DF327057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

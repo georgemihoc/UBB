@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 5</title>
+    <style>
+      ul, #myUL {
+        list-style-type: none;
+      }
+
+      #myUL {
+        margin: 0;
+        padding: 0;
+      }
+
+      .caret {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari 3.1+ */
+        -moz-user-select: none; /* Firefox 2+ */
+        -ms-user-select: none; /* IE 10+ */
+        user-select: none;
+      }
+
+      .caret::before {
+        content: "\25B6";
+        color: black;
+        display: inline-block;
+        margin-right: 6px;
+      }
+
+      .caret-down::before {
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari */'
+        transform: rotate(90deg);
+      }
+
+      .nested {
+        display: none;
+      }
+
+      .active {
+        display: block;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+<!-- <body>
+
+<ul id="myUL">
+<li><span class="caret">Tree</span>
+  <ul class="nested">
+    <div id="treeDiv"> </div>
+
+  </ul>
+</li>
+</ul>
+
+    <script>
+
+      var toggler = document.getElementsByClassName("caret");
+      var i;
+
+      for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+          this.parentElement.querySelector(".nested").classList.toggle("active");
+          this.classList.toggle("caret-down");
+
+        });
+      }
+
+      $.ajax({
+            url: "http://localhost:8080/tree",
+            type: 'GET',
+            success: function (result) {
+              console.log(result);
+
+
+              document.getElementById("treeDiv").innerHTML = result;
+            }
+        });
+
+
+    </script>
+
+</body> -->
+
+<body>
+    <script>
+        var parent;
+
+        $.fn.removeAllAttrs = function() {
+            return this.each(function() {
+                $.each(this.attributes, function() {
+                    this.ownerElement.removeAttributeNode(this);
+                });
+            });
+        };
+
+        function onClick(event) {
+            var id = event.target.id.substr(2);
+
+            var file = parent.allChildren.find(x => x.id == id);
+            var $newBody = $('<body>');
+            $('body').replaceWith( $newBody );
+
+
+            $.ajax({
+                url: "http://localhost:8080/tree" + file.id,
+                type: 'GET',
+                success: function (result) {
+                    parent = result;
+                    console.log(parent);
+                    if (parent.isFile == true) {
+                        $('body').append(`<pre>${parent.text}</pre>`);
+                    }
+                    else {
+                        $('body').append(`${parent.name} <ul id="ul${parent.id}"></ul>`);
+                            addChildrenToList(parent);
+
+                            $(`#ul${parent.id}`).on("click", "li.start", onClick);
+                            parent.allChildren.forEach(children => {
+                                $(`#ul${children.id}`).on("click", "li.start", onClick);
+                         })
+                    }
+                }
+            });
+            event.preventDefault();
+            return false;
+        }
+
+        function getPath(parent, searchedName) {
+            var name = parent.name;
+
+            if (name.localeCompare(searchedName) === 0)
+                return parent.name;
+
+            var length = parent.subChildren ? parent.subChildren.length : 0;
+            for (let i = 0; i < length; i++) {
+                var child = parent.subChildren[i];
+                var path = getPath(child, searchedName);
+                if (path != null) {
+                    return parent.name + '/' + path;
+                    break;
+                }
+            }
+
+            return null;
+        }
+
+        $.ajax({
+            url: "http://localhost:8080/tree",
+            type: 'GET',
+            success: function (result) {
+                parent = result;
+                console.log(parent);
+                $('body').append(`${parent.name} <ul id="ul${parent.id}"></ul>`);
+                // addChildrenToList(parent);
+
+                $(`#ul${parent.id}`).on("click", "li.start", onClick);
+                parent.allChildren.forEach(children => {
+                    $(`#ul${children.id}`).on("click", "li.start", onClick);
+                })
+            }
+        });
+
+        function addChildrenToList(parent) {
+            if (parent.isFile)
+                return;
+
+            parent.subChildren.forEach(child => {
+                $(`#ul${parent.id}`).append(`<li id="li${child.id}" class="start">${child.name}<ul id="ul${child.id}"></ul></li>`);
+                addChildrenToList(child);
+            });
+        }
+
+    </script>
+</body>
+
+</html>

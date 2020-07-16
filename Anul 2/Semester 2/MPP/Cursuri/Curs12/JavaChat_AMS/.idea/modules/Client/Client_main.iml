@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Client:main" external.linked.project.path="$MODULE_DIR$/../../../Client" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="JavaChat_AMS" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Client" removed="false">
+          <file>file://$MODULE_DIR$/../../../Client/src/main/resources/spring-client.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../Client/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../Client/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../Client/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../Client/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Model_main" />
+    <orderEntry type="module" module-name="Services_main" />
+    <orderEntry type="module" module-name="Networking_main" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.8.RELEASE" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.springframework:spring-jms:4.3.8.RELEASE">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.springframework/spring-jms/4.3.8.RELEASE/16735030d1e8bee6122379e4a06772070f623704/spring-jms-4.3.8.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.springframework/spring-jms/4.3.8.RELEASE/21a762eff1b57a94182a323dafc46e2248278665/spring-jms-4.3.8.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.activemq:activemq-spring:5.14.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-spring/5.14.5/8a2681c457e477d8bdbd7504157036ee446228ba/activemq-spring-5.14.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-spring/5.14.5/f539839ae4baf4edbb573667413a26d5b58fc929/activemq-spring-5.14.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: log4j:log4j:1.2.17">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.8.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.8.1/fb1930cd0b1b36924717229f56ca80d785401ff8/jackson-databind-2.8.8.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.8.1/487d3b25a2162472bfd84068e90e61876d9b637e/jackson-databind-2.8.8.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:4.3.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.3.8.RELEASE" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.springframework:spring-messaging:4.3.8.RELEASE">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.3.8.RELEASE/437c5c632d0e82577b66218799a8ff3b47ae1378/spring-messaging-4.3.8.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.3.8.RELEASE/b1e02c8387f778f08ed9753c6c0f583fac478c57/spring-messaging-4.3.8.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.springframework:spring-tx:4.3.8.RELEASE">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.8.RELEASE/7d84a40ac7eb8548aa67b8a3ae89baa8a5eb39a0/spring-tx-4.3.8.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.8.RELEASE/878391f920442f265de27886632f138af710ee6b/spring-tx-4.3.8.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.slf4j:slf4j-api:1.7.13">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.7.13.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/96e785df399a4e1a6c030877097807b7e18520cc/slf4j-api-1.7.13-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.xbean:xbean-spring:4.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-spring/4.2/28634a784c3091b1b3daf8eb5e0e512ae3e0ca35/xbean-spring-4.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-spring/4.2/182417c14cd8981c1596e237fac2a0acb926ac7b/xbean-spring-4.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.activemq:activemq-broker:5.14.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-broker/5.14.5/b0d4ab85db6ae612ad74fc7b489f17ac2599be9d/activemq-broker-5.14.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-broker/5.14.5/6ee89ae3d9acb6aade808984c29a0daa07eff20d/activemq-broker-5.14.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.activemq:activemq-pool:5.14.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-pool/5.14.5/f7f81e9f647df881569d7c9f06ae323ef22bb778/activemq-pool-5.14.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-pool/5.14.5/25613a72a84457b50485fb152320e75a639b970c/activemq-pool-5.14.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.apache.geronimo.specs:geronimo-jta_1.0.1B_spec:1.0.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.commons:commons-pool2:2.4.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.4.2/e5f4f28f19d57716fbc3989d7a357ebf1e454fea/commons-pool2-2.4.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.4.2/2c9dcae4975caff05a627b99fae76e6fef2a3a0e/commons-pool2-2.4.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.8" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.activemq:activemq-client:5.14.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-client/5.14.5/91a01f066d436c26ae9e5bcc5c58787e639dbd84/activemq-client-5.14.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-client/5.14.5/552b053c8e6c9055d23d5b3d247e37b99ece02ea/activemq-client-5.14.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.activemq:activemq-openwire-legacy:5.14.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-openwire-legacy/5.14.5/1ae9906e9dae16ce4c46a2f86b283293bf8b453c/activemq-openwire-legacy-5.14.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-openwire-legacy/5.14.5/6a7d7122994f6a9d7f46c92ee6e7f90cf9da385b/activemq-openwire-legacy-5.14.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.activemq:activemq-jms-pool:5.14.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-jms-pool/5.14.5/a7a4ba9ed1ff10cba05bc4a56078e833d8ddbd0/activemq-jms-pool-5.14.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-jms-pool/5.14.5/bac9d6fd16b7e25ccb8e5fed1ada54e107014fa/activemq-jms-pool-5.14.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.geronimo.specs:geronimo-jms_1.1_spec:1.1.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-jms_1.1_spec/1.1.1/c872b46c601d8dc03633288b81269f9e42762cea/geronimo-jms_1.1_spec-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-jms_1.1_spec/1.1.1/c45b919f5434f9c33c546af9e6dfc5e1466b4b3e/geronimo-jms_1.1_spec-1.1.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.fusesource.hawtbuf:hawtbuf:1.11">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.fusesource.hawtbuf/hawtbuf/1.11/8f0e50ad8bea37b84b698ec40cce09e47714a63e/hawtbuf-1.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.fusesource.hawtbuf/hawtbuf/1.11/8218f5081b357c4c79a426bae93933584ed59f0d/hawtbuf-1.11-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec/1.0.1/5372615b0c04c1913c95c34a0414cef720ca2855/geronimo-j2ee-management_1.1_spec-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-j2ee-management_1.1_spec/1.0.1/3d3b34584f4137c4ab7db496bceb5d75704f7354/geronimo-j2ee-management_1.1_spec-1.0.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,112 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/Server.exe.config
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/Server.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/networking.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/persistence.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/networking.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/persistence.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/persistence.dll.config
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/Mono.Data.Sqlite.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/System.Data.Portable.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/Server.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/model.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/Server.exe.config
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/Server.exe
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/Server.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/model.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/Mono.Data.Sqlite.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/networking.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/persistence.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/services.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/System.Data.Portable.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/model.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/networking.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/persistence.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/persistence.dll.config
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/bin/Debug/services.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csprojAssemblyReference.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csproj.CoreCompileInputs.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csproj.CopyComplete
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/obj/x86/Debug/Server.exe
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Curs5/ChatSockets/Server/obj/x86/Debug/Server.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/Server.exe.config
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/Server.exe
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/Server.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/model.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/Mono.Data.Sqlite.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/networking.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/persistence.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/services.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/System.Data.Portable.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/log4net.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/model.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/networking.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/persistence.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/persistence.dll.config
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/services.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/log4net.xml
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/obj/x86/Debug/Server.csprojAssemblyReference.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/obj/x86/Debug/Server.csproj.CoreCompileInputs.cache
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/obj/x86/Debug/Server.csproj.CopyComplete
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/obj/x86/Debug/Server.exe
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/obj/x86/Debug/Server.pdb
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/x86/sqlite3.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/x64/sqlite3.dll
+D:/PC New/UBB/Anul 2/Semestrul 2/MPP/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/x86/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/x64/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/Server.exe.config
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/Server.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/Server.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/Mono.Data.Sqlite.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/networking.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/persistence.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/System.Data.Portable.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/log4net.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/networking.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/persistence.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/persistence.dll.config
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/bin/Debug/log4net.xml
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/obj/x86/Debug/Server.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/obj/x86/Debug/Server.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/obj/x86/Debug/Server.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS Sockets/LaboratorCS_sockets/Server/obj/x86/Debug/Server.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/x86/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/x64/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/sqlite3.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/Server.exe.config
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/Server.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/Server.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/Mono.Data.Sqlite.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/networking.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/persistence.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/System.Data.Portable.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/log4net.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/networking.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/persistence.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/persistence.dll.config
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/log4net.xml
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/obj/x86/Debug/Server.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/obj/x86/Debug/Server.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/obj/x86/Debug/Server.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/obj/x86/Debug/Server.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/Newtonsoft.Json.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/Newtonsoft.Json.xml
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/Google.Protobuf.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Lab-uri/Laborator2CS JSON/LaboratorCS_sockets/Server/bin/Debug/Google.Protobuf.xml

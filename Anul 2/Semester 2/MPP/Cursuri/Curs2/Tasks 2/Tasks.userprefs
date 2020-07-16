@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{530D3D99-2364-4219-9A0F-9F6A2BE3D3EE}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tasks/repository/SortingTaskDbRepository.cs">
+    <Files>
+      <File FileName="Tasks/TaskProgram.cs" Line="17" Column="28" />
+      <File FileName="Tasks/repository/SortingTaskDbRepository.cs" Line="19" Column="33" />
+      <File FileName="Tasks/repository/DBUtils.cs" Line="2" Column="19" />
+      <File FileName="Tasks/model/SortingTask.cs" Line="54" Column="27" />
+      <File FileName="DbUtils/ConnectionFactory.cs" Line="25" Column="26" />
+      <File FileName="DbUtils/SqliteConnectionFactory.cs" Line="16" Column="6" />
+      <File FileName="DbUtils/MySqlConnectionFactory.cs" Line="9" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Tasks PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

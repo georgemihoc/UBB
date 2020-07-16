@@ -1,0 +1,35 @@
+.dialog{
+    list-style: none;
+}
+li {
+    padding: 10px;
+    max-width: 150px;
+    margin: 40px 100px;
+    text-align: center;
+    overflow: visible;
+    border: 1px solid black;
+    border-spacing: 10px;
+    border-image-source: url("dialog.png");
+    border-image-slice:20% 30%;
+    border-image-width: 25%;
+    border-image-outset:10px 10px 10px 20px;
+}
+li::before{
+    display: block;
+    position: relative;
+    content: '';
+    right: 120px;
+}
+.alice::before {
+    margin-bottom: -56px;
+    width: 69px;
+    height: 56px;
+    background: url("alice&bob.png")  -25px -50px;
+}
+.bob::before{
+    margin-bottom: -56px;
+    width: 69px;
+    height: 56px;
+    background: url("alice&bob.png") -25px -165px;
+
+}

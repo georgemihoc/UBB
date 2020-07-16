@@ -1,0 +1,28 @@
+body {
+  background-color: gray;
+}
+div.ex {
+  display: table;
+  justify-content: center;
+
+  width: 400px;
+  max-width: 100%;
+
+  border: 1px solid black;
+}
+.ex1,
+.ex2 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+
+  width: 200px;
+  max-width: 50%;
+}
+.ex2 img {
+  max-width: 100%;
+  object-fit: contain;
+}
+img.m6 {
+  max-width: 200px;
+}

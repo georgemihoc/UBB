@@ -1,0 +1,57 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/ChatClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/networking.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/networking.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/ChatClient.Properties.Resources.resources
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/client.csproj.GenerateResource.Cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/ChatClient.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/ChatClient.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/bin/Debug/model.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/client.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/client.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/client.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/ChatClient/obj/Debug/ChatClient.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\bin\Debug\ChatClient.exe
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\bin\Debug\ChatClient.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\bin\Debug\model.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\bin\Debug\networking.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\bin\Debug\services.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\bin\Debug\networking.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\bin\Debug\services.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\bin\Debug\model.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\obj\Debug\client.csprojAssemblyReference.cache
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\obj\Debug\client.csproj.GenerateResource.cache
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\obj\Debug\client.csproj.CoreCompileInputs.cache
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\obj\Debug\client.csproj.CopyComplete
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\obj\Debug\ChatClient.exe
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Curs5\ChatSockets\ChatClient\obj\Debug\ChatClient.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\obj\Debug\client.csprojAssemblyReference.cache
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\obj\Debug\ChatClient.Properties.Resources.resources
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\obj\Debug\client.csproj.GenerateResource.cache
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\obj\Debug\client.csproj.CoreCompileInputs.cache
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\obj\Debug\ChatClient.exe
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\obj\Debug\ChatClient.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\ChatClient.exe
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\ChatClient.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\model.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\networking.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\Server.exe
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\services.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\persistence.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\log4net.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\Mono.Data.Sqlite.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\networking.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\services.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\model.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\Server.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\Server.exe.config
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\persistence.pdb
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\persistence.dll.config
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\log4net.xml
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\obj\Debug\client.csproj.CopyComplete
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\x86\sqlite3.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\x64\sqlite3.dll
+D:\PC New\UBB\Anul 2\Semestrul 2\MPP\Laborator2CS Sockets\LaboratorCS_sockets\ChatClient\bin\Debug\sqlite3.dll

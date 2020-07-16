@@ -1,0 +1,92 @@
+<!--
+Created by George Mihoc
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 2</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form id="myForm" onsubmit=" return validateForm()" method="get">
+        Name: <input type="text" id="fname"><br><br>
+        Date of birth: <input type="date" id="fdate"><br><br>
+        Age: <input type="number" id="fage"><br><br>
+        E-mail: <input type="text" id="femail"><br><br>
+        <input type="submit" value="Trimite">
+    </form>
+<script>
+    function validateForm() {
+        var name = $('#myForm #fname');
+        var date = $('#myForm #fdate');
+        var varsta = $('#myForm #fage');
+        var email = $('#myForm #femail');
+        var message = "Campurile";
+        clearBorders(name,date,varsta,email)
+
+        if (name.val() === "") {
+            name.css({"border-color": "red"});
+            message = message.concat(" nume");
+        }
+        if (date.val() === "") {
+            date.css({"border-color": "red"});
+            if(message !== "Campurile")
+                message = message.concat(" si data nasterii");
+            else
+                message = message.concat(" data nasterii")
+        }
+        if (varsta.val() === "" || varsta.val() < 1) {
+            varsta.css({"border-color": "red"});
+            if(message !== "Campurile")
+                message = message.concat(" si varsta");
+            else
+                message = message.concat(" varsta")
+        }
+        if (emailCheck(email.val()) === false) {
+            email.css({"border-color": "red"});
+            if(message !== "Campurile")
+                message = message.concat(" si email");
+            else
+                message = message.concat(" email")
+        }
+        if(message !== "Campurile") {
+            message = message.concat(" nu sunt completate sau  nu sunt completate corect")
+            alert(message);
+            return false;
+        }
+        if(parseInt(getAge(date.val())) !== parseInt(varsta.val())){
+            varsta.css({"border-color": "red"});
+            date.css({"border-color": "red"});
+            alert("Varsta nu corespunde datei de nastere")
+            return false;
+        }
+
+        alert("Datele sunt completate corect")
+    }
+
+    function clearBorders(name,date,varsta,email){
+        name.css({"border-color": ""});
+        date.css({"border-color": ""});
+        varsta.css({"border-color": ""});
+        email.css({"border-color": ""});
+    }
+
+    function getAge(dateString) {
+        var today = new Date();
+        var birthDate = new Date(dateString);
+        var age = today.getFullYear() - birthDate.getFullYear();
+        var m = today.getMonth() - birthDate.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+        return age;
+    }
+
+    function emailCheck(email) {
+        return email.includes("@");
+    }
+</script>
+</body>
+</html>

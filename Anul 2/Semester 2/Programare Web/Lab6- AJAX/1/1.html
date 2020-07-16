@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 1</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <select id="list1" size="4">
+        <option value="cluj">Cluj</option>
+        <option value="bucuresti">Bucuresti</option>
+        <option value="timisoara">Timisoara</option>
+        <option value="brasov">Brasov</option>
+    </select>
+
+    <select id="list2" size = "4">
+        <option value="cluj">Cluj</option>
+        <option value="bucuresti">Bucuresti</option>
+        <option value="timisoara">Timisoara</option>
+        <option value="brasov">Brasov</option>
+    </select>
+
+
+    <script>
+
+      // //PHP
+      // $(document).ready(function () {
+      //       $("#list1").on("click", function (event) {
+      //           $('#list2').empty();
+      //           var start = $(event.currentTarget).val();
+      //
+      //           $.ajax({
+      //               url: "http://localhost:8000/1.php?q=" + start,
+      //               type: 'GET',
+      //               success: function (result) {
+      //                   var finish =result.split(',');
+      //                   for (let i = 0; i < finish.length; ++i) {
+      //                       $('#list2').append(`<option>${finish[i]}</option>`);
+      //                   }
+      //               }
+      //           });
+      //       });
+      //   });
+      $(document).ready(function () {
+            $("#list1").on("click", function (event) {
+                $('#list2').empty();
+                var start = $(event.currentTarget).val();
+
+                $.ajax({
+                    url: "http://localhost:8080/statii/all/" + start,
+                    type: 'GET',
+                    success: function (result) {
+                      result.forEach(station => {
+                          $('#list2').append(`<option>${station}</option>`);
+                      });
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

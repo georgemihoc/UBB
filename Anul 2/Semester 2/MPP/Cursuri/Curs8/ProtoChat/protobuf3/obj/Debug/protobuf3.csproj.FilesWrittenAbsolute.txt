@@ -1,0 +1,12 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/bin/Debug/protobuf3.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/bin/Debug/protobuf3.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/obj/Debug/protobuf3.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/obj/Debug/protobuf3.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/bin/Debug/Google.Protobuf.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/bin/Debug/ChatCurs2011.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/bin/Debug/ChatCurs2011.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/bin/Debug/services.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/protobuf3/bin/Debug/services.pdb

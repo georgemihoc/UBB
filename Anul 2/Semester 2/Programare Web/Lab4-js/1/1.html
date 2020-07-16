@@ -1,0 +1,31 @@
+<!--
+Created by George Mihoc
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="1.css">
+    <title>Problema 1</title>
+</head>
+
+<body>
+
+    <label for="list1">Choose a  letter:</label>
+    <select id="list1" ondblclick="myFunction('list1','list2')">
+        <option value="a">a</option>
+        <option value="b">b</option>
+        <option value="c">c</option>
+        <option value="d">d</option>
+    </select>
+
+    <label for="list2">Choose a number:</label>
+    <select id="list2" ondblclick="myFunction('list2','list1')">
+        <option value="one">1</option>
+        <option value="two">2</option>
+        <option value="three">3</option>
+        <option value="four">4</option>
+    </select>
+    <script src="1.js"></script>
+</body>
+</html>

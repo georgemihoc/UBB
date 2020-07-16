@@ -1,0 +1,37 @@
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/Server.exe.config
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/Server.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/networking.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/persistence.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/networking.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/persistence.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/persistence.dll.config
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.exe
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/Mono.Data.Sqlite.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/System.Data.Portable.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/Server.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/bin/Debug/model.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/Server/obj/x86/Debug/Server.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/Server.exe.config
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/Server.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/Server.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/Mono.Data.Sqlite.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/networking.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/persistence.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/System.Data.Portable.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/networking.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/persistence.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/persistence.dll.config
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/obj/x86/Debug/Server.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/obj/x86/Debug/Server.exe
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/Server/obj/x86/Debug/Server.pdb

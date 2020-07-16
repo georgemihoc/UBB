@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <util:properties id="jdbcProps" location="classpath:chatserver.properties"/>
+
+    <bean id="userRepo" class="chat.persistence.repository.jdbc.UserRepositoryJdbc">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="messageRepo" class="chat.persistence.repository.jdbc.MessageRepositoryJdbc">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory"/>
+
+    <bean id="topic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="ChatTopic"/>
+    </bean>
+
+    <bean id="converter" class="org.springframework.jms.support.converter.MappingJackson2MessageConverter">
+        <property name="targetType" value="TEXT"/>
+        <property name="typeIdPropertyName" value="_notification"/>
+    </bean>
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <constructor-arg ref="connectionFactory"/>
+        <property name="defaultDestination" ref="topic"/>
+        <property name="messageConverter" ref="converter"/>
+    </bean>
+
+    <bean id="notificationService" class="chat.server.NotificationServiceImpl">
+        <constructor-arg ref="jmsTemplate"/>
+    </bean>
+
+    <bean id="chatServer" class="chat.server.ChatServerAMSImpl">
+        <constructor-arg ref="userRepo"/>
+        <constructor-arg ref="messageRepo"/>
+        <constructor-arg ref="notificationService"/>
+    </bean>
+
+    <bean id="chatTCPServer" class="chat.network.utils.ChatRpcAMSConcurrentServer">
+        <constructor-arg value="#{jdbcProps.getProperty('chat.server.port')}"/>
+        <constructor-arg ref="chatServer"/>
+    </bean>
+</beans>

@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <title>Car recommendation form</title>
+                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    </head>
+
+    <body bgcolor="#E3E3E3">
+        <p><span class="paragraf1">Formular pentru cumpararea unei masini.</span></p>
+        <form id="form-div" action="POST">
+            <table id="form-table" border="10" align="center">
+                <thead>
+                    <tr>
+                        <th colspan="2"><h2>Car recommendation form</h2></th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td align="center">
+                            <table id="form-table-user" border="1">
+                                <thead>
+                                    <tr>
+                                        <th colspan="4"><h3>Detalii personale</h3></th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Nume:</td>
+                                        <td><input id="fname" type="text" name="fname" maxlength="20"></td>
+                                        
+                                        <td>Prenume:</td>
+                                        <td><input id="sname" type="text" name="sname" maxlength="20"></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td><b>E-mail:</b></td>
+                                        <td><input id="email" type="text" name="email" maxlength="60"></td>
+                                        
+                                        <td>Gen:</td>
+                                        <td>
+                                            <input type="radio" name="gender" value="m">Male
+                                            <input type="radio" name="gender" value="f">Female
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">Telefon:</td>
+                                        <td><input id="phonenumber" type="text" name="phonenumber" maxlength="20"></td>
+                                    </tr>
+                            
+                                    <tr>
+
+                                        <!-- <td rowspan="3">Location</td> -->
+                                        <td>Ora&#351;:</td>
+                                        <td>
+
+                                            <select>
+                                            <optgroup label="Romania">
+                                                    <option value="cj" selected="selected">Cluj-Napoca</option>
+                                                <option value="b">Bucuresti</option>
+                                            </optgroup>
+                                            <optgroup label="United Kingdom">
+                                                <option value="london">London</option>
+                                                <option value="manchester">Manchester</option>
+                                            </optgroup>
+                                            <optgroup label="Austria">
+                                                <option value="wien">Wien</option>
+                                                <option value="Innsbruck">Innsbruck</option>
+                                            </optgroup>
+                                            </select>
+
+                                        </td>
+    
+                                    </tr>
+
+                                    
+                                    <tr>
+                                        <td>Adresa:</td>
+                                        <td><input type="text" maxlength="40" name="adr1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>CNP:</td>
+                                        <td><input type="text" maxlength="40" name="adr1" readonly="readonly" value="Nu este necesar"></td>
+                                    </tr>
+                                        
+                                </tbody>
+                            </table>
+                        </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="4">
+                            <table id="form-table-questions" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th colspan="4"><h3>Quiz</h3></th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody >
+                                    <tr>
+                                        <td colspan="4">
+                                            <ol type="1" start="1">
+                                                <li>Ce m&#259;rci auto prefera&#355;i?<br>
+                                                    <ul>
+                                                        <li><input type="checkbox" name="brand" value="audi">Audi</li>
+                                                        <li><input type="checkbox" name="brand" value="bmw">BMW</li>
+                                                        <li><input type="checkbox" name="brand" value="porsche">Porsche</li>
+                                                        <li><input type="checkbox" name="brand" value="mercedes">Mercedes</li>
+                                                        <li><input type="checkbox" name="brand" value="ford">Ford</li>
+                                                        <li><input type="checkbox" name="brand" value="maseratti">Maseratti</li>
+                                                    </ul>  
+                                                <br>
+
+
+                                                </li>
+
+
+                                                <li>Ce tipuri de motorizari preferati?<br>
+                                                    <ol type="A">
+                                                        <li><input type="checkbox" name="motorizari" value="diesel">Diesel</li>
+                                                        <li><input type="checkbox" name="motorizari" value="benzina">Benzina</li>
+                                                    </ol>
+                                                <br>
+
+                                                </li>
+
+                                                
+                                                <li>Care este bugetul alocat pentru achizi&#355;ia unei ma&#351;ini?<br>
+                                                    <input type="text" maxlength="8" size="100%" value="30.000&#8364;"><!--step="10000" max="100.000&#8364;"--> 
+                                                <br>
+                                                
+                                                </li>
+
+                                                
+                                                <li>C&#226;te autoturisme de&#355;ine&#355;i in prezent?<br>
+                                                    <input type="text" maxlength="200" size="100%" disabled="disabled" value="1">
+                                                <br>
+                                                
+                                                </li>
+
+                                                
+                                                <li>Ce autoturism de&#355;ine&#355;i in prezent? (Ata&#351;a&#355;i fotografie cu autoturismul dvs.)<br>
+                                                    <input type="text" maxlength="200" size="100%">
+                                                    <INPUT TYPE = "file" NAME= "pozaautoturism" ><!-- multiple -->
+                                                <br>
+                                                
+                                                </li>
+
+                                                
+                                                <li>C&#226;t de multumit sunteti de actuala masina?<br>
+                                                    <input type="radio" name="multumit" value="1">1
+                                                    <input type="radio" name="multumit" value="2">2
+                                                    <input type="radio" name="multumit" value="3">3
+                                                    <input type="radio" name="multumit" value="4">4
+                                                    <input type="radio" name="multumit" value="5" checked="checked">5
+                                                    <input type="radio" name="multumit" value="6">6
+                                                    <input type="radio" name="multumit" value="7">7
+                                                    <input type="radio" name="multumit" value="8">8
+                                                    <input type="radio" name="multumit" value="9">9
+                                                    <input type="radio" name="multumit" value="10">10
+                                                <br>
+
+                                                </li>
+
+
+                                                <li>C&#226;t de importante sunt urm&#259;toarele pentru dvs.?<br><br>
+                                                    <ol type="I">
+                                                        <li>Sportivitatea autoturismului:
+
+                                                        <input type="radio" name="sportivitatea" value="1">1
+                                                        <input type="radio" name="sportivitatea" value="2">2
+                                                        <input type="radio" name="sportivitatea" value="3">3
+                                                        <input type="radio" name="sportivitatea" value="4">4
+                                                        <input type="radio" name="sportivitatea" value="5" checked="checked">5
+                                                        <input type="radio" name="sportivitatea" value="6">6
+                                                        <input type="radio" name="sportivitatea" value="7">7
+                                                        <input type="radio" name="sportivitatea" value="8">8
+                                                        <input type="radio" name="sportivitatea" value="9">9
+                                                        <input type="radio" name="sportivitatea" value="10">10<br></li>
+
+                                                        
+
+                                                        <li >Confortul autoturismului:    
+
+                                                        <input type="radio" name="comfort" value="1">1
+                                                        <input type="radio" name="comfort" value="2">2
+                                                        <input type="radio" name="comfort" value="3">3
+                                                        <input type="radio" name="comfort" value="4">4
+                                                        <input type="radio" name="comfort" value="5" checked="checked">5
+                                                        <input type="radio" name="comfort" value="6">6
+                                                        <input type="radio" name="comfort" value="7">7
+                                                        <input type="radio" name="comfort" value="8">8
+                                                        <input type="radio" name="comfort" value="9">9
+                                                        <input type="radio" name="comfort" value="10">10<br></li>
+
+                                                        
+
+                                                        <li >Raportul calitate/pre&#355; oferit:    
+
+                                                        <input type="radio" name="raport" value="1">1
+                                                        <input type="radio" name="raport" value="2">2
+                                                        <input type="radio" name="raport" value="3">3
+                                                        <input type="radio" name="raport" value="4">4
+                                                        <input type="radio" name="raport" value="5" checked="checked">5
+                                                        <input type="radio" name="raport" value="6">6
+                                                        <input type="radio" name="raport" value="7">7
+                                                        <input type="radio" name="raport" value="8">8
+                                                        <input type="radio" name="raport" value="9">9
+                                                        <input type="radio" name="raport" value="10">10</li>
+
+
+                                                    </ol>
+                                                    <br>
+                                                </li>
+
+                                                
+                                                
+                                                <li>
+                                                    Bifa&#355;i dot&#259;rile de care ave&#355;i nevoie in noul autoturism
+                                                    <fieldset>
+                                                        <legend>Dotari</legend>
+                                                    <table>
+                                                        <tr>
+                                                            <td><input type="checkbox" name="features" value="scauneincalzite">Scaune inc&#259;lzite</td>
+                                                            <td><input type="checkbox" name="features" value="climatronic">Dublu climatronic</td>
+                                                            <td><input type="checkbox" name="features" value="trapa">Trap&#259;</td>
+                                                            <td><input type="checkbox" name="features" value="oglinzielectrice">Oglinzi electrice</td>
+                                                            <td><input type="checkbox" name="features" value="navi">Naviga&#355;ie</td>
+                                                            <td><input type="checkbox" name="features" value="manuala">Cutie manual&#259;</td>
+                                                            <td><input type="checkbox" name="features" value="automata">Cutie automat&#259;</td>
+
+                                                        </tr>
+                                                
+                                                        <tr>
+                                                            <td><input type="checkbox" name="features" value="bluetooth">Bluetooth</td>
+                                                            <td><input type="checkbox" name="features" value="senzori">Senzori de parcare</td>
+                                                            <td><input type="checkbox" name="features" value="senzorip">Senzori de ploaie</td>
+                                                            <td><input type="checkbox" name="features" value="sistemaudio">Sistem audio profesional</td>
+                                                            <td><input type="checkbox" name="features" value="startstop">Start/Stop</td>
+                                                            <td><input type="checkbox" name="features" value="faruri">Faruri Bi-Xenon</td>
+                                                            <td><input type="checkbox" name="features" value="hillassist">Hill-Assist</td>
+                                                        </tr>
+                                                    </table>
+                                                </fieldset>
+                                                </li>
+                                            </ol>
+                                        </td>
+                                    </tr>
+                                    
+                                    
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2" valign="top">
+                            <table id="form-table-comments" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th align="left">Sugestii</th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td><textarea cols="135" rows="10"></textarea></td>
+                                       </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2">
+                            <center><input type="submit"></center>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        
+        <br><br>
+        <div>
+            <center>
+                <STRONG>
+                Website built by George Mihoc
+                </STRONG>
+                <br>
+                    <a href="http://www.github.com/georgemihoc" TARGET="_BLANK"><img src="Octicons-mark-github.svg" WIDTH = "25" HEIGHT = "25" alt="Git"></a>
+            </center>
+        </div>
+    </body>
+
+</html>

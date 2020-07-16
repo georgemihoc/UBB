@@ -1,0 +1,580 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 14:04:14.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+27-May-2020 14:04:14.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+27-May-2020 14:04:14.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+27-May-2020 14:04:14.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-May-2020 14:04:14.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+27-May-2020 14:04:14.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-May-2020 14:04:14.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home
+27-May-2020 14:04:14.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13+33
+27-May-2020 14:04:14.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2020 14:04:14.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 14:04:14.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 14:04:14.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-May-2020 14:04:14.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-May-2020 14:04:14.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 14:04:14.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/conf/logging.properties
+27-May-2020 14:04:14.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2020 14:04:14.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-May-2020 14:04:14.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-May-2020 14:04:14.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-May-2020 14:04:14.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-May-2020 14:04:14.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 14:04:14.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 14:04:14.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/temp
+27-May-2020 14:04:14.367 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/george/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-May-2020 14:04:14.627 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-May-2020 14:04:14.671 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [508] milliseconds
+27-May-2020 14:04:14.707 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-May-2020 14:04:14.707 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+27-May-2020 14:04:14.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs]
+27-May-2020 14:04:14.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs] has finished in [191] ms
+27-May-2020 14:04:14.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager]
+27-May-2020 14:04:14.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager] has finished in [33] ms
+27-May-2020 14:04:14.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples]
+27-May-2020 14:04:15.150 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples] has finished in [211] ms
+27-May-2020 14:04:15.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT]
+27-May-2020 14:04:15.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT] has finished in [17] ms
+27-May-2020 14:04:15.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager]
+27-May-2020 14:04:15.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager] has finished in [22] ms
+27-May-2020 14:04:15.195 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-May-2020 14:04:15.205 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [532] milliseconds
+27-May-2020 14:32:27.419 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-May-2020 14:32:27.419 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-May-2020 14:32:27.422 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-May-2020 14:32:27.452 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-May-2020 14:32:27.454 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 14:41:13.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+27-May-2020 14:41:13.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+27-May-2020 14:41:13.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+27-May-2020 14:41:13.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-May-2020 14:41:13.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+27-May-2020 14:41:13.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-May-2020 14:41:13.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home
+27-May-2020 14:41:13.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13+33
+27-May-2020 14:41:13.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2020 14:41:13.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 14:41:13.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 14:41:13.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-May-2020 14:41:13.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-May-2020 14:41:13.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 14:41:13.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/conf/logging.properties
+27-May-2020 14:41:13.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2020 14:41:13.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-May-2020 14:41:13.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-May-2020 14:41:13.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-May-2020 14:41:13.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-May-2020 14:41:13.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 14:41:13.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 14:41:13.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/temp
+27-May-2020 14:41:13.271 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/george/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-May-2020 14:41:13.487 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-May-2020 14:41:13.515 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [384] milliseconds
+27-May-2020 14:41:13.540 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-May-2020 14:41:13.540 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+27-May-2020 14:41:13.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs]
+27-May-2020 14:41:13.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs] has finished in [154] ms
+27-May-2020 14:41:13.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager]
+27-May-2020 14:41:13.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager] has finished in [25] ms
+27-May-2020 14:41:13.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples]
+27-May-2020 14:41:13.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples] has finished in [172] ms
+27-May-2020 14:41:13.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT]
+27-May-2020 14:41:13.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT] has finished in [14] ms
+27-May-2020 14:41:13.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager]
+27-May-2020 14:41:13.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager] has finished in [15] ms
+27-May-2020 14:41:13.930 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-May-2020 14:41:13.936 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [420] milliseconds
+27-May-2020 14:47:24.131 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/1]
+27-May-2020 14:47:24.164 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/1] has finished in [34] ms
+27-May-2020 14:47:34.674 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/1]
+27-May-2020 14:47:34.692 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8]
+27-May-2020 14:47:34.710 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8] has finished in [18] ms
+27-May-2020 14:56:45.801 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-May-2020 14:56:45.802 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-May-2020 14:56:45.804 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-May-2020 14:56:45.820 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-May-2020 14:56:45.822 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 15:06:09.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+27-May-2020 15:06:09.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+27-May-2020 15:06:09.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+27-May-2020 15:06:09.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-May-2020 15:06:09.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+27-May-2020 15:06:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-May-2020 15:06:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home
+27-May-2020 15:06:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13+33
+27-May-2020 15:06:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2020 15:06:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 15:06:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 15:06:09.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-May-2020 15:06:09.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-May-2020 15:06:09.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 15:06:09.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/conf/logging.properties
+27-May-2020 15:06:09.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2020 15:06:09.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-May-2020 15:06:09.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-May-2020 15:06:09.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-May-2020 15:06:09.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-May-2020 15:06:09.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 15:06:09.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 15:06:09.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/temp
+27-May-2020 15:06:09.351 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/george/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-May-2020 15:06:09.629 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-May-2020 15:06:09.675 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [532] milliseconds
+27-May-2020 15:06:09.713 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-May-2020 15:06:09.713 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+27-May-2020 15:06:09.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8]
+27-May-2020 15:06:09.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8] has finished in [241] ms
+27-May-2020 15:06:09.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs]
+27-May-2020 15:06:09.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs] has finished in [21] ms
+27-May-2020 15:06:09.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager]
+27-May-2020 15:06:10.021 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager] has finished in [37] ms
+27-May-2020 15:06:10.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples]
+27-May-2020 15:06:10.258 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples] has finished in [235] ms
+27-May-2020 15:06:10.258 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT]
+27-May-2020 15:06:10.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT] has finished in [18] ms
+27-May-2020 15:06:10.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager]
+27-May-2020 15:06:10.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager] has finished in [21] ms
+27-May-2020 15:06:10.303 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+27-May-2020 15:06:10.310 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [634] milliseconds
+27-May-2020 15:43:01.828 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-May-2020 15:43:01.829 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-May-2020 15:43:01.832 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-May-2020 15:43:01.857 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+27-May-2020 15:43:01.859 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 16:26:38.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+27-May-2020 16:26:38.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+27-May-2020 16:26:38.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+27-May-2020 16:26:38.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-May-2020 16:26:38.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+27-May-2020 16:26:38.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-May-2020 16:26:38.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home
+27-May-2020 16:26:38.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13+33
+27-May-2020 16:26:38.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2020 16:26:38.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 16:26:38.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 16:26:38.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-May-2020 16:26:38.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-May-2020 16:26:38.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 16:26:38.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/conf/logging.properties
+27-May-2020 16:26:38.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2020 16:26:38.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-May-2020 16:26:38.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-May-2020 16:26:38.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-May-2020 16:26:38.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-May-2020 16:26:38.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 16:26:38.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 16:26:38.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/temp
+27-May-2020 16:26:38.506 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/george/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-May-2020 16:26:38.740 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-May-2020 16:26:38.770 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [444] milliseconds
+27-May-2020 16:26:38.794 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-May-2020 16:26:38.795 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+27-May-2020 16:26:38.799 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8]
+27-May-2020 16:26:39.246 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 16:26:39.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8] has finished in [483] ms
+27-May-2020 16:26:39.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs]
+27-May-2020 16:26:39.507 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 16:26:39.509 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs] has finished in [227] ms
+27-May-2020 16:26:39.509 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager]
+27-May-2020 16:26:39.753 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 16:26:39.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager] has finished in [249] ms
+27-May-2020 16:26:39.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples]
+27-May-2020 16:26:40.148 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 16:26:40.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples] has finished in [403] ms
+27-May-2020 16:26:40.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT]
+27-May-2020 16:26:40.402 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 16:26:40.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT] has finished in [240] ms
+27-May-2020 16:26:40.403 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager]
+27-May-2020 16:26:40.629 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 16:26:40.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager] has finished in [228] ms
+27-May-2020 16:26:40.637 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+27-May-2020 16:26:40.645 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,873] milliseconds
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 17:32:22.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+27-May-2020 17:32:22.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+27-May-2020 17:32:22.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+27-May-2020 17:32:22.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-May-2020 17:32:22.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+27-May-2020 17:32:22.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-May-2020 17:32:22.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home
+27-May-2020 17:32:22.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13+33
+27-May-2020 17:32:22.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2020 17:32:22.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 17:32:22.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 17:32:22.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-May-2020 17:32:22.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-May-2020 17:32:22.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 17:32:22.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/conf/logging.properties
+27-May-2020 17:32:22.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2020 17:32:22.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-May-2020 17:32:22.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-May-2020 17:32:22.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-May-2020 17:32:22.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-May-2020 17:32:22.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 17:32:22.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 17:32:22.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/temp
+27-May-2020 17:32:22.299 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/george/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-May-2020 17:32:22.547 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-May-2020 17:32:22.571 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8081]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1033)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1057)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:469)
+		at java.base/sun.nio.ch.Net.bind(Net.java:458)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:220)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1154)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1030)
+		... 13 more
+27-May-2020 17:32:22.572 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [443] milliseconds
+27-May-2020 17:32:22.601 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-May-2020 17:32:22.601 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+27-May-2020 17:32:22.607 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8]
+27-May-2020 17:32:23.061 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 17:32:23.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8] has finished in [495] ms
+27-May-2020 17:32:23.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs]
+27-May-2020 17:32:23.400 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 17:32:23.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs] has finished in [298] ms
+27-May-2020 17:32:23.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager]
+27-May-2020 17:32:23.647 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 17:32:23.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager] has finished in [250] ms
+27-May-2020 17:32:23.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples]
+27-May-2020 17:32:24.054 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 17:32:24.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples] has finished in [417] ms
+27-May-2020 17:32:24.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT]
+27-May-2020 17:32:24.274 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 17:32:24.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT] has finished in [206] ms
+27-May-2020 17:32:24.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager]
+27-May-2020 17:32:24.490 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 17:32:24.491 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager] has finished in [216] ms
+27-May-2020 17:32:24.497 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,924] milliseconds
+27-May-2020 17:32:24.504 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:469)
+		at java.base/sun.nio.ch.Net.bind(Net.java:458)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:361)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:247)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+27-May-2020 17:32:24.504 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-May-2020 17:32:24.504 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-May-2020 17:32:24.527 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+27-May-2020 17:32:24.528 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+27-May-2020 17:33:38.245 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-May-2020 17:33:38.245 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-May-2020 17:33:38.247 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-May-2020 17:33:38.248 INFO [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [2] instance(s) to be deallocated for Servlet [jsp]
+27-May-2020 17:33:39.282 INFO [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [2] instance(s) to be deallocated for Servlet [jsp]
+27-May-2020 17:33:40.321 INFO [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [2] instance(s) to be deallocated for Servlet [jsp]
+27-May-2020 17:33:40.438 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Lab8] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@13/sun.nio.ch.SocketDispatcher.read0(Native Method)
+ java.base@13/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:47)
+ java.base@13/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:262)
+ java.base@13/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:313)
+ java.base@13/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+ java.base@13/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+ java.base@13/java.net.Socket$SocketInputStream.read(Socket.java:919)
+ com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+ com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+ com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+ java.base@13/java.io.FilterInputStream.read(FilterInputStream.java:133)
+ com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+ com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+ com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+ com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+ com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:491)
+ com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:381)
+ com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1338)
+ com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+ com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+ com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+ com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+ com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+ com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+ platform/java.sql@13/java.sql.DriverManager.getConnection(DriverManager.java:677)
+ platform/java.sql@13/java.sql.DriverManager.getConnection(DriverManager.java:228)
+ org.apache.jsp._1._1logged_jsp._jspService(_1logged_jsp.java:134)
+ org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+ org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+ org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.base@13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@13/java.lang.Thread.run(Thread.java:830)]
+27-May-2020 17:33:40.439 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Lab8] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@13/sun.nio.ch.SocketDispatcher.read0(Native Method)
+ java.base@13/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:47)
+ java.base@13/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:262)
+ java.base@13/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:313)
+ java.base@13/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:351)
+ java.base@13/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:802)
+ java.base@13/java.net.Socket$SocketInputStream.read(Socket.java:919)
+ com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+ com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+ com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+ java.base@13/java.io.FilterInputStream.read(FilterInputStream.java:133)
+ com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+ com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+ com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+ com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+ com.mysql.cj.protocol.a.NativeProtocol.readServerCapabilities(NativeProtocol.java:491)
+ com.mysql.cj.protocol.a.NativeProtocol.beforeHandshake(NativeProtocol.java:381)
+ com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1338)
+ com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+ com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+ com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+ com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+ com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+ com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+ platform/java.sql@13/java.sql.DriverManager.getConnection(DriverManager.java:677)
+ platform/java.sql@13/java.sql.DriverManager.getConnection(DriverManager.java:228)
+ org.apache.jsp._1._1logged_jsp._jspService(_1logged_jsp.java:134)
+ org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+ org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+ org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.base@13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@13/java.lang.Thread.run(Thread.java:830)]
+27-May-2020 17:33:40.460 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+27-May-2020 17:33:45.466 WARNING [main] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8081] has not fully shutdown. Some application threads may still be running.
+27-May-2020 17:33:45.466 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 18:20:36.016 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+27-May-2020 18:20:36.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+27-May-2020 18:20:36.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+27-May-2020 18:20:36.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-May-2020 18:20:36.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+27-May-2020 18:20:36.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-May-2020 18:20:36.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home
+27-May-2020 18:20:36.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13+33
+27-May-2020 18:20:36.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2020 18:20:36.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 18:20:36.020 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 18:20:36.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-May-2020 18:20:36.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-May-2020 18:20:36.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 18:20:36.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/conf/logging.properties
+27-May-2020 18:20:36.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2020 18:20:36.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-May-2020 18:20:36.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-May-2020 18:20:36.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-May-2020 18:20:36.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-May-2020 18:20:36.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 18:20:36.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 18:20:36.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/temp
+27-May-2020 18:20:36.036 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/george/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-May-2020 18:20:36.254 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-May-2020 18:20:36.283 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [396] milliseconds
+27-May-2020 18:20:36.310 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-May-2020 18:20:36.310 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+27-May-2020 18:20:36.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8]
+27-May-2020 18:20:36.733 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:20:36.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8] has finished in [459] ms
+27-May-2020 18:20:36.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs]
+27-May-2020 18:20:36.989 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:20:36.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs] has finished in [215] ms
+27-May-2020 18:20:36.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager]
+27-May-2020 18:20:37.199 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:20:37.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager] has finished in [212] ms
+27-May-2020 18:20:37.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples]
+27-May-2020 18:20:37.532 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:20:37.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples] has finished in [343] ms
+27-May-2020 18:20:37.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT]
+27-May-2020 18:20:37.717 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:20:37.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT] has finished in [172] ms
+27-May-2020 18:20:37.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager]
+27-May-2020 18:20:37.898 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:20:37.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager] has finished in [182] ms
+27-May-2020 18:20:37.904 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+27-May-2020 18:20:37.910 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,625] milliseconds
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+27-May-2020 18:44:56.813 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-May-2020 18:44:56.814 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-May-2020 18:44:56.816 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-May-2020 18:44:56.840 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+27-May-2020 18:44:56.842 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 18:44:59.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+27-May-2020 18:44:59.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+27-May-2020 18:44:59.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+27-May-2020 18:44:59.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-May-2020 18:44:59.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+27-May-2020 18:44:59.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-May-2020 18:44:59.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home
+27-May-2020 18:44:59.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13+33
+27-May-2020 18:44:59.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2020 18:44:59.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 18:44:59.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 18:44:59.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-May-2020 18:44:59.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-May-2020 18:44:59.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 18:44:59.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/conf/logging.properties
+27-May-2020 18:44:59.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2020 18:44:59.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-May-2020 18:44:59.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-May-2020 18:44:59.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-May-2020 18:44:59.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-May-2020 18:44:59.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 18:44:59.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 18:44:59.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/temp
+27-May-2020 18:44:59.077 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/george/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-May-2020 18:44:59.291 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-May-2020 18:44:59.320 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [390] milliseconds
+27-May-2020 18:44:59.343 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-May-2020 18:44:59.343 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+27-May-2020 18:44:59.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8]
+27-May-2020 18:44:59.724 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:44:59.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8] has finished in [418] ms
+27-May-2020 18:44:59.767 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs]
+27-May-2020 18:44:59.974 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:44:59.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs] has finished in [209] ms
+27-May-2020 18:44:59.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager]
+27-May-2020 18:45:00.219 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:45:00.223 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager] has finished in [248] ms
+27-May-2020 18:45:00.223 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples]
+27-May-2020 18:45:00.554 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:45:00.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples] has finished in [345] ms
+27-May-2020 18:45:00.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT]
+27-May-2020 18:45:00.740 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:45:00.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT] has finished in [172] ms
+27-May-2020 18:45:00.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager]
+27-May-2020 18:45:00.915 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 18:45:00.916 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager] has finished in [175] ms
+27-May-2020 18:45:00.920 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+27-May-2020 18:45:00.926 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,605] milliseconds
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+27-May-2020 19:22:33.965 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-May-2020 19:22:33.967 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-May-2020 19:22:33.968 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-May-2020 19:22:33.997 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+27-May-2020 19:22:33.999 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 19:22:35.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+27-May-2020 19:22:35.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+27-May-2020 19:22:35.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+27-May-2020 19:22:35.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+27-May-2020 19:22:35.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.6
+27-May-2020 19:22:35.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+27-May-2020 19:22:35.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home
+27-May-2020 19:22:35.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13+33
+27-May-2020 19:22:35.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-May-2020 19:22:35.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 19:22:35.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 19:22:35.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-May-2020 19:22:35.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-May-2020 19:22:35.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-May-2020 19:22:35.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/conf/logging.properties
+27-May-2020 19:22:35.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-May-2020 19:22:35.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-May-2020 19:22:35.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-May-2020 19:22:35.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-May-2020 19:22:35.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-May-2020 19:22:35.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 19:22:35.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35
+27-May-2020 19:22:35.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/temp
+27-May-2020 19:22:35.911 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/george/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+27-May-2020 19:22:36.139 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-May-2020 19:22:36.169 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [400] milliseconds
+27-May-2020 19:22:36.192 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-May-2020 19:22:36.192 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+27-May-2020 19:22:36.197 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8]
+27-May-2020 19:22:36.598 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 19:22:36.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/Lab8] has finished in [453] ms
+27-May-2020 19:22:36.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs]
+27-May-2020 19:22:36.906 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 19:22:36.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/docs] has finished in [256] ms
+27-May-2020 19:22:36.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager]
+27-May-2020 19:22:37.174 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 19:22:37.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/manager] has finished in [270] ms
+27-May-2020 19:22:37.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples]
+27-May-2020 19:22:37.529 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 19:22:37.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/examples] has finished in [364] ms
+27-May-2020 19:22:37.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT]
+27-May-2020 19:22:37.722 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 19:22:37.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/ROOT] has finished in [181] ms
+27-May-2020 19:22:37.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager]
+27-May-2020 19:22:37.902 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-May-2020 19:22:37.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/george/Documents/UBB/Anul 2/Semester 2/Programare Web/Lab8 - JSP/apache-tomcat-9.0.35/webapps/host-manager] has finished in [180] ms
+27-May-2020 19:22:37.907 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-May-2020 19:22:37.915 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,744] milliseconds
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+27-May-2020 21:31:45.830 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-May-2020 21:31:45.831 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-May-2020 21:31:45.833 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-May-2020 21:31:45.861 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-May-2020 21:31:45.864 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

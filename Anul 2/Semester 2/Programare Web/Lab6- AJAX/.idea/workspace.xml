@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04fd2496-38ab-48b7-8701-504b12be776d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
+    <include_path>
+      <path value="" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1btkeq600Od95GyXflDG6wej9fb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.28538013" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Server" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/1/1.php">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04fd2496-38ab-48b7-8701-504b12be776d" name="Default Changelist" comment="" />
+      <created>1589458875771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589458875771</updated>
+      <workItem from="1589458877915" duration="1097000" />
+      <workItem from="1589461776028" duration="2000000" />
+      <workItem from="1589632621130" duration="1905000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1513" y="332" key="#CLI_Interpreters" timestamp="1589463961138">
+      <screen x="0" y="23" width="2560" height="1367" />
+    </state>
+    <state x="1513" y="332" key="#CLI_Interpreters/0.23.2560.1367/-1680.760.1680.1027@0.23.2560.1367" timestamp="1589463961138" />
+    <state x="1595" y="291" key="#PHP" timestamp="1589463524320">
+      <screen x="0" y="23" width="2560" height="1367" />
+    </state>
+    <state x="1595" y="291" key="#PHP/0.23.2560.1367/-1680.760.1680.1027@0.23.2560.1367" timestamp="1589463524320" />
+    <state x="1507" y="368" key="#Servers" timestamp="1589462187925">
+      <screen x="0" y="23" width="2560" height="1367" />
+    </state>
+    <state x="1507" y="368" key="#Servers/0.23.2560.1367/-1680.760.1680.1027@0.23.2560.1367" timestamp="1589462187925" />
+    <state x="1384" y="368" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589463484547">
+      <screen x="0" y="23" width="2560" height="1367" />
+    </state>
+    <state x="1384" y="368" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1367/-1680.760.1680.1027@0.23.2560.1367" timestamp="1589463484547" />
+    <state width="1238" height="392" key="GridCell.Tab.0.bottom" timestamp="1589563552820">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state width="1238" height="392" key="GridCell.Tab.0.bottom/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589563552820" />
+    <state width="1238" height="392" key="GridCell.Tab.0.bottom/0.23.2560.1367/-1680.760.1680.1027@0.23.2560.1367" timestamp="1589463869972" />
+    <state width="1238" height="392" key="GridCell.Tab.0.center" timestamp="1589563552819">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state width="1238" height="392" key="GridCell.Tab.0.center/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589563552819" />
+    <state width="1238" height="392" key="GridCell.Tab.0.center/0.23.2560.1367/-1680.760.1680.1027@0.23.2560.1367" timestamp="1589463869971" />
+    <state width="1238" height="392" key="GridCell.Tab.0.left" timestamp="1589563552819">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state width="1238" height="392" key="GridCell.Tab.0.left/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589563552819" />
+    <state width="1238" height="392" key="GridCell.Tab.0.left/0.23.2560.1367/-1680.760.1680.1027@0.23.2560.1367" timestamp="1589463869970" />
+    <state width="1238" height="392" key="GridCell.Tab.0.right" timestamp="1589563552820">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state width="1238" height="392" key="GridCell.Tab.0.right/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589563552820" />
+    <state width="1238" height="392" key="GridCell.Tab.0.right/0.23.2560.1367/-1680.760.1680.1027@0.23.2560.1367" timestamp="1589463869972" />
+    <state x="1408" y="288" key="SettingsEditor" timestamp="1589654514275">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state x="1408" y="288" key="SettingsEditor/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589654514275" />
+    <state x="1408" y="288" key="SettingsEditor/0.23.2560.1367/-1680.760.1680.1027@0.23.2560.1367" timestamp="1589463962291" />
+    <state x="749" y="402" key="new project wizard" timestamp="1589654411538">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state x="749" y="402" key="new project wizard/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589654411538" />
+  </component>
+</project>

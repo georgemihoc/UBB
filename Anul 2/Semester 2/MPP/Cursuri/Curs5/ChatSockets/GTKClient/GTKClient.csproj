@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{96D3BCC6-23F9-4476-A800-5B6C749E84B1}</ProjectGuid>
+        <OutputType>Exe</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>GTKClient</RootNamespace>
+        <AssemblyName>GTKClient</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="AtkSharp, Version=3.22.25.56, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\packages\AtkSharp.3.22.25.56\lib\netstandard2.0\AtkSharp.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="CairoSharp, Version=3.22.25.56, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\packages\CairoSharp.3.22.25.56\lib\netstandard2.0\CairoSharp.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="GdkSharp, Version=3.22.25.56, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\packages\GdkSharp.3.22.25.56\lib\netstandard2.0\GdkSharp.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="GioSharp, Version=3.22.25.56, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\packages\GioSharp.3.22.25.56\lib\netstandard2.0\GioSharp.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="GLibSharp, Version=3.22.25.56, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\packages\GLibSharp.3.22.25.56\lib\netstandard2.0\GLibSharp.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="GtkSharp, Version=3.22.25.56, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\packages\GtkSharp.3.22.25.56\lib\netstandard2.0\GtkSharp.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="PangoSharp, Version=3.22.25.56, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\packages\PangoSharp.3.22.25.56\lib\netstandard2.0\PangoSharp.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="GTKChatUserEventArgs.cs" />
+        <Compile Include="GTKChatWindow.cs" />
+        <Compile Include="GTKClientCtrl.cs" />
+        <Compile Include="GTKLoginWindow.cs" />
+        <Compile Include="StartGTKClient.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\model\model.csproj">
+        <Project>{2c26bdca-a259-472f-9993-2120786857b9}</Project>
+        <Name>model</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\networking\networking.csproj">
+        <Project>{47fbdb32-20c6-4787-923a-284ab01166ce}</Project>
+        <Name>networking</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\services\services.csproj">
+        <Project>{8b92230d-580a-4d9f-bfc0-03a384d66424}</Project>
+        <Name>services</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <Import Project="..\packages\GtkSharp.3.22.25.56\build\GtkSharp.targets" Condition="Exists('..\packages\GtkSharp.3.22.25.56\build\GtkSharp.targets')" />
+    <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+      <PropertyGroup>
+        <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
+      </PropertyGroup>
+      <Error Condition="!Exists('..\packages\GtkSharp.3.22.25.56\build\GtkSharp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\GtkSharp.3.22.25.56\build\GtkSharp.targets'))" />
+    </Target>
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>

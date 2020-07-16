@@ -1,0 +1,24 @@
+group 'JavaChat_AMS'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':Model')
+    compile project (':Services')
+    compile project (':Networking')
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile "org.springframework:spring-context:$springVersion"
+    compile "org.springframework:spring-jms:$springVersion"
+    compile "org.apache.activemq:activemq-spring:$activeMQVersion"
+    // https://mvnrepository.com/artifact/log4j/log4j
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.8.1'
+
+}

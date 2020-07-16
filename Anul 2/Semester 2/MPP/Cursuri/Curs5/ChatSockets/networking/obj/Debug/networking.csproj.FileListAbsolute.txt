@@ -1,0 +1,39 @@
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/networking/bin/Debug/networking.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/networking/bin/Debug/networking.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/networking/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/networking/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/networking/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/networking/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/networking/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/networking/obj/Debug/networking.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ChatCurs2011/networking/obj/Debug/networking.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/networking/bin/Debug/networking.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/networking/bin/Debug/networking.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/networking/bin/Debug/ChatCurs2011.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/networking/bin/Debug/services.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/networking/bin/Debug/services.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/networking/bin/Debug/ChatCurs2011.pdb
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/networking/obj/Debug/ResolveAssemblyReference.cache
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/networking/obj/Debug/networking.dll
+E:/users/grigo/didactic/MPP/Chat/C#/ProtoChat/networking/obj/Debug/networking.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/bin/Debug/networking.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/bin/Debug/model.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/bin/Debug/services.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/bin/Debug/services.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/obj/Debug/networking.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/bin/Debug/networking.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/bin/Debug/model.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/obj/Debug/networking.csprojAssemblyReference.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/obj/Debug/networking.csproj.CoreCompileInputs.cache
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/obj/Debug/networking.csproj.CopyComplete
+/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs5/ChatSockets/networking/obj/Debug/networking.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/bin/Debug/networking.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/bin/Debug/networking.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/bin/Debug/model.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/bin/Debug/services.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/bin/Debug/services.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/bin/Debug/model.pdb
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/obj/Debug/networking.csprojAssemblyReference.cache
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/obj/Debug/networking.csproj.CopyComplete
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/obj/Debug/networking.dll
+/Users/george/Documents/UBB/Anul 2/Semester 2/MPP/Cursuri/Curs5/ChatSockets/networking/obj/Debug/networking.pdb

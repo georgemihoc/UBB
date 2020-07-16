@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.xbean:xbean-spring:4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-spring/4.2/28634a784c3091b1b3daf8eb5e0e512ae3e0ca35/xbean-spring-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-spring/4.2/28634a784c3091b1b3daf8eb5e0e512ae3e0ca35/xbean-spring-4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-spring/4.2/182417c14cd8981c1596e237fac2a0acb926ac7b/xbean-spring-4.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Curs1/Test/gradle/caches/modules-2/files-2.1/org.apache.xbean/xbean-spring/4.2/182417c14cd8981c1596e237fac2a0acb926ac7b/xbean-spring-4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

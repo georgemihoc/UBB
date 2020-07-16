@@ -1,0 +1,17 @@
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ProtoChat/persistence/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ProtoChat/persistence/bin/Debug/persistence.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ProtoChat/persistence/bin/Debug/persistence.dll
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ProtoChat/persistence/obj/Debug/persistence.dll
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ProtoChat/persistence/obj/Debug/persistence.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ProtoChat/persistence/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/CSharp/ProtoChat/persistence/bin/Debug/ChatCurs2011.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/bin/Debug/persistence.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/bin/Debug/persistence.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/bin/Debug/persistence.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/obj/Debug/persistence.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/obj/Debug/persistence.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/obj/Debug/persistence.pdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/bin/Debug/ChatCurs2011.dll
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/bin/Debug/ChatCurs2011.dll.mdb
+/Users/grigo/didactic/MPP/ExempleCurs/2018/Curs7/ProtoChat/persistence/bin/Debug/ChatCurs2011.pdb

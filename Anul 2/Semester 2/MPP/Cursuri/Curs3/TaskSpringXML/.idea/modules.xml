@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TaskSpringXML.iml" filepath="$PROJECT_DIR$/.idea/modules/TaskSpringXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TaskSpringXML_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TaskSpringXML_main.iml" group="TaskSpringXML" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TaskSpringXML_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TaskSpringXML_test.iml" group="TaskSpringXML" />
+    </modules>
+  </component>
+</project>

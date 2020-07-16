@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51fb6dc4-8b15-4995-8d5c-c7990b865beb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ajaxDb.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ajaxDb.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ajaxDb.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ajaxDb.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Game: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ajaxDb.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Notebook: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ajaxDb.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Person: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ajaxDb.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Prima: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ajaxDb.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="User: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c09J6wfwhGxRHo3cybVrmlwkW3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Server/src/main/resources" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Server/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StartRestServices">
+    <configuration name="JavaServer [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StartRestServices" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="JavaServer.Server.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="start.StartRestServices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.StartRestServices" />
+        <item itemvalue="Gradle.JavaServer [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:ajaxDb.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:ajaxDb.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@2c87c302" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51fb6dc4-8b15-4995-8d5c-c7990b865beb" name="Default Changelist" comment="" />
+      <created>1589654568959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589654568959</updated>
+      <workItem from="1589654571930" duration="29465000" />
+      <workItem from="1589983252150" duration="58000" />
+      <workItem from="1589983324203" duration="1719000" />
+      <workItem from="1590187029816" duration="593000" />
+      <workItem from="1590312281641" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="371" key="#SQL_Dialects" timestamp="1589660408084">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state x="880" y="371" key="#SQL_Dialects/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589660408084" />
+    <state x="1520" y="371" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589655452765">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state x="1520" y="371" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589655452765" />
+    <state x="1733" y="427" key="#com.intellij.ide.util.MemberChooser" timestamp="1589986605592">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state x="1733" y="427" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589986605592" />
+    <state x="1733" y="428" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589711251692" />
+    <state x="1733" y="443" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589790881424" />
+    <state width="2518" height="390" key="GridCell.Tab.0.bottom" timestamp="1590054212355">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.0.bottom/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589987320654" />
+    <state width="2518" height="390" key="GridCell.Tab.0.bottom/0.23.2560.1364@0.23.2560.1364" timestamp="1590054212355" />
+    <state width="2518" height="391" key="GridCell.Tab.0.bottom/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719856084" />
+    <state width="2518" height="480" key="GridCell.Tab.0.bottom/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138981" />
+    <state width="2518" height="390" key="GridCell.Tab.0.center" timestamp="1590054212355">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.0.center/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589987320652" />
+    <state width="2518" height="390" key="GridCell.Tab.0.center/0.23.2560.1364@0.23.2560.1364" timestamp="1590054212355" />
+    <state width="2518" height="391" key="GridCell.Tab.0.center/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719856083" />
+    <state width="2518" height="480" key="GridCell.Tab.0.center/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138979" />
+    <state width="2518" height="390" key="GridCell.Tab.0.left" timestamp="1590054212354">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.0.left/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589987320652" />
+    <state width="2518" height="390" key="GridCell.Tab.0.left/0.23.2560.1364@0.23.2560.1364" timestamp="1590054212354" />
+    <state width="2518" height="391" key="GridCell.Tab.0.left/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719856082" />
+    <state width="2518" height="480" key="GridCell.Tab.0.left/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138979" />
+    <state width="2518" height="390" key="GridCell.Tab.0.right" timestamp="1590054212355">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.0.right/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589987320653" />
+    <state width="2518" height="390" key="GridCell.Tab.0.right/0.23.2560.1364@0.23.2560.1364" timestamp="1590054212355" />
+    <state width="2518" height="391" key="GridCell.Tab.0.right/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719856083" />
+    <state width="2518" height="480" key="GridCell.Tab.0.right/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138980" />
+    <state width="2518" height="390" key="GridCell.Tab.1.bottom" timestamp="1590054212356">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.1.bottom/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589987320655" />
+    <state width="2518" height="390" key="GridCell.Tab.1.bottom/0.23.2560.1364@0.23.2560.1364" timestamp="1590054212356" />
+    <state width="2518" height="391" key="GridCell.Tab.1.bottom/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719856085" />
+    <state width="2518" height="480" key="GridCell.Tab.1.bottom/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138982" />
+    <state width="2518" height="390" key="GridCell.Tab.1.center" timestamp="1590054212355">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.1.center/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589987320654" />
+    <state width="2518" height="390" key="GridCell.Tab.1.center/0.23.2560.1364@0.23.2560.1364" timestamp="1590054212355" />
+    <state width="2518" height="391" key="GridCell.Tab.1.center/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719856084" />
+    <state width="2518" height="480" key="GridCell.Tab.1.center/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138982" />
+    <state width="2518" height="390" key="GridCell.Tab.1.left" timestamp="1590054212355">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.1.left/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589987320654" />
+    <state width="2518" height="390" key="GridCell.Tab.1.left/0.23.2560.1364@0.23.2560.1364" timestamp="1590054212355" />
+    <state width="2518" height="391" key="GridCell.Tab.1.left/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719856084" />
+    <state width="2518" height="480" key="GridCell.Tab.1.left/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138981" />
+    <state width="2518" height="390" key="GridCell.Tab.1.right" timestamp="1590054212356">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="390" key="GridCell.Tab.1.right/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589987320655" />
+    <state width="2518" height="390" key="GridCell.Tab.1.right/0.23.2560.1364@0.23.2560.1364" timestamp="1590054212356" />
+    <state width="2518" height="391" key="GridCell.Tab.1.right/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719856085" />
+    <state width="2518" height="480" key="GridCell.Tab.1.right/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138982" />
+    <state width="2518" height="479" key="GridCell.Tab.2.bottom" timestamp="1589983310010">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="479" key="GridCell.Tab.2.bottom/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589983310010" />
+    <state width="2518" height="480" key="GridCell.Tab.2.bottom/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719692844" />
+    <state width="2518" height="480" key="GridCell.Tab.2.bottom/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138984" />
+    <state width="2518" height="479" key="GridCell.Tab.2.center" timestamp="1589983310009">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="479" key="GridCell.Tab.2.center/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589983310009" />
+    <state width="2518" height="480" key="GridCell.Tab.2.center/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719692844" />
+    <state width="2518" height="480" key="GridCell.Tab.2.center/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138983" />
+    <state width="2518" height="479" key="GridCell.Tab.2.left" timestamp="1589983310009">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="479" key="GridCell.Tab.2.left/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589983310009" />
+    <state width="2518" height="480" key="GridCell.Tab.2.left/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719692844" />
+    <state width="2518" height="480" key="GridCell.Tab.2.left/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138983" />
+    <state width="2518" height="479" key="GridCell.Tab.2.right" timestamp="1589983310009">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state width="2518" height="479" key="GridCell.Tab.2.right/0.23.2560.1364/-1680.536.1680.1027@0.23.2560.1364" timestamp="1589983310009" />
+    <state width="2518" height="480" key="GridCell.Tab.2.right/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589719692844" />
+    <state width="2518" height="480" key="GridCell.Tab.2.right/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589832138984" />
+    <state x="1016" y="384" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1589790827242">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1016" y="371" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589708278276" />
+    <state x="1016" y="384" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589790827242" />
+    <state x="1314" y="319" key="new project wizard" timestamp="1589654629338">
+      <screen x="0" y="23" width="2560" height="1365" />
+    </state>
+    <state x="1314" y="319" key="new project wizard/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589654629338" />
+    <state x="945" y="369" width="670" height="702" key="search.everywhere.popup" timestamp="1589793211095">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="356" width="670" height="676" key="search.everywhere.popup/0.23.2560.1365/-1680.760.1680.1027@0.23.2560.1365" timestamp="1589711362182" />
+    <state x="945" y="369" width="670" height="702" key="search.everywhere.popup/0.23.2560.1417/-1680.760.1680.975@0.23.2560.1417" timestamp="1589793211095" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Server/src/main/java/repository/rest/PersonController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

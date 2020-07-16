@@ -1,0 +1,124 @@
+<!--
+Created by George Mihoc
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 3 - profi</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            text-align: center;
+            font-size: 60px;
+        }
+        table{
+            table-layout: auto;
+            width: 400px;
+            margin: auto;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+
+</head>
+<body onload="start()">
+<table class="tableId">
+    <!--        Row 1-->
+    <tr class="row">
+        <td class="cell">
+            <div class="elem1"><img src="prof/Bufnea-Darius.jpg" alt="1"></div>
+        </td>
+        <td class="cell">
+            <div class="elem2"><img src="prof/Suciu-Dan.jpg" alt="4"></div>
+        </td>
+        <td class="cell">
+            <div class="elem3"><img src="prof/Suciu-Mihai.jpg" alt="5"></div>
+        </td>
+        <td class="cell">
+            <div class="elem4"><img src="prof/Vancea-Alexandru.jpg" alt="6"></div>
+
+        </td>
+    </tr>
+    <!--        Row 2-->
+    <tr class="row">
+        <td class="cell">
+            <div class="elem5"><img src="prof/Diana-Halita.jpg" alt="3"></div>
+        </td>
+        <td class="cell">
+            <div class="elem1"><img src="prof/Bufnea-Darius.jpg" alt="1"></div>
+        </td>
+        <td class="cell">
+            <div class="elem5"><img src="prof/Diana-Halita.jpg" alt="3"></div>
+        </td>
+        <td class="cell">
+            <div class="elem6"><img src="prof/Czibula-Gabriela.jpg" alt="2"></div>
+        </td>
+    </tr>
+    <!--        Row 3-->
+    <tr class="row">
+        <td class="cell">
+            <div class="elem4"><img src="prof/Vancea-Alexandru.jpg" alt="6"></div>
+        </td>
+        <td class="cell">
+            <div class="elem3"><img src="prof/Suciu-Mihai.jpg" alt="5"></div>
+        </td>
+        <td class="cell">
+            <div class="elem2"><img src="prof/Suciu-Dan.jpg" alt="4"></div>
+        </td>
+        <td class="cell">
+            <div class="elem6"><img src="prof/Czibula-Gabriela.jpg" alt="2"></div>
+        </td>
+    </tr>
+</table>
+<br>
+    <script>
+
+        flash();
+        var opened = null;
+        var opened2 = null;
+
+        $('.cell').click(function () {
+
+            if(opened === null) {
+                opened = $(this).children();
+                showElement(opened)
+            }
+            else if(opened2 ==null) {
+                opened2 = $(this).children();
+                showElement(opened2);
+
+                if (opened.attr("class") === opened2.attr("class")) {
+                    setTimeout(function(){
+                        opened = null;
+                        opened2 = null;
+                    }, 500);
+                }
+                else {
+                    setTimeout(function(){
+                        hideElement(opened);
+                        hideElement(opened2);
+                        opened = null;
+                        opened2 = null;
+                    }, 500);
+                }
+            }
+        });
+        function showElement(element){
+            element.css({ "visibility": 'visible' });
+        }
+        function hideElement(element){
+            element.css({ "visibility": 'hidden' });
+        }
+        function flash() {
+            setTimeout(function(){
+                $('.elem1').css({ "visibility": 'hidden' });
+                $('.elem2').css({ "visibility": 'hidden' });
+                $('.elem3').css({ "visibility": 'hidden' });
+                $('.elem4').css({ "visibility": 'hidden' });
+                $('.elem5').css({ "visibility": 'hidden' });
+                $('.elem6').css({ "visibility": 'hidden' });
+            }, 1000)
+        }
+    </script>
+</body>
+</html>

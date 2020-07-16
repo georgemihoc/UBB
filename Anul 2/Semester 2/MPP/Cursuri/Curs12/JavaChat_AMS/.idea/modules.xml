@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client/Client.iml" filepath="$PROJECT_DIR$/.idea/modules/Client/Client.iml" group="JavaChat_AMS/Client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client/Client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Client/Client_main.iml" group="JavaChat_AMS/Client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client/Client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Client/Client_test.iml" group="JavaChat_AMS/Client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaChat_AMS.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaChat_AMS.iml" group="JavaChat_AMS" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaChat_AMS_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaChat_AMS_main.iml" group="JavaChat_AMS" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaChat_AMS_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaChat_AMS_test.iml" group="JavaChat_AMS" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Model.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Model.iml" group="JavaChat_AMS/Model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Model_main.iml" group="JavaChat_AMS/Model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Model_test.iml" group="JavaChat_AMS/Model" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Networking.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Networking.iml" group="JavaChat_AMS/Networking" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Networking_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Networking_main.iml" group="JavaChat_AMS/Networking" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Networking_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Networking_test.iml" group="JavaChat_AMS/Networking" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/Persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/Persistence.iml" group="JavaChat_AMS/Persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/Persistence_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/Persistence_main.iml" group="JavaChat_AMS/Persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/Persistence_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/Persistence_test.iml" group="JavaChat_AMS/Persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Server.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Server.iml" group="JavaChat_AMS/Server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Server_main.iml" group="JavaChat_AMS/Server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Server_test.iml" group="JavaChat_AMS/Server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Services/Services.iml" filepath="$PROJECT_DIR$/.idea/modules/Services/Services.iml" group="JavaChat_AMS/Services" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Services/Services_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Services/Services_main.iml" group="JavaChat_AMS/Services" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Services/Services_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Services/Services_test.iml" group="JavaChat_AMS/Services" />
+    </modules>
+  </component>
+</project>

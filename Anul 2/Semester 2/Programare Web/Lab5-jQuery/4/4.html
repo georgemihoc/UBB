@@ -1,0 +1,109 @@
+<!--
+Created by George Mihoc
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Problema 4</title>
+    <style>
+        table {
+            border-spacing: 0;
+            width: 100%;
+            border: 2px solid gray;
+        }
+        th {
+            cursor: pointer;
+        }
+        th, td {
+            text-align: left;
+            padding: 16px;
+            border-bottom: 1px solid gray;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<table id="tableId">
+    <tr>
+        <th>Fructe</th>
+        <td>Mere</td>
+        <td>Pere</td>
+        <td>Ananas</td>
+    </tr>
+    <tr>
+        <th>Pret</th>
+        <td>3</td>
+        <td>4</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <th>Cantitate</th>
+        <td>18</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+</table>
+
+<script>
+    // Mark direction as ascending for the first time
+    var direction = 1;
+    var rows = $('#tableId tr');
+    var cells = rows.first().find('td').map(function(index){
+        return {
+            fructe: rows.eq(0).find('td').eq(index).html().trim()
+            , pret: rows.eq(1).find('td').eq(index).html().trim()
+            , cantitate: rows.eq(2).find('td').eq(index).html().trim()
+        }
+    }).get();
+
+    $(document).on('click', '#tableId tr', function(e){
+        if (e.target.innerHTML === 'Fructe') {
+            cells.sort(function(a, b){
+                if (direction ===1) {
+                    return a.fructe.localeCompare(b.fructe);
+                }
+                return b.fructe.localeCompare(a.fructe);
+            });
+        } else if (e.target.innerHTML === 'Pret') {
+            cells.sort(function(a, b){
+                if (direction === 1) {
+                    return a.pret - b.pret;
+                }
+                return b.pret - a.pret;
+            });
+        } else if (e.target.innerHTML === 'Cantitate') {
+            cells.sort(function(a, b){
+                if (direction === 1) {
+                    return a.cantitate - b.cantitate;
+                }
+                return b.cantitate - a.cantitate;
+            });
+        }
+
+        $('#tableId').html(
+            cells.reduce(function($rows, data, index){
+                if (index < 1) {
+                    $rows.eq(0).append('<th>Fructe</th>');
+                    $rows.eq(1).append('<th>Pret</th>');
+                    $rows.eq(2).append('<th>Cantitate</th>');
+                }
+
+                $rows.eq(0).append('<td>'+ data.fructe +'</td>');
+                $rows.eq(1).append('<td>'+ data.pret +'</td>');
+                $rows.eq(2).append('<td>'+ data.cantitate +'</td>');
+
+                return $rows;
+            }, $('<tr><tr><tr>'))
+        );
+        //Change direction after sorting completed
+        if(direction === 1){
+            direction = -1;
+        }
+        else direction = 1;
+    });
+</script>
+</body>
+</html>

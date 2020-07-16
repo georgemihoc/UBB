@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86dca478-ff58-40a1-8c63-210f3a5564a5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="C#Db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="C#Db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="C#Db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="C#Db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="SortingTasks: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tasks/model/TaskValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/model/SortingTask.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbUtils/app.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/model/Task.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbUtils/SqliteConnectionFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/repository/ICrudRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/repository/DBUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/model/TaskRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C34544B1-5859-4639-9647-B0F6C440D96D/77/c86d6583/LogManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/repository/SortingTaskDbRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/repository/AbstractRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbUtils/ConnectionFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DbUtils/MySqlConnectionFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/app.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C34544B1-5859-4639-9647-B0F6C440D96D/9f/16df8f9d/ILog.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/utils/Container.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/TaskProgram.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tasks/utils/IContainer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DbUtils/MySqlConnectionFactory.cs" />
+        <option value="$PROJECT_DIR$/Tasks/TaskProgram.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/DbUtils/SqliteConnectionFactory.cs" />
+        <option value="$PROJECT_DIR$/Tasks/repository/SortingTaskDbRepository.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YuT0ADhvdglGjRVRZQo6iuBkku" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tasks" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Tasks/bin/Debug/Tasks.exe" />
+      <option name="PROGRAM_PARAMETERS" value="log4net.xml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tasks/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Tasks/Tasks.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86dca478-ff58-40a1-8c63-210f3a5564a5" name="Default Changelist" comment="" />
+      <created>1583791254465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583791254465</updated>
+      <workItem from="1583791257218" duration="3193000" />
+      <workItem from="1583920883949" duration="2650000" />
+      <workItem from="1584792738216" duration="235000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="482" y="305" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583792612827">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="482" y="305" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.981@0.23.1680.981" timestamp="1583792612827" />
+    <state width="1638" height="265" key="GridCell.Tab.0.bottom" timestamp="1584792986115">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1584792986115" />
+    <state width="1638" height="265" key="GridCell.Tab.0.center" timestamp="1584792986115">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1584792986115" />
+    <state width="1638" height="265" key="GridCell.Tab.0.left" timestamp="1584792986115">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1584792986115" />
+    <state width="1638" height="265" key="GridCell.Tab.0.right" timestamp="1584792986115">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="265" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1584792986115" />
+    <state width="1638" height="327" key="GridCell.Tab.1.bottom" timestamp="1583794500246">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.1.bottom/0.23.1680.981@0.23.1680.981" timestamp="1583794500246" />
+    <state width="1638" height="327" key="GridCell.Tab.1.center" timestamp="1583794500246">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.1.center/0.23.1680.981@0.23.1680.981" timestamp="1583794500246" />
+    <state width="1638" height="327" key="GridCell.Tab.1.left" timestamp="1583794500245">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.1.left/0.23.1680.981@0.23.1680.981" timestamp="1583794500245" />
+    <state width="1638" height="327" key="GridCell.Tab.1.right" timestamp="1583794500246">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.1.right/0.23.1680.981@0.23.1680.981" timestamp="1583794500246" />
+    <state width="1638" height="327" key="GridCell.Tab.2.bottom" timestamp="1583794500247">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.2.bottom/0.23.1680.981@0.23.1680.981" timestamp="1583794500247" />
+    <state width="1638" height="327" key="GridCell.Tab.2.center" timestamp="1583794500246">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.2.center/0.23.1680.981@0.23.1680.981" timestamp="1583794500246" />
+    <state width="1638" height="327" key="GridCell.Tab.2.left" timestamp="1583794500246">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.2.left/0.23.1680.981@0.23.1680.981" timestamp="1583794500246" />
+    <state width="1638" height="327" key="GridCell.Tab.2.right" timestamp="1583794500247">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.2.right/0.23.1680.981@0.23.1680.981" timestamp="1583794500247" />
+    <state width="1638" height="327" key="GridCell.Tab.3.bottom" timestamp="1583794500248">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.3.bottom/0.23.1680.981@0.23.1680.981" timestamp="1583794500248" />
+    <state width="1638" height="327" key="GridCell.Tab.3.center" timestamp="1583794500247">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.3.center/0.23.1680.981@0.23.1680.981" timestamp="1583794500247" />
+    <state width="1638" height="327" key="GridCell.Tab.3.left" timestamp="1583794500247">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.3.left/0.23.1680.981@0.23.1680.981" timestamp="1583794500247" />
+    <state width="1638" height="327" key="GridCell.Tab.3.right" timestamp="1583794500247">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state width="1638" height="327" key="GridCell.Tab.3.right/0.23.1680.981@0.23.1680.981" timestamp="1583794500247" />
+    <state x="440" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1583792724975">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="440" y="252" key="Rider.ProjectTemplateDialog.Size/0.23.1680.981@0.23.1680.981" timestamp="1583792724975" />
+    <state x="614" y="348" width="451" height="322" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1583792243598">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="614" y="348" width="451" height="322" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.23.1680.981@0.23.1680.981" timestamp="1583792243598" />
+    <state x="76" y="297" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1583792279710">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="76" y="297" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1680.981@0.23.1680.981" timestamp="1583792279710" />
+    <state x="506" y="270" width="667" height="486" key="find.popup" timestamp="1583792441173">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="506" y="270" width="667" height="486" key="find.popup/0.23.1680.981@0.23.1680.981" timestamp="1583792441173" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Tasks/TaskProgram.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/Tasks/TaskProgram.cs" initialLine="19">
+            <startOffsets>
+              <option value="448" />
+            </startOffsets>
+            <endOffsets>
+              <option value="486" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

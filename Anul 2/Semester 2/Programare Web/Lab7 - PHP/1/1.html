@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Problema 1</title>
+</head>
+<body>
+
+  <?php
+     session_start();
+     echo $_SESSION['pageNr'];
+  ?>
+
+	<form action ="1.php" method="POST">
+		<select name="nrElements">
+			<option <?php if ($_POST["nrElements"] == 1) { ?>selected="true" <?php }; ?> value="1">1</option>
+			<option <?php if ($_POST["nrElements"] == 2) { ?>selected="true" <?php }; ?> value="2">2</option>
+			<option <?php if ($_POST["nrElements"] == 3) { ?>selected="true" <?php }; ?> value="3">3</option>
+			<option <?php if ($_POST["nrElements"] == 4) { ?>selected="true" <?php }; ?> value="4">4</option>
+		</select>
+
+		<input type="submit" value="Afiseaza produse">
+    <input type="submit" name="buttonType" value="Previous">
+    <input type="submit" name="buttonType" value="Next">
+
+	</form>
+
+  <br>
+
+  <?php
+  error_reporting(E_ERROR | E_PARSE);
+  $con= new mysqli('127.0.0.1', 'mgir2554', 'mgir2554', 'mgir2554');
+  $con->set_charset("utf8");
+
+  $var = $_POST["nrElements"];
+  $buttonType = $_POST["buttonType"];
+
+  $sql = "SELECT * FROM notebooks";
+  $result = $con->query($sql);
+  if($buttonType == ""){
+    $number = 0;
+    $_SESSION["pageNr"] = 1;
+  }
+  elseif ($buttonType == "Next") {
+      $number = 0;
+      $pageNr = $pageNr + 1;
+      $_SESSION["pageNr"] = $_SESSION["pageNr"] + 1;
+      echo $_SESSION['pageNr'];
+  }
+  while ($row = $result->fetch_assoc()) {
+   $number = $number + 1;
+   $id = $row['id'];
+   $producator = $row['producator'];
+   $procesor = $row['procesor'];
+
+   if($number <= $var && $number > 0){
+   echo "<tr><td>$id </td><td>$producator </td><td>$procesor</td><br>";
+   }
+  }
+
+  ?>
+
+</body>
+</html>
